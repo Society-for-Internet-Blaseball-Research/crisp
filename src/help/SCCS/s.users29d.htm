@@ -1,0 +1,164 @@
+h29108
+s 00000/00000/00150
+d D 1.2 97/12/17 10:32:43 camel 2 1
+c not used anymore, replaced with *.html
+e
+s 00160/00000/00000
+d D 1.1 97/12/15 11:21:44 troy 1 0
+c date and time created 97/12/15 11:21:44 by troy
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>File Structure Details</title></head>
+<body>
+ 
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+
+<a name="704817">
+<h2>  File Structure Details</h2>
+</a><a name="704819">
+<h4>  Files of type *.opt </h4>
+</a>
+The <code><b>*.opt</b></code> file contains the instructions for running the PSC Model. The <code><b>*.opt</b></code> file specifies the options employed, the input file names (and their paths if necessary), the structure of the Model run, and the output to be produced. Each line of the <code><b>*.opt</b></code> file contains an instruction followed by a comma and accompanying text description. Please note that inputs are not case sensitive, e.g., Y and y are considered identical. Input routines will automatically extract the data appearing before the first comma in each line; therefore, there are no limitations on the types of characters allowed in description fields for each line. For instructions requiring a yes or no answer, the first character of the first word is automatically examined, so you can use a large variety of terms if desired (e.g., n, N, nope, nada, not on your life, etc. are all interpreted as N).<p>
+
+The <code><b>*.opt</b></code> file is quite complex but is the backbone of data structure for the model. The actual number of lines may vary from file to file depending on the exact configuration. A line-by-line description of an example file is given in <i>Fig. 2.1</i>. The file is backwards compatible with the PSC Model <code><b>*.opt</b></code> file. <p>
+
+ 
+<a name="fig21">Fig. 2.1</a>  Sample<code><b> *.opt</b></code> file. The line numbers do NOT appear in the actual file.<p>
+<img src="opt.gif" alt="">
+
+<p>
+
+The line specifications for the <code><b>*.opt</b></code> file are given below. Unless otherwise noted, CRiSP Harvest requires the same formats and supports the same output options as the original PSC Chinook Model on which it is based.<p>
+<ul>
+<li><i>Line 1</i>:	Run Title (required). A run title provides a means to uniquely identify Model runs. The title can be up to 256 characters. There is no limitation on the types of characters that can be used.
+<li><i>Line 2</i>:	Start Year (required). The start year must match the start year used for calibration, usually 1979.
+<li><i>Line 3</i>:	Number of Years for Simulation (required). You can enter either: (a) the number of years (equal to the total number of years minus one since the model considers the first year to be zero; or (b) the last year for the simulation.
+<li><i>Line 4</i>:	<code><b>*.bse</b></code> File Name (required). The <code><b>*.bse</b></code> file contains basic information regarding the numbers and names of stocks and fisheries. The same <code><b>*.bse</b></code> file is normally used for all simulations once a model is calibrated. You enter only the name of this file. The file is prepared automatically when the model is calibrated and there is no further need to modify it.
+<li><i>Line 5</i>:	<code><b>*.stk</b></code> File Name (required). The <code><b>*.stk</b></code> file contains data for individual stocks. The same <code><b>*.stk</b></code> files is normally used for all simulations once a model is calibrated. Therefore, you enter only the name of this file. The file is prepared automatically when the model is calibrated and there is no need to modify it.
+<li><i>Line 6</i>:	Calibration Run (required). This line specifies whether or not the instructions are for a calibration run or a simulation run. Most end-user runs are simulation runs not calibration runs. Enter N for simulation runs and include line 6a.
+<li><i>Line 6a</i>:	<code><b>*.msc</b></code> file name. This file must be specified for simulation runs. Results of annual exploitation rate analyses indicate that maturation schedules can vary substantially from year to year. This information can be incorporated into the Model through the use of an <code><b>*.msc</b></code> file. The <code><b>*.msc</b></code> file identifies stocks with annual estimates of year-specific maturation schedules and provides the name of the file that actually contains the maturation data (<code><b>*.mat</b></code>). The <code><b>*.mat</b></code>, <code><b>*.bse</b></code>, and <code><b>*.stk</b></code> files must correspond to a particular Model calibration; you must insure that the same maturation schedules are used for both calibration and model runs so that results will be compatible. You should enter "NONE" if the model was calibrated with no annual variation in maturation schedules. 
+<li><i>Line 7</i>:	Number of Stocks With Existing EV Scalars (required). EV scalars are stock and year-specific survival factors of age 1 fish. For simulation runs, enter the number of stocks. All Model stocks should have EV scalars, so this number should be equal to the total number of Model stocks (currently = 30). If this entry &gt; 0 then include the following line in the <code><b>*.opt</b></code> file.
+<li><i>Line 7a</i>:	<code><b>*.evo</b></code> File Name. This file must be specified if Line 7 &gt; 0. This file is produced during calibration. The <code><b>*.evo</b></code> file contains estimates of stock and brood specific productivity scalars up through the last year of available data (in 1995, up through the 1992 brood year), then uses estimates for all subsequent years. You can modify the EV's for years following the last estimated year using procedures described later. It is not necessary for the number of years of productivity scalars to be equal to the number of years of the simulation run as specified in the <code><b>*.opt</b></code> file (extra years of data at either end of the years in the simulation will be discarded).
+<li><i>Line 8</i>:	Use <code><b>*.idl</b></code> File (required). Enter Y or N as the model instruction for this line. This line should always read Y if Columbia River stocks are included.
+<li><i>Line 8a</i>:	<code><b>*.idl</b></code> File Name. If Y is entered on Line 8, enter the
+<code><b>*.idl</b></code> file to use (see section 2.2.7 for format). If it reads N, this line should not be included in the <code><b>*.opt</b></code> file.
+<li><i>Line 9</i>:	Save Statistics (required). Enter Y or N as the model instruction for this line to control the generation of statistics in disk files. Disk files are useful for producing graphs or for computing differences in escapement or terminal run between model runs. If Line 9 reads Y, include the following lines in the <code><b>*.opt</b></code> file:
+<li><i>Line 9a</i>:	Prefix. Enter the prefix to be used to identify the disk files to be saved. The PSC Model will utilize up to 5 characters as the file identifier for each type of file specified in lines 9b through 9h. For example, if the prefix RUN92 is specified, then the <code><b>*.prn</b></code> output files will be named RUN92???.prn. (The default prefix is "PROTO")
+<li><i>Line 9b</i>:	Catch Statistics. Enter a 1 to save annual catch statistics for all fisheries on disk in file <code><b><i>prefix</i>cat.prn</b></code>; enter 0 to skip generation of this disk file.
+<li><i>Line 9c</i>:	True Terminal Run Statistics. Enter a 1 to save true terminal run size annual statistics (i.e., terminal run size minus ocean net catches of age 4 and above) for all stocks on disk in the file <code><b><i>prefix</i>trm.prn</b></code>; enter 0 to skip generation of this disk file.
+<li><i>Line 9d</i>:	Escapement Statistics. Enter a 1 to save annual escapement statistics for each stock on disk (saved in file <code><b><i>prefix</i>esc.prn</b></code>); enter 0 to skip generation of this disk file. Statistics in this file will contain the size of adult escapements. [NOTE: When CRiSP Harvest is run in Monte Carlo mode, the median escapements are printed in this file.]
+<li><i>Line 9e</i>:	Ocean Exploitation Rate Statistics. This variable controls generation of annual adult equivalent exploitation rates by preterminal fisheries. Enter a 1 to save ocean exploitation rate statistics computed as a proportion of catch plus escapement; enter a 2 to save ocean exploitation rates computed as a proportion of the total catch plus escapement plus incidental mortality loss; enter 0 to skip generation of this disk file. Statistics are generated for each stock and simulation year and saved in <code><b><i>prefix</i>ohr.prn</b></code>.
+<li><i>Line 9f</i>:	Total Exploitation Rate Statistics. This variable controls generation of annual adult equivalent exploitation rates by all fisheries. Enter a 1 to save total exploitation rate statistics computed as a proportion of catch plus escapement; enter a 2 to save total exploitation rates computed as a proportion of the total catch plus escapement plus incidental mortality loss; enter 0 to skip generation of this disk file. Statistics are generated for each stock and simulation year and saved in <code><b><i>prefix</i>thr.prn</b></code>.
+<li><i>Line 9g</i>:	Mortalities By Stock and Fishery. This variable controls generation of annual stock-specific mortalities by fishery. Statistics are generated for each stock and simulation year and saved in a set of files named <code><b><i>prefix</i>???.prn</b></code>, where ??? represents the stock abbreviation (in capital letters). Permitted values for this variables are:
+<p>
+0 = Do not generate stock/fishery data files
+<br>1 =	Total mortality
+<br>2 =	Catch
+<br>3 =	Incidental mortality
+<br>11 = Total mortality in adult equivalents
+<br>12 = Catch in adult equivalents
+<br>13 = Incidental mortality in adult equivalents
+<p>
+You can generate statistics for a specific list of stocks by listing the desired stock abbreviations after the code using blank spaces as delimiters in the list. For example:<p>
+<code><b>1 STL FRL (...) , (... comments)</b></code>
+For a list of stocks and their abbreviations see <a href="users29h.htm">"Stock Abbreviations"</a>.<p>
+
+<li><i>Line 9h</i>:	Incidental Mortalities By Fishery. This variable controls generation of annual incidental mortality statistics by fishery. Enter a 1 to save incidental mortality statistics; enter 0 to skip generation of this disk file. Three files are generated containing incidental mortality statistics for each fishery and simulation year: (a) <strong><i>prefix</i></strong><strong>tim.prn</strong> contains total incidental mortality statistics; (b) <strong><i>prefix</i></strong><strong>lim.prn</strong> contains incidental mortality statistics for legal-sized fish; and (c) <strong><i>prefix</i></strong><strong>sim.prn</strong> contains incidental mortality statistics for sub-legal sized fish.<li><i>Line 9i</i>:	Abundance Indices (required). Enter the number of fisheries for which abundance indices are to be generated. The Model will compute an abundance index that represents the expected catch (given size limit regulations, cohort sizes of individual stocks and ages, and 1979-1982 base period average harvest rates). Total abundance indices for each fishery will be contained in disk file <strong><i>prefix</i></strong><strong>abd.prn</strong>. Abundance by stock for each fishery requested will be in the file <strong><i>prefix</i></strong><strong>coh.prn</strong>. <strong>[PSC Chinook Model only allowed 6 fisheries maximum per model run]</strong><li>If Line 9i &gt; 0: Enter one line for each fishery for which an abundance index is to be computed. Each line consists of a fishery index number, followed by a comma and text description.<li><i>Line 10</i>:	Header (required). This line is included in the <code><b>*.opt</b></code> files just to increase readability by indicating the start of instructions for specifying formatted reports. All selected report types are combined into a single formatted report.<li><i>Line 11</i>:	Stock Composition Report (required). Use "Y" or "N" to instruct the model whether or not to generate stock composition reports. The disk file <strong><i>prefix</i></strong><strong>PRP.prn</strong> will contain the stock composition report. [<strong>NOTE: CRiSP Harvest does not support this option. Always enter "N" for CRiSP Harvest runs.] </strong>
+If Line 11 indicates "Y", then include the following lines in the <code><b>*.opt</b></code> file.
+<li><i>Line 11a</i>:	Number of fisheries for which stock composition estimates are to be generated (up to a maximum of 6).<li><i>Line 11b</i>:	Enter one line for each fishery for which stock composition estimates are to be computed. Each line consists of a fishery index number, followed by a comma and text description.
+<li><i>Line 12</i>:	RT factors (required). Enter "Y" or "N" to instruct the model whether or not to generate RT scalar reports. RT factors are computed for each fishery that is simulated to operate under a catch ceiling. RTs represent scalar values that are applied to base period fishery exploitation and harvest rates to generate catch ceilings (target catches) for all fisheries. The RT is calculated as the ratio (RT is an abbreviation for "ratio") of the catch ceiling to the catch you would obtain given base period harvest rates and specified FP factors (Line 25). If FPs are unchanged, then an RT value greater than 1 indicates a harvest rate that is above based period levels, while an RT value less than 1 indicates a harvest rate that is below base period levels.
+<li><i>Line 13</i>:	Catch (required). Enter "Y" or "N" to instruct the model whether or not to generate reports on annual catches by fishery. [<strong>NOTE: CRiSP Harvest does not support this option. Always enter "N" for CRiSP Harvest runs.] </strong>
+<li><i>Line 14</i>:	Stock/Fishery Reports (required). This variable controls generation of reports on the distribution of stock-specific mortalities. Permitted values for this variable are:
+
+<p>0 = Do not generate stock/fishery reports
+<br>1 = Total mortality
+<br>2 = Catch
+<br>3 = Incidental mortality
+<br>11 = Total mortality in adult equivalents
+<br>12 = Catch in adult equivalents
+<br>13 = Incidental mortality in adult equivalents
+<a name="710340">
+<p>
+<i>Reminder</i>: If the variable in line 9g is not zero, it will override the value specified in this line to assure consistency in disk file and report data and to conserve memory.<p>
+</a>
+	At the end of the simulation run, if you specify an output device for the report, prompts will appear to allow selection of stocks for which these reports are to be generated. If you do not specify an output device (i.e., use the model default), these reports will not be generated. [<strong>NOTE: CRiSP Harvest does not support this option. Always enter 0 for CRiSP Harvest runs.] </strong><p>
+
+<li><i>Line 15</i>:	Incidental Mortality Reports (required). Enter "Y" to instruct the model to generate reports on incidental mortality loss. Reports on total, legal, and sublegal mortalities will be generated if yes is specified. Enter "N" to skip generation of these reports. [<strong>NOTE: CRiSP Harvest does not support this option. Always enter "N" for CRiSP Harvest runs.] </strong>
+<li><i>Line 16</i>:	Terminal Catch Report (required). Enter "Y" to instruct the model to generate reports on catches by terminal fisheries. Enter "N" to skip generation of this report. [<strong>NOTE: CRiSP Harvest does not support this option. Always enter "N" for CRiSP Harvest runs.] </strong>
+<li><i>Line 17</i>:	Escapement Report (required). Enter "Y" to instruct the model to generate reports on adult spawning escapements by stock. Enter "N" to skip generation of this report. [<strong>NOTE: CRiSP Harvest does not support this option. Always enter "N" for CRiSP Harvest runs.] </strong>
+<li><i>Line 18</i>:	Exploitation Rate Reports (required). Enter C(ohort) to select generation of adult equivalent exploitation rate reports based on catch plus escapement; enter T(otal) to select generation of adult equivalent exploitation rate statistics based on catch plus escapement plus incidental mortality; enter "N" to skip generation of these reports. If Cohort or Total is selected, reports on ocean and total exploitation rates will be generated by year and stock. [<strong>NOTE: CRiSP Harvest does not support this option. Always enter "N" for CRiSP Harvest runs.] </strong>
+<li><i>Line 19</i>:	Compare to Base Year (required). This allows you to compare statistics to a single base year. If the line reads "Y", then a line must be added below to specify which year to use for the comparison. This option is seldom used; generally, you should specify "N". [<strong>NOTE: CRiSP Harvest does not support this option. Always enter N for CRiSP Harvest runs.] </strong>
+
+<li><i>Line 19a</i>: If line 19 indicates "Y", then include the year to use as the base, followed by a comma and a descriptor.
+<li><i>Line 20</i>:	Model Setup (required). This line should always read "Y". This will ensure that the output report includes a section that specifies all of the files and setup parameters for the Model run. [<strong>NOTE: CRiSP Harvest does not support this option. Always enter N for CRiSP Harvest runs.] </strong>
+<li><i>Line 21</i>:	Number of Enhanced Stocks (required). This line specifies the number of stocks with enhancement. If &gt;0, then include the following lines:
+<li><i>Line 21a</i>:	Density Dependence. Enter 1 to indicate that production is considered to be density dependent for natural stocks that are supplemented by hatchery releases. Under most circumstances, this line will read 1.
+<li><i>Line 21b</i>:	.ENH File Name. Enter the name of the <code><b>*.enh</b></code> file containing specifications for enhancement.
+<li><i>Line 22</i>:	Number of CNR Fisheries (required). Enter the number of fisheries that have chinook non retention (CNR) regulations to be evaluated. If the number of CNR fisheries is &gt; 0, then include the following line in the <code><b>*.opt</b></code> file:
+<li><i>Line 22a</i>:	.CNR File Name. Enter the name of the <code><b>*.cnr</b></code> file containing specifications for CNR fisheries.
+<li><i>Line 23</i>:	Number of Fisheries With Size Limit Changes (required). Enter the number of fisheries that have size limit changes. If this number &gt; 0, then include the following:
+<li><i>Line 23a</i>:	enter one line for each fishery which has size limit changes.
+<li><i>Line 24</i>:	Fishery Policy File Name. Enter the name of the <code><b>*.fp</b></code> (fishery policy) file name containing stock, year, and fishery scalars that are to be applied to base period harvest rates. The <code><b>*.fp</b></code> file is a random access file created with the program <code><b>CREATFP3.BAS</b></code>. These scalars are used to model harvest rate management strategies and shaping options that disproportionately impact different stocks.
+<li><i>Line 25</i>:	Minimum Age for Terminal Run Stats. This line specifies the minimum ocean age of fish to be included in terminal run statistics. This line usually reads 3 (adults) as opposed to 2 (jacks).
+<li><i>Line 26</i>:	Ceiling Strategies. Enter "Y" or "N" to indicate whether or not catch ceilings are to be evaluated. If "Y", then add the following line to the <code><b>*.opt</b></code> file:
+<li><i>Line 26a</i>: File Name for Ceiling Strategy. Enter the name of the file that contains the specifications for catch ceilings. Section 2.2.2 describes the format of the <code><b>*.cei</b></code> file.
+<strong>Note: </strong>The following are options for running CRiSP Harvest. The PSC Chinook Model does not support the options described below. Leave the following lines blank when running the PSC Chinook (QuickBasic) model.
+
+<li><i>Line 27</i>:	First simulation year (FirstSimYr). This year is used to deactivate sliders during the calibration period. EV Scalars are deactivated for 1979 through FirstSimYr -3; harvest rate, PNV, and catch ceiling sliders are deactivated for 1979 through FirstSimYr - 1.<li><i>Line 28</i>:	Monte Carlo configuration specifications. Enter "Y" or "N" to indicate whether or not Monte Carlo runs are to be conducted. If "Y", then add the following line to the <code><b>*.opt</b></code> file:
+<li><i>Line 28a</i>: File Name for the <code><b>*.monte</b></code> file. Enter the name of the file that contains the specifications for the Monte Carlo setup.
+<li><i>Line 29</i>:	SLCMc Statistics. Enter "Y" or "N" to indicate whether or not SLCMc statistics are to be saved. These statistics track catches of individual cohorts for selected stocks to simulate CWT recovery data. These data can then be used to estimate parameters required by the SLCMc model. See Section 2.6 for more details. [<strong>NOTE: CRiSP Harvest does not support this option. Always enter N for CRiSP Harvest runs.] </strong>If "Y", then add the following line to the <code><b>*.opt</b></code> file:
+<li><i>Line 29a</i>: File Name for SLCMc statistics. Enter the name of the file that contains the specifications for SLCMc output.
+<li><i>Line 30</i>:	In-River Management. Enter "Y" or "N" to indicate whether or not in-river management strategies are to be included. These strategies include fixed escapement goals using strong, weak, or combined stock management and fixed combined harvest rate goals. If "Y", then add the following line to the <code><b>*.opt</b></code> file:
+<li><i>Line 30a</i>: File Name for <code><b>*.riv</b></code> file. Enter the name of the file that contains the specifications for in-river management.
+</ul>
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "713658">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="713658">
+<h4>  Files of type  *.bse </h4>
+</a>
+The <code><b>*.bse</b></code> file (<i>Fig. 2.2</i>.) contains basic information regarding the numbers and names of stocks and fisheries and essential parameters from the calibration. The same <code><b>*.bse</b></code> file is normally used for all simulations once a model is calibrated. You enter only the name of this file. The file is prepared automatically when the model is calibrated and there should be no further need to modify it. 
+<p>
+<a name="fig22">Fig. 2.2</a>  Sample <code><b>*.bse</b></code> file.<p>
+<img src="bse.gif"><p>
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "705141">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="705141">
+<h4>  Files of type *.stk</h4>
+</a>
+The <code><b>*.stk</b></code> file contains data for individual stocks (<i>Fig. 2.3</i>). This file is generally the same for all simulations after calibration. The elements of the <code><b>*.stk</b></code> file are shown in <i>Fig. 2.3</i>. A line-by-line description follows. 
+<p>
+<a name="fig23">Fig. 2.3</a>  Sample <code><b>*.stk</b></code> file.<p>
+<img src="stk.gif">
+<p>
+<ul>
+<li><i>Line 1</i>:	Stock designator.
+<li><i>Line 2</i>:	Initial cohort abundance (age 2, 3, 4, and 5)
+<li><i>Line 3</i>:	Maturation rates (age 2, 3, 4, and 5)
+<li><i>Line 4</i>:	Adult equivalent factors (age 2, 3, 4, and 5)
+<li><i>Lines 5+</i>:	Fishery exploitation rates. Columns are ages (2, 3, 4, and 5) and rows are fisheries. These are the values that are viewed in the Base Period Harvest Rates dialog box.</ul>
+
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+</body>
+</html>
+E 1

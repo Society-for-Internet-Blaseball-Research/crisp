@@ -1,0 +1,3 @@
+iotest.o-CPP: -I/disk2/usr/local/openwin3/include -I/disk2/lang/SC1.0/include/CC
+token.o-CPP: -I/disk2/usr/local/openwin3/include -I/disk2/lang/SC1.0/include/CC
+clean: .RECURSIVE ../obj clean Makefile

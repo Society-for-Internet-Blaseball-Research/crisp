@@ -1,0 +1,4396 @@
+Bootstrap.cpp
+D 4.1 96/09/13 15:49:38 troy 2 1	00000/00000/00056
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:53 troy 1 0	00056/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:53 by troy
+
+----------------------------------
+CNR.cpp
+D 4.1 96/09/13 15:49:38 troy 2 1	00000/00000/00100
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:54 troy 1 0	00100/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:54 by troy
+
+----------------------------------
+Calendar.cpp
+D 4.1 96/09/13 15:49:39 troy 2 1	00000/00000/00041
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:54 troy 1 0	00041/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:54 by troy
+
+----------------------------------
+Calibrator.cpp
+D 4.3 96/09/18 16:23:21 troy 4 3	00001/00001/00283
+MRs:
+COMMENTS:
+fixed case problem on filename compare
+
+D 4.2 96/09/18 14:14:35 troy 3 2	00284/00284/00000
+MRs:
+COMMENTS:
+dos2unix
+
+D 4.1 96/09/13 15:49:41 troy 2 1	00000/00000/00284
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:54 troy 1 0	00284/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:54 by troy
+
+----------------------------------
+Ceiling.cpp
+D 4.1 96/09/13 15:49:40 troy 2 1	00000/00000/00117
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:55 troy 1 0	00117/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:55 by troy
+
+----------------------------------
+CeilingPolicy.cpp
+D 4.1 96/09/13 15:49:41 troy 2 1	00000/00000/00068
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:55 troy 1 0	00068/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:55 by troy
+
+----------------------------------
+Cohort.cpp
+D 4.1 96/09/13 15:49:42 troy 2 1	00000/00000/00013
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:56 troy 1 0	00013/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:56 by troy
+
+----------------------------------
+Fishery.cpp
+D 4.1 96/09/13 15:49:42 troy 2 1	00000/00000/00261
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:57 troy 1 0	00261/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:57 by troy
+
+----------------------------------
+FisheryManagement.cpp
+D 4.1 96/09/13 15:49:43 troy 2 1	00000/00000/00544
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:57 troy 1 0	00544/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:57 by troy
+
+----------------------------------
+FisherySummary.cpp
+D 4.1 96/09/13 15:49:46 troy 2 1	00000/00000/00114
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:58 troy 1 0	00114/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:58 by troy
+
+----------------------------------
+FisheryTactics.cpp
+D 4.1 96/09/13 15:49:47 troy 2 1	00000/00000/00042
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:58 troy 1 0	00042/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:58 by troy
+
+----------------------------------
+FixedCombHarv.cpp
+D 4.1 96/09/13 15:49:48 troy 2 1	00000/00000/00015
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:59 troy 1 0	00015/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:59 by troy
+
+----------------------------------
+FixedEscapementPolicy.cpp
+D 4.1 96/09/13 15:49:48 troy 2 1	00000/00000/00481
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:59 troy 1 0	00481/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:59 by troy
+
+----------------------------------
+GUI.cpp
+D 4.1 96/09/13 15:49:44 troy 2 1	00000/00000/00029
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:00 troy 1 0	00029/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:00 by troy
+
+----------------------------------
+Harvest.cpp
+D 4.1 96/09/13 15:49:45 troy 2 1	00000/00000/00389
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:00 troy 1 0	00389/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:00 by troy
+
+----------------------------------
+HarvestList.cpp
+D 4.1 96/09/13 15:49:50 troy 2 1	00000/00000/00105
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:00 troy 1 0	00105/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:00 by troy
+
+----------------------------------
+HarvestTactics.cpp
+D 4.1 96/09/13 15:49:49 troy 2 1	00000/00000/00012
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:01 troy 1 0	00012/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:01 by troy
+
+----------------------------------
+HatchSurplusProduction.cpp
+D 4.1 96/09/13 15:49:51 troy 2 1	00000/00000/00047
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:01 troy 1 0	00047/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:01 by troy
+
+----------------------------------
+HatcheryProduction.cpp
+D 4.1 96/09/13 15:49:54 troy 2 1	00000/00000/00042
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:02 troy 1 0	00042/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:02 by troy
+
+----------------------------------
+HvSummary.cpp
+D 4.1 96/09/13 15:49:52 troy 2 1	00000/00000/00056
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:03 troy 1 0	00056/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:03 by troy
+
+----------------------------------
+IOCrud.cpp
+D 4.1 96/09/13 15:49:52 troy 2 1	00000/00000/02570
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:03 troy 1 0	02570/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:03 by troy
+
+----------------------------------
+MonteControl.cpp
+D 4.1 96/09/13 15:49:55 troy 2 1	00000/00000/00236
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:05 troy 1 0	00236/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:05 by troy
+
+----------------------------------
+MonteDataItem.cpp
+D 4.1 96/09/13 15:49:57 troy 2 1	00000/00000/00008
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:06 troy 1 0	00008/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:06 by troy
+
+----------------------------------
+MonteOutputItem.cpp
+D 4.1 96/09/13 15:49:56 troy 2 1	00000/00000/00261
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:06 troy 1 0	00261/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:06 by troy
+
+----------------------------------
+MonteStockIntrfc.cpp
+D 4.1 96/09/13 15:49:59 troy 2 1	00000/00000/00068
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:07 troy 1 0	00068/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:07 by troy
+
+----------------------------------
+MonteStockTracking.cpp
+D 4.1 96/09/13 15:49:58 troy 2 1	00000/00000/00033
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:08 troy 1 0	00033/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:08 by troy
+
+----------------------------------
+MonteTrackingItem.cpp
+D 4.1 96/09/13 15:50:01 troy 2 1	00000/00000/00094
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:08 troy 1 0	00094/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:08 by troy
+
+----------------------------------
+MultiCeilingPolicy.cpp
+D 4.1 96/09/13 15:50:00 troy 2 1	00000/00000/00118
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:09 troy 1 0	00118/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:09 by troy
+
+----------------------------------
+NamedPtrVec.cpp
+D 4.1 96/09/16 17:23:21 troy 2 1	00000/00000/00040
+MRs:
+COMMENTS:
+zapp version
+
+D 1.1 96/09/16 17:23:09 troy 1 0	00040/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/16 17:23:09 by troy
+
+----------------------------------
+NaturalProduction.cpp
+D 4.1 96/09/13 15:50:02 troy 2 1	00000/00000/00047
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:09 troy 1 0	00047/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:09 by troy
+
+----------------------------------
+Parser.cpp
+D 4.1 96/09/13 15:50:03 troy 2 1	00000/00000/00100
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:10 troy 1 0	00100/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:10 by troy
+
+----------------------------------
+Policy.cpp
+D 4.1 96/09/13 17:13:52 troy 2 1	00000/00000/00041
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:11 troy 1 0	00041/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:11 by troy
+
+----------------------------------
+Production.cpp
+D 4.1 96/09/13 17:13:53 troy 2 1	00000/00000/00039
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:11 troy 1 0	00039/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:11 by troy
+
+----------------------------------
+RandGen.cpp
+D 4.1 96/09/13 17:13:52 troy 2 1	00000/00000/00005
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:11 troy 1 0	00005/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:11 by troy
+
+----------------------------------
+RandNorm.cpp
+D 4.1 96/09/13 17:13:53 troy 2 1	00000/00000/00031
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:12 troy 1 0	00031/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:12 by troy
+
+----------------------------------
+Range.cpp
+D 4.1 96/09/16 17:22:57 troy 2 1	00000/00000/00056
+MRs:
+COMMENTS:
+zapp version
+
+D 1.1 96/09/16 17:22:30 troy 1 0	00056/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/16 17:22:30 by troy
+
+----------------------------------
+ReadToken.cpp
+D 4.1 96/09/13 17:13:54 troy 2 1	00000/00000/00085
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:12 troy 1 0	00085/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:12 by troy
+
+----------------------------------
+Sample.cpp
+D 4.1 96/09/13 17:13:55 troy 2 1	00000/00000/00164
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:13 troy 1 0	00164/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:13 by troy
+
+----------------------------------
+Simulation.cpp
+D 4.1 96/09/13 17:13:56 troy 2 1	00000/00000/00035
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:13 troy 1 0	00035/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:13 by troy
+
+----------------------------------
+State.cpp
+D 4.1 96/09/13 15:49:58 troy 2 1	00000/00000/00064
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:14 troy 1 0	00064/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:14 by troy
+
+----------------------------------
+Stock.cpp
+D 4.1 96/09/13 15:50:00 troy 2 1	00000/00000/00369
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:14 troy 1 0	00369/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:14 by troy
+
+----------------------------------
+StockCalib.cpp
+D 4.2 96/09/18 14:18:05 troy 3 2	00657/00657/00000
+MRs:
+COMMENTS:
+dos2unix
+
+D 4.1 96/09/13 17:13:58 troy 2 1	00000/00000/00657
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:14 troy 1 0	00657/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:14 by troy
+
+----------------------------------
+StockConfig.cpp
+D 4.1 96/09/13 17:13:59 troy 2 1	00000/00000/00060
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:15 troy 1 0	00060/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:15 by troy
+
+----------------------------------
+StockSummary.cpp
+D 4.1 96/09/13 17:14:00 troy 2 1	00000/00000/00123
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:15 troy 1 0	00123/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:15 by troy
+
+----------------------------------
+String.cpp
+D 4.1 96/09/13 17:13:56 troy 2 1	00000/00000/00045
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:16 troy 1 0	00045/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:16 by troy
+
+----------------------------------
+Strtools.cpp
+D 4.1 96/09/13 17:14:00 troy 2 1	00000/00000/00020
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:17 troy 1 0	00020/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:17 by troy
+
+----------------------------------
+Token.cpp
+D 4.1 96/09/13 15:50:02 troy 2 1	00000/00000/00045
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:18 troy 1 0	00045/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:18 by troy
+
+----------------------------------
+ZasCalibration.cpp
+D 1.1 96/09/18 13:18:25 umbe 1 0	00147/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/18 13:18:25 by umbe
+
+----------------------------------
+ZasDialogMedBPHR.cpp
+D 4.1 96/09/13 17:14:03 troy 2 1	00000/00000/00110
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:18 troy 1 0	00110/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:18 by troy
+
+----------------------------------
+ZasDialogMedPNV.cpp
+D 4.1 96/09/13 17:14:03 troy 2 1	00000/00000/00102
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:19 troy 1 0	00102/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:19 by troy
+
+----------------------------------
+ZasGraphMedMonteCarlo.cpp
+D 1.1 96/09/18 13:20:30 umbe 1 0	00110/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/18 13:20:30 by umbe
+
+----------------------------------
+ZasGraphUpdateMed.cpp
+D 4.1 96/09/13 17:14:04 troy 2 1	00000/00000/00019
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:19 troy 1 0	00019/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:19 by troy
+
+----------------------------------
+ZasMapMedCrispHarvest.cpp
+D 4.1 96/09/16 17:29:16 troy 2 1	00000/00000/00203
+MRs:
+COMMENTS:
+initial zapp versions
+
+D 1.1 96/09/16 13:57:50 troy 1 0	00203/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/16 13:57:50 by troy
+
+----------------------------------
+ZasMediatorFactory.cpp
+D 4.2 96/09/18 16:23:01 umbe 3 2	00007/00001/00208
+MRs:
+COMMENTS:
+calibration update
+
+D 4.1 96/09/13 17:14:01 troy 2 1	00000/00000/00209
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:19 troy 1 0	00209/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:19 by troy
+
+----------------------------------
+ZasMonteCarlo.cpp
+D 4.2 96/09/18 16:23:34 umbe 3 2	00004/00000/00074
+MRs:
+COMMENTS:
+Added monte carlo graph
+
+D 4.1 96/09/13 17:14:05 troy 2 1	00000/00000/00074
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:20 troy 1 0	00074/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:20 by troy
+
+----------------------------------
+ZasTabDialogCeilings.cpp
+D 4.1 96/09/13 17:14:06 troy 2 1	00000/00000/00039
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:20 troy 1 0	00039/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:20 by troy
+
+----------------------------------
+ZasTabDialogENH.cpp
+D 4.1 96/09/13 17:14:07 troy 2 1	00000/00000/00044
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:20 troy 1 0	00044/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:20 by troy
+
+----------------------------------
+ZasTabDialogMedCeilings.cpp
+D 4.1 96/09/13 17:14:05 troy 2 1	00000/00000/00179
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:22 troy 1 0	00179/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:22 by troy
+
+----------------------------------
+ZasTabDialogMedENH.cpp
+D 4.1 96/09/13 17:14:10 troy 2 1	00000/00000/00162
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:22 troy 1 0	00162/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:22 by troy
+
+----------------------------------
+ZasTabDialogMedEV.cpp
+D 4.1 96/09/13 17:14:11 troy 2 1	00000/00000/00105
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:22 troy 1 0	00105/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:22 by troy
+
+----------------------------------
+ZasTabDialogMedHRS.cpp
+D 4.1 96/09/13 17:14:11 troy 2 1	00000/00000/00125
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:23 troy 1 0	00125/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:23 by troy
+
+----------------------------------
+ZasTabDialogMedIDL.cpp
+D 4.1 96/09/13 17:14:12 troy 2 1	00000/00000/00105
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:23 troy 1 0	00105/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:23 by troy
+
+----------------------------------
+ZatCheckBoxGroup.cpp
+D 4.1 96/09/13 17:14:56 troy 2 1	00000/00000/00073
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:53:52 troy 1 0	00073/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:53:52 by troy
+
+----------------------------------
+ZatDialogBase.cpp
+D 4.1 96/09/13 17:14:13 troy 2 1	00000/00000/00184
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:24 troy 1 0	00184/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:24 by troy
+
+----------------------------------
+ZatDialogMedBase.cpp
+D 4.1 96/09/13 17:14:13 troy 2 1	00000/00000/00217
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:24 troy 1 0	00217/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:24 by troy
+
+----------------------------------
+ZatEditSliderBase.cpp
+D 4.1 96/09/13 17:14:14 troy 2 1	00000/00000/00051
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:25 troy 1 0	00051/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:25 by troy
+
+----------------------------------
+ZatEditSliderDouble.cpp
+D 4.1 96/09/13 17:14:55 troy 2 1	00000/00000/00100
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:53:51 troy 1 0	00100/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:53:51 by troy
+
+----------------------------------
+ZatEditSliderLong.cpp
+D 4.1 96/09/13 17:14:56 troy 2 1	00000/00000/00102
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:53:51 troy 1 0	00102/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:53:51 by troy
+
+----------------------------------
+ZatGraphDialog.cpp
+D 4.1 96/09/13 17:14:16 troy 2 1	00000/00000/00470
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:26 troy 1 0	00470/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:26 by troy
+
+----------------------------------
+ZatImplicitScroller.cpp
+D 4.1 96/09/13 17:14:16 troy 2 1	00000/00000/00071
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:26 troy 1 0	00071/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:26 by troy
+
+----------------------------------
+ZatMapMediator.cpp
+D 4.1 96/09/16 17:29:12 troy 2 1	00000/00000/00270
+MRs:
+COMMENTS:
+initial zapp versions
+
+D 1.1 96/09/16 13:53:53 troy 1 0	00270/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/16 13:53:53 by troy
+
+----------------------------------
+ZatMapPane.cpp
+D 4.1 96/09/16 17:29:15 troy 2 1	00000/00000/00137
+MRs:
+COMMENTS:
+initial zapp versions
+
+D 1.1 96/09/16 13:56:03 troy 1 0	00137/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/16 13:56:03 by troy
+
+----------------------------------
+ZatRowColumnBox.cpp
+D 4.1 96/09/13 17:14:17 troy 2 1	00000/00000/00078
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:26 troy 1 0	00078/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:26 by troy
+
+----------------------------------
+ZatTabDialog.cpp
+D 4.1 96/09/13 17:14:18 troy 2 1	00000/00000/00117
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:27 troy 1 0	00117/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:27 by troy
+
+----------------------------------
+ZatTabDialogMed.cpp
+D 4.1 96/09/13 17:14:18 troy 2 1	00000/00000/00049
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:27 troy 1 0	00049/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:27 by troy
+
+----------------------------------
+base_tokens.cpp
+D 4.1 96/09/13 17:14:09 troy 2 1	00000/00000/00032
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:28 troy 1 0	00032/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:28 by troy
+
+----------------------------------
+c2main.cpp
+D 4.3 96/09/18 16:24:15 umbe 4 3	00002/00009/00324
+MRs:
+COMMENTS:
+removed old calibration id
+
+D 4.2 96/09/16 17:29:14 troy 3 2	00261/00261/00072
+MRs:
+COMMENTS:
+initial zapp versions
+
+D 4.1 96/09/13 17:14:19 troy 2 1	00000/00000/00333
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:28 troy 1 0	00333/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:28 by troy
+
+----------------------------------
+clog.cpp
+D 4.1 96/09/13 17:14:06 troy 2 1	00000/00000/00024
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:29 troy 1 0	00024/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:29 by troy
+
+----------------------------------
+command.cpp
+D 4.1 96/09/13 17:14:20 troy 2 1	00000/00000/00224
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:30 troy 1 0	00224/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:30 by troy
+
+----------------------------------
+datFisheryCeilings.cpp
+D 4.1 96/09/13 17:14:22 troy 2 1	00000/00000/00022
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:31 troy 1 0	00022/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:31 by troy
+
+----------------------------------
+datIntDouble.cpp
+D 4.1 96/09/13 17:14:26 troy 2 1	00000/00000/00027
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:32 troy 1 0	00027/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:32 by troy
+
+----------------------------------
+debug.cpp
+D 4.1 96/09/13 17:14:23 troy 2 1	00000/00000/00028
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:33 troy 1 0	00028/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:33 by troy
+
+----------------------------------
+dir.cpp
+D 4.1 96/09/13 17:14:25 troy 2 1	00000/00000/00193
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:33 troy 1 0	00193/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:33 by troy
+
+----------------------------------
+engine.cpp
+D 4.1 96/09/13 17:14:25 troy 2 1	00000/00000/00058
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:34 troy 1 0	00058/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:34 by troy
+
+----------------------------------
+globals.cpp
+D 4.1 96/09/13 17:14:27 troy 2 1	00000/00000/00028
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:34 troy 1 0	00028/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:34 by troy
+
+----------------------------------
+idcBPHR.cpp
+D 4.1 96/09/13 17:14:28 troy 2 1	00000/00000/00076
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:34 troy 1 0	00076/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:34 by troy
+
+----------------------------------
+idcCeilings.cpp
+D 4.1 96/09/13 17:14:31 troy 2 1	00000/00000/00081
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:35 troy 1 0	00081/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:35 by troy
+
+----------------------------------
+idcENH.cpp
+D 4.1 96/09/13 17:14:29 troy 2 1	00000/00000/00105
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:35 troy 1 0	00105/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:35 by troy
+
+----------------------------------
+idcEV.cpp
+D 4.1 96/09/13 17:14:29 troy 2 1	00000/00000/00059
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:36 troy 1 0	00059/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:36 by troy
+
+----------------------------------
+idcHRS.cpp
+D 4.1 96/09/13 17:14:31 troy 2 1	00000/00000/00077
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:36 troy 1 0	00077/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:36 by troy
+
+----------------------------------
+idcIDL.cpp
+D 4.1 96/09/13 15:48:42 troy 2 1	00000/00000/00061
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:37 troy 1 0	00061/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:37 by troy
+
+----------------------------------
+idcPNV.cpp
+D 4.1 96/09/13 15:49:53 troy 2 1	00000/00000/00063
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:15:37 troy 1 0	00063/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:37 by troy
+
+----------------------------------
+implicit_base.cpp
+D 4.1 96/09/13 17:14:26 troy 2 1	00000/00000/00067
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:37 troy 1 0	00067/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:37 by troy
+
+----------------------------------
+include.cpp
+D 4.1 96/09/13 17:14:32 troy 2 1	00000/00000/00059
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:38 troy 1 0	00059/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:38 by troy
+
+----------------------------------
+init.cpp
+D 4.1 96/09/13 17:14:32 troy 2 1	00000/00000/00137
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:39 troy 1 0	00137/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:39 by troy
+
+----------------------------------
+log.cpp
+D 4.1 96/09/13 17:14:33 troy 2 1	00000/00000/00348
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:40 troy 1 0	00348/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:40 by troy
+
+----------------------------------
+mapController.cpp
+D 4.1 96/09/13 17:14:36 troy 2 1	00000/00000/00141
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:41 troy 1 0	00141/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:41 by troy
+
+----------------------------------
+mapObject.cpp
+D 4.1 96/09/13 17:14:35 troy 2 1	00000/00000/00062
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:41 troy 1 0	00062/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:41 by troy
+
+----------------------------------
+monte_tokens.cpp
+D 4.1 96/09/13 17:14:35 troy 2 1	00000/00000/00150
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:42 troy 1 0	00150/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:42 by troy
+
+----------------------------------
+parseutil.cpp
+D 4.1 96/09/13 17:14:55 troy 2 1	00000/00000/00464
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 15:20:49 troy 1 0	00464/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:20:49 by troy
+
+----------------------------------
+resfile.cpp
+----------------------------------
+simple_output.cpp
+D 4.1 96/09/13 17:14:38 troy 2 1	00000/00000/00017
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:43 troy 1 0	00017/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:43 by troy
+
+----------------------------------
+statistics.cpp
+D 4.1 96/09/13 17:14:38 troy 2 1	00000/00000/00038
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:43 troy 1 0	00038/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:43 by troy
+
+----------------------------------
+version.cpp
+D 4.2 96/09/18 11:00:33 troy 3 2	00008/00010/00027
+MRs:
+COMMENTS:
+update version and sccs string
+
+
+D 4.1 96/09/13 17:14:36 troy 2 1	00000/00000/00037
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:43 troy 1 0	00037/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:43 by troy
+
+----------------------------------
+zcGMF_AbundanceIndex.cpp
+D 4.1 96/09/13 17:14:39 troy 2 1	00000/00000/00046
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:44 troy 1 0	00046/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:44 by troy
+
+----------------------------------
+zcGMF_CatchPreterm.cpp
+D 4.1 96/09/13 17:14:40 troy 2 1	00000/00000/00057
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:44 troy 1 0	00057/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:44 by troy
+
+----------------------------------
+zcGMF_CatchTerminal.cpp
+D 4.1 96/09/13 17:14:40 troy 2 1	00000/00000/00061
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:44 troy 1 0	00061/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:44 by troy
+
+----------------------------------
+zcGMF_CatchTotal.cpp
+D 4.1 96/09/13 17:14:41 troy 2 1	00000/00000/00057
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:45 troy 1 0	00057/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:45 by troy
+
+----------------------------------
+zcGMF_InMortLegal.cpp
+D 4.1 96/09/13 17:14:41 troy 2 1	00000/00000/00043
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:45 troy 1 0	00043/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:45 by troy
+
+----------------------------------
+zcGMF_InMortSublegal.cpp
+D 4.1 96/09/13 17:14:42 troy 2 1	00000/00000/00044
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:45 troy 1 0	00044/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:45 by troy
+
+----------------------------------
+zcGMF_InMortTotal.cpp
+D 4.1 96/09/13 17:14:39 troy 2 1	00000/00000/00045
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:46 troy 1 0	00045/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:46 by troy
+
+----------------------------------
+zcGMH_HarvestGraphs.cpp
+D 4.1 96/09/13 17:14:42 troy 2 1	00000/00000/00123
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:46 troy 1 0	00123/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:46 by troy
+
+----------------------------------
+zcGMS_Abundance.cpp
+D 4.1 96/09/13 17:14:44 troy 2 1	00000/00000/00062
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:46 troy 1 0	00062/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:46 by troy
+
+----------------------------------
+zcGMS_CNRGraphs.cpp
+D 4.1 96/09/13 17:14:45 troy 2 1	00000/00000/00061
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:47 troy 1 0	00061/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:47 by troy
+
+----------------------------------
+zcGMS_CatchGraphs.cpp
+D 4.1 96/09/13 17:14:53 troy 2 1	00000/00000/00082
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:46:10 troy 1 0	00082/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:46:10 by troy
+
+----------------------------------
+zcGMS_Escapement.cpp
+D 4.1 96/09/13 17:14:45 troy 2 1	00000/00000/00059
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:48 troy 1 0	00059/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:48 by troy
+
+----------------------------------
+zcGMS_TrueTermRun.cpp
+D 4.1 96/09/13 17:14:46 troy 2 1	00000/00000/00059
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:48 troy 1 0	00059/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:48 by troy
+
+----------------------------------
+zcGM_YearAgeGraph.cpp
+D 4.1 96/09/13 17:14:46 troy 2 1	00000/00000/00102
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:49 troy 1 0	00102/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:49 by troy
+
+----------------------------------
+zcGM_YearGraph.cpp
+D 4.1 96/09/13 17:14:47 troy 2 1	00000/00000/00099
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:49 troy 1 0	00099/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:49 by troy
+
+----------------------------------
+zcGraphMediator.cpp
+D 4.2 96/09/18 16:25:08 umbe 3 2	00001/00001/00154
+MRs:
+COMMENTS:
+
+
+D 4.1 96/09/13 17:14:43 troy 2 1	00000/00000/00155
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:50 troy 1 0	00155/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:50 by troy
+
+----------------------------------
+zcMouseTool.cpp
+D 4.1 96/09/13 17:14:48 troy 2 1	00000/00000/00030
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:52 troy 1 0	00030/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:52 by troy
+
+----------------------------------
+zcMouseToolCrisp2.cpp
+D 4.1 96/09/13 17:14:49 troy 2 1	00000/00000/00062
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:15:52 troy 1 0	00062/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:15:52 by troy
+
+----------------------------------
+AgeVec.h
+D 4.2 96/09/16 11:40:36 troy 5 4	00000/00000/00105
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:01 troy 4 3	00000/00000/00105
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Args.h
+D 4.2 96/09/16 11:39:48 troy 8 7	00054/00042/00022
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:17 troy 7 6	00000/00000/00064
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Bool.h
+D 4.2 96/09/16 11:39:22 troy 10 9	00000/00000/00021
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:52 troy 9 8	00000/00000/00021
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Bootstrap.h
+D 4.2 96/09/16 11:39:55 troy 5 4	00000/00000/00084
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:22 troy 4 3	00000/00000/00084
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+CNR.h
+D 4.2 96/09/16 11:39:32 troy 10 9	00000/00000/00127
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:03 troy 9 8	00000/00000/00127
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Calendar.h
+D 4.2 96/09/16 11:39:39 troy 10 9	00000/00000/00040
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:09 troy 9 8	00000/00000/00040
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Calibrator.h
+D 4.3 96/09/18 16:23:03 troy 7 6	00073/00073/00000
+MRs:
+COMMENTS:
+dos2unix
+
+D 4.2 96/09/16 11:40:25 troy 6 5	00073/00073/00000
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:50 troy 5 4	00000/00000/00073
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Ceiling.h
+D 4.2 96/09/16 11:39:36 troy 13 12	00004/00002/00069
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:07 troy 12 11	00000/00000/00071
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+CeilingPolicy.h
+D 4.2 96/09/16 11:40:18 troy 6 5	00000/00000/00039
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:43 troy 5 4	00000/00000/00039
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+CeilingTool.h
+D 4.2 96/09/16 11:40:04 troy 8 7	00000/00000/00043
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:29 troy 7 6	00000/00000/00043
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Cohort.h
+D 4.2 96/09/16 11:39:23 troy 9 8	00037/00036/00000
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:53 troy 8 7	00000/00000/00036
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+ContextManager.h
+D 3.3 96/09/16 11:39:53 troy 6 5	00017/00013/00034
+MRs:
+COMMENTS:
+zapp base version
+
+D 3.2 96/08/07 15:59:33 troy 5 4	00012/00016/00035
+MRs:
+COMMENTS:
+multiple compiler compatibility fixes
+
+----------------------------------
+Fishery.h
+D 4.2 96/09/16 11:39:24 troy 29 28	00144/00137/00000
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:53 troy 28 27	00000/00000/00137
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+FisheryList.h
+D 4.2 96/09/16 11:39:38 troy 7 6	00000/00000/00011
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:08 troy 6 5	00000/00000/00011
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+FisheryManagement.h
+D 4.2 96/09/16 11:39:44 troy 9 8	00000/00000/00070
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:13 troy 8 7	00000/00000/00070
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+FisherySummary.h
+D 4.2 96/09/16 11:39:43 troy 11 10	00000/00000/00055
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:12 troy 10 9	00000/00000/00055
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+FisheryTactics.h
+D 4.2 96/09/16 11:40:22 troy 6 5	00023/00007/00061
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:47 troy 5 4	00000/00000/00068
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Fishery_UI.h
+D 4.2 96/09/16 11:39:30 troy 14 13	00007/00006/00082
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:00 troy 13 12	00000/00000/00088
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+FixedCombHarv.h
+D 4.2 96/09/16 11:40:27 troy 5 4	00000/00000/00027
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:52 troy 4 3	00000/00000/00027
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+FixedEscStock.h
+D 4.2 96/09/16 11:40:30 troy 6 5	00000/00000/00045
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:55 troy 5 4	00000/00000/00045
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+FixedEscapementPolicy.h
+D 4.2 96/09/16 11:40:23 troy 8 7	00000/00000/00149
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:48 troy 7 6	00000/00000/00149
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+FixedHarvestPolicy.h
+D 4.2 96/09/16 11:40:24 troy 6 5	00000/00000/00024
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:49 troy 5 4	00000/00000/00024
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+GUI.h
+D 4.2 96/09/16 11:39:42 troy 8 7	00001/00006/00032
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:11 troy 7 6	00000/00000/00038
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Harvest.h
+D 4.2 96/09/16 11:39:25 troy 25 24	00172/00173/00000
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:54 troy 24 23	00000/00000/00173
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+HarvestList.h
+D 4.2 96/09/16 11:39:25 troy 11 10	00083/00083/00000
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:55 troy 10 9	00000/00000/00083
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+HarvestTactics.h
+D 4.2 96/09/16 11:40:19 troy 4 3	00002/00001/00033
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:45 troy 3 2	00000/00000/00034
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Harvest_UI.h
+D 4.2 96/09/16 11:39:49 troy 10 9	00004/00001/00054
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:18 troy 9 8	00000/00000/00055
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+HatchSurplusProduction.h
+D 4.2 96/09/16 11:39:48 troy 5 4	00000/00000/00032
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:16 troy 4 3	00000/00000/00032
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+HatcheryProduction.h
+D 4.2 96/09/16 11:39:47 troy 5 4	00000/00000/00017
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:15 troy 4 3	00000/00000/00017
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Hist.h
+D 4.2 96/09/16 11:40:01 troy 7 6	00000/00000/00034
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:27 troy 6 5	00000/00000/00034
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+HvSummary.h
+D 4.2 96/09/16 11:39:35 troy 11 10	00000/00000/00047
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:06 troy 10 9	00000/00000/00047
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+IEnum.h
+D 4.2 96/09/16 11:39:33 troy 9 8	00000/00000/00037
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:04 troy 8 7	00000/00000/00037
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+IOCrud.h
+D 4.2 96/09/16 11:39:30 troy 25 24	00149/00149/00000
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:01 troy 24 23	00000/00000/00149
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Map.h
+D 4.2 96/09/16 11:39:41 troy 10 9	00000/00000/00142
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:09 troy 9 8	00000/00000/00142
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+MonteControl.h
+D 4.2 96/09/16 11:39:57 troy 8 7	00010/00003/00085
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:24 troy 7 6	00000/00000/00088
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+MonteDataItem.h
+D 4.2 96/09/16 11:39:56 troy 7 6	00000/00000/00047
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:24 troy 6 5	00000/00000/00047
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+MonteOutputItem.h
+D 4.2 96/09/16 11:40:00 troy 10 9	00000/00000/00048
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:26 troy 9 8	00000/00000/00048
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+MonteStockIntrfc.h
+D 4.2 96/09/16 11:40:01 troy 11 10	00000/00000/00058
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:28 troy 10 9	00000/00000/00058
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+MonteStockTracking.h
+D 4.2 96/09/16 11:40:06 troy 6 5	00048/00046/00000
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:32 troy 5 4	00000/00000/00046
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+MonteTrackingItem.h
+D 4.2 96/09/16 11:40:06 troy 7 6	00001/00001/00063
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:31 troy 6 5	00000/00000/00064
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 3.2 96/08/07 14:03:27 troy 5 3	00001/00001/00063
+MRs:
+COMMENTS:
+added cast of NULL ptr in return
+
+----------------------------------
+MultiCeilingPolicy.h
+D 4.2 96/09/16 11:40:24 troy 6 5	00000/00000/00032
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:49 troy 5 4	00000/00000/00032
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+NamedPtrVec.h
+D 4.2 96/09/16 17:29:12 troy 7 6	00001/00001/00054
+MRs:
+COMMENTS:
+initial zapp versions
+
+D 4.1 96/09/13 15:48:53 troy 6 5	00000/00000/00055
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 3.2 96/08/07 15:59:33 troy 5 4	00005/00000/00050
+MRs:
+COMMENTS:
+multiple compiler compatibility fixes
+
+----------------------------------
+NaturalProduction.h
+D 4.2 96/09/16 11:39:46 troy 6 5	00000/00000/00038
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:15 troy 5 4	00000/00000/00038
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+NonNeg.h
+D 4.2 96/09/16 11:39:47 troy 6 5	00000/00000/00018
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:16 troy 5 4	00000/00000/00018
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Parser.h
+D 4.2 96/09/16 11:39:53 troy 6 5	00001/00001/00049
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:21 troy 5 4	00000/00000/00050
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+PercentileGraph.h
+D 4.2 96/09/16 11:40:07 troy 10 9	00000/00000/00031
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:32 troy 9 8	00000/00000/00031
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Phase.h
+D 4.2 96/09/16 11:39:35 troy 8 7	00000/00000/00014
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:06 troy 7 6	00000/00000/00014
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Policies.h
+D 4.2 96/09/16 11:40:20 troy 7 6	00000/00000/00012
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:46 troy 6 5	00000/00000/00012
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Policy.h
+D 4.2 96/09/16 11:40:23 troy 6 5	00000/00000/00060
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:47 troy 5 4	00000/00000/00060
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Production.h
+D 4.2 96/09/16 11:39:45 troy 7 6	00011/00001/00047
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:14 troy 6 5	00000/00000/00048
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+RandGen.h
+D 4.2 96/09/16 11:39:56 troy 7 6	00040/00050/00000
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:23 troy 6 5	00000/00000/00050
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+RandNorm.h
+D 4.2 96/09/16 11:39:52 troy 8 7	00000/00000/00031
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:21 troy 7 6	00000/00000/00031
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Range.h
+D 4.2 96/09/16 17:29:06 troy 8 7	00001/00001/00092
+MRs:
+COMMENTS:
+initial zapp versions
+
+D 4.1 96/09/13 15:48:02 troy 7 6	00000/00000/00093
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 3.2 96/08/07 15:59:28 troy 6 5	00008/00000/00085
+MRs:
+COMMENTS:
+multiple compiler compatibility fixes
+
+----------------------------------
+ReadToken.h
+D 4.2 96/09/16 11:40:09 troy 6 5	00000/00000/00079
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:34 troy 5 4	00000/00000/00079
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+SeedPod.h
+D 4.2 96/09/16 11:39:59 troy 5 4	00037/00036/00000
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:25 troy 4 3	00000/00000/00036
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Simulation.h
+D 4.2 96/09/16 11:40:17 troy 5 4	00000/00000/00020
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:42 troy 4 3	00000/00000/00020
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+SliderGroup.h
+D 4.2 96/09/16 11:40:16 troy 5 4	00000/00000/00056
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:41 troy 4 3	00000/00000/00056
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+State.h
+D 4.2 96/09/16 11:39:54 troy 5 4	00000/00000/00032
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:22 troy 4 3	00000/00000/00032
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Stochastic.h
+D 4.2 96/09/16 11:39:52 troy 6 5	00000/00000/00051
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:20 troy 5 4	00000/00000/00051
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Stock.h
+D 4.2 96/09/16 11:39:26 troy 30 29	00012/00003/00172
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:55 troy 29 28	00000/00000/00175
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+StockCalib.h
+D 4.2 96/09/16 11:40:26 troy 5 4	00000/00000/00083
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:50 troy 4 3	00000/00000/00083
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+StockConfig.h
+D 4.2 96/09/16 11:40:20 troy 9 8	00005/00001/00088
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:45 troy 8 7	00000/00000/00089
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+StockList.h
+D 4.2 96/09/16 11:39:43 troy 8 7	00000/00000/00011
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:12 troy 7 6	00000/00000/00011
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+StockSummary.h
+D 4.2 96/09/16 11:39:37 troy 12 11	00000/00000/00046
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:08 troy 11 10	00000/00000/00046
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Stock_UI.h
+D 4.2 96/09/16 11:39:45 troy 10 9	00000/00000/00076
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:14 troy 9 8	00000/00000/00076
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Strings.h
+D 4.3 96/09/16 11:52:22 troy 4 3	00003/00001/00019
+MRs:
+COMMENTS:
+fixed anachronistic op= through base class w/const conv call
+
+D 4.2 96/09/16 11:39:50 troy 3 2	00000/00000/00020
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:19 troy 2 1	00000/00000/00020
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:13 troy 1 0	00020/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:13 by troy
+
+----------------------------------
+Summary.h
+D 4.2 96/09/16 11:39:34 troy 8 7	00000/00000/00017
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:05 troy 7 6	00000/00000/00017
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+Token.h
+D 4.2 96/09/16 11:39:51 troy 6 5	00001/00001/00072
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:19 troy 5 4	00000/00000/00073
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+UI.h
+D 4.2 96/09/16 11:39:32 troy 8 7	00000/00000/00020
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:04 troy 7 6	00000/00000/00020
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+UniformInt.h
+D 4.2 96/09/16 11:40:00 troy 6 5	00000/00000/00027
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:27 troy 5 4	00000/00000/00027
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+ZasCalibration.h
+D 1.1 96/09/18 13:18:45 umbe 1 0	00044/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/18 13:18:45 by umbe
+
+----------------------------------
+ZasDialogMedBPHR.h
+D 4.2 96/09/16 11:40:05 troy 3 2	00000/00000/00027
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:31 troy 2 1	00000/00000/00027
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:14 troy 1 0	00027/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:14 by troy
+
+----------------------------------
+ZasDialogMedPNV.h
+D 4.2 96/09/16 11:39:58 troy 3 2	00000/00000/00027
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:25 troy 2 1	00000/00000/00027
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:14 troy 1 0	00027/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:14 by troy
+
+----------------------------------
+ZasGraphMedMonteCarlo.h
+D 1.1 96/09/18 13:20:22 umbe 1 0	00020/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/18 13:20:22 by umbe
+
+----------------------------------
+ZasGraphUpdateMed.h
+D 4.2 96/09/16 11:40:04 troy 3 2	00000/00000/00046
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:30 troy 2 1	00000/00000/00046
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:15 troy 1 0	00046/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:15 by troy
+
+----------------------------------
+ZasMapGraphMed.h
+D 4.2 96/09/16 11:41:17 troy 3 2	00001/00001/00024
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:14:58 troy 2 1	00000/00000/00025
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 15:26:00 troy 1 0	00025/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:26:00 by troy
+
+----------------------------------
+ZasMapMedCrispHarvest.h
+D 4.1 96/09/16 17:29:16 troy 2 1	00000/00000/00038
+MRs:
+COMMENTS:
+initial zapp versions
+
+D 1.1 96/09/16 13:57:51 troy 1 0	00038/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/16 13:57:51 by troy
+
+----------------------------------
+ZasMediatorFactory.h
+D 4.2 96/09/16 11:40:10 troy 3 2	00000/00000/00056
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:35 troy 2 1	00000/00000/00056
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:15 troy 1 0	00056/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:15 by troy
+
+----------------------------------
+ZasMenuConst.h
+D 4.2 96/09/16 11:40:08 troy 3 2	00000/00000/00067
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:34 troy 2 1	00000/00000/00067
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:16 troy 1 0	00067/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:16 by troy
+
+----------------------------------
+ZasMonteCarlo.h
+D 4.2 96/09/16 11:40:10 troy 3 2	00000/00000/00033
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:35 troy 2 1	00000/00000/00033
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:16 troy 1 0	00033/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:16 by troy
+
+----------------------------------
+ZasTabDialogCeilings.h
+D 4.2 96/09/16 11:40:08 troy 3 2	00000/00000/00023
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:33 troy 2 1	00000/00000/00023
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:16 troy 1 0	00023/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:16 by troy
+
+----------------------------------
+ZasTabDialogENH.h
+D 4.2 96/09/16 11:40:13 troy 3 2	00000/00000/00027
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:38 troy 2 1	00000/00000/00027
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:17 troy 1 0	00027/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:17 by troy
+
+----------------------------------
+ZasTabDialogIDL.h
+D 4.2 96/09/16 11:40:14 troy 3 2	00000/00000/00023
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:39 troy 2 1	00000/00000/00023
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:17 troy 1 0	00023/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:17 by troy
+
+----------------------------------
+ZasTabDialogMed.h
+D 4.2 96/09/16 11:40:14 troy 3 2	00000/00000/00133
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:40 troy 2 1	00000/00000/00133
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:18 troy 1 0	00133/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:18 by troy
+
+----------------------------------
+ZasTabDialogMedBPHR.h
+D 4.2 96/09/16 11:40:11 troy 3 2	00000/00000/00027
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:36 troy 2 1	00000/00000/00027
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:18 troy 1 0	00027/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:18 by troy
+
+----------------------------------
+ZasTabDialogMedCeilings.h
+D 4.2 96/09/16 11:40:16 troy 3 2	00000/00000/00030
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:41 troy 2 1	00000/00000/00030
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:18 troy 1 0	00030/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:18 by troy
+
+----------------------------------
+ZasTabDialogMedENH.h
+D 4.2 96/09/16 11:40:27 troy 3 2	00000/00000/00028
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:51 troy 2 1	00000/00000/00028
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:19 troy 1 0	00028/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:19 by troy
+
+----------------------------------
+ZasTabDialogMedEV.h
+D 4.2 96/09/16 11:40:31 troy 3 2	00000/00000/00027
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:56 troy 2 1	00000/00000/00027
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:19 troy 1 0	00027/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:19 by troy
+
+----------------------------------
+ZasTabDialogMedHRS.h
+D 4.2 96/09/16 11:40:31 troy 3 2	00000/00000/00027
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:56 troy 2 1	00000/00000/00027
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:19 troy 1 0	00027/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:19 by troy
+
+----------------------------------
+ZasTabDialogMedIDL.h
+D 4.2 96/09/16 11:40:32 troy 3 2	00000/00000/00027
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:57 troy 2 1	00000/00000/00027
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:20 troy 1 0	00027/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:20 by troy
+
+----------------------------------
+ZatCheckBoxGroup.h
+D 4.2 96/09/16 11:40:33 troy 3 2	00000/00000/00065
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:57 troy 2 1	00000/00000/00065
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:20 troy 1 0	00065/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:20 by troy
+
+----------------------------------
+ZatConstants.h
+D 4.2 96/09/16 11:40:33 troy 3 2	00000/00000/00015
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:58 troy 2 1	00000/00000/00015
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:21 troy 1 0	00015/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:21 by troy
+
+----------------------------------
+ZatDefines.h
+D 4.2 96/09/16 11:40:12 troy 3 2	00000/00000/00017
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:37 troy 2 1	00000/00000/00017
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:21 troy 1 0	00017/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:21 by troy
+
+----------------------------------
+ZatDialogBase.h
+D 4.2 96/09/16 11:40:15 troy 3 2	00000/00000/00118
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:40 troy 2 1	00000/00000/00118
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:21 troy 1 0	00118/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:21 by troy
+
+----------------------------------
+ZatDialogConstants.h
+D 4.3 96/09/18 16:22:21 umbe 4 3	00002/00000/00037
+MRs:
+COMMENTS:
+Added Calibration constant
+
+D 4.2 96/09/16 11:40:34 troy 3 2	00000/00000/00037
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:59 troy 2 1	00000/00000/00037
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:22 troy 1 0	00037/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:22 by troy
+
+----------------------------------
+ZatDialogMedBase.h
+D 4.2 96/09/16 11:40:35 troy 3 2	00000/00000/00079
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:00 troy 2 1	00000/00000/00079
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:22 troy 1 0	00079/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:22 by troy
+
+----------------------------------
+ZatEditSlider.h
+D 4.2 96/09/16 11:40:36 troy 3 2	00000/00000/00049
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:00 troy 2 1	00000/00000/00049
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:22 troy 1 0	00049/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:22 by troy
+
+----------------------------------
+ZatEditSliderBase.h
+D 4.2 96/09/16 11:40:37 troy 3 2	00000/00000/00049
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:02 troy 2 1	00000/00000/00049
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:23 troy 1 0	00049/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:23 by troy
+
+----------------------------------
+ZatEditSliderDouble.h
+D 4.2 96/09/16 11:40:38 troy 3 2	00000/00000/00037
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:02 troy 2 1	00000/00000/00037
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:23 troy 1 0	00037/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:23 by troy
+
+----------------------------------
+ZatEditSliderLong.h
+D 4.2 96/09/16 11:40:38 troy 3 2	00000/00000/00037
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:03 troy 2 1	00000/00000/00037
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:24 troy 1 0	00037/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:24 by troy
+
+----------------------------------
+ZatFloatSlider.h
+D 4.2 96/09/16 11:40:39 troy 3 2	00000/00000/00039
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:03 troy 2 1	00000/00000/00039
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:24 troy 1 0	00039/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:24 by troy
+
+----------------------------------
+ZatGraphConstants.h
+D 4.2 96/09/16 11:40:40 troy 3 2	00000/00000/00016
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:04 troy 2 1	00000/00000/00016
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:24 troy 1 0	00016/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:24 by troy
+
+----------------------------------
+ZatGraphDialog.h
+D 4.2 96/09/16 11:40:40 troy 3 2	00000/00000/00115
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:04 troy 2 1	00000/00000/00115
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:25 troy 1 0	00115/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:25 by troy
+
+----------------------------------
+ZatGraphicPane.h
+D 4.2 96/09/16 11:40:41 troy 3 2	00000/00000/00030
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:05 troy 2 1	00000/00000/00030
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:25 troy 1 0	00030/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:25 by troy
+
+----------------------------------
+ZatImConScroller.h
+D 4.2 96/09/16 11:40:42 troy 3 2	00000/00000/00050
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:06 troy 2 1	00000/00000/00050
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:26 troy 1 0	00050/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:26 by troy
+
+----------------------------------
+ZatImpTabCtrl.h
+D 4.2 96/09/16 11:40:42 troy 3 2	00000/00000/00022
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:06 troy 2 1	00000/00000/00022
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:26 troy 1 0	00022/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:26 by troy
+
+----------------------------------
+ZatImplicitScroller.h
+D 4.2 96/09/16 11:41:17 troy 3 2	00001/00001/00031
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:14:59 troy 2 1	00000/00000/00032
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 15:26:00 troy 1 0	00032/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:26:00 by troy
+
+----------------------------------
+ZatItem.h
+D 4.2 96/09/16 11:40:11 troy 3 2	00000/00000/00041
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:37 troy 2 1	00000/00000/00041
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:27 troy 1 0	00041/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:27 by troy
+
+----------------------------------
+ZatMapMediator.h
+D 4.1 96/09/16 17:29:14 troy 2 1	00000/00000/00073
+MRs:
+COMMENTS:
+initial zapp versions
+
+D 1.1 96/09/16 13:53:54 troy 1 0	00073/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/16 13:53:54 by troy
+
+----------------------------------
+ZatMapPane.h
+D 4.1 96/09/16 17:29:13 troy 2 1	00000/00000/00047
+MRs:
+COMMENTS:
+initial zapp versions
+
+D 1.1 96/09/16 13:55:23 troy 1 0	00047/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/16 13:55:23 by troy
+
+----------------------------------
+ZatRowColumnBox.h
+D 4.2 96/09/16 11:40:43 troy 3 2	00000/00000/00035
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:07 troy 2 1	00000/00000/00035
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:27 troy 1 0	00035/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:27 by troy
+
+----------------------------------
+ZatTabDialog.h
+D 4.2 96/09/16 11:40:43 troy 3 2	00000/00000/00070
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:07 troy 2 1	00000/00000/00070
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:27 troy 1 0	00070/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:27 by troy
+
+----------------------------------
+ZatTabDialogMed.h
+D 4.2 96/09/16 11:40:44 troy 3 2	00000/00000/00030
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:08 troy 2 1	00000/00000/00030
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:28 troy 1 0	00030/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:28 by troy
+
+----------------------------------
+ZatTypes.h
+D 4.2 96/09/16 11:41:15 troy 3 2	00001/00001/00008
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:14:57 troy 2 1	00000/00000/00009
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 15:26:00 troy 1 0	00009/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:26:00 by troy
+
+----------------------------------
+base_tokens.h
+D 4.2 96/09/16 11:40:03 troy 4 3	00000/00000/00009
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:29 troy 3 2	00000/00000/00009
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+c2main.h
+D 4.3 96/09/16 17:29:11 troy 4 3	00030/00030/00015
+MRs:
+COMMENTS:
+initial zapp versions
+
+D 4.2 96/09/16 11:40:19 troy 3 2	00000/00000/00045
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:44 troy 2 1	00000/00000/00045
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:29 troy 1 0	00045/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:29 by troy
+
+----------------------------------
+clog.h
+D 4.2 96/09/16 11:39:29 troy 7 6	00000/00000/00023
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:00 troy 6 5	00000/00000/00023
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+cnrSliderVisitor.h
+D 4.2 96/09/16 11:40:18 troy 5 4	00000/00000/00030
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:43 troy 4 3	00000/00000/00030
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+cnrToggleVisitor.h
+D 4.2 96/09/16 11:40:29 troy 5 4	00000/00000/00027
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:54 troy 4 3	00000/00000/00027
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+cnrVisitor.h
+D 4.2 96/09/16 11:40:13 troy 6 5	00000/00000/00041
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:38 troy 5 4	00000/00000/00041
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+command.h
+D 4.2 96/09/16 11:39:18 troy 7 6	00027/00027/00000
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:46 troy 6 5	00000/00000/00027
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+constant.h
+D 4.2 96/09/16 11:40:21 troy 3 2	00000/00000/00001
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:46 troy 2 1	00000/00000/00001
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:29 troy 1 0	00001/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:29 by troy
+
+----------------------------------
+datFisheryCNR.h
+D 4.2 96/09/16 11:41:21 troy 3 2	00001/00001/00026
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:15:02 troy 2 1	00000/00000/00027
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 15:28:28 troy 1 0	00027/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:28:28 by troy
+
+----------------------------------
+datFisheryCeilings.h
+D 4.2 96/09/16 11:40:45 troy 3 2	00000/00000/00015
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:09 troy 2 1	00000/00000/00015
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:30 troy 1 0	00015/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:30 by troy
+
+----------------------------------
+datFisheryIDL.h
+D 4.2 96/09/16 11:41:22 troy 3 2	00001/00001/00041
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:15:03 troy 2 1	00000/00000/00042
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 15:28:28 troy 1 0	00042/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:28:28 by troy
+
+----------------------------------
+datFisheryPNV.h
+D 4.2 96/09/16 11:40:45 troy 3 2	00000/00000/00016
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:09 troy 2 1	00000/00000/00016
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:31 troy 1 0	00016/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:31 by troy
+
+----------------------------------
+datHarvestBPHR.h
+D 4.2 96/09/16 11:40:46 troy 3 2	00000/00000/00015
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:10 troy 2 1	00000/00000/00015
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:31 troy 1 0	00015/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:31 by troy
+
+----------------------------------
+datHarvestHRS.h
+D 4.2 96/09/16 11:40:46 troy 3 2	00000/00000/00016
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:10 troy 2 1	00000/00000/00016
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:31 troy 1 0	00016/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:31 by troy
+
+----------------------------------
+datIntDouble.h
+D 4.2 96/09/16 11:40:47 troy 3 2	00000/00000/00037
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:11 troy 2 1	00000/00000/00037
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:32 troy 1 0	00037/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:32 by troy
+
+----------------------------------
+datStockENH.h
+D 4.2 96/09/16 11:40:28 troy 3 2	00000/00000/00015
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:52 troy 2 1	00000/00000/00015
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:32 troy 1 0	00015/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:32 by troy
+
+----------------------------------
+datStockEV.h
+D 4.2 96/09/16 11:40:30 troy 3 2	00000/00000/00015
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:55 troy 2 1	00000/00000/00015
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:33 troy 1 0	00015/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:33 by troy
+
+----------------------------------
+datStockEv.h
+D 4.2 96/09/16 11:41:14 troy 3 2	00014/00014/00000
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:14:51 troy 2 1	00000/00000/00014
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 14:50:50 troy 1 0	00014/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:50:50 by troy
+
+----------------------------------
+datStockIDL.h
+D 4.2 96/09/16 11:40:34 troy 3 2	00000/00000/00014
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:59 troy 2 1	00000/00000/00014
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:33 troy 1 0	00014/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:33 by troy
+
+----------------------------------
+datTypes.h
+D 4.2 96/09/16 11:40:48 troy 3 2	00000/00000/00015
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:12 troy 2 1	00000/00000/00015
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:34 troy 1 0	00015/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:34 by troy
+
+----------------------------------
+dir.h
+D 4.2 96/09/16 11:39:18 troy 10 9	00000/00000/00049
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:47 troy 9 8	00000/00000/00049
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+dlgconst.h
+D 4.2 96/09/16 11:40:48 troy 3 2	00000/00000/00039
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:12 troy 2 1	00000/00000/00039
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:34 troy 1 0	00039/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:34 by troy
+
+----------------------------------
+file.h
+D 4.2 96/09/16 11:39:28 troy 6 5	00000/00000/00044
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:59 troy 5 4	00000/00000/00044
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+globals.h
+D 4.2 96/09/16 11:39:27 troy 13 12	00004/00001/00024
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:56 troy 12 11	00000/00000/00025
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+help.h
+D 4.2 96/09/16 11:39:19 troy 9 8	00000/00000/00025
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:49 troy 8 7	00000/00000/00025
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+idcBPHR.h
+D 4.2 96/09/16 11:40:29 troy 3 2	00000/00000/00022
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:54 troy 2 1	00000/00000/00022
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:35 troy 1 0	00022/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:35 by troy
+
+----------------------------------
+idcBPHarvestRates.h
+D 4.2 96/09/16 11:41:22 troy 3 2	00001/00001/00022
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:15:03 troy 2 1	00000/00000/00023
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 15:28:29 troy 1 0	00023/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:28:29 by troy
+
+----------------------------------
+idcCeilings.h
+D 4.2 96/09/16 11:40:49 troy 3 2	00000/00000/00026
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:13 troy 2 1	00000/00000/00026
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:36 troy 1 0	00026/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:36 by troy
+
+----------------------------------
+idcENH.h
+D 4.2 96/09/16 11:40:49 troy 3 2	00000/00000/00025
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:13 troy 2 1	00000/00000/00025
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:36 troy 1 0	00025/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:36 by troy
+
+----------------------------------
+idcEV.h
+D 4.2 96/09/16 11:40:50 troy 3 2	00000/00000/00018
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:14 troy 2 1	00000/00000/00018
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:37 troy 1 0	00018/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:37 by troy
+
+----------------------------------
+idcHRS.h
+D 4.2 96/09/16 11:40:51 troy 3 2	00000/00000/00024
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:14 troy 2 1	00000/00000/00024
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:37 troy 1 0	00024/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:37 by troy
+
+----------------------------------
+idcHarvestRateScalars.h
+D 4.2 96/09/16 11:41:23 troy 3 2	00001/00001/00022
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:15:04 troy 2 1	00000/00000/00023
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 15:28:30 troy 1 0	00023/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:28:30 by troy
+
+----------------------------------
+idcIDL.h
+D 4.2 96/09/16 11:40:51 troy 3 2	00000/00000/00018
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:15 troy 2 1	00000/00000/00018
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:38 troy 1 0	00018/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:38 by troy
+
+----------------------------------
+idcPNV.h
+D 4.2 96/09/16 11:40:52 troy 3 2	00000/00000/00024
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:16 troy 2 1	00000/00000/00024
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:38 troy 1 0	00024/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:38 by troy
+
+----------------------------------
+idc_pnv.h
+D 4.2 96/09/16 11:41:16 troy 3 2	00001/00001/00020
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:14:57 troy 2 1	00000/00000/00021
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 15:26:04 troy 1 0	00021/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:26:04 by troy
+
+----------------------------------
+implicit.h
+D 4.2 96/09/16 11:40:52 troy 3 2	00000/00000/00342
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:16 troy 2 1	00000/00000/00342
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:39 troy 1 0	00342/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:39 by troy
+
+----------------------------------
+implicit_base.h
+D 4.2 96/09/16 11:40:54 troy 3 2	00000/00000/00066
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:17 troy 2 1	00000/00000/00066
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:39 troy 1 0	00066/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:39 by troy
+
+----------------------------------
+include.h
+D 4.2 96/09/16 11:39:20 troy 7 6	00000/00000/00010
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:50 troy 6 5	00000/00000/00010
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+init.h
+D 4.2 96/09/16 11:39:31 troy 8 7	00000/00000/00007
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:02 troy 7 6	00000/00000/00007
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+input_hist.h
+D 4.2 96/09/16 11:39:41 troy 11 10	00000/00000/00126
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:11 troy 10 9	00000/00000/00126
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+interfaceDataControl.h
+D 4.2 96/09/16 11:40:53 troy 3 2	00000/00000/00021
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:17 troy 2 1	00000/00000/00021
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:39 troy 1 0	00021/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:39 by troy
+
+----------------------------------
+keydata.h
+D 4.2 96/09/16 11:39:34 troy 5 4	00000/00000/00005
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:05 troy 4 3	00000/00000/00005
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+log.h
+D 4.2 96/09/16 11:39:20 troy 10 9	00001/00001/00176
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:50 troy 9 8	00000/00000/00177
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+mapConstants.h
+D 4.2 96/09/16 11:40:56 troy 3 2	00000/00000/00012
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:20 troy 2 1	00000/00000/00012
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:40 troy 1 0	00012/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:40 by troy
+
+----------------------------------
+mapController.h
+D 4.2 96/09/16 11:40:57 troy 3 2	00000/00000/00037
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:20 troy 2 1	00000/00000/00037
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:41 troy 1 0	00037/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:41 by troy
+
+----------------------------------
+mapObject.h
+D 4.2 96/09/16 11:40:55 troy 3 2	00000/00000/00046
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:19 troy 2 1	00000/00000/00046
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:41 troy 1 0	00046/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:41 by troy
+
+----------------------------------
+mapPoint.h
+D 4.2 96/09/16 11:40:55 troy 3 2	00000/00000/00044
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:19 troy 2 1	00000/00000/00044
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:41 troy 1 0	00044/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:41 by troy
+
+----------------------------------
+menuconst.h
+D 4.2 96/09/16 11:40:57 troy 3 2	00000/00000/00067
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:21 troy 2 1	00000/00000/00067
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:42 troy 1 0	00067/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:42 by troy
+
+----------------------------------
+monte_tokens.h
+D 4.2 96/09/16 11:40:02 troy 4 3	00000/00000/00008
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:28 troy 3 2	00000/00000/00008
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+parseutil.h
+D 4.2 96/09/16 11:39:21 troy 9 8	00000/00000/00077
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:51 troy 8 7	00000/00000/00077
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+resource.h
+D 4.2 96/09/16 11:40:58 troy 3 2	00000/00000/00019
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:21 troy 2 1	00000/00000/00019
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:42 troy 1 0	00019/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:42 by troy
+
+----------------------------------
+sample.h
+D 4.2 96/09/16 11:40:59 troy 3 2	00000/00000/00018
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:22 troy 2 1	00000/00000/00018
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:42 troy 1 0	00018/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:42 by troy
+
+----------------------------------
+smart_ptr.h
+D 4.2 96/09/16 11:40:59 troy 3 2	00000/00000/00053
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:23 troy 2 1	00000/00000/00053
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:43 troy 1 0	00053/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:43 by troy
+
+----------------------------------
+stack.h
+D 4.2 96/09/16 11:39:28 troy 6 5	00000/00000/00027
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:58 troy 5 4	00000/00000/00027
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+statistics.h
+D 4.2 96/09/16 11:39:50 troy 4 3	00000/00000/00002
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:48:18 troy 3 2	00000/00000/00002
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+strtools.h
+D 4.2 96/09/16 11:41:00 troy 3 2	00000/00000/00008
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:24 troy 2 1	00000/00000/00008
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:43 troy 1 0	00008/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:43 by troy
+
+----------------------------------
+token.h
+D 4.2 96/09/16 11:39:22 troy 7 6	00000/00000/00028
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:47:52 troy 6 5	00000/00000/00028
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+tokens.h
+D 4.2 96/09/16 11:41:01 troy 3 2	00000/00000/00028
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:24 troy 2 1	00000/00000/00028
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:44 troy 1 0	00028/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:44 by troy
+
+----------------------------------
+zcConst.h
+D 4.2 96/09/16 11:41:18 troy 3 2	00001/00001/00014
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:15:00 troy 2 1	00000/00000/00015
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 15:26:06 troy 1 0	00015/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:26:06 by troy
+
+----------------------------------
+zcControlGroup.h
+D 4.2 96/09/16 11:41:03 troy 3 2	00000/00000/00072
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:27 troy 2 1	00000/00000/00072
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:44 troy 1 0	00072/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:44 by troy
+
+----------------------------------
+zcFactory.h
+D 4.2 96/09/16 11:41:19 troy 3 2	00001/00001/00040
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:15:00 troy 2 1	00000/00000/00041
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 15:26:07 troy 1 0	00041/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:26:07 by troy
+
+----------------------------------
+zcGMF_AbundanceIndex.h
+D 4.2 96/09/16 11:41:03 troy 3 2	00000/00000/00014
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:27 troy 2 1	00000/00000/00014
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:45 troy 1 0	00014/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:45 by troy
+
+----------------------------------
+zcGMF_CatchGraphs.h
+D 4.2 96/09/16 11:41:04 troy 3 2	00000/00000/00041
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:28 troy 2 1	00000/00000/00041
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:45 troy 1 0	00041/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:45 by troy
+
+----------------------------------
+zcGMF_InMortGraphs.h
+D 4.2 96/09/16 11:41:05 troy 3 2	00000/00000/00035
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:28 troy 2 1	00000/00000/00035
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:45 troy 1 0	00035/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:45 by troy
+
+----------------------------------
+zcGMH_HarvestGraphs.h
+D 4.2 96/09/16 11:41:05 troy 3 2	00000/00000/00029
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:30 troy 2 1	00000/00000/00029
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:46 troy 1 0	00029/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:46 by troy
+
+----------------------------------
+zcGMS_Abundance.h
+D 4.2 96/09/16 11:41:06 troy 3 2	00000/00000/00014
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:30 troy 2 1	00000/00000/00014
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:46 troy 1 0	00014/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:46 by troy
+
+----------------------------------
+zcGMS_CNRGraphs.h
+D 4.2 96/09/16 11:41:06 troy 3 2	00000/00000/00026
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:31 troy 2 1	00000/00000/00026
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:46 troy 1 0	00026/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:46 by troy
+
+----------------------------------
+zcGMS_CatchGraphs.h
+D 4.2 96/09/16 11:41:07 troy 3 2	00000/00000/00040
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:31 troy 2 1	00000/00000/00040
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:47 troy 1 0	00040/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:47 by troy
+
+----------------------------------
+zcGMS_Escapement.h
+D 4.2 96/09/16 11:41:08 troy 3 2	00000/00000/00014
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:32 troy 2 1	00000/00000/00014
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:47 troy 1 0	00014/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:47 by troy
+
+----------------------------------
+zcGMS_TrueTermRun.h
+D 4.2 96/09/16 11:41:08 troy 3 2	00000/00000/00014
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:32 troy 2 1	00000/00000/00014
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:47 troy 1 0	00014/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:47 by troy
+
+----------------------------------
+zcGM_YearAgeGraph.h
+D 4.2 96/09/16 11:41:09 troy 3 2	00000/00000/00020
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:33 troy 2 1	00000/00000/00020
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:48 troy 1 0	00020/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:48 by troy
+
+----------------------------------
+zcGM_YearGraph.h
+D 4.2 96/09/16 11:41:10 troy 3 2	00000/00000/00018
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:34 troy 2 1	00000/00000/00018
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:48 troy 1 0	00018/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:48 by troy
+
+----------------------------------
+zcGraph.h
+D 4.2 96/09/16 11:41:19 troy 3 2	00001/00001/00101
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:10:22 troy 2 1	00000/00000/00102
+MRs:
+COMMENTS:
+new Zapp version
+
+D 1.1 96/09/13 15:26:08 troy 1 0	00102/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:26:08 by troy
+
+----------------------------------
+zcGraphConstants.h
+D 4.2 96/09/16 11:41:10 troy 3 2	00000/00000/00015
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:34 troy 2 1	00000/00000/00015
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:49 troy 1 0	00015/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:49 by troy
+
+----------------------------------
+zcGraphDialog.h
+D 4.2 96/09/16 11:41:20 troy 3 2	00001/00001/00110
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:15:02 troy 2 1	00000/00000/00111
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 15:26:09 troy 1 0	00111/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:26:09 by troy
+
+----------------------------------
+zcGraphMediator.h
+D 4.2 96/09/16 11:41:11 troy 3 2	00000/00000/00086
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:35 troy 2 1	00000/00000/00086
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:49 troy 1 0	00086/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:49 by troy
+
+----------------------------------
+zcGraphPane.h
+D 4.2 96/09/16 11:41:16 troy 3 2	00001/00001/00027
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:14:58 troy 2 1	00000/00000/00028
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 15:26:10 troy 1 0	00028/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:26:10 by troy
+
+----------------------------------
+zcIterator.h
+D 4.2 96/09/16 11:41:20 troy 3 2	00001/00001/00047
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 17:15:01 troy 2 1	00000/00000/00048
+MRs:
+COMMENTS:
+new zapp version
+
+D 1.1 96/09/13 15:26:10 troy 1 0	00048/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 15:26:10 by troy
+
+----------------------------------
+zcMediatorFactory.h
+D 4.2 96/09/16 11:41:13 troy 3 2	00000/00000/00056
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:37 troy 2 1	00000/00000/00056
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:51 troy 1 0	00056/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:51 by troy
+
+----------------------------------
+zcMouseTool.h
+D 4.2 96/09/16 11:41:12 troy 3 2	00000/00000/00034
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:36 troy 2 1	00000/00000/00034
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:52 troy 1 0	00034/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:52 by troy
+
+----------------------------------
+zcMouseToolCrisp2.h
+D 4.2 96/09/16 11:41:13 troy 3 2	00000/00000/00023
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:36 troy 2 1	00000/00000/00023
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:52 troy 1 0	00023/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:52 by troy
+
+----------------------------------
+zcPointTransform.h
+D 4.2 96/09/16 11:41:14 troy 3 2	00000/00000/00046
+MRs:
+COMMENTS:
+zapp base version
+
+D 4.1 96/09/13 15:49:39 troy 2 1	00000/00000/00046
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 1.1 96/09/13 14:14:52 troy 1 0	00046/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/09/13 14:14:52 by troy
+
+----------------------------------
+file.c
+D 4.1 96/09/13 15:47:59 troy 6 5	00000/00000/00378
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+----------------------------------
+help.c
+D 4.1 96/09/13 15:47:57 troy 12 11	00000/00000/00583
+MRs:
+COMMENTS:
+new cross-platform Zapp based product
+
+D 3.2 96/08/07 13:51:14 troy 11 10	00002/00000/00581
+MRs:
+COMMENTS:
+added missing GUI ifdef
+
+----------------------------------

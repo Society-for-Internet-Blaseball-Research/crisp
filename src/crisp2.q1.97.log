@@ -1,0 +1,1285 @@
+AgeVec.h
+----------------------------------
+Args.h
+D 4.4 97/01/30 12:19:28 troy 10 9	00034/00075/00001
+MRs:
+COMMENTS:
+added another entry point
+
+----------------------------------
+Bool.h
+----------------------------------
+Bootstrap.h
+----------------------------------
+CNR.h
+----------------------------------
+Calendar.h
+----------------------------------
+Calibrator.h
+----------------------------------
+Ceiling.h
+----------------------------------
+CeilingPolicy.h
+D 4.3 97/04/02 11:32:34 troy 7 6	00003/00013/00026
+MRs:
+COMMENTS:
+cleaned up multi-ceiling policy concept
+
+----------------------------------
+Cohort.h
+----------------------------------
+Fishery.h
+D 4.5 97/04/02 11:32:33 troy 32 31	00006/00001/00143
+MRs:
+COMMENTS:
+cleaned up multi-ceiling policy concept
+
+D 4.4 97/01/27 16:26:18 troy 31 30	00001/00001/00143
+MRs:
+COMMENTS:
+change get_term_net_age fn to return const& for speed
+
+----------------------------------
+FisheryList.h
+----------------------------------
+FisheryManagement.h
+----------------------------------
+FisherySummary.h
+----------------------------------
+FisheryTactics.h
+----------------------------------
+FixedCombHarv.h
+----------------------------------
+FixedEscStock.h
+----------------------------------
+FixedEscapementPolicy.h
+D 4.3 97/04/02 11:32:36 troy 9 8	00000/00001/00148
+MRs:
+COMMENTS:
+cleaned up multi-ceiling policy concept
+
+----------------------------------
+FixedHarvestPolicy.h
+D 4.3 97/04/02 11:32:37 troy 7 6	00000/00001/00023
+MRs:
+COMMENTS:
+cleaned up multi-ceiling policy concept
+
+----------------------------------
+GUI.h
+----------------------------------
+Harvest.h
+----------------------------------
+HarvestList.h
+D 4.4 97/01/27 16:13:26 troy 13 12	00002/00002/00081
+MRs:
+COMMENTS:
+reduce linkage of include files
+
+----------------------------------
+HarvestTactics.h
+----------------------------------
+HatchSurplusProduction.h
+----------------------------------
+HatcheryProduction.h
+----------------------------------
+HvSummary.h
+----------------------------------
+IEnum.h
+----------------------------------
+IOCrud.h
+----------------------------------
+MonteControl.h
+----------------------------------
+MonteDataItem.h
+----------------------------------
+MonteOutputItem.h
+----------------------------------
+MonteStockIntrfc.h
+----------------------------------
+MonteStockTracking.h
+----------------------------------
+MonteTrackingItem.h
+----------------------------------
+MultiCeilingPolicy.h
+D 4.3 97/04/02 11:32:38 troy 7 6	00015/00008/00024
+MRs:
+COMMENTS:
+cleaned up multi-ceiling policy concept
+
+----------------------------------
+NamedPtrVec.h
+----------------------------------
+NaturalProduction.h
+----------------------------------
+NonNeg.h
+----------------------------------
+Parser.h
+----------------------------------
+Phase.h
+----------------------------------
+Policies.h
+D 4.3 97/04/02 11:32:34 troy 8 7	00007/00002/00010
+MRs:
+COMMENTS:
+cleaned up multi-ceiling policy concept
+
+----------------------------------
+Policy.h
+D 4.3 97/04/02 11:32:35 troy 7 6	00017/00007/00053
+MRs:
+COMMENTS:
+cleaned up multi-ceiling policy concept
+
+----------------------------------
+Production.h
+----------------------------------
+RandGen.h
+----------------------------------
+RandNorm.h
+----------------------------------
+ReadToken.h
+----------------------------------
+SeedPod.h
+----------------------------------
+Simulation.h
+----------------------------------
+State.h
+----------------------------------
+Stochastic.h
+----------------------------------
+Stock.h
+----------------------------------
+StockCalib.h
+----------------------------------
+StockConfig.h
+----------------------------------
+StockList.h
+----------------------------------
+StockSummary.h
+----------------------------------
+Strings.h
+----------------------------------
+Summary.h
+----------------------------------
+Token.h
+----------------------------------
+UI.h
+D 4.3 97/01/30 12:19:02 troy 9 8	00001/00001/00019
+MRs:
+COMMENTS:
+added ZAPP
+
+----------------------------------
+UniformInt.h
+----------------------------------
+ZasCalibration.h
+D 1.3 97/01/17 15:58:37 umbe 3 2	00003/00001/00043
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasDialogMedBPHR.h
+D 4.4 97/01/17 15:58:38 umbe 5 4	00003/00000/00027
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasDialogMedPNV.h
+D 4.4 97/01/17 15:58:40 umbe 5 4	00003/00001/00026
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasGraphMedMonteCarlo.h
+D 1.3 97/01/17 15:58:41 umbe 3 2	00002/00000/00020
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasGraphUpdateMed.h
+D 4.4 97/01/17 15:58:43 umbe 5 4	00002/00000/00046
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasMapMedCrispHarvest.h
+D 4.3 97/01/17 15:58:45 umbe 4 3	00004/00001/00038
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasMediatorFactory.h
+D 4.4 97/01/17 15:58:47 umbe 5 4	00002/00000/00054
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasMenuConst.h
+D 4.4 97/01/17 15:58:48 umbe 5 4	00001/00000/00077
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasMonteCarlo.h
+D 4.4 97/01/17 15:58:49 umbe 5 4	00002/00000/00033
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogCeilings.h
+D 4.4 97/01/17 15:58:51 umbe 5 4	00002/00000/00023
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogENH.h
+D 4.4 97/01/17 15:58:52 umbe 5 4	00002/00000/00027
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogMedCeilings.h
+D 4.4 97/01/17 15:58:55 umbe 5 4	00003/00000/00030
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogMedENH.h
+D 4.4 97/01/17 15:58:56 umbe 5 4	00003/00000/00028
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogMedEV.h
+D 4.4 97/01/17 15:58:58 umbe 5 4	00003/00000/00027
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogMedHRS.h
+D 4.4 97/01/17 15:58:59 umbe 5 4	00003/00000/00027
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogMedIDL.h
+D 4.4 97/01/17 15:59:01 umbe 5 4	00003/00000/00027
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogMedMR.h
+D 1.2 97/01/17 16:01:35 umbe 2 1	00000/00000/00030
+MRs:
+COMMENTS:
+Tab dialog for adjusting maturation rates.
+
+D 1.1 97/01/17 16:00:11 umbe 1 0	00030/00000/00000
+MRs:
+COMMENTS:
+date and time created 97/01/17 16:00:11 by umbe
+
+----------------------------------
+ZatCheckBoxGroup.h
+D 4.4 97/01/17 16:09:14 umbe 5 4	00003/00000/00065
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatConstants.h
+D 4.4 97/01/17 16:09:15 umbe 5 4	00000/00000/00015
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatDefines.h
+D 4.4 97/01/17 16:09:16 umbe 5 4	00000/00000/00017
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatDialogBase.h
+D 4.4 97/01/17 16:09:17 umbe 5 4	00003/00001/00117
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatDialogConstants.h
+D 4.5 97/01/17 16:09:18 umbe 6 5	00001/00000/00039
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatDialogMedBase.h
+D 4.4 97/01/17 16:09:20 umbe 5 4	00002/00000/00085
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatEditSliderBase.h
+D 4.4 97/01/17 16:09:22 umbe 5 4	00003/00000/00049
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatEditSliderDouble.h
+D 4.4 97/01/17 16:09:23 umbe 5 4	00002/00000/00037
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatEditSliderLong.h
+D 4.4 97/01/17 16:09:26 umbe 5 4	00002/00000/00037
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatGraphConstants.h
+D 4.4 97/01/17 16:09:27 umbe 5 4	00000/00000/00016
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatGraphDialog.h
+D 4.4 97/01/17 16:09:28 umbe 5 4	00004/00002/00114
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatGraphicPane.h
+D 4.5 97/01/17 16:14:31 umbe 6 5	00000/00000/00036
+MRs:
+COMMENTS:
+
+
+D 4.4 97/01/17 16:09:29 umbe 5 4	00002/00000/00034
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatImConScroller.h
+D 4.4 97/01/17 16:09:30 umbe 5 4	00002/00000/00050
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatImpTabCtrl.h
+D 4.4 97/01/17 16:09:30 umbe 5 4	00002/00001/00021
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatImplicitScroller.h
+D 4.4 97/01/17 16:09:32 umbe 5 4	00002/00001/00031
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatItem.h
+D 4.4 97/01/17 16:09:32 umbe 5 4	00002/00001/00040
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatMapMediator.h
+D 4.3 97/01/17 16:09:34 umbe 4 3	00005/00004/00082
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatMapPane.h
+D 4.4 97/01/17 16:09:35 umbe 5 4	00002/00001/00047
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatMercatorTransform.h
+D 1.2 97/01/17 16:09:37 umbe 2 1	00002/00002/00046
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatPointTransform.h
+D 1.2 97/01/17 16:09:38 umbe 2 1	00002/00002/00047
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatRowColumnBox.h
+D 4.4 97/01/17 16:09:40 umbe 5 4	00002/00001/00034
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatTabDialog.h
+D 4.4 97/01/17 16:09:41 umbe 5 4	00002/00000/00070
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatTabDialogMed.h
+D 4.4 97/01/17 16:09:43 umbe 5 4	00002/00001/00029
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+base_tokens.h
+----------------------------------
+c2main.h
+----------------------------------
+clog.h
+----------------------------------
+cnrVisitor.h
+----------------------------------
+command.h
+----------------------------------
+datFisheryCeilings.h
+----------------------------------
+datFisheryPNV.h
+----------------------------------
+datHarvestBPHR.h
+----------------------------------
+datHarvestHRS.h
+----------------------------------
+datIntDouble.h
+----------------------------------
+datStockENH.h
+----------------------------------
+datStockEV.h
+----------------------------------
+datStockIDL.h
+----------------------------------
+datStockMR.h
+D 1.1 97/01/17 16:24:51 umbe 1 0	00018/00000/00000
+MRs:
+COMMENTS:
+date and time created 97/01/17 16:24:51 by umbe
+
+----------------------------------
+datTypes.h
+D 4.3 97/01/27 17:13:15 umbe 4 3	00001/00000/00015
+MRs:
+COMMENTS:
+added tag for migration rate
+*** CHANGED *** 97/01/27 17:13:58 umbe
+added tag for M
+
+----------------------------------
+dir.h
+----------------------------------
+globals.h
+----------------------------------
+idcBPHR.h
+----------------------------------
+idcCeilings.h
+----------------------------------
+idcENH.h
+----------------------------------
+idcEV.h
+----------------------------------
+idcHRS.h
+----------------------------------
+idcIDL.h
+----------------------------------
+idcMR.h
+D 1.1 97/01/17 16:24:42 umbe 1 0	00023/00000/00000
+MRs:
+COMMENTS:
+date and time created 97/01/17 16:24:42 by umbe
+
+----------------------------------
+idcPNV.h
+----------------------------------
+implicit.h
+----------------------------------
+implicit_base.h
+----------------------------------
+include.h
+----------------------------------
+init.h
+----------------------------------
+interfaceDataControl.h
+----------------------------------
+log.h
+----------------------------------
+mapConstants.h
+----------------------------------
+mapController.h
+----------------------------------
+mapObject.h
+D 4.3 97/01/27 17:19:34 umbe 4 3	00026/00013/00033
+MRs:
+COMMENTS:
+improved intersection checking
+
+----------------------------------
+mapPoint.h
+D 4.3 97/01/27 17:15:56 umbe 4 3	00007/00000/00044
+MRs:
+COMMENTS:
+added copy ctor
+
+----------------------------------
+monte_tokens.h
+----------------------------------
+parseutil.h
+----------------------------------
+resource.h
+----------------------------------
+sample.h
+----------------------------------
+smart_ptr.h
+----------------------------------
+statistics.h
+----------------------------------
+strtools.h
+----------------------------------
+tokens.h
+----------------------------------
+zcGMF_AbundanceIndex.h
+D 4.3 97/01/17 16:15:35 umbe 4 3	00002/00000/00014
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMF_CatchGraphs.h
+D 4.3 97/01/17 16:15:35 umbe 4 3	00002/00004/00037
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMF_InMortGraphs.h
+D 4.3 97/01/17 16:15:38 umbe 4 3	00002/00001/00034
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMH_HarvestGraphs.h
+D 4.3 97/01/17 16:15:41 umbe 4 3	00002/00001/00028
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMS_Abundance.h
+D 4.3 97/01/17 16:15:43 umbe 4 3	00002/00000/00014
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMS_CNRGraphs.h
+D 4.3 97/01/17 16:15:44 umbe 4 3	00002/00001/00025
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMS_CatchGraphs.h
+D 4.3 97/01/17 16:15:46 umbe 4 3	00002/00000/00040
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMS_Escapement.h
+D 4.3 97/01/17 16:15:47 umbe 4 3	00002/00000/00014
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMS_TrueTermRun.h
+D 4.3 97/01/17 16:15:48 umbe 4 3	00002/00000/00014
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGM_YearAgeGraph.h
+D 4.4 97/01/17 16:15:50 umbe 5 4	00003/00000/00020
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGM_YearGraph.h
+D 4.4 97/01/17 16:15:51 umbe 5 4	00003/00000/00018
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGraphMediator.h
+D 4.4 97/01/17 16:15:55 umbe 5 4	00002/00002/00084
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcMouseTool.h
+D 4.3 97/01/17 16:15:58 umbe 4 3	00002/00001/00033
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcMouseToolCrisp2.h
+D 4.3 97/01/17 16:15:59 umbe 4 3	00002/00001/00022
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+Args.cpp
+D 1.1 97/01/29 16:08:33 troy 1 0	00084/00000/00000
+MRs:
+COMMENTS:
+date and time created 97/01/29 16:08:33 by troy
+
+----------------------------------
+Bootstrap.cpp
+----------------------------------
+CNR.cpp
+----------------------------------
+Calendar.cpp
+----------------------------------
+Calibrator.cpp
+----------------------------------
+Ceiling.cpp
+----------------------------------
+CeilingPolicy.cpp
+D 4.2 97/04/02 11:32:38 troy 3 2	00001/00022/00046
+MRs:
+COMMENTS:
+cleaned up multi-ceiling policy concept
+
+----------------------------------
+Cohort.cpp
+----------------------------------
+Fishery.cpp
+----------------------------------
+FisheryManagement.cpp
+D 4.2 97/04/02 11:32:39 troy 3 2	00018/00010/00534
+MRs:
+COMMENTS:
+cleaned up multi-ceiling policy concept
+
+----------------------------------
+FisherySummary.cpp
+----------------------------------
+FisheryTactics.cpp
+----------------------------------
+FixedCombHarv.cpp
+----------------------------------
+FixedEscapementPolicy.cpp
+----------------------------------
+GUI.cpp
+----------------------------------
+Harvest.cpp
+D 4.3 97/01/27 16:31:22 troy 4 3	00005/00004/00385
+MRs:
+COMMENTS:
+format change
+
+----------------------------------
+HarvestList.cpp
+----------------------------------
+HarvestTactics.cpp
+----------------------------------
+HatchSurplusProduction.cpp
+----------------------------------
+HatcheryProduction.cpp
+----------------------------------
+HvSummary.cpp
+----------------------------------
+IOCrud.cpp
+D 4.2 97/04/02 11:38:32 troy 3 2	00015/00001/02569
+MRs:
+COMMENTS:
+new multiceiling policy approach
+
+----------------------------------
+MonteControl.cpp
+----------------------------------
+MonteDataItem.cpp
+----------------------------------
+MonteOutputItem.cpp
+----------------------------------
+MonteStockIntrfc.cpp
+----------------------------------
+MonteStockTracking.cpp
+----------------------------------
+MonteTrackingItem.cpp
+----------------------------------
+MultiCeilingPolicy.cpp
+D 4.2 97/04/02 11:32:37 troy 3 2	00021/00032/00086
+MRs:
+COMMENTS:
+cleaned up multi-ceiling policy concept
+
+----------------------------------
+NamedPtrVec.cpp
+----------------------------------
+NaturalProduction.cpp
+----------------------------------
+Parser.cpp
+----------------------------------
+Policy.cpp
+----------------------------------
+Production.cpp
+----------------------------------
+RandGen.cpp
+----------------------------------
+RandNorm.cpp
+----------------------------------
+ReadToken.cpp
+----------------------------------
+Sample.cpp
+----------------------------------
+Simulation.cpp
+----------------------------------
+State.cpp
+----------------------------------
+Stock.cpp
+----------------------------------
+StockCalib.cpp
+----------------------------------
+StockConfig.cpp
+----------------------------------
+StockSummary.cpp
+----------------------------------
+String.cpp
+----------------------------------
+Strtools.cpp
+----------------------------------
+Token.cpp
+----------------------------------
+ZasCalibration.cpp
+D 1.3 97/01/17 15:58:36 umbe 3 2	00003/00000/00147
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasDialogMedBPHR.cpp
+D 4.3 97/01/17 15:58:38 umbe 4 3	00002/00000/00110
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasDialogMedPNV.cpp
+D 4.3 97/01/17 15:58:39 umbe 4 3	00002/00000/00102
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasGraphMedMonteCarlo.cpp
+D 1.3 97/01/17 15:58:41 umbe 3 2	00003/00000/00110
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasGraphUpdateMed.cpp
+D 4.3 97/01/17 15:58:42 umbe 4 3	00002/00000/00019
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasMapMedCrispHarvest.cpp
+D 4.4 97/04/02 10:47:38 umbe 5 4	00001/00000/00259
+MRs:
+COMMENTS:
+new #inc needed
+
+D 4.3 97/01/17 15:58:44 umbe 4 3	00014/00012/00245
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasMediatorFactory.cpp
+D 4.4 97/01/17 15:58:46 umbe 5 4	00009/00000/00347
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasMonteCarlo.cpp
+D 4.4 97/01/17 15:58:48 umbe 5 4	00003/00000/00095
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogCeilings.cpp
+D 4.3 97/01/17 15:58:50 umbe 4 3	00003/00000/00039
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogENH.cpp
+D 4.3 97/01/17 15:58:52 umbe 4 3	00003/00000/00044
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogMedCeilings.cpp
+D 4.3 97/01/17 15:58:54 umbe 4 3	00003/00000/00188
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogMedENH.cpp
+D 4.3 97/01/17 15:58:55 umbe 4 3	00003/00000/00162
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogMedEV.cpp
+D 4.3 97/01/17 15:58:57 umbe 4 3	00003/00000/00105
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogMedHRS.cpp
+D 4.3 97/01/17 15:58:58 umbe 4 3	00003/00000/00125
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogMedIDL.cpp
+D 4.3 97/01/17 15:59:00 umbe 4 3	00003/00000/00105
+MRs:
+COMMENTS:
+Added non-GUI defines.
+
+----------------------------------
+ZasTabDialogMedMR.cpp
+D 1.2 97/01/17 16:01:52 umbe 2 1	00000/00000/00133
+MRs:
+COMMENTS:
+
+
+D 1.1 97/01/17 16:00:07 umbe 1 0	00133/00000/00000
+MRs:
+COMMENTS:
+date and time created 97/01/17 16:00:07 by umbe
+
+----------------------------------
+ZatCheckBoxGroup.cpp
+D 4.3 97/01/17 16:09:14 umbe 4 3	00003/00000/00073
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatDialogBase.cpp
+D 4.3 97/01/17 16:09:16 umbe 4 3	00003/00000/00182
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatDialogMedBase.cpp
+D 4.3 97/01/17 16:09:19 umbe 4 3	00003/00000/00232
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatEditSliderBase.cpp
+D 4.3 97/01/17 16:09:21 umbe 4 3	00003/00000/00051
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatEditSliderDouble.cpp
+D 4.3 97/01/17 16:09:22 umbe 4 3	00003/00000/00100
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatEditSliderLong.cpp
+D 4.3 97/01/17 16:09:24 umbe 4 3	00003/00000/00102
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatGraphDialog.cpp
+D 4.3 97/01/17 16:09:27 umbe 4 3	00003/00000/00555
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatGraphicPane.cpp
+D 1.2 97/01/17 16:13:57 umbe 2 1	00000/00000/00025
+MRs:
+COMMENTS:
+
+
+D 1.1 97/01/17 16:12:08 umbe 1 0	00025/00000/00000
+MRs:
+COMMENTS:
+date and time created 97/01/17 16:12:08 by umbe
+
+----------------------------------
+ZatImplicitScroller.cpp
+D 4.3 97/01/17 16:09:31 umbe 4 3	00003/00000/00071
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatMapMediator.cpp
+D 4.3 97/01/17 16:09:33 umbe 4 3	00403/00372/00000
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatMapPane.cpp
+D 4.3 97/01/17 16:09:35 umbe 4 3	00002/00004/00138
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatMercatorTransform.cpp
+D 1.2 97/01/17 16:09:36 umbe 2 1	00002/00000/00082
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatPointTransform.cpp
+D 1.2 97/01/17 16:09:38 umbe 2 1	00002/00000/00013
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatRowColumnBox.cpp
+D 4.3 97/01/17 16:09:39 umbe 4 3	00002/00001/00078
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatTabDialog.cpp
+D 4.3 97/01/17 16:09:41 umbe 4 3	00002/00000/00117
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+ZatTabDialogMed.cpp
+D 4.3 97/01/17 16:09:42 umbe 4 3	00002/00000/00049
+MRs:
+COMMENTS:
+Added non-gui flag _ZAPP_GUI_ allowing compile time removal of the graphical interface.
+
+----------------------------------
+base_tokens.cpp
+----------------------------------
+c2main.cpp
+D 4.5 97/01/30 12:20:03 troy 6 5	00432/00406/00000
+MRs:
+COMMENTS:
+fixed for non-GUI compilation
+
+----------------------------------
+clog.cpp
+----------------------------------
+command.cpp
+----------------------------------
+datFisheryCeilings.cpp
+----------------------------------
+datIntDouble.cpp
+----------------------------------
+debug.cpp
+----------------------------------
+dir.cpp
+----------------------------------
+engine.cpp
+D 4.3 97/04/02 11:32:40 troy 4 3	00022/00025/00033
+MRs:
+COMMENTS:
+cleaned up multi-ceiling policy concept
+
+D 4.2 97/03/05 11:08:45 troy 3 2	00005/00005/00053
+MRs:
+COMMENTS:
+cleanup
+
+----------------------------------
+globals.cpp
+----------------------------------
+idcBPHR.cpp
+D 4.2 97/01/27 16:14:35 troy 3 2	00001/00001/00075
+MRs:
+COMMENTS:
+reduce linkages of includes
+
+----------------------------------
+idcCeilings.cpp
+----------------------------------
+idcENH.cpp
+----------------------------------
+idcEV.cpp
+----------------------------------
+idcHRS.cpp
+D 4.2 97/01/27 16:14:35 troy 3 2	00001/00000/00077
+MRs:
+COMMENTS:
+reduce linkages of includes
+
+----------------------------------
+idcIDL.cpp
+----------------------------------
+idcMR.cpp
+D 1.1 97/01/17 16:24:38 umbe 1 0	00073/00000/00000
+MRs:
+COMMENTS:
+date and time created 97/01/17 16:24:38 by umbe
+
+----------------------------------
+idcPNV.cpp
+----------------------------------
+implicit_base.cpp
+----------------------------------
+include.cpp
+----------------------------------
+init.cpp
+----------------------------------
+log.cpp
+D 4.2 97/01/30 12:20:35 troy 3 2	00003/00000/00348
+MRs:
+COMMENTS:
+default log messages to cerr
+
+----------------------------------
+mapController.cpp
+D 4.4 97/01/28 17:07:50 troy 6 4	00000/00007/00134
+MRs:
+COMMENTS:
+removed zapp include
+
+D 4.3 97/01/27 17:18:14 umbe 4 3	00001/00002/00140
+MRs:
+COMMENTS:
+format change
+
+----------------------------------
+mapObject.cpp
+D 4.2 97/01/27 17:19:35 umbe 3 2	00017/00008/00054
+MRs:
+COMMENTS:
+improved intersection checking
+
+----------------------------------
+monte_tokens.cpp
+----------------------------------
+parseutil.cpp
+----------------------------------
+resfile.cpp
+ERROR [SCCS/s.resfile.cpp]: `SCCS/s.resfile.cpp' nonexistent (ut4)
+----------------------------------
+simple_output.cpp
+----------------------------------
+statistics.cpp
+----------------------------------
+version.cpp
+----------------------------------
+zcGMF_AbundanceIndex.cpp
+D 4.2 97/01/17 16:15:34 umbe 3 2	00002/00000/00046
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMF_CatchPreterm.cpp
+D 4.2 97/01/17 16:15:36 umbe 3 2	00002/00000/00057
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMF_CatchTerminal.cpp
+D 4.2 97/01/17 16:15:37 umbe 3 2	00002/00000/00061
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMF_CatchTotal.cpp
+D 4.2 97/01/17 16:15:37 umbe 3 2	00002/00000/00057
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMF_InMortLegal.cpp
+D 4.2 97/01/17 16:15:39 umbe 3 2	00002/00000/00043
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMF_InMortSublegal.cpp
+D 4.2 97/01/17 16:15:39 umbe 3 2	00002/00000/00044
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMF_InMortTotal.cpp
+D 4.3 97/01/17 16:15:40 umbe 4 3	00002/00000/00045
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMH_HarvestGraphs.cpp
+D 4.2 97/01/17 16:15:41 umbe 3 2	00002/00000/00123
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMS_Abundance.cpp
+D 4.2 97/01/17 16:15:42 umbe 3 2	00002/00000/00062
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMS_CNRGraphs.cpp
+D 4.2 97/01/17 16:15:44 umbe 3 2	00002/00000/00061
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMS_CatchGraphs.cpp
+D 4.2 97/01/17 16:15:45 umbe 3 2	00002/00000/00082
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMS_Escapement.cpp
+D 4.2 97/01/17 16:15:46 umbe 3 2	00002/00000/00059
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGMS_TrueTermRun.cpp
+D 4.2 97/01/17 16:15:47 umbe 3 2	00002/00000/00059
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGM_YearAgeGraph.cpp
+D 4.3 97/01/17 16:15:49 umbe 4 3	00002/00000/00105
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGM_YearGraph.cpp
+D 4.3 97/01/17 16:15:50 umbe 4 3	00002/00000/00099
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcGraphMediator.cpp
+D 4.4 97/01/17 16:15:54 umbe 5 4	00002/00000/00216
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcMouseTool.cpp
+D 4.2 97/01/17 16:15:57 umbe 3 2	00002/00000/00030
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+zcMouseToolCrisp2.cpp
+D 4.2 97/01/17 16:15:58 umbe 3 2	00004/00000/00062
+MRs:
+COMMENTS:
+Added non-GUI preprocessor define
+
+----------------------------------
+file.c
+D 4.2 97/01/28 16:39:31 troy 7 6	00003/00003/00375
+MRs:
+COMMENTS:
+update for ANSI >> semantics
+
+----------------------------------
+help.c
+----------------------------------

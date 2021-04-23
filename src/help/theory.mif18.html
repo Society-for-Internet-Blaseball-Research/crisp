@@ -1,0 +1,171 @@
+<html><head><title>Chinook Non-Retention Mortality</title></head>
+<body>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+<hr>
+ 
+<a name="673393">
+<h2>  Chinook Non-Retention Mortality</h2>
+</a><a name="673394">
+Several of the model fisheries that are subject to chinook catch ceilings, or quotas, also catch other species of salmon (coho, sockeye, pink, and chum). As chinook abundances increase or catch ceilings are reduced, the time required to catch the ceiling would be expected to be shortened. In order to provide continued access to other species, it is assumed that managers would permit the fishery to continue, but retention of chinook salmon would be prohibited. Such fisheries are called chinook non-retention, or CNR, fisheries, and are listed below:<p>
+</a><ul><a name="673395">
+<li>Alaska troll
+</a><a name="673396">
+<li>Northern BC troll
+</a><a name="673397">
+<li>Central BC troll
+</a><a name="673398">
+<li>West Coast Vancouver Island troll
+</a><a name="673399">
+<li>Strait of Georgia troll
+</a><a name="673400">
+<li>Alaska net
+</a><a name="673401">
+<li>Strait of Georgia sport.
+</a></ul>
+
+<a name="673402">
+In each CNR fishery, the selectivity of the fishing gear for legal and sublegal size chinook salmon may decrease in response to changes in fleet behavior. These selectivities never approach zero however, and some of the chinook salmon caught and released would die, resulting in CNR mortalities. The model assumes that the shaker mortality rate in the legal fishery also applies to the CNR fishery. Note that since chinook of all sizes must be released in CNR fisheries, there are both legal and sublegal CNR mortalities. Thus, an important model assumption is that within each CNR fishery, all chinook have the same shaker mortality rate, regardless of size.<p>
+</a>
+
+<a name="673403">
+The model provides three alternative methods of computing CNR mortalities. The following sections describes the computations in detail.<p>
+</a>
+<hr>
+<a href="toc.html">[Chapter Contents]</a>
+
+<!Page "673404">
+
+<a href="toc.html">[Chapter Contents]</a>
+<hr>
+<a name="673404">
+<h4>CNR Mortality Computation Overview</h4></a><p>
+<a name="673405">
+The amount of fishing time during which chinook retention is prohibited depends on the abundance of other species. At this time, the model does not incorporate abundances and management regimes for other salmon species. However, it does use data from CNR fisheries to estimate CNR mortalities when available.<p>
+</a>
+
+<a name="673406">
+During the calibration period, the model estimates CNR mortalities by using either (1) direct observations of legal and sublegal chinook encounter rates in CNR fisheries or (2) season lengths for directed and CNR fisheries. When forecasting beyond the calibration period, the model uses relative harvest rates compared to base period harvest rates (during which there were no, or relatively few, CNR mortalities) to estimate CNR mortalities.<p>
+</a>
+
+<a name="673407">
+Although there are some observations on chinook encounters in CNR fisheries, there are no data on how those encounters are distributed among stock/age cohorts. In the absence of such data, each CNR method assumes that the ratios between the CNR mortalities (legal and sublegal) and mortalities in the legal fisheries (legal and sublegal) are equal for all stock/age cohorts in a fishery, as follows:<p>
+</a><a name="673408"> <img src="theory.mif.anc34.gif"></a> <img src="sp.gif"><b>[4.26]</b> <p>
+</ul>
+<a name="673410"> <img src="theory.mif.anc35.gif"></a> <img src="sp.gif"><b>[4.27]</b> <p>
+<a name="673411">
+where<p>
+</a><ul><a name="673412">
+<li><em>CNRSublegalCat(s,a,f)</em> = sublegal CNR mortalities for stock <em>s</em>, age <em>a</em>, in fishery <em>f</em>
+</a><a name="673413">
+<li><em>Shakers(s,a,f)</em> = shaker mortalities for stock <em>s</em>, age <em>a</em>, in fishery <em>f</em> computed by the model
+</a><a name="673414">
+<li><em>CNRLegalCat(s,a,f)</em> = legal CNR mortalities for stock <em>s</em>, age <em>a</em>, in fishery <em>f</em>
+</a><a name="673415">
+<li><em>MDLCohortCat(s,a,f)</em> = legal preterminal or terminal catch of stock <em>s</em>, age <em>a</em>, in fishery <em>f</em> computed by the model, depending on whether preterminal or terminal CNR mortalities are being computed.
+</a></ul>
+
+<a name="673416">
+Once the ratios are determined, the sublegal ratio is multiplied by the shakers to get the sublegal CNR mortalities and the legal ratio is multiplied by the legal catch and the shaker mortality rate to get the legal CNR mortalities (remember, the <em>Shakers()</em>s already have the shaker mortality rate applied whereas the <em>MDLCohortCat()</em>s do not). Again, note the assumption that the shaker mortality rate applies to all sizes. Rearranging terms, we have:<p>
+</a><a name="673417">
+<b><em>CNRSublegalCat(s,a,f)</em> = <em>CNRSublegalRatio(f) Shakers(s,a,f)</em></b></a> <img src="sp.gif"><b>[4.28]</b> <p>
+
+<a name="673419">
+<b><em>CNRLegalCat(s,a,f)</em> = <em>CNRLegalRatio(f) MDLCohortCat(s,a,f) ShakMortRte(f)</em></b></a> <b>[4.29]</b> <p>
+
+<a name="673421">
+Each method uses a different technique for computing the legal and sublegal ratios. <i>Fig. 4.9</i> illustrates the types of data used by each CNR computation method.<p>
+</a>
+
+<a name="673422">
+The <em>RelHR</em>s in <i>Fig. 4.9</i> are generated by the model, as described in the Ceiling Management section. They are the ratios that adjust the catches in ceilinged fisheries to match the specified catch ceilings (remember that all CNR fisheries are ceilinged fisheries).<p>
+</a>
+
+<a name="673423">
+Equations <i>(4.30)</i> and <i>(4.31)</i> show the assumed relationships on which the actual calculations are based.<p>
+</a></ul>
+<a name="673425"> <img src="theory.mif.anc40.gif"></a> <img src="sp.gif"><b>[4.30]</b> <p>
+
+<a name="673427"> <img src="theory.mif.anc41.gif"></a> <img src="sp.gif"><b>[4.31]</b> <p>
+
+<a name="673428">
+ 
+<a name="673037">
+<b>Fig. 4.9</b>  Variables and data sources used in calculating CNR mortalities.
+</a>
+<br><img src="fig49.gif">
+<p>
+</a>
+<hr>
+<a href="toc.html">[Chapter Contents]</a>
+
+<!Page "673430">
+
+<a href="toc.html">[Chapter Contents]</a>
+<hr>
+
+<a name="673430">
+<h4>Harvest Ratio Method</h4></a><p>
+<a name="673431">
+This method estimates CNR mortality through <em>RelHR(f)</em> factors generated by the model for each ceilinged fishery <em>f</em>. These factors represent the ratio between harvest rates associated with a catch ceiling and base period rates. Consequently, <em>RelHR(f)</em>s can be considered as surrogate indicators for season length in fishery <em>f</em>. If the harvest ratio method is selected, the model estimates CNR mortality of legals and sublegals by multiplying mortalities associated with the catch ceiling by the selectivity scalars and mortality rates appropriate for the gear involved. This method is generally applied when no other data are available or when projecting regimes into the future. Ratios are calculated as follows:<p>
+</a>
+
+<a name="673432"> <img src="eq432.gif"></a> <img src="sp.gif"><b>[4.32]</b> <p>
+
+<a name="673434"> <img src="eq433.gif"></a> <img src="sp.gif"><b>[4.33]</b> <p>
+
+<a name="673194">
+The <em>CNRSublegalSel(f)</em>s and <em>CNRLegalSel(f)</em>s are selectivity scalars used to compensate for changes in fleet behavior during CNR restrictions. Scalar values are all relative to 1.0 (no change). For example, setting <em>CNRLegalSel(f)</em> = 0.34 indicates a 66% reduction in impacts on legal-sized chinook during CNR fisheries compared to fisheries allowing chinook retention.<p>
+</a>
+<hr>
+<a href="toc.html">[Chapter Contents]</a>
+
+<!Page "673436">
+
+<a href="toc.html">[Chapter Contents]</a>
+<hr>
+
+<a name="673436">
+<h4>Season Length Method</h4></a><p>
+<a name="673437">
+This method uses the ratio of the regular season length to the CNR season length to estimate CNR mortalities.<p>
+</a>
+<a name="673439"> 
+<img src="eq434.gif"></a><img src="sp.gif"><b>[4.34]</b> <p>
+
+<a name="673441"> <img src="eq435.gif"></a> <img src="sp.gif"><b>[4.35]</b> <p>
+<a name="673442">
+where<p>
+</a><ul><a name="673443">
+<li><em>CNRSeasonLen(f)</em> = length of the CNR fishery season (in days) for fishery <em>f</em>
+</a><a name="673444">
+<li><em>LegalSeasonLen(f) </em>= length of the legal fishery season (in days) for fishery <em>f</em>.
+</a></ul>
+<hr>
+<a href="toc.html">[Chapter Contents]</a>
+
+<!Page "673445">
+
+<a href="toc.html">[Chapter Contents]</a>
+<hr>
+
+<a name="673445">
+<h4>Reported Encounter Method</h4></a><p>
+<a name="673446">
+This method requires direct observations of encounters of legal and sublegal (shaker) chinook during CNR fisheries and knowledge of the chinook catch during the directed fishery. From these observations one can compute the ratios of legal chinook encountered during CNR fisheries to the catch during the directed fishery. Same for the sublegal ratio. The predicted directed chinook catch from the model is then multiplied by these ratios to get predicted legal and sublegal CNR mortalities.<p>
+</a>
+<a name="673448"> <img src="eq436.gif"></a> <img src="sp.gif"><b>[4.36]</b> <p>
+
+<a name="673450"> <img src="eq437.gif"></a> <img src="sp.gif"><b>[4.37]</b> <p>
+<a name="673451">
+where<p>
+</a><ul><a name="673452">
+<li><em>RptSublegalEnc(f)</em> = reported encounters of sublegal-sized chinook (numbers of fish) in fishery <em>f</em> when it is illegal to retain chinook
+</a><a name="675625">
+<li><em>RptLegalEnc(f)</em> = reported encounters of legal-sized chinook (numbers of fish) in fishery <em>f</em> when it is illegal to retain chinook.
+</a></ul>
+<hr>
+ 
+<a href="toc.html">[Chapter Contents]</a> 
+</body>
+</html>

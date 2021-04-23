@@ -1,0 +1,152 @@
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Args.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Calendar.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Calibrator.cpp
+template manager : Warning: No valid template database available.  Creating default repository "Templates.DB".
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Ceiling.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/CeilingPolicy.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/CNR.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Cohort.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Fishery.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/FisheryManagement.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/FisherySummary.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/FisheryTactics.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/FixedCombHarv.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/FixedEscapementPolicy.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/GUI.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Harvest.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/HarvestList.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/HarvestTactics.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Bootstrap.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/HatchSurplusProduction.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/HatcheryProduction.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/HvSummary.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/IOCrud.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/MonteDataItem.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/MonteControl.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/MonteOutputItem.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/MonteTrackingItem.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/MonteStockTracking.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/MonteStockIntrfc.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/MultiCeilingPolicy.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/NaturalProduction.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Parser.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Policy.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Production.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/RandGen.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/RandNorm.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ReadToken.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Simulation.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/State.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Stock.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/StockCalib.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/StockConfig.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/StockSummary.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/String.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Sample.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Token.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/base_tokens.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/monte_tokens.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/clog.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/command.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/debug.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/dir.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/engine.cpp
+acc -Xs -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O  -target sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/file.c
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/globals.cpp
+acc -Xs -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O  -target sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/help.c
+"../src/help.c", line 584: warning: empty translation unit
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/include.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/init.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/log.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/parseutil.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/simple_output.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/statistics.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/version.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/c2main.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/datFisheryCeilings.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/datIntDouble.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/idcBPHR.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/idcCeilings.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/idcENH.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/idcEV.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/idcHRS.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/idcIDL.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/idcPNV.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/idcMR.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/implicit_base.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/Strtools.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/mapController.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/mapObject.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasDialogMedBPHR.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasDialogMedPNV.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasGraphUpdateMed.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasMediatorFactory.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasMonteCarlo.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasTabDialogCeilings.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasTabDialogENH.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasTabDialogMedCeilings.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasTabDialogMedENH.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasTabDialogMedMR.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasTabDialogMedEV.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasTabDialogMedHRS.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasTabDialogMedIDL.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatPointTransform.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatMercatorTransform.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatCheckBoxGroup.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatDialogBase.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatDialogMedBase.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatEditSliderBase.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatEditSliderDouble.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatEditSliderLong.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatGraphDialog.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatImplicitScroller.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatRowColumnBox.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatTabDialog.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatTabDialogMed.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatGraphicPane.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGM_YearGraph.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGM_YearAgeGraph.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGMF_AbundanceIndex.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGMF_CatchPreterm.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGMF_CatchTerminal.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGMF_CatchTotal.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGMF_InMortLegal.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGMF_InMortSublegal.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGMF_InMortTotal.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGMH_HarvestGraphs.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGMS_Abundance.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGMS_CatchGraphs.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGMS_CNRGraphs.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGMS_Escapement.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGMS_TrueTermRun.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcGraphMediator.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatMapMediator.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZatMapPane.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcMouseTool.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/zcMouseToolCrisp2.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasMapMedCrispHarvest.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasGraphMedMonteCarlo.cpp
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/ZasCalibration.cpp
+cd ../src; \
+    /util2/zapp/bin/rct -I/util2/zapp -I/util2/zapp/zapph crisp2.rc
+zApp Resource translator v1.3
+(C) Copyright 1993-1995 Rogue Wave Software
+CC   -sun4 -c -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -O ../src/resfile.cpp
+purelink CC -DSUNOS4 -DSUN_CC -D_ZAPP_GUI_ -sun4 -O -o crisp2 \
+	Args.o Calendar.o Calibrator.o Ceiling.o CeilingPolicy.o  CNR.o Cohort.o Fishery.o FisheryManagement.o FisherySummary.o  FisheryTactics.o FixedCombHarv.o FixedEscapementPolicy.o GUI.o  Harvest.o HarvestList.o HarvestTactics.o Bootstrap.o  HatchSurplusProduction.o HatcheryProduction.o  HvSummary.o IOCrud.o  MonteDataItem.o MonteControl.o MonteOutputItem.o  MonteTrackingItem.o MonteStockTracking.o MonteStockIntrfc.o  MultiCeilingPolicy.o NaturalProduction.o Parser.o Policy.o  Production.o  RandGen.o RandNorm.o ReadToken.o Simulation.o State.o  Stock.o StockCalib.o StockConfig.o StockSummary.o  String.o Sample.o Token.o   base_tokens.o monte_tokens.o   clog.o command.o debug.o dir.o engine.o file.o  globals.o help.o include.o init.o log.o  parseutil.o simple_output.o statistics.o version.o   c2main.o datFisheryCeilings.o datIntDouble.o  idcBPHR.o idcCeilings.o idcENH.o idcEV.o  idcHRS.o idcIDL.o idcPNV.o idcMR.o  implicit_base.o Strtools.o  mapController.o mapObject.o  ZasDialogMedBPHR.o ZasDialogMedPNV.o ZasGraphUpdateMed.o  ZasMediatorFactory.o ZasMonteCarlo.o  ZasTabDialogCeilings.o ZasTabDialogENH.o  ZasTabDialogMedCeilings.o ZasTabDialogMedENH.o ZasTabDialogMedMR.o  ZasTabDialogMedEV.o ZasTabDialogMedHRS.o ZasTabDialogMedIDL.o  ZatPointTransform.o ZatMercatorTransform.o  ZatCheckBoxGroup.o ZatDialogBase.o ZatDialogMedBase.o  ZatEditSliderBase.o ZatEditSliderDouble.o ZatEditSliderLong.o  ZatGraphDialog.o ZatImplicitScroller.o ZatRowColumnBox.o  ZatTabDialog.o ZatTabDialogMed.o ZatGraphicPane.o  zcGM_YearGraph.o zcGM_YearAgeGraph.o  zcGMF_AbundanceIndex.o zcGMF_CatchPreterm.o zcGMF_CatchTerminal.o  zcGMF_CatchTotal.o  zcGMF_InMortLegal.o zcGMF_InMortSublegal.o zcGMF_InMortTotal.o  zcGMH_HarvestGraphs.o zcGMS_Abundance.o zcGMS_CatchGraphs.o  zcGMS_CNRGraphs.o  zcGMS_Escapement.o zcGMS_TrueTermRun.o zcGraphMediator.o  ZatMapMediator.o ZatMapPane.o zcMouseTool.o zcMouseToolCrisp2.o  ZasMapMedCrispHarvest.o ZasGraphMedMonteCarlo.o ZasCalibration.o  resfile.o -I/util2/rogue -I/util2/zapp -I/usr/X11R6/include -L/util2/rogue/lib -L/util2/zapp/lib -L/usr/X11R6/lib -lzip -lzhelp -lzApp -lsunrwtool -lXm -lXt -lXmu -lXext -lX11 -lm 
+PureLink 1.2.2 SunOS 4.1, Copyright (C) 1992-1993, 1995-1996 Pure Software Inc. All rights reserved. 
+PureLink licensed to UNIVERSITY OF WASHINGTON
+Linking(incremental #2)...
+PureLink1.2.2: Incremental Limit: Can't be incremental because can't
+open previous executable file:
+	crisp2.
+Perhaps it is being deleted, renamed, or moved in your Makefile link rule.
+Consider changing that rule, or using the PureLink option:
+	-no-hardlink=no (same as -hardlink=yes).
+See the manual for more information.
+PureLink1.2.2: Performing initial link because of incremental limit...
+PureLink 1.2.2 SunOS 4.1, Copyright (C) 1992-1993, 1995-1996 Pure Software Inc. All rights reserved. 
+PureLink licensed to UNIVERSITY OF WASHINGTON
+Linking(initial)... 313 files in 19.2 seconds
+cd ../src/help; make crisp2.zhp ZAPPDIR=/util2/zapp
+`crisp2.zhp' is up to date.

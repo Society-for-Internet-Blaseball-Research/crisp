@@ -1,0 +1,128 @@
+1979,START YEAR
+1994,END YEAR
+1,FISHERY INDEX
+0.34,1, LEGAL SUBLEGAL SELECTIVITY
+0,NO CNR encounters/year = 1979
+0,NO CNR encounters/year = 1980
+1,2 ,18225  ,18578  ,248000   ,ShakCalcMethd/External estimate of CNR encounters/year = 1981
+1,2 ,89100  ,90827  ,242000   ,ShakCalcMethd/External estimate of CNR encounters/year = 1982
+1,2 ,74925  ,76378  ,271000   ,ShakCalcMethd/External estimate of CNR encounters/year = 1983
+1,2 ,87075  ,88763  ,236000   ,ShakCalcMethd/External estimate of CNR encounters/year = 1984
+1,2 ,118191 ,131011 ,217000   ,ShakCalcMethd/External estimate of CNR encounters/year = 1985
+1,2 ,78763  ,104820 ,236000   ,ShakCalcMethd/External estimate of CNR encounters/year = 1986
+1,2 ,191956 ,171156 ,242300   ,ShakCAlcMethd/External estimate of CNR encounters/year = 1987
+1,2 ,60930  ,91200  ,231300   ,ShakCAlcMethd/External estimate of CNR encounters/year = 1988
+1,2 ,150600 ,162900 ,235800   ,ShakCAlcMethd/External estimate of CNR encounters/year = 1989
+1,2 ,121258 ,143330 ,288000   ,ShakCAlcMethd/External estimate of CNR encounters/year = 1990
+1,2 ,184901 ,218558 ,264000   ,ShakCAlcMethd/External estimate of CNR encounters/year = 1991
+1,2 ,232333 ,274624 ,184000   ,ShakCAlcMethd/External estimate of CNR encounters/year = 1992
+1,0,CNR RT 1993
+1,0,CNR RT 1994
+2,FISHERY INDEX
+0.2,  1, LEGAL SUBLEGAL SELECTIVITY
+0,          NO CNR encounters/year = 1979
+0,          NO CNR encounters/year = 1980
+0,          NO CNR encounters/year = 1981
+0,          NO CNR encounters/year = 1982
+0,          NO CNR encounters/year = 1983
+0,          NO CNR encounters/year = 1984
+0,          NO CNR encounters/year = 1985
+0,          NO CNR encounters/year = 1986
+1,1,60,9,    ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1987
+1,1,43,17,    ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1988
+1,1,66,9,    ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1989
+1,1,18964,6431,    ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1990
+1,1,26754,3042,    ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1991
+1,1,15709,5610,    ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1992
+1,0,CNR RT 1993
+1,0,CNR RT 1994
+3,FISHERY INDEX
+0.2, 1, LEGAL SUBLEGAL SELECTIVITY
+0,          NO CNR encounters/year = 1979
+0,          NO CNR encounters/year = 1980
+0,          NO CNR encounters/year = 1981
+0,          NO CNR encounters/year = 1982
+0,          NO CNR encounters/year = 1983
+0,          NO CNR encounters/year = 1984
+0,          NO CNR encounters/year = 1985
+0,          NO CNR encounters/year = 1986
+1,1,60,9,    ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1987
+1,1,43,17,    ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1988
+1,1,66,9,    ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1989
+1,1,6032,1591,    ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1990
+1,1,4891, 641,    ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1991
+1,1,5717,1070,    ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1992
+1,0,CNR RT 1993
+1,0,CNR RT 1994
+4,FISHERY INDEX
+0.34,  1, LEGAL SUBLEGAL SELECTIVITY
+0,          NO CNR encounters/year = 1979
+0,          NO CNR encounters/year = 1980
+0,          NO CNR encounters/year = 1981
+0,          NO CNR encounters/year = 1982
+0,          NO CNR encounters/year = 1983
+0,          NO CNR encounters/year = 1984
+1,1, 105,5, ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1985
+0,          No CNR/year = 1986
+1, 1,47,7, ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1987
+1, 1,55,15, ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1988
+0,          NO CNR encounters/year = 1989
+0,          NO CNR encounters/year = 1990
+0,          NO CNR encounters/year = 1991
+1,0,CNR RT 1992
+1,0,CNR RT 1993
+1,0,CNR RT 1994
+6,FISHERY INDEX
+0.34,  1, LEGAL SUBLEGAL SELECTIVITY
+0,          NO CNR encounters/year = 1979
+0,          NO CNR encounters/year = 1980
+0,          NO CNR encounters/year = 1981
+0,          NO CNR encounters/year = 1982
+0,          NO CNR encounters/year = 1983
+0,          NO CNR encounters/year = 1984
+1,2,12412,12184,52000   ,ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/Actual Catch/year = 1985
+1,2,5151,17834,44000   ,ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/Actual Catch/year = 1986
+0,          NO CNR encounters/year = 1987
+0,          NO CNR encounters/year = 1988
+0,          NO CNR encounters/year = 1989
+0,          NO CNR encounters/year = 1990
+1,1,4589,1867,    ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1991
+1,1,3744,2414,    ShakCalcMethd/Legal Season Length(days)/CNR Season Length(days)/year = 1991
+1,0,CNR RT 1993
+1,0,CNR RT 1994
+7,FISHERY INDEX
+0.34,1, LEGAL SUBLEGAL SELECTIVITY
+0, nO CNR encounters/year = 1979
+0, NO CNR encounters/year = 1980
+0, NO CNR encounters/year = 1981
+0, NO CNR encounters/year = 1982
+0, NO CNR encounters/year = 1983
+0, NO CNR encounters/year = 1984
+1, 2 ,12352  ,60506  ,36000   ,ShakCalcMethd/External estimate of CNR encounters/year = 1985
+1, 2 ,13773  ,26850  ,22000   ,ShakCalcMethd/External estimate of CNR encounters/year = 1986
+1, 2 ,4497   ,13923  ,15400   ,ShakCalcMethd/External estimate of CNR encounters/year = 1987
+1, 2 ,9429   ,31184  ,22600   ,ShakCalcMethd/External estimate of CNR encounters/year = 1988
+1, 2 ,10096  ,33392  ,24200   ,ShakCalcMethd/External estimate of CNR encounters/year = 1989
+1, 2 ,11760  ,38640  ,28000   ,ShakCalcMethd/External estimate of CNR encounters/year = 1990
+1, 2 ,13860  ,45540  ,33000   ,ShakCalcMethd/External estimate of CNR encounters/year = 1991
+1,0,CNR RT 1992
+1,0,CNR RT 1993
+1,0,CNR RT 1994
+24,FISHERY INDEX
+0.34,  1, LEGAL SUBLEGAL SELECTIVITY
+0,          NO CNR encounters/year = 1979
+0,          NO CNR encounters/year = 1980
+0,          NO CNR encounters/year = 1981
+0,          NO CNR encounters/year = 1982
+0,          NO CNR encounters/year = 1983
+0,          NO CNR encounters/year = 1984
+0,          NO CNR encounters/year = 1985
+0,          NO CNR encounters/year = 1986
+0,          NO CNR encounters/year = 1987
+0,          NO CNR encounters/year = 1988
+0,          NO CNR encounters/year = 1989
+0,          NO CNR encounters/year = 1990
+0,          NO CNR encounters/year = 1991
+1,0,CNR RT 1992
+1,0,CNR RT 1993
+1,0,CNR RT 1994

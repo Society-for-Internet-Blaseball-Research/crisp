@@ -1,0 +1,30 @@
+<html><head><title>4.6 -  In-River Management</title></head>
+<body>
+ 
+<a href="toc.html">[Chapter Contents]</a> 
+
+<hr>
+ 
+<a name="675634">
+<h1> 4.6 -  In-River Management</h1>
+</a><a name="675649">
+As described in the previous section, the primary management tool of the Pacific Salmon Commission is the establishment of catch ceilings for fisheries harvesting stocks originating from both the US and Canada. These fisheries are mostly preterminal fisheries, and thus are first in line in the long gauntlet of fisheries harvesting each stock. The total harvest on a stock is fine-tuned via in-river management of the last fisheries to harvest each stock.<p>
+</a><a name="675615">
+The most common strategy for in-river management is fixed escapement. An escapement goal is established for one or more stocks and catches are adjusted to meet the escapement goal. The original PSC Chinook Model did not include this type of management option. It was added to the CRiSP Harvest model to better simulate management of Columbia River fisheries which are governed by the court ordered Columbia River Fish Management Plan (<em>US vs Oregon</em>).<p>
+</a><a name="674688">
+For fall chinook salmon, the Columbia River Fish Management Plan (FMP) established the following spawning escapement goals: "40,000 naturally spawning Columbia River upriver bright (URB) adults above McNary Dam. The goal for the developing Snake River fall chinook program shall be addressed in the Snake River (mainstem) Subbasin plan. Bonneville Pool hatchery (BPH) brood stock necessary to meet hatchery program production requirements." The present goal is a combined escapement of 45,000 fall chinook salmon above McNary dam.<p>
+</a><a name="674696">
+The PSC Chinook Model has two fisheries that target Columbia River stocks-Col R Sport and Col R Net. The Col R Sport fishery operates primarily at the river mouth and harvests significant numbers of fish from stocks outside the Columbia River, including Georgia Strait stocks. The Col R Net fishery harvests no fish that spawn outside the Columbia River basin. Both fisheries were originally modeled as fixed harvest rate fisheries in which stock/age/fishery specific harvest rates are fixed within each year, but can be modified from year to year by changing the stock/fishery specific fishery policy (FP) scalars. Under this method, escapements vary from year to year. The problem with this approach is that there is no dynamic mechanism for adjusting harvest rates to meet a fixed escapement goal.<p>
+</a><a name="674702">
+A more realistic modeling approach would establish escapement goals for each year and adjust catches to meet those goals. The net affect is that the harvest rates on each stock will change dynamically from year to year as relative stock abundances change. This is especially important for analyzing recovery options for the listed Snake River Fall Chinook stock, as simulated by the LYF stock. Both the Col R Sport and Net fisheries harvest both the URB and LYF stocks. Thus, if the URB stock increases over time and a fixed escapement policy is implemented, the harvest rate on the weaker LYF stock will increase over time. This type of dymanic behavior cannot be modeled with a stock/fishery specific fixed harvest rate policy.<p>
+</a><a name="675773">
+A second type of in-river management is combined fixed harvest rate strategy. Under this type of policy, a constant fraction of the combined cohorts (from one or more stocks) entering the river are harvested each year. Under this type of policy, the harvest rate on each cohort changes each year as the relative abundance of the cohorts changes. In terms of the computation algorithms, this type of policy is nearly identical to that of fixed escapement. Once one knows the total number of fish available for in-river harvest and the desired combined harvest rate, one also knows the desired combined fixed escapement level.<p>
+</a><a name="675029">
+In CRiSP Harvest, fisheries managed under a fixed escapement and fixed harvest rate policies are treated as a special type of terminal fishery called a river fishery. A control statement in the <b><code>*.opt</code></b> file indicates if any fisheries are to be designated river fisheries and provides the name of a <b><code>*.riv</code></b> file that gives specific information about the desired policies.<p>
+</a>
+<hr>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+
+</body>
+</html>

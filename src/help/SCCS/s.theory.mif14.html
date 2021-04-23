@@ -1,0 +1,62 @@
+h37616
+s 00000/00000/00046
+d D 1.2 97/12/17 10:44:22 camel 2 1
+c format changes
+e
+s 00046/00000/00000
+d D 1.1 97/09/12 14:49:49 mpmoore 1 0
+c date and time created 97/09/12 14:49:49 by mpmoore
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>Preterminal vs Terminal Fishing Mortalities</title></head>
+<body>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+
+<hr>
+ 
+<a name="673338">
+<h2>  Preterminal vs Terminal Fishing Mortalities</h2>
+</a><a name="673339">
+All fishing mortalities are computed at the stock/age/fishery level, and thus the model must keep track of which stock/age/fishery mortalities are to be considered preterminal and which terminal. The preterminal/terminal designations are determined by three variables entered at startup and do not change throughout the simulation time period.<p>
+</a>
+
+<a name="673340">
+Fisheries that harvest only mature individuals from certain stocks are designated "terminal" for those stocks. For example, the Columbia River net fishery is considered terminal for all ages of all stocks of Columbia River origin. Some fisheries are terminal for some stocks and preterminal for others. For example, the Columbia River sport fishery is considered terminal for Columbia River stocks, but preterminal for the Oregon coastal stocks, which it also harvests.<p>
+</a>
+
+<a name="673341">
+On startup, the model reads in a two dimensional array of boolean characters, called <em>TermPt(s,f)</em> for "Terminal Pointer", to identify stock/fishery combinations for which all ages are to be considered terminal. Terminal fisheries and the stocks they harvest by geographic region are listed in <i>Table 4.2</i>.<p>
+</a>
+
+<a name="673342">
+All troll fisheries are considered preterminal for all ages of all stocks they harvest. Net fisheries are more complicated. Some ocean net fisheries harvest both immature and mature ages from the same stock. For example, the nearshore ocean waters where some net fisheries operate are habitat for immature ages and for mature ages returning to spawn. At startup, the model sets the age at which all harvests by net fisheries are to be considered mature. The variable is called the <em>TermNetAge</em> and is usually set at age four.<p>
+</a>
+
+<a name="673343">
+In summary, the model uses three variables to determine whether a stock/age/fishery harvest is preterminal or terminal: <em>TermPt</em>, <em>OcnNetFlg</em>, and <em>TermNetAge</em>. <i>Table 4.3</i> summarizes the relationship between these variables for a given stock/fishery combination.<p>
+</a>
+
+<a name="673344">
+ 
+<img src="table42.gif">
+<p>
+</a>
+
+<a name="673345">
+ 
+<img src="table43.gif">
+<p>
+</a>
+<hr>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+
+</body>
+</html>
+E 1

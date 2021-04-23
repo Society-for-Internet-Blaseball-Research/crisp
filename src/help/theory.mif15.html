@@ -1,0 +1,38 @@
+<html><head><title>Legal Harvests</title></head>
+<body>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+
+<hr>
+ 
+<a name="673346">
+<h2>  Legal Harvests</h2>
+</a><a name="673347">
+Harvests of legal sized fish are computed as follows:<p>
+</a>
+<a name="673348"> <b><em>MDLCohortCat(s,a,f)</em> = <em>Run(s,a)</em><em>HR(s,a,f)</em><em>FP(s,f)</em><em>PV(a,f)</em></b></a> <img src="sp.gif"><b>[4.18]</b> <p>
+<a name="673349">
+where<p>
+</a><ul><a name="673350">
+<li><em>MDLCohortCat(s,a,f)</em> = preterminal or terminal catch of stock <em>s</em>, age <em>a</em>, in fishery <em>f</em>
+</a><a name="673351">
+<li><em>Run(s,a)</em> = coastwide ocean abundance, <em>OcnRun(s,a)</em>, or coastwide terminal run, <em>TermRun(s,a),</em> for stock <em>s</em>, age <em>a</em>
+</a><a name="673352">
+<li><em>HR(s,a,f)</em> = harvest rate for stock <em>s</em>, age <em>a</em>, in fishery <em>f</em>
+</a><a name="673353">
+<li><em>FP(s,f)</em> = fishery policy scalar for stock <em>s</em> in fishery <em>f</em>
+</a><a name="673354">
+<li><em>PV(a,f)</em> = proportion vulnerable for age <em>a</em> in fishery <em>f</em> (i.e., proportion of age <em>a</em> fish that are recruited to the gear and are above the legal size limit in fishery <em>f</em>).
+</a></ul>
+
+<a name="673355">
+Note that when preterminal harvests are computed, the stock/age/fishery specific exploitation rates are applied to the coastwide ocean abundance of the cohort, not the regional abundance. When terminal harvests are computed, the stock/age/fishery specific harvest rates are applied to the coastwide terminal run of the cohort. Terminal runs are computed by subtracting preterminal legal catches and incidental mortalities from the coastwide ocean abundance and then multiplying times the maturation rate.<p>
+</a>
+
+<a name="673356">
+Note that the <em>PV</em>s are age and fishery specific, but not stock specific. The <em>FP</em>s are fishery policy scalars and are unique to each stock, fishery, and year. They are used to simulate the effects of changes in fishery policies that disproportionately impact different stocks relative to the base period (e.g., changing the timing of the fishing period may impact stocks differently). For example, a value of <em>FP(2,3)</em> = 0.5 indicates that the harvest rates for all ages of stock 2 in fishery 3 are 50% of the corresponding base period harvest rates. Other stocks harvested by fishery 3 may be impacted differently.<p>
+</a></ul>
+<hr><br>
+<a href="toc.html">[Chapter Contents]</a>
+</body>
+</html>

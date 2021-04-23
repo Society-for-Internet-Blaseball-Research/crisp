@@ -1,0 +1,736 @@
+AList.h
+D 1.4 94/04/01 11:01:47 troy 4 3	00001/00001/00043
+MRs:
+COMMENTS:
+fixed operator+ to return value
+
+D 1.3 94/03/28 17:09:56 troy 3 2	00001/00001/00043
+MRs:
+COMMENTS:
+change init fn name
+
+----------------------------------
+Bool.h
+----------------------------------
+CNR.h
+----------------------------------
+Calendar.h
+----------------------------------
+Ceiling.h
+D 1.4 94/03/03 15:04:31 troy 4 3	00001/00000/00059
+MRs:
+COMMENTS:
+store initial ceiling ratios for use in subsequent runs
+
+D 1.3 94/01/11 15:13:41 troy 3 2	00000/00000/00059
+MRs:
+COMMENTS:
+new ceiling management, including multi-phase fisheries
+
+----------------------------------
+Cohort.h
+----------------------------------
+File.h
+----------------------------------
+Fishery.h
+D 1.12 94/03/31 16:48:42 tom 12 11	00001/00003/00121
+MRs:
+COMMENTS:
+Made new class Stock_UI a friend.
+
+D 1.11 94/02/10 16:36:17 troy 11 10	00004/00003/00120
+MRs:
+COMMENTS:
+minor interface changes
+
+D 1.10 94/01/11 15:13:39 troy 10 9	00002/00000/00121
+MRs:
+COMMENTS:
+new ceiling management, including multi-phase fisheries
+
+----------------------------------
+FisheryList.h
+----------------------------------
+FisheryManagement.h
+D 1.2 94/01/11 15:13:40 troy 2 1	00000/00000/00036
+MRs:
+COMMENTS:
+new ceiling management, including multi-phase fisheries
+
+----------------------------------
+FisheryPolicy.h
+D 1.6 94/03/03 15:04:30 troy 6 5	00002/00001/00066
+MRs:
+COMMENTS:
+store initial ceiling ratios for use in subsequent runs
+
+----------------------------------
+FisherySummary.h
+----------------------------------
+Fishery_UI.h
+D 1.1 94/03/31 16:53:17 tom 1 0	00043/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/03/31 16:53:17 by tom
+
+----------------------------------
+FloatSlider.h
+----------------------------------
+FloatSliderDisplay.h
+D 1.6 94/03/31 16:50:42 tom 6 5	00005/00004/00056
+MRs:
+COMMENTS:
+Added void setCycle(char *)
+
+D 1.5 94/02/11 19:29:02 tom 5 4	00002/00000/00058
+MRs:
+COMMENTS:
+Whoops, last fix broke multi column.  This fix fixes that fix.
+
+D 1.4 94/02/03 14:08:16 tom 4 3	00005/00033/00053
+MRs:
+COMMENTS:
+Spread slow start up time for large fsd's out over time.
+
+----------------------------------
+Harvest.h
+D 1.12 94/03/31 16:56:08 surge 12 11	00001/00001/00135
+MRs:
+COMMENTS:
+Made a friend of the new Harvest_UI, instead of the old Harvest_ui.
+
+D 1.11 94/01/11 15:13:37 troy 11 10	00001/00000/00135
+MRs:
+COMMENTS:
+new ceiling management, including multi-phase fisheries
+
+----------------------------------
+HarvestList.h
+D 1.4 94/04/01 11:02:22 troy 4 3	00002/00002/00074
+MRs:
+COMMENTS:
+made traverse() const fn
+
+----------------------------------
+HarvestPolicy.h
+----------------------------------
+HarvestPolicy_ui.h
+----------------------------------
+Harvest_ui.h
+----------------------------------
+HatchSurplusProduction.h
+D 1.1 94/02/08 16:57:31 troy 1 0	00032/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/02/08 16:57:31 by troy
+
+----------------------------------
+HatcheryProduction.h
+D 1.1 94/02/08 16:57:30 troy 1 0	00017/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/02/08 16:57:30 by troy
+
+----------------------------------
+HvSummary.h
+----------------------------------
+IEnum.h
+----------------------------------
+IOCrud.h
+D 1.8 94/02/15 10:52:08 troy 8 7	00004/00000/00103
+MRs:
+COMMENTS:
+variable maturation rates
+
+D 1.7 94/02/10 16:37:33 troy 7 6	00012/00003/00091
+MRs:
+COMMENTS:
+ev scalars and enhancement
+
+D 1.6 94/01/11 15:14:14 troy 6 5	00004/00001/00090
+MRs:
+COMMENTS:
+proper IDL input
+
+----------------------------------
+Map.h
+D 1.3 94/03/31 16:51:33 tom 3 2	00015/00010/00126
+MRs:
+COMMENTS:
+Made most of the char * parameters const.
+
+----------------------------------
+MapManager.h
+----------------------------------
+Map_ui.h
+D 1.4 94/03/31 16:51:12 tom 4 3	00002/00002/00142
+MRs:
+COMMENTS:
+Changed over to use the new form of Stock_UI and Fishery_UI
+
+----------------------------------
+NAList.h
+D 1.3 94/03/28 17:10:22 troy 3 2	00003/00003/00038
+MRs:
+COMMENTS:
+changed AList::init() fn name
+
+----------------------------------
+NaturalProduction.h
+D 1.2 94/02/15 17:07:52 troy 2 1	00003/00003/00035
+MRs:
+COMMENTS:
+other_fricker bug fix
+
+D 1.1 94/02/08 16:57:29 troy 1 0	00038/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/02/08 16:57:29 by troy
+
+----------------------------------
+NonNeg.h
+D 1.1 94/02/08 17:10:16 troy 1 0	00018/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/02/08 17:10:16 by troy
+
+----------------------------------
+Phase.h
+----------------------------------
+Production.h
+D 1.1 94/02/08 16:57:28 troy 1 0	00044/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/02/08 16:57:28 by troy
+
+----------------------------------
+Range.h
+----------------------------------
+Stock.h
+D 1.14 94/03/31 16:48:58 tom 14 13	00001/00001/00118
+MRs:
+COMMENTS:
+Made new class Stock_UI a friend.
+
+D 1.13 94/02/15 10:52:07 troy 13 12	00006/00001/00113
+MRs:
+COMMENTS:
+variable maturation rates
+
+D 1.12 94/02/10 16:30:57 troy 12 11	00018/00012/00096
+MRs:
+COMMENTS:
+new production classes
+
+D 1.11 94/01/21 16:48:43 tom 11 10	00002/00000/00106
+MRs:
+COMMENTS:
+Added ev_svalar()
+
+D 1.10 94/01/11 15:13:38 troy 10 9	00006/00002/00100
+MRs:
+COMMENTS:
+new ceiling management, including multi-phase fisheries
+
+----------------------------------
+StockList.h
+----------------------------------
+StockPolicy.h
+D 1.11 94/03/31 16:52:25 tom 11 10	00001/00001/00052
+MRs:
+COMMENTS:
+Made Stock_UI a friend, eliminated StockPolicy_ui
+
+D 1.10 94/02/15 10:52:09 troy 10 9	00018/00016/00035
+MRs:
+COMMENTS:
+variable maturation rates
+
+D 1.9 94/02/10 16:32:01 troy 9 8	00003/00000/00048
+MRs:
+COMMENTS:
+ev scalars
+
+D 1.8 94/01/21 18:03:56 tom 8 7	00005/00001/00043
+MRs:
+COMMENTS:
+Fixed ev_scalars destructor.
+
+D 1.7 94/01/21 16:48:44 tom 7 6	00008/00000/00036
+MRs:
+COMMENTS:
+Added ev_svalar()
+
+D 1.6 94/01/21 16:22:06 troy 6 5	00000/00001/00036
+MRs:
+COMMENTS:
+remove spurious declaration of FloatSlider 
+
+D 1.5 94/01/11 15:14:14 troy 5 4	00002/00001/00035
+MRs:
+COMMENTS:
+proper IDL input
+
+----------------------------------
+StockSummary.h
+D 1.4 94/03/28 17:13:24 troy 4 3	00004/00001/00060
+MRs:
+COMMENTS:
+save terminal run stats
+
+----------------------------------
+Stock_UI.h
+----------------------------------
+Summary.h
+----------------------------------
+UI.h
+D 1.2 94/03/31 16:39:31 tom 2 1	00001/00001/00019
+MRs:
+COMMENTS:
+Changed show() to display() to avoid function hiding.
+
+D 1.1 94/03/24 15:02:39 tom 1 0	00020/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/03/24 15:02:39 by tom
+
+----------------------------------
+UIT_Fishery.h
+----------------------------------
+UIT_FisheryFrame.h
+----------------------------------
+UIT_Graph.h
+----------------------------------
+UIT_Stock.h
+----------------------------------
+UIT_StockFrame.h
+----------------------------------
+clog.h
+----------------------------------
+command.h
+----------------------------------
+dir.h
+----------------------------------
+file.h
+----------------------------------
+fishery_ui.h
+D 1.2 94/03/31 17:21:14 tom 2 1	00000/00000/00005
+MRs:
+COMMENTS:
+This file superceded by Fishery_UI
+
+----------------------------------
+globals.h
+----------------------------------
+gui.h
+----------------------------------
+help.h
+----------------------------------
+include.h
+----------------------------------
+init.h
+----------------------------------
+input_hist.h
+D 1.5 94/03/31 16:49:27 tom 5 4	00004/00004/00122
+MRs:
+COMMENTS:
+A few cosmetic changes (colors)
+
+----------------------------------
+keydata.h
+----------------------------------
+log.h
+D 1.3 94/03/10 16:42:27 tom 3 2	00010/00020/00147
+MRs:
+COMMENTS:
+removed 'inline' status from LogMsg to work around Sun CC bug.
+
+D 1.2 94/03/10 16:22:26 surge 2 1	00155/00035/00012
+MRs:
+COMMENTS:
+OI version (#ifdef'd)
+
+----------------------------------
+parseutil.h
+----------------------------------
+stack.h
+----------------------------------
+stock_ui.h
+D 1.2 94/03/31 17:22:05 tom 2 1	00000/00000/00005
+MRs:
+COMMENTS:
+This file superceded by Stock_UI
+
+----------------------------------
+token.h
+----------------------------------
+file.c
+----------------------------------
+help.c
+----------------------------------
+input_hist.c
+D 1.5 94/03/31 16:49:19 tom 5 4	00026/00009/01042
+MRs:
+COMMENTS:
+A few cosmetic changes (colors)
+
+----------------------------------
+stack.c
+----------------------------------
+AList.cc
+D 1.2 94/04/01 11:01:46 troy 2 1	00005/00005/00020
+MRs:
+COMMENTS:
+fixed operator+ to return value
+
+----------------------------------
+CNR.cc
+----------------------------------
+Calendar.cc
+----------------------------------
+Ceiling.cc
+D 1.5 94/03/03 15:04:31 troy 5 4	00018/00005/00095
+MRs:
+COMMENTS:
+store initial ceiling ratios for use in subsequent runs
+
+D 1.4 94/02/10 16:31:31 troy 4 3	00001/00001/00099
+MRs:
+COMMENTS:
+loosened restrictions on permissible years
+
+D 1.3 94/01/11 15:13:41 troy 3 2	00000/00000/00100
+MRs:
+COMMENTS:
+new ceiling management, including multi-phase fisheries
+
+----------------------------------
+Cohort.cc
+----------------------------------
+File.cc
+----------------------------------
+Fishery.cc
+D 1.11 94/03/03 15:04:28 troy 11 10	00001/00000/00257
+MRs:
+COMMENTS:
+store initial ceiling ratios for use in subsequent runs
+
+D 1.10 94/02/10 16:33:10 troy 10 9	00011/00004/00246
+MRs:
+COMMENTS:
+fixed bug in multi-ceiling computations
+
+D 1.9 94/01/11 15:13:38 troy 9 8	00064/00015/00186
+MRs:
+COMMENTS:
+new ceiling management, including multi-phase fisheries
+
+----------------------------------
+FisheryFrame.cc
+----------------------------------
+FisheryManagement.cc
+D 1.5 94/04/01 11:03:32 troy 5 4	00021/00033/00188
+MRs:
+COMMENTS:
+removed static list catenation (compiler bug) 
+changed harvest iterators to traverse fns for readability
+
+D 1.4 94/03/28 17:09:16 troy 4 3	00005/00007/00216
+MRs:
+COMMENTS:
+traverse instead of iterate some harvests; 
+cast a switch param to int from const int (!)
+
+D 1.3 94/02/10 16:35:47 troy 3 2	00007/00007/00216
+MRs:
+COMMENTS:
+fixed bug in multi-ceiling computations
+
+D 1.2 94/01/11 15:13:39 troy 2 1	00029/00019/00194
+MRs:
+COMMENTS:
+new ceiling management, including multi-phase fisheries
+
+----------------------------------
+FisheryPolicy.cc
+D 1.6 94/03/03 15:04:29 troy 6 5	00011/00001/00066
+MRs:
+COMMENTS:
+store initial ceiling ratios for use in subsequent runs
+
+----------------------------------
+FisherySummary.cc
+----------------------------------
+Fishery_UI.cc
+D 1.1 94/03/31 16:53:17 tom 1 0	00038/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/03/31 16:53:17 by tom
+
+----------------------------------
+FloatSlider.cc
+----------------------------------
+FloatSliderDisplay.cc
+D 1.8 94/03/31 16:50:43 tom 8 7	00016/00000/00334
+MRs:
+COMMENTS:
+Added void setCycle(char *)
+
+D 1.7 94/02/11 19:29:01 tom 7 6	00037/00040/00297
+MRs:
+COMMENTS:
+Whoops, last fix broke multi column.  This fix fixes that fix.
+
+D 1.6 94/02/03 16:34:20 tom 6 5	00013/00003/00324
+MRs:
+COMMENTS:
+Whoops... now the first slider is at the top.
+
+D 1.5 94/02/03 14:08:15 tom 5 4	00175/00053/00152
+MRs:
+COMMENTS:
+Spread slow start up time for large fsd's out over time.
+
+----------------------------------
+Harvest.cc
+D 1.8 94/01/11 15:13:36 troy 8 7	00019/00001/00192
+MRs:
+COMMENTS:
+new ceiling management, including multi-phase fisheries
+
+----------------------------------
+HarvestList.cc
+D 1.3 94/04/01 11:02:22 troy 3 2	00013/00012/00092
+MRs:
+COMMENTS:
+made traverse() const fn
+
+----------------------------------
+HarvestPolicy.cc
+----------------------------------
+HarvestPolicy_ui.cc
+D 1.5 94/02/08 17:13:50 troy 5 4	00001/00001/00018
+MRs:
+COMMENTS:
+bumped the max fp val
+
+----------------------------------
+Harvest_ui.cc
+----------------------------------
+HatchSurplusProduction.cc
+D 1.3 94/02/15 17:07:01 troy 3 2	00002/00003/00045
+MRs:
+COMMENTS:
+other_fricker bug fix
+
+D 1.2 94/02/10 16:28:27 troy 2 1	00023/00033/00025
+MRs:
+COMMENTS:
+factored out HatcheryProduction::spawn() common code
+
+D 1.1 94/02/08 16:57:31 troy 1 0	00058/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/02/08 16:57:31 by troy
+
+----------------------------------
+HatcheryProduction.cc
+D 1.1 94/02/08 16:57:30 troy 1 0	00037/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/02/08 16:57:30 by troy
+
+----------------------------------
+HvSummary.cc
+----------------------------------
+IOCrud.cc
+D 1.17 94/03/11 10:51:01 troy 17 16	00002/00002/01590
+MRs:
+COMMENTS:
+fixed string length bug
+
+D 1.16 94/03/03 15:04:26 troy 16 15	00005/00005/01587
+MRs:
+COMMENTS:
+store initial ceiling ratios for use in subsequent runs
+
+D 1.15 94/02/15 10:52:08 troy 15 14	00161/00008/01431
+MRs:
+COMMENTS:
+variable maturation rates
+
+D 1.14 94/02/10 16:37:32 troy 14 13	00285/00078/01154
+MRs:
+COMMENTS:
+ev scalars and enhancement
+
+D 1.13 94/01/11 15:14:13 troy 13 12	00122/00005/01110
+MRs:
+COMMENTS:
+proper IDL input
+
+----------------------------------
+Map.cc
+D 1.5 94/03/31 16:51:34 tom 5 4	00040/00024/00180
+MRs:
+COMMENTS:
+Made most of the char * parameters const.
+
+----------------------------------
+MapManager.cc
+----------------------------------
+Map_ui.cc
+D 1.6 94/03/31 16:51:10 tom 6 5	00037/00037/00850
+MRs:
+COMMENTS:
+Changed over to use the new form of Stock_UI and Fishery_UI
+
+----------------------------------
+NAList.cc
+D 1.3 94/03/28 17:10:21 troy 3 2	00000/00000/00027
+MRs:
+COMMENTS:
+changed AList::init() fn name
+
+----------------------------------
+NaturalProduction.cc
+D 1.1 94/02/08 16:57:29 troy 1 0	00047/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/02/08 16:57:29 by troy
+
+----------------------------------
+Production.cc
+D 1.1 94/02/08 16:57:27 troy 1 0	00037/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/02/08 16:57:27 by troy
+
+----------------------------------
+Range.cc
+----------------------------------
+Stock.cc
+D 1.11 94/03/03 15:06:10 troy 11 10	00001/00000/00186
+MRs:
+COMMENTS:
+zero escapements yearly
+
+D 1.10 94/02/15 10:52:06 troy 10 9	00012/00013/00174
+MRs:
+COMMENTS:
+variable maturation rates
+
+D 1.9 94/02/10 16:30:57 troy 9 8	00025/00031/00162
+MRs:
+COMMENTS:
+new production classes
+
+----------------------------------
+StockList.cc
+----------------------------------
+StockPolicy.cc
+D 1.5 94/02/15 10:52:09 troy 5 4	00025/00002/00021
+MRs:
+COMMENTS:
+variable maturation rates
+
+D 1.4 94/02/10 16:32:01 troy 4 3	00007/00000/00016
+MRs:
+COMMENTS:
+ev scalars
+
+D 1.3 94/01/21 16:48:45 tom 3 2	00004/00000/00012
+MRs:
+COMMENTS:
+Added ev_svalar()
+
+----------------------------------
+StockSummary.cc
+D 1.4 94/03/28 17:13:24 troy 4 3	00001/00000/00061
+MRs:
+COMMENTS:
+save terminal run stats
+
+----------------------------------
+Stock_UI.cc
+----------------------------------
+UIT_Fishery.cc
+----------------------------------
+UIT_FisheryFrame.cc
+----------------------------------
+UIT_Graph.cc
+----------------------------------
+UIT_Stock.cc
+----------------------------------
+UIT_StockFrame.cc
+----------------------------------
+ascii_log.cc
+----------------------------------
+clog.cc
+----------------------------------
+command.cc
+----------------------------------
+comtest.cc
+----------------------------------
+debug.cc
+----------------------------------
+dir.cc
+----------------------------------
+engine.cc
+----------------------------------
+globals.cc
+----------------------------------
+gui.cc
+D 1.12 94/03/31 16:51:49 tom 12 11	00009/00000/00220
+MRs:
+COMMENTS:
+Added Stock_UI and Fishery_UI initializations.
+
+D 1.11 94/02/17 14:47:06 troy 11 10	00001/00001/00219
+MRs:
+COMMENTS:
+fully calibrated version 0.9
+
+----------------------------------
+harvest_frame.cc
+----------------------------------
+include.cc
+----------------------------------
+init.cc
+D 1.6 94/02/10 16:29:07 troy 6 5	00023/00005/00102
+MRs:
+COMMENTS:
+command line flag for non-gui mode
+
+----------------------------------
+iotest.cc
+----------------------------------
+log.cc
+D 1.3 94/03/10 16:42:28 tom 3 2	00016/00000/00297
+MRs:
+COMMENTS:
+removed 'inline' status from LogMsg to work around Sun CC bug.
+
+D 1.2 94/03/10 16:22:05 surge 2 1	00246/00244/00051
+MRs:
+COMMENTS:
+OI version (#ifdef'd)
+
+----------------------------------
+main.cc
+D 1.5 94/02/10 16:29:40 troy 5 4	00012/00004/00022
+MRs:
+COMMENTS:
+gui/non-gui mode support
+
+----------------------------------
+map.cc
+----------------------------------
+parse_test.cc
+----------------------------------
+parseutil.cc
+----------------------------------
+simple_output.cc
+----------------------------------
+token.cc
+----------------------------------

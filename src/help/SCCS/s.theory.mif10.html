@@ -1,0 +1,91 @@
+h00534
+s 00000/00000/00075
+d D 1.2 97/12/17 10:44:18 camel 2 1
+c format changes
+e
+s 00075/00000/00000
+d D 1.1 97/09/12 14:49:46 mpmoore 1 0
+c date and time created 97/09/12 14:49:46 by mpmoore
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>Hatchery Production</title></head>
+<body>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+
+<hr>
+ 
+<a name="676066">
+<h2>  Hatchery Production</h2>
+</a><a name="673490">
+A simple linear model is used to relate hatchery spawners in year <em>y</em> to <em>AgeOneFish</em> in year <em>y</em> + 1. When the number of spawners does not exceed hatchery capacity, we have<p>
+</a>
+<a name="673491"> 
+<img src="eq45.gif"> 
+<img src="sp.gif"><b>[4.5]</b></a> <p>
+
+<a name="673492">
+where<p>
+</a><ul><a name="673171">
+<li><em>AgeOneFish(s,y+1)</em> = number of progeny for stock <em>s</em> in year <em>y</em> + 1.
+</a><a name="673497">
+<li><em>Spawners(s,y)</em> = number of spawners for stock <em>s</em> in year <em>y</em>.
+</a><a name="673494">
+<li><em>HatchProd(s)</em> = base period hatchery production efficiency for stock <em>s</em>.
+</a></ul>
+
+<a name="673498">
+The <em>HatchProd(s)</em> parameter is given in exponential form because the analagous productivity term in the Ricker function for natural stocks is represented in exponential form. If <img src="eq45a.gif" align="top"> (= average hatchery production during the base period 1979-1981), the excess spawners are transferred into terminal catch.<p>
+</a>
+
+<a name="673507">
+The model assumes that hatchery production is maintained at the average 1979-1981 level unless instructed otherwise. In such cases, the first step in modeling changes in enhancement activities (which are input as changes in smolt production) is to compute the increased (or decreased) number of spawners required to meet the new smolt production goal:<p>
+</a></ul>
+<a name="673499"> 
+<img src="eq46.gif"></a> 
+<img src="sp.gif"><b>[4.6]</b> <p>
+
+<a name="673501">
+where<p>
+</a><ul><a name="673172">
+<li><em>Smolts(s)</em> = change in smolt production for stock <em>s</em>
+</a><a name="673502">
+<li><em>EnhSpawners(s)</em> = number of required to produce <em>Smolts(s)</em>
+</a><a name="673504">
+<li><em>SmoltSurvRt(s)</em> = smolt to age on survival rate for stock <em>s</em>
+</a><a name="673503">
+<li><em>EnhProd(s)</em> = enhancement production efficiency for stock <em>s</em>.
+</a></ul>
+
+<a name="673173">
+<em>EnhProd(s)</em> is generally smaller than <em>HatchProd(s)</em>, reflecting the decrease in efficiency when producing more smolts.<p>
+</a>
+
+<a name="673175">
+If production is decreased, <i>eq (4.5)</i> is used to compute <em>AgeOneFish,</em> but the hatchery spawning goal is reduced to <img src="eq46a.gif" align="top">. Again, excess spawners are transferred to terminal catch.<p>
+</a>
+
+<a name="673493">
+If production is increased, additional <em>AgeOneFish</em> are computed using <i>eq (4.5)</i>, with <em>EnhProd</em> replacing <em>HatchProd</em> to reflect the lower production efficiency. If the number of spawners exceeds the number required for both base and enhanced production, the excess spawners are added to the terminal catch, with the exception of one stock -- Georgia Strait Hatchery (GSH). In this case, the additional spawners (up to a maximum of 5,000) are assumed to be returned to the river and are modeled as natural spawners using the truncated Ricker curve (described in the next section). Additional excess spawners are transferred to terminal catch. <i>Fig. 4.3</i> illustrates all hatchery production functions.<p>
+</a>
+
+<a name="673505">
+ 
+<a name="673489">
+<b>Fig. 4.3</b>  Hatchery production functions, with and without enhancement. The term <img src="capdelta.gif"><em>S</em> equals <em>EnhSpawners</em> (i.e., the change in the number of spawners required to meet the changed smolt production goal).
+</a>
+<br><img src="fig43.gif">
+<p>
+</a>
+<hr>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+
+</body>
+</html>
+E 1

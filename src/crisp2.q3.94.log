@@ -1,0 +1,1530 @@
+,statistics.cc
+----------------------------------
+AList.cc
+D 2.1 94/07/21 16:34:03 troy 3 2	00000/00000/00025
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Bootstrap.cc
+D 2.1 94/07/21 16:34:04 troy 2 1	00000/00000/00055
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+CNR.cc
+D 2.1 94/07/21 16:34:05 troy 2 1	00000/00000/00046
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Calendar.cc
+D 2.1 94/07/21 16:34:05 troy 2 1	00000/00000/00039
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Ceiling.cc
+D 2.1 94/07/21 16:34:06 troy 6 5	00000/00000/00113
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+CeilingTool.cc
+D 2.1 94/07/21 16:34:07 troy 4 3	00000/00000/00158
+MRs:
+COMMENTS:
+Release Version
+
+D 1.3 94/07/20 14:08:35 troy 3 2	00000/00002/00158
+MRs:
+COMMENTS:
+removed debugging output
+
+D 1.2 94/07/18 16:58:07 tom 2 1	00016/00012/00144
+MRs:
+COMMENTS:
+Plugged up the leaking tmp storage spaces for ceilings and base_period_ave.
+
+D 1.1 94/07/15 11:59:25 tom 1 0	00156/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/07/15 11:59:25 by tom
+
+----------------------------------
+Cohort.cc
+D 2.1 94/07/21 16:34:07 troy 2 1	00000/00000/00013
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+ContextManager.cc
+D 1.2 94/09/16 19:04:16 tom 2 1	00000/00001/00029
+MRs:
+COMMENTS:
+Removed ContextManager.h include, since this is a template.
+
+D 1.1 94/08/04 17:19:15 tom 1 0	00030/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/08/04 17:19:15 by tom
+
+----------------------------------
+File.cc
+D 2.1 94/07/21 16:34:08 troy 3 2	00000/00000/00075
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Fishery.cc
+D 2.1 94/07/21 16:34:08 troy 16 15	00000/00000/00266
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FisheryManagement.cc
+D 2.1 94/07/21 16:34:09 troy 8 7	00000/00000/00207
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FisheryPolicy.cc
+D 2.1 94/07/21 16:34:09 troy 8 7	00000/00000/00040
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FisherySummary.cc
+D 2.1 94/07/21 16:34:10 troy 5 4	00000/00000/00114
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Fishery_UI.cc
+D 2.1 94/07/21 16:34:10 troy 6 5	00000/00000/00045
+MRs:
+COMMENTS:
+Release Version
+
+D 1.5 94/07/20 14:19:38 tom 5 4	00000/00000/00045
+MRs:
+COMMENTS:
+Added ceiling access for use w/ ceiling tool.
+
+----------------------------------
+FloatSlider.cc
+D 2.1 94/07/21 16:34:11 troy 6 5	00000/00000/00165
+MRs:
+COMMENTS:
+Release Version
+
+D 1.5 94/07/20 14:20:57 tom 5 4	00024/00018/00141
+MRs:
+COMMENTS:
+Made a floatslider a ComponentGroup subclass instead of UIComponent.
+
+----------------------------------
+FloatSliderDisplay.cc
+D 2.2 94/07/26 16:44:31 tom 11 10	00004/00004/00382
+MRs:
+COMMENTS:
+Less Draconian measure taken when switch to non-existant cycle.
+
+D 2.1 94/07/21 16:34:12 troy 10 9	00000/00000/00386
+MRs:
+COMMENTS:
+Release Version
+
+D 1.9 94/07/20 14:21:49 tom 9 8	00189/00153/00197
+MRs:
+COMMENTS:
+Rearranged things to cater to subclassing.
+
+----------------------------------
+GUI.cc
+D 2.1 94/07/21 16:34:12 troy 5 4	00000/00000/00028
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Harvest.cc
+D 2.1 94/07/21 16:34:13 troy 11 10	00000/00000/00243
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HarvestList.cc
+D 2.1 94/07/21 16:34:13 troy 4 3	00000/00000/00105
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HarvestPolicy.cc
+D 2.1 94/07/21 16:34:14 troy 2 1	00000/00000/00011
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HarvestPolicy_ui.cc
+D 2.1 94/07/21 16:34:14 troy 6 5	00000/00000/00019
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Harvest_UI.cc
+D 2.1 94/07/21 16:34:15 troy 4 3	00000/00000/00086
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HatchSurplusProduction.cc
+D 2.1 94/07/21 16:34:16 troy 4 3	00000/00000/00047
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HatcheryProduction.cc
+D 2.1 94/07/21 16:34:16 troy 3 2	00000/00000/00042
+MRs:
+COMMENTS:
+Release Version
+
+D 1.2 94/07/07 12:49:03 troy 2 1	00006/00001/00036
+MRs:
+COMMENTS:
+new val for age1fish when escp < s_opt
+
+----------------------------------
+Hist.cc
+D 2.1 94/07/21 16:34:17 troy 4 3	00000/00000/00517
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HvSummary.cc
+D 2.1 94/07/21 16:34:17 troy 5 4	00000/00000/00051
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+IOCrud.cc
+D 2.3 94/09/12 15:09:34 tom 30 29	00004/00004/02345
+MRs:
+COMMENTS:
+Fixed incidental mort output problem.
+
+D 2.2 94/09/12 13:03:46 tom 29 28	00041/00006/02308
+MRs:
+COMMENTS:
+Added Montecarlo output stuff.
+
+D 2.1 94/07/21 16:34:18 troy 28 27	00000/00000/02314
+MRs:
+COMMENTS:
+Release Version
+
+D 1.27 94/07/14 11:31:04 troy 27 26	00179/00010/02135
+MRs:
+COMMENTS:
+create ocean harvest data for slcm
+
+----------------------------------
+Key.cc
+D 1.1 94/08/04 18:28:17 tom 1 0	00015/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/08/04 18:28:17 by tom
+
+----------------------------------
+Map.cc
+D 2.1 94/07/21 16:34:19 troy 9 8	00000/00000/00238
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MapManager.cc
+D 2.2 94/09/16 19:01:33 tom 3 2	00255/00002/00004
+MRs:
+COMMENTS:
+Made this a window/UI item instead of just invisible mapping class.
+
+D 2.1 94/07/21 16:34:19 troy 2 1	00000/00000/00006
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Map_ui.cc
+D 2.2 94/09/16 19:02:26 tom 14 13	00158/00133/00855
+MRs:
+COMMENTS:
+Rewrote to take full advantage of revised MapManager/ContextManager.
+
+D 2.1 94/07/21 16:34:20 troy 13 12	00000/00000/00988
+MRs:
+COMMENTS:
+Release Version
+
+D 1.12 94/07/20 16:43:57 tom 12 11	00071/00007/00917
+MRs:
+COMMENTS:
+Moved declarations out of header file, changed to compiled-in icon.
+
+D 1.11 94/07/20 16:43:00 troy 11 10	00004/00000/00920
+MRs:
+COMMENTS:
+added an icon
+
+----------------------------------
+MonteControl.cc
+D 2.2 94/09/16 19:12:12 tom 5 4	00078/00009/00157
+MRs:
+COMMENTS:
+Added montecarlo output configuration/control stuff.
+
+D 2.1 94/07/21 16:34:21 troy 4 3	00000/00000/00166
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteDataItem.cc
+D 2.1 94/07/21 16:34:21 troy 3 2	00000/00000/00008
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteOutputItem.cc
+D 2.4 94/09/16 19:10:41 tom 6 5	00240/00071/00019
+MRs:
+COMMENTS:
+Sccs hist seems confused -- this is a whole new file...
+
+D 2.3 94/09/12 13:02:42 tom 5 4	00000/00000/00090
+MRs:
+COMMENTS:
+This is actually a whole new file -- previous history is bunk.
+
+D 2.2 94/08/29 23:14:07 tom 4 3	00000/00000/00090
+MRs:
+COMMENTS:
+File and classes renamed to MonteTrackingItem
+
+D 2.1 94/07/21 16:34:22 troy 3 2	00000/00000/00090
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteStockIntrfc.cc
+D 2.2 94/09/16 19:13:42 tom 5 4	00010/00010/00058
+MRs:
+COMMENTS:
+Changed MonteStockOutput to MonteStockTracking (simple name change)
+
+D 2.1 94/07/21 16:34:22 troy 4 3	00000/00000/00068
+MRs:
+COMMENTS:
+Release Version
+
+D 1.3 94/07/21 10:58:40 troy 3 2	00027/00002/00041
+MRs:
+COMMENTS:
+added stochastic and stochastic log normal monte items
+
+----------------------------------
+MonteStockTracking.cc
+D 1.1 94/08/29 23:09:47 tom 1 0	00033/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/08/29 23:09:47 by tom
+
+----------------------------------
+MonteTrackingItem.cc
+D 1.1 94/08/29 23:14:28 tom 1 0	00090/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/08/29 23:14:28 by tom
+
+----------------------------------
+NAList.cc
+D 2.1 94/07/21 16:34:24 troy 4 3	00000/00000/00027
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+NaturalProduction.cc
+D 2.1 94/07/21 16:34:24 troy 2 1	00000/00000/00047
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+PercentileGraph.cc
+D 2.2 94/09/16 19:14:22 tom 5 4	00007/00044/00131
+MRs:
+COMMENTS:
+Ripped out more generic stat generating code to statistics.cc
+
+D 2.1 94/07/21 16:34:25 troy 4 3	00000/00000/00175
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Production.cc
+D 2.1 94/07/21 16:34:25 troy 2 1	00000/00000/00037
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+RandGen.cc
+D 2.1 94/07/21 16:34:26 troy 3 2	00000/00000/00005
+MRs:
+COMMENTS:
+Release Version
+
+D 1.2 94/07/21 10:57:24 troy 2 1	00001/00001/00004
+MRs:
+COMMENTS:
+changed single stream to use it's own internal pod.
+
+----------------------------------
+RandNorm.cc
+D 2.1 94/07/21 16:34:26 troy 2 1	00000/00000/00031
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Range.cc
+D 2.1 94/07/21 16:34:27 troy 3 2	00000/00000/00056
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Stock.cc
+D 2.1 94/07/21 16:34:27 troy 17 16	00000/00000/00330
+MRs:
+COMMENTS:
+Release Version
+
+D 1.16 94/07/14 11:31:03 troy 16 15	00023/00000/00307
+MRs:
+COMMENTS:
+create ocean harvest data for slcm
+
+----------------------------------
+StockList.cc
+D 2.1 94/07/21 16:34:28 troy 4 3	00000/00000/00016
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+StockPolicy.cc
+D 2.1 94/07/21 16:34:29 troy 7 6	00000/00000/00044
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+StockSummary.cc
+D 2.1 94/07/21 16:34:29 troy 7 6	00000/00000/00115
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Stock_UI.cc
+D 2.1 94/07/21 16:34:30 troy 5 4	00000/00000/00046
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT.cc
+D 2.1 94/07/21 16:34:30 troy 2 1	00000/00000/00032
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_BaseFrame.cc
+D 2.1 94/07/22 12:36:05 troy 12 11	00000/00000/00146
+MRs:
+COMMENTS:
+Release Version
+
+D 1.8 94/07/22 12:35:26 troy 11 9	00001/00001/00145
+MRs:
+COMMENTS:
+tiny fixes
+
+D 1.7 94/07/22 12:24:45 troy 9 7	00002/00001/00144
+MRs:
+COMMENTS:
+use program version string in label
+
+D 1.6 94/07/21 16:05:52 troy 7 5	00001/00001/00144
+MRs:
+COMMENTS:
+bumped the rev for release
+
+D 1.5 94/07/21 11:59:17 tom 5 4	00004/00001/00141
+MRs:
+COMMENTS:
+Rendered icons compiled-in.
+
+D 1.4 94/07/19 09:50:49 troy 4 3	00004/00000/00138
+MRs:
+COMMENTS:
+quick hack to show an icon for the application
+
+----------------------------------
+UIT_Fishery.cc
+D 2.2 94/07/28 17:27:02 tom 7 6	00010/00000/00303
+MRs:
+COMMENTS:
+Added check for attempts to display non-ceilinged fishery ceilings.
+
+D 2.1 94/07/21 16:34:31 troy 6 5	00000/00000/00303
+MRs:
+COMMENTS:
+Release Version
+
+D 1.5 94/07/20 14:21:22 tom 5 4	00025/00000/00278
+MRs:
+COMMENTS:
+Adde CeilingTool functions.
+
+----------------------------------
+UIT_FisheryFrame.cc
+D 2.1 94/07/21 16:34:32 troy 6 5	00000/00000/00169
+MRs:
+COMMENTS:
+Release Version
+
+D 1.5 94/07/20 14:22:21 tom 5 4	00012/00006/00157
+MRs:
+COMMENTS:
+Added 'ceilings' button.
+
+----------------------------------
+UIT_Graph.cc
+D 2.1 94/07/21 16:34:32 troy 5 4	00000/00000/00052
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_Harvest.cc
+D 2.1 94/07/21 16:34:33 troy 7 6	00000/00000/00203
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_HarvestFrame.cc
+D 2.1 94/07/21 16:34:34 troy 5 4	00000/00000/00213
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_HarvestRateFrame.cc
+D 2.1 94/07/21 16:34:34 troy 3 2	00000/00000/00047
+MRs:
+COMMENTS:
+Release Version
+
+D 1.2 94/07/14 16:58:56 tom 2 1	00001/00001/00046
+MRs:
+COMMENTS:
+Small brain aneurism prevented fishery_msg from being set.
+
+----------------------------------
+UIT_HarvestRateScalarFrame.cc
+D 2.1 94/07/21 16:34:35 troy 2 1	00000/00000/00054
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_MonteFrame.cc
+D 2.2 94/08/19 15:43:10 tom 4 3	00001/00000/00069
+MRs:
+COMMENTS:
+Upped max number of games from 100 to 10000.
+
+D 2.1 94/07/21 16:34:36 troy 3 2	00000/00000/00069
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_Stock.cc
+D 2.2 94/09/16 19:03:27 tom 8 7	00020/00020/00564
+MRs:
+COMMENTS:
+Changed "MonteStockOutput" to "MonteStockTracking" -- simple name change.
+
+D 2.1 94/07/21 16:34:37 troy 7 6	00000/00000/00584
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_StockFrame.cc
+D 2.1 94/07/21 16:34:38 troy 4 3	00000/00000/00211
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_YearGraph.cc
+D 2.1 94/07/21 16:34:38 troy 3 2	00000/00000/00023
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+ascii_log.cc
+D 2.1 94/07/21 16:34:39 troy 2 1	00000/00000/00055
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+clog.cc
+D 2.1 94/07/21 16:34:39 troy 3 2	00000/00000/00024
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+command.cc
+D 2.1 94/07/21 16:34:40 troy 4 3	00000/00000/00224
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+comtest.cc
+D 2.1 94/07/21 16:34:40 troy 2 1	00000/00000/00056
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+debug.cc
+D 2.1 94/07/21 16:34:41 troy 3 2	00000/00000/00028
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+dir.cc
+D 2.1 94/07/21 16:34:41 troy 3 2	00000/00000/00193
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+engine.cc
+D 2.1 94/07/21 16:34:42 troy 6 5	00000/00000/00049
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+globals.cc
+D 2.1 94/07/21 16:34:42 troy 8 7	00000/00000/00027
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+harvest_frame.cc
+D 2.1 94/07/21 16:34:43 troy 7 6	00000/00000/00141
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+include.cc
+D 2.1 94/07/21 16:34:43 troy 4 3	00000/00000/00059
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+init.cc
+D 2.1 94/07/21 16:34:44 troy 10 9	00000/00000/00125
+MRs:
+COMMENTS:
+Release Version
+
+D 1.9 94/07/21 10:53:21 troy 9 8	00002/00002/00123
+MRs:
+COMMENTS:
+cleaned up monte interface
+
+----------------------------------
+iotest.cc
+D 2.1 94/07/21 16:34:44 troy 2 1	00000/00000/00022
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+log.cc
+D 2.1 94/07/21 16:34:45 troy 4 3	00000/00000/00313
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+main.cc
+D 2.1 94/07/21 16:34:46 troy 8 7	00000/00000/00042
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+map.cc
+D 2.1 94/07/21 16:34:46 troy 17 16	00000/00000/00466
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+parse_test.cc
+D 2.1 94/07/21 16:34:47 troy 3 2	00000/00000/00374
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+parseutil.cc
+D 2.1 94/07/21 16:34:47 troy 4 3	00000/00000/00458
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+simple_output.cc
+D 2.1 94/07/21 16:34:48 troy 5 4	00000/00000/00035
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+statistics.cc
+D 1.1 94/09/21 14:10:26 troy 1 0	00038/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/09/21 14:10:26 by troy
+
+----------------------------------
+token.cc
+D 2.1 94/07/21 16:34:48 troy 6 5	00000/00000/00352
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+version.cc
+D 2.1 94/07/22 12:51:35 troy 8 6	00001/00001/00036
+MRs:
+COMMENTS:
+Release Version
+
+D 1.3 94/07/22 12:35:25 troy 6 4	00002/00000/00035
+MRs:
+COMMENTS:
+tiny fixes
+
+D 1.2 94/07/22 12:25:33 troy 4 1	00029/00000/00006
+MRs:
+COMMENTS:
+add version string retreival proc
+
+D 1.1 94/07/21 16:13:18 troy 1 0	00006/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/07/21 16:13:18 by troy
+
+----------------------------------
+file.c
+D 2.1 94/07/21 16:34:49 troy 3 2	00000/00000/00378
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+help.c
+D 2.1 94/07/21 16:34:50 troy 6 5	00000/00000/00567
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+input_hist.c
+D 2.1 94/07/21 16:34:51 troy 8 7	00000/00000/01072
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+stack.c
+D 2.1 94/07/21 16:34:51 troy 2 1	00000/00000/00060
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+,statistics.h
+----------------------------------
+AList.h
+D 2.1 94/07/21 16:34:52 troy 5 4	00000/00000/00044
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Args.h
+D 2.1 94/07/21 16:34:52 troy 3 2	00000/00000/00052
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Bool.h
+D 2.1 94/07/21 16:34:53 troy 6 5	00000/00000/00021
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Bootstrap.h
+D 2.1 94/07/21 16:34:53 troy 2 1	00000/00000/00084
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+CNR.h
+D 2.1 94/07/21 16:34:54 troy 2 1	00000/00000/00078
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Calendar.h
+D 2.1 94/07/21 16:34:54 troy 3 2	00000/00000/00042
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Ceiling.h
+D 2.1 94/07/21 16:34:55 troy 7 6	00000/00000/00068
+MRs:
+COMMENTS:
+Release Version
+
+D 1.6 94/07/20 14:20:05 tom 6 5	00008/00001/00060
+MRs:
+COMMENTS:
+Added access functions for use w/ ceiling tool.
+
+D 1.5 94/07/07 16:49:51 troy 5 4	00002/00001/00059
+MRs:
+COMMENTS:
+added initial base period avg var
+
+----------------------------------
+CeilingTool.h
+D 2.1 94/07/21 16:34:55 troy 3 2	00000/00000/00036
+MRs:
+COMMENTS:
+Release Version
+
+D 1.2 94/07/18 16:58:07 tom 2 1	00004/00000/00032
+MRs:
+COMMENTS:
+Plugged up the leaking tmp storage spaces for ceilings and base_period_ave.
+
+D 1.1 94/07/15 11:59:26 tom 1 0	00032/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/07/15 11:59:26 by tom
+
+----------------------------------
+Cohort.h
+D 2.1 94/07/21 16:34:56 troy 3 2	00000/00000/00030
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+ContextManager.h
+D 1.1 94/08/04 17:19:16 tom 1 0	00050/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/08/04 17:19:16 by tom
+
+----------------------------------
+File.h
+D 2.1 94/07/21 16:34:56 troy 2 1	00000/00000/00040
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Fishery.h
+D 2.1 94/07/21 16:34:57 troy 19 18	00000/00000/00137
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FisheryList.h
+D 2.1 94/07/21 16:34:58 troy 2 1	00000/00000/00011
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FisheryManagement.h
+D 2.1 94/07/21 16:34:58 troy 3 2	00000/00000/00036
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FisheryPolicy.h
+D 2.1 94/07/21 16:34:59 troy 10 9	00000/00000/00068
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FisherySummary.h
+D 2.1 94/07/21 16:34:59 troy 5 4	00000/00000/00053
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Fishery_UI.h
+D 2.1 94/07/21 16:35:00 troy 5 4	00000/00000/00078
+MRs:
+COMMENTS:
+Release Version
+
+D 1.4 94/07/20 14:19:39 tom 4 3	00029/00001/00049
+MRs:
+COMMENTS:
+Added ceiling access for use w/ ceiling tool.
+
+----------------------------------
+FloatSlider.h
+D 2.1 94/07/21 16:35:00 troy 6 5	00000/00000/00054
+MRs:
+COMMENTS:
+Release Version
+
+D 1.5 94/07/20 14:20:58 tom 5 4	00003/00015/00051
+MRs:
+COMMENTS:
+Made a floatslider a ComponentGroup subclass instead of UIComponent.
+
+----------------------------------
+FloatSliderDisplay.h
+D 2.1 94/07/21 16:35:01 troy 8 7	00000/00000/00069
+MRs:
+COMMENTS:
+Release Version
+
+D 1.7 94/07/20 14:21:50 tom 7 6	00023/00015/00046
+MRs:
+COMMENTS:
+Rearranged things to cater to subclassing.
+
+----------------------------------
+GUI.h
+D 2.1 94/07/21 16:35:01 troy 4 3	00000/00000/00038
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Harvest.h
+D 2.1 94/07/21 16:35:02 troy 17 16	00000/00000/00158
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HarvestList.h
+D 2.1 94/07/21 16:35:02 troy 5 4	00000/00000/00076
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HarvestPolicy.h
+D 2.1 94/07/21 16:35:03 troy 7 6	00000/00000/00034
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Harvest_UI.h
+D 2.1 94/07/21 16:35:03 troy 3 2	00000/00000/00050
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HatchSurplusProduction.h
+D 2.1 94/07/21 16:35:04 troy 2 1	00000/00000/00032
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HatcheryProduction.h
+D 2.1 94/07/21 16:35:04 troy 2 1	00000/00000/00017
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Hist.h
+D 2.1 94/07/21 16:35:05 troy 4 3	00000/00000/00034
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HvSummary.h
+D 2.1 94/07/21 16:35:05 troy 7 6	00000/00000/00046
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+IEnum.h
+D 2.1 94/07/21 16:35:06 troy 4 3	00000/00000/00032
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+IOCrud.h
+D 2.1 94/07/21 16:35:07 troy 16 15	00000/00000/00137
+MRs:
+COMMENTS:
+Release Version
+
+D 1.15 94/07/14 11:31:06 troy 15 14	00010/00001/00127
+MRs:
+COMMENTS:
+create ocean harvest data for slcm
+
+----------------------------------
+Map.h
+D 2.1 94/07/21 16:35:07 troy 5 4	00000/00000/00142
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MapManager.h
+D 2.2 94/09/16 19:01:34 tom 3 2	00040/00011/00012
+MRs:
+COMMENTS:
+Made this a window/UI item instead of just invisible mapping class.
+
+D 2.1 94/07/21 16:35:09 troy 2 1	00000/00000/00023
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Map_ui.h
+D 2.2 94/09/16 19:02:28 tom 9 8	00021/00003/00087
+MRs:
+COMMENTS:
+Rewrote to take full advantage of revised MapManager/ContextManager.
+
+D 2.1 94/07/21 16:35:09 troy 8 7	00000/00000/00090
+MRs:
+COMMENTS:
+Release Version
+
+D 1.7 94/07/20 16:43:58 tom 7 6	00028/00087/00062
+MRs:
+COMMENTS:
+Moved declarations out of header file, changed to compiled-in icon.
+
+----------------------------------
+MonteControl.h
+D 2.2 94/09/16 19:11:53 tom 4 3	00009/00004/00079
+MRs:
+COMMENTS:
+Added montecarlo output configuration/control stuff.
+
+D 2.1 94/07/21 16:35:10 troy 3 2	00000/00000/00083
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteDataItem.h
+D 2.1 94/07/21 16:35:11 troy 3 2	00000/00000/00047
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteOutputItem.h
+D 2.4 94/09/16 19:12:42 tom 6 5	00031/00047/00017
+MRs:
+COMMENTS:
+Sccs hist confused -- this is a whole new file -- ignore previous hist.
+
+D 2.3 94/09/12 13:02:43 tom 5 4	00000/00000/00064
+MRs:
+COMMENTS:
+This is actually a whole new file -- previous history is bunk.
+
+D 2.2 94/08/29 23:14:07 tom 4 3	00000/00000/00064
+MRs:
+COMMENTS:
+File and classes renamed to MonteTrackingItem
+
+D 2.1 94/07/21 16:35:11 troy 3 2	00000/00000/00064
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteStockIntrfc.h
+D 2.2 94/09/16 19:13:43 tom 5 4	00007/00007/00051
+MRs:
+COMMENTS:
+Changed MonteStockOutput to MonteStockTracking (simple name change)
+
+D 2.1 94/07/21 16:35:12 troy 4 3	00000/00000/00058
+MRs:
+COMMENTS:
+Release Version
+
+D 1.3 94/07/21 10:58:40 troy 3 2	00010/00002/00048
+MRs:
+COMMENTS:
+added stochastic and stochastic log normal monte items
+
+----------------------------------
+MonteStockTracking.h
+D 1.1 94/08/29 23:09:48 tom 1 0	00046/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/08/29 23:09:48 by tom
+
+----------------------------------
+MonteTrackingItem.h
+D 1.1 94/08/29 23:14:29 tom 1 0	00064/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/08/29 23:14:29 by tom
+
+----------------------------------
+NAList.h
+D 2.1 94/07/21 16:35:13 troy 4 3	00000/00000/00041
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+NaturalProduction.h
+D 2.1 94/07/21 16:35:13 troy 3 2	00000/00000/00038
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+NonNeg.h
+D 2.1 94/07/21 16:35:14 troy 3 2	00000/00000/00018
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+PercentileGraph.h
+D 2.2 94/09/16 19:14:23 tom 5 4	00000/00001/00031
+MRs:
+COMMENTS:
+Ripped out more generic stat generating code to statistics.cc
+
+D 2.1 94/07/21 16:35:14 troy 4 3	00000/00000/00032
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Phase.h
+D 2.1 94/07/21 16:35:15 troy 3 2	00000/00000/00014
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Production.h
+D 2.1 94/07/21 16:35:16 troy 2 1	00000/00000/00044
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+RandGen.h
+D 2.1 94/07/21 16:35:16 troy 3 2	00000/00000/00050
+MRs:
+COMMENTS:
+Release Version
+
+D 1.2 94/07/21 10:57:25 troy 2 1	00008/00019/00042
+MRs:
+COMMENTS:
+changed single stream to use it's own internal pod.
+
+----------------------------------
+RandNorm.h
+D 2.1 94/07/21 16:35:17 troy 3 1	00000/00000/00031
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Range.h
+D 2.1 94/07/21 16:35:17 troy 3 2	00000/00000/00085
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+SeedPod.h
+D 2.1 94/07/21 16:35:18 troy 2 1	00000/00000/00036
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Stochastic.h
+D 2.1 94/07/21 16:35:18 troy 3 2	00000/00000/00051
+MRs:
+COMMENTS:
+Release Version
+
+D 1.2 94/07/21 10:54:45 troy 2 1	00022/00017/00029
+MRs:
+COMMENTS:
+added stochastic log normal
+
+----------------------------------
+Stock.h
+D 2.1 94/07/21 16:35:19 troy 20 19	00000/00000/00144
+MRs:
+COMMENTS:
+Release Version
+
+D 1.19 94/07/14 11:31:04 troy 19 18	00003/00001/00141
+MRs:
+COMMENTS:
+create ocean harvest data for slcm
+
+----------------------------------
+StockList.h
+D 2.1 94/07/21 16:35:19 troy 4 3	00000/00000/00011
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+StockPolicy.h
+D 2.1 94/07/21 16:35:20 troy 15 14	00000/00000/00069
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+StockSummary.h
+D 2.1 94/07/21 16:35:20 troy 8 7	00000/00000/00045
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Stock_UI.h
+D 2.1 94/07/21 16:35:21 troy 4 3	00000/00000/00055
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Summary.h
+D 2.1 94/07/21 16:35:21 troy 5 4	00000/00000/00017
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UI.h
+D 2.1 94/07/21 16:35:22 troy 4 3	00000/00000/00020
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT.h
+D 2.1 94/07/21 16:35:22 troy 3 2	00000/00000/00011
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_BaseFrame.h
+D 2.1 94/07/21 16:35:23 troy 4 3	00000/00000/00029
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_Fishery.h
+D 2.1 94/07/21 16:35:23 troy 6 5	00000/00000/00041
+MRs:
+COMMENTS:
+Release Version
+
+D 1.5 94/07/20 14:21:23 tom 5 4	00004/00000/00037
+MRs:
+COMMENTS:
+Adde CeilingTool functions.
+
+----------------------------------
+UIT_FisheryFrame.h
+D 2.1 94/07/21 16:35:24 troy 5 4	00000/00000/00049
+MRs:
+COMMENTS:
+Release Version
+
+D 1.4 94/07/20 14:22:22 tom 4 3	00002/00001/00047
+MRs:
+COMMENTS:
+Added 'ceilings' button.
+
+----------------------------------
+UIT_Graph.h
+D 2.1 94/07/21 16:35:24 troy 5 4	00000/00000/00066
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_Harvest.h
+D 2.1 94/07/21 16:35:25 troy 5 4	00000/00000/00045
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_HarvestFrame.h
+D 2.1 94/07/21 16:35:25 troy 4 3	00000/00000/00059
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_HarvestRateFrame.h
+D 2.1 94/07/21 16:35:26 troy 2 1	00000/00000/00026
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_HarvestRateScalarFrame.h
+D 2.1 94/07/21 16:35:26 troy 2 1	00000/00000/00026
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_MonteFrame.h
+D 2.1 94/07/21 16:35:27 troy 2 1	00000/00000/00020
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_Stock.h
+D 2.1 94/07/21 16:35:27 troy 5 4	00000/00000/00043
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_StockFrame.h
+D 2.1 94/07/21 16:35:28 troy 4 3	00000/00000/00047
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_YearGraph.h
+D 2.1 94/07/21 16:35:28 troy 3 2	00000/00000/00017
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UniformInt.h
+D 2.1 94/07/21 16:35:29 troy 2 1	00000/00000/00027
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+clog.h
+D 2.1 94/07/21 16:35:29 troy 3 2	00000/00000/00023
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+command.h
+D 2.1 94/07/21 16:35:30 troy 3 2	00000/00000/00027
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+dir.h
+D 2.1 94/07/21 16:35:30 troy 5 4	00000/00000/00049
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+file.h
+D 2.1 94/07/21 16:35:31 troy 2 1	00000/00000/00044
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+globals.h
+D 2.1 94/07/21 16:35:31 troy 7 6	00000/00000/00019
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+help.h
+D 2.1 94/07/21 16:35:32 troy 4 3	00000/00000/00019
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+include.h
+D 2.1 94/07/21 16:35:33 troy 3 2	00000/00000/00010
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+init.h
+D 2.1 94/07/21 16:35:33 troy 4 3	00000/00000/00007
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+input_hist.h
+D 2.1 94/07/21 16:35:34 troy 7 6	00000/00000/00126
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+keydata.h
+D 2.1 94/07/21 16:35:34 troy 2 1	00000/00000/00005
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+log.h
+D 2.1 94/07/21 16:35:35 troy 4 3	00000/00000/00157
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+parseutil.h
+D 2.1 94/07/21 16:35:35 troy 5 4	00000/00000/00077
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+stack.h
+D 2.1 94/07/21 16:35:36 troy 2 1	00000/00000/00027
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+statistics.h
+D 1.1 94/09/21 14:10:27 troy 1 0	00002/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/09/21 14:10:27 by troy
+
+----------------------------------
+token.h
+D 2.1 94/07/21 16:35:36 troy 3 2	00000/00000/00028
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------

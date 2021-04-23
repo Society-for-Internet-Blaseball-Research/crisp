@@ -1,0 +1,126 @@
+h27504
+s 00114/00000/00000
+d D 1.1 97/12/17 11:04:12 camel 1 0
+c date and time created 97/12/17 11:04:12 by camel
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>2.7 -  Dialog Boxes</title></head>
+<body>
+ 
+<a href="users2.html">[Chapter Contents]</a> 
+<hr><br>
+ 
+<a name="700289">
+<h1>2.7 -  Dialog Boxes</h1>
+</a>
+Dialog boxes open when sub-menu items with ".." at the end of the name are chosen from the main drop-down menus. The exceptions to this are "Print.." and "Mouse Tool" on the File menu. "Print.." opens a box where you are apprised of printing status. "Mouse Tool" opens a dialog box.<p>
+
+Dialog boxes have several features in common. They are exemplified by the Harvest Rate Scalars dialog box shown here. All of its elements are summarized in the table on the next page.<p>
+
+<img src="usersa47.gif"><p>
+
+In general, these dialog boxes are used to change parameter values. For example, the Proportion Not Vulnerable (PNV) of Age 2 fish in 1996 for the Alaska Troll Fishery can be specifically altered from the default values read into the model at start-up from the <code><b>*.pnv</b></code> file (see <a href="users22.html#711986">"Getting Started"</a>). When the dialog boxes are opened they show the default values. The parameter values are altered individually or in groups by one or more of the following methods:<p>
+<ul><a name="703686">
+<li>moving sliders
+</a><a name="703687">
+<li>clicking on scrollbar arrows
+</a><a name="703688">
+<li>typing in value boxes 
+</a><a name="703689">
+<li>grouping different parameters so that the change of a single value affects other values absolutely or relatively.
+</a>
+</ul>
+The table that follows shows how these controls work.<p>
+<pre>
+----------------------------------------------------------------------------
+<b>Feature</b>     <b>Name</b>     <b>Description</b> (using Harvest Rate Scalars dialog box as an
+                     example)
+----------------------------------------------------------------------------
+<img src="usersa48.gif">  Fishery  Choose a Fishery to which Harvest Rate Scalars will
+                     apply. The drop-down menu has the entire list of
+                     Fisheries recognized by the model. When a Fishery is
+                     highlighted you can use up and down keys to scroll up
+                     and down the list. Note: It is possible to select
+                     combinations of Fishery and Stock that never interact.
+<img src="usersa49.gif"> Stock    Choose a Stock to which Harvest Rate scalars will apply.
+                     The drop-down menu has the entire list of Stocks
+                     recognized by the model. When a Stock is highlighted you
+                     can use up and down keys to scroll up and down the list.
+                     Note: It is possible to select combinations of Fishery
+                     and Stock that never interact.
+<img src="usersa50.gif">   Year     Toggle on the tabs to display different year groupings.
+            groups   (Putting them all on display at once could make the
+                     dialog boxes very large!)
+<img src="usersa51.gif">    Delta    When checked, all linked values change linearly instead
+                     of proportionally, adding the difference between the new
+                     and old value to all linked values
+<img src="usersa52.gif">       Dulled   The Harvest Rate Scalars for this year are part of the
+            Year     calibration data and can not be adjusted from the dialog
+                     box
+<img src="usersa53.gif">       Bold     The Harvest Rate Scalars for this year can be adjusted
+            Year     by using the Slider, Value box, Y box, F box and S box
+                     methods described below.
+<img src="usersa54.gif"> Slider   Use the slider to adjust the Harvest Rate Scalars
+                     (displayed in the Value box) with the mouse pointer.
+                     Left-click and hold left and right arrows to adjust the
+                     value, or click and drag the central slider to the
+                     desired value.
+<img src="usersa55.gif">   Value    Displays current value of the Harvest Rate Scalar for
+            Box      that Year for the particular stock shown in the Stock
+                     Select area and the fishery shown in the Fishery Select
+                     area unless the Y, F, and/or S box is selected on that
+                     line. These values persist between uses of the dialog
+                     box if Apply or OK is chosen during this run of the
+                     model.
+<img src="usersa56.gif">       Y box    Check box used to set the Harvest Rate Scalars for a
+                     group of years to a common value in the selected
+                     Fisher(y/ies) and Stock(s). When selected, all checked
+                     years are adjusted as a group to the shared value set
+                     the next time any one of them is altered. The Y box at
+                     the top of the column selects or de-selects the entire
+                     range (all years) of Y boxes. This box can be used in
+                     conjunction with other check boxes. The settings of the
+                     Y boxes do not persist in-between uses of the dialog
+                     box.
+<img src="users2a.gif">       F box    Check box used to set the Harvest Rate Scalars for a
+                     group of Fisheries to a common value for the selected
+                     year(s) and the selected Stock(s). It is analogous to
+                     the Y box described above.
+<img src="users2a2.gif">       S box    Check box used to set the Harvest Rate Scalars for a
+                     group of Stocks to a common value for the selected
+                     year(s) and the selected fisheries. It is analogous to
+                     the Y box described above.
+<img src="users2a4.gif">   Help     Opens the Manual in a separate window.
+
+<img src="users2a6.gif">   Reset    Resets the dialog box to the last applied values. Note
+                     that this does not reset values to those from the input
+                     files used when the program was first launched.
+<img src="users2a8.gif">   Apply    Incorporates changes into the next model run.
+
+<img src="users2a9.gif">   Cancel   Resets and closes the dialog box.
+
+<img src="usersa11.gif">   OK       Incorporates changes in the next model run and closes
+                     the dialog box.
+<img src="usersa46.gif">  Forced   Only appears in the Catch Ceilings dialog box (Fishery
+            box      menu). Used to make the modeled catch equal to the catch
+                     ceiling even if the unconstrained catch is below the
+                     ceiling. In practice, Forced catches are generally used
+                     for the calibration period to force the catches to equal
+                     the observed catches. Unforced catches are more likely
+                     to be used for simulations.
+----------------------------------------------------------------------------
+</pre>
+ 
+
+<p>
+<hr><br>
+ 
+<a href="users2.html">[Chapter Contents]</a>
+</body>
+</html>
+E 1

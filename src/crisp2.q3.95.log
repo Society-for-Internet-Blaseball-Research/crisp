@@ -1,0 +1,654 @@
+Bootstrap.cc
+----------------------------------
+CNR.cc
+----------------------------------
+Calendar.cc
+----------------------------------
+Calibrator.cc
+D 1.2 95/10/02 13:30:03 tom 2 1	00037/00016/00241
+MRs:
+COMMENTS:
+Got it more or less working, but not fully debugged and validated
+
+----------------------------------
+Ceiling.cc
+----------------------------------
+CeilingPolicy.cc
+----------------------------------
+CeilingTool.cc
+----------------------------------
+Cohort.cc
+----------------------------------
+ContextManager.cc
+----------------------------------
+File.cc
+----------------------------------
+Fishery.cc
+D 2.6 95/10/02 10:54:06 troy 21 20	00001/00001/00260
+MRs:
+COMMENTS:
+added const decl to get_harvest fn
+
+----------------------------------
+FisheryManagement.cc
+D 2.4 95/10/02 11:16:12 troy 11 10	00283/00230/00259
+MRs:
+COMMENTS:
+reworked parsing of policy management; added fixed comb hr
+
+----------------------------------
+FisherySummary.cc
+----------------------------------
+FisheryTactics.cc
+----------------------------------
+Fishery_UI.cc
+----------------------------------
+FixedCombHarv.cc
+D 1.1 95/07/06 15:35:12 troy 1 0	00015/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/07/06 15:35:12 by troy
+
+----------------------------------
+FixedEscapementPolicy.cc
+D 1.5 95/10/02 11:20:38 troy 5 4	00031/00041/00449
+MRs:
+COMMENTS:
+general cleanup of fixed esc policy and fixed hr policy
+
+----------------------------------
+FloatSlider.cc
+----------------------------------
+FloatSliderDisplay.cc
+----------------------------------
+GUI.cc
+----------------------------------
+Harvest.cc
+D 2.4 95/10/02 10:46:45 troy 14 13	00073/00003/00306
+MRs:
+COMMENTS:
+special harv rate kludge capability (optional)
+
+----------------------------------
+HarvestList.cc
+----------------------------------
+HarvestTactics.cc
+----------------------------------
+Harvest_UI.cc
+D 2.4 95/10/02 11:16:50 troy 7 6	00001/00001/00077
+MRs:
+COMMENTS:
+bug fix
+
+----------------------------------
+HatchSurplusProduction.cc
+----------------------------------
+HatcheryProduction.cc
+----------------------------------
+Hist.cc
+----------------------------------
+HvSummary.cc
+----------------------------------
+IOCrud.cc
+D 2.10 95/10/02 13:55:15 tom 37 36	00053/00008/02496
+MRs:
+COMMENTS:
+Debugged Calib parsing stuff.
+
+D 2.9 95/09/06 10:33:38 troy 36 35	00010/00001/02494
+MRs:
+COMMENTS:
+hv_rate kludge
+
+----------------------------------
+Key.cc
+----------------------------------
+Map.cc
+D 2.2 95/10/02 12:59:34 tom 10 9	00002/00001/00237
+MRs:
+COMMENTS:
+Now asserts that map.dat can be found.
+
+----------------------------------
+MapManager.cc
+D 2.3 95/10/02 13:55:57 tom 4 3	00002/00000/00259
+MRs:
+COMMENTS:
+Added map help for fisheries (previous oversight)
+
+----------------------------------
+Map_ui.cc
+D 2.3 95/10/02 13:05:53 tom 15 14	00035/00029/00984
+MRs:
+COMMENTS:
+Icons are now centered over their location.
+
+----------------------------------
+MonteControl.cc
+----------------------------------
+MonteDataItem.cc
+----------------------------------
+MonteOutputItem.cc
+----------------------------------
+MonteStockIntrfc.cc
+----------------------------------
+MonteStockTracking.cc
+----------------------------------
+MonteTrackingItem.cc
+----------------------------------
+MultiCeilingPolicy.cc
+----------------------------------
+NamedPtrVec.cc
+----------------------------------
+NaturalProduction.cc
+----------------------------------
+Parser.cc
+----------------------------------
+PercentileGraph.cc
+D 2.3 95/10/02 14:05:26 tom 6 5	00019/00011/00127
+MRs:
+COMMENTS:
+Promoted some graph creation code to the UIT_Graph parent class
+
+----------------------------------
+Policy.cc
+----------------------------------
+Production.cc
+----------------------------------
+RandGen.cc
+----------------------------------
+RandNorm.cc
+----------------------------------
+Range.cc
+----------------------------------
+ReadToken.cc
+----------------------------------
+SliderGroup.cc
+----------------------------------
+State.cc
+----------------------------------
+Stock.cc
+----------------------------------
+StockCalib.cc
+D 1.2 95/10/02 13:30:23 tom 2 1	00079/00104/00569
+MRs:
+COMMENTS:
+Got it more or less working, but not fully debugged and validated
+
+----------------------------------
+StockConfig.cc
+----------------------------------
+StockList.cc
+----------------------------------
+StockSummary.cc
+----------------------------------
+Stock_UI.cc
+----------------------------------
+String.cc
+----------------------------------
+Token.cc
+----------------------------------
+UIT.cc
+----------------------------------
+UIT_BaseFrame.cc
+D 2.2 95/10/02 13:07:09 tom 13 12	00203/00028/00118
+MRs:
+COMMENTS:
+If not a calib run, calib button does nothing.
+
+----------------------------------
+UIT_CalibFrame.cc
+D 1.1 95/10/02 14:16:03 troy 1 0	00109/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/10/02 14:16:03 by troy
+
+----------------------------------
+UIT_Fishery.cc
+D 2.6 95/07/13 10:56:04 troy 11 10	00001/00000/00300
+MRs:
+COMMENTS:
+update pnv frame for new fishery selections
+
+----------------------------------
+UIT_FisheryFrame.cc
+----------------------------------
+UIT_Graph.cc
+D 2.2 95/10/02 13:57:25 tom 6 5	00091/00000/00052
+MRs:
+COMMENTS:
+Added dump of histogram to a file.
+
+----------------------------------
+UIT_Harvest.cc
+D 2.5 95/08/10 14:23:03 tom 11 10	00002/00000/00207
+MRs:
+COMMENTS:
+Fixed problem with Harvest Rate frame coming up with wrong selection.
+
+----------------------------------
+UIT_HarvestFrame.cc
+----------------------------------
+UIT_HarvestRateFrame.cc
+D 2.4 95/10/02 14:01:56 tom 6 5	00002/00002/00055
+MRs:
+COMMENTS:
+Inactivated base period sliders.
+
+----------------------------------
+UIT_HarvestRateScalarFrame.cc
+D 2.4 95/10/02 14:03:11 tom 5 4	00001/00001/00127
+MRs:
+COMMENTS:
+Base period (with inactive sliders) ends in appropriate year now.
+
+----------------------------------
+UIT_MonteFrame.cc
+----------------------------------
+UIT_Stock.cc
+D 2.5 95/10/02 13:58:58 tom 11 10	00073/00080/00463
+MRs:
+COMMENTS:
+Fixed one bug, tightened a bunch of graph generating code up.
+
+----------------------------------
+UIT_StockFrame.cc
+----------------------------------
+UIT_YearGraph.cc
+----------------------------------
+UIT_evScalarFrame.cc
+D 1.2 95/10/02 14:07:23 tom 2 1	00003/00002/00098
+MRs:
+COMMENTS:
+Corrected "base period" (period when slider inactive)
+
+----------------------------------
+UIT_idlFrame.cc
+D 1.2 95/10/02 14:07:50 tom 2 1	00001/00001/00100
+MRs:
+COMMENTS:
+Fixed base period
+
+----------------------------------
+UIT_pnvFrame.cc
+----------------------------------
+ascii_log.cc
+----------------------------------
+base_tokens.cc
+----------------------------------
+clog.cc
+----------------------------------
+command.cc
+----------------------------------
+comtest.cc
+----------------------------------
+debug.cc
+----------------------------------
+dir.cc
+----------------------------------
+engine.cc
+----------------------------------
+globals.cc
+D 2.3 95/10/02 13:51:04 tom 10 9	00002/00000/00027
+MRs:
+COMMENTS:
+Added global instance of Calib class.
+
+----------------------------------
+harvest_frame.cc
+----------------------------------
+include.cc
+----------------------------------
+init.cc
+D 2.6 95/10/02 13:30:53 tom 15 14	00001/00001/00143
+MRs:
+COMMENTS:
+Calib file parsing works now.
+
+D 2.5 95/09/06 11:45:01 troy 14 13	00006/00000/00138
+MRs:
+COMMENTS:
+hv_rate kludge
+
+----------------------------------
+iotest.cc
+----------------------------------
+log.cc
+D 2.2 95/10/02 10:45:39 troy 5 4	00005/00001/00312
+MRs:
+COMMENTS:
+only turn on debug level by default for debug compilations
+
+----------------------------------
+main.cc
+----------------------------------
+map.cc
+----------------------------------
+monte_tokens.cc
+----------------------------------
+parse_test.cc
+----------------------------------
+parseutil.cc
+----------------------------------
+simple_output.cc
+----------------------------------
+statistics.cc
+----------------------------------
+token.cc
+----------------------------------
+version.cc
+----------------------------------
+AgeVec.h
+----------------------------------
+Args.h
+----------------------------------
+Bool.h
+----------------------------------
+Bootstrap.h
+----------------------------------
+CNR.h
+----------------------------------
+Calendar.h
+----------------------------------
+Calibrator.h
+D 1.2 95/10/02 13:30:02 tom 2 1	00008/00005/00065
+MRs:
+COMMENTS:
+Got it more or less working, but not fully debugged and validated
+
+----------------------------------
+Ceiling.h
+----------------------------------
+CeilingPolicy.h
+----------------------------------
+CeilingTool.h
+----------------------------------
+Cohort.h
+----------------------------------
+ContextManager.h
+----------------------------------
+File.h
+----------------------------------
+Fishery.h
+D 2.6 95/10/02 10:47:12 troy 24 23	00001/00001/00136
+MRs:
+COMMENTS:
+fixed const fn decl
+
+----------------------------------
+FisheryList.h
+----------------------------------
+FisheryManagement.h
+----------------------------------
+FisherySummary.h
+----------------------------------
+FisheryTactics.h
+----------------------------------
+Fishery_UI.h
+----------------------------------
+FixedCombHarv.h
+D 1.1 95/07/06 15:35:12 troy 1 0	00027/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/07/06 15:35:12 by troy
+
+----------------------------------
+FixedEscStock.h
+----------------------------------
+FixedEscapementPolicy.h
+D 1.4 95/10/02 11:20:38 troy 4 3	00021/00010/00128
+MRs:
+COMMENTS:
+general cleanup of fixed esc policy and fixed hr policy
+
+----------------------------------
+FixedHarvestPolicy.h
+----------------------------------
+FloatSlider.h
+----------------------------------
+FloatSliderDisplay.h
+----------------------------------
+GUI.h
+----------------------------------
+Harvest.h
+D 2.5 95/10/02 10:46:46 troy 21 20	00003/00000/00170
+MRs:
+COMMENTS:
+special harv rate kludge capability (optional)
+
+----------------------------------
+HarvestList.h
+D 2.2 95/10/02 10:48:18 troy 6 5	00011/00004/00072
+MRs:
+COMMENTS:
+made list access fns conceptually const
+
+----------------------------------
+HarvestTactics.h
+----------------------------------
+Harvest_UI.h
+----------------------------------
+HatchSurplusProduction.h
+----------------------------------
+HatcheryProduction.h
+----------------------------------
+Hist.h
+----------------------------------
+HvSummary.h
+----------------------------------
+IEnum.h
+----------------------------------
+IOCrud.h
+D 2.5 95/10/02 13:55:18 tom 20 19	00002/00001/00147
+MRs:
+COMMENTS:
+Debugged Calib parsing stuff.
+
+----------------------------------
+Map.h
+----------------------------------
+MapManager.h
+----------------------------------
+Map_ui.h
+----------------------------------
+MonteControl.h
+----------------------------------
+MonteDataItem.h
+----------------------------------
+MonteOutputItem.h
+----------------------------------
+MonteStockIntrfc.h
+----------------------------------
+MonteStockTracking.h
+----------------------------------
+MonteTrackingItem.h
+----------------------------------
+MultiCeilingPolicy.h
+----------------------------------
+NamedPtrVec.h
+----------------------------------
+NaturalProduction.h
+----------------------------------
+NonNeg.h
+----------------------------------
+Parser.h
+----------------------------------
+PercentileGraph.h
+D 2.3 95/10/02 14:05:51 tom 6 5	00001/00001/00030
+MRs:
+COMMENTS:
+Mods to create method
+
+----------------------------------
+Phase.h
+----------------------------------
+Policies.h
+D 1.3 95/10/02 11:14:29 troy 3 2	00001/00001/00011
+MRs:
+COMMENTS:
+new fixed combined harvest policy
+
+----------------------------------
+Policy.h
+----------------------------------
+Production.h
+----------------------------------
+RandGen.h
+----------------------------------
+RandNorm.h
+----------------------------------
+Range.h
+----------------------------------
+ReadToken.h
+----------------------------------
+SeedPod.h
+----------------------------------
+SliderGroup.h
+----------------------------------
+State.h
+----------------------------------
+Stochastic.h
+----------------------------------
+Stock.h
+----------------------------------
+StockCalib.h
+D 1.2 95/10/02 13:30:24 tom 2 1	00004/00002/00079
+MRs:
+COMMENTS:
+Got it more or less working, but not fully debugged and validated
+
+----------------------------------
+StockConfig.h
+D 1.4 95/10/02 14:10:10 tom 4 3	00007/00001/00082
+MRs:
+COMMENTS:
+Added methods needed for calibration code to set mat rate and aeq
+
+----------------------------------
+StockList.h
+----------------------------------
+StockSummary.h
+----------------------------------
+Stock_UI.h
+----------------------------------
+String.h
+----------------------------------
+Summary.h
+----------------------------------
+Token.h
+----------------------------------
+UI.h
+----------------------------------
+UIT.h
+----------------------------------
+UIT_BaseFrame.h
+D 2.2 95/10/02 13:56:13 tom 5 4	00012/00001/00028
+MRs:
+COMMENTS:
+Added info menu
+
+----------------------------------
+UIT_CalibFrame.h
+D 1.1 95/10/02 14:16:00 troy 1 0	00023/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/10/02 14:16:00 by troy
+
+----------------------------------
+UIT_Fishery.h
+----------------------------------
+UIT_FisheryFrame.h
+----------------------------------
+UIT_Graph.h
+D 2.2 95/10/02 14:00:08 tom 6 5	00001/00004/00062
+MRs:
+COMMENTS:
+Added create member func.
+
+----------------------------------
+UIT_Harvest.h
+----------------------------------
+UIT_HarvestFrame.h
+----------------------------------
+UIT_HarvestRateFrame.h
+----------------------------------
+UIT_HarvestRateScalarFrame.h
+----------------------------------
+UIT_MonteFrame.h
+----------------------------------
+UIT_Stock.h
+----------------------------------
+UIT_StockFrame.h
+----------------------------------
+UIT_YearGraph.h
+D 2.2 95/10/02 14:06:21 tom 4 3	00001/00001/00016
+MRs:
+COMMENTS:
+mods to create method
+
+----------------------------------
+UIT_evScalarFrame.h
+----------------------------------
+UIT_idlFrame.h
+----------------------------------
+UIT_pnvFrame.h
+----------------------------------
+UniformInt.h
+----------------------------------
+base_tokens.h
+----------------------------------
+clog.h
+----------------------------------
+command.h
+----------------------------------
+dir.h
+----------------------------------
+file.h
+----------------------------------
+globals.h
+D 2.3 95/10/02 13:51:05 tom 9 8	00006/00000/00019
+MRs:
+COMMENTS:
+Added global instance of Calib class.
+
+----------------------------------
+help.h
+D 2.2 95/10/02 13:32:22 tom 5 4	00006/00000/00019
+MRs:
+COMMENTS:
+Made public functions I needed for the base frame Docs button.
+
+----------------------------------
+include.h
+----------------------------------
+init.h
+----------------------------------
+input_hist.h
+----------------------------------
+keydata.h
+----------------------------------
+log.h
+----------------------------------
+monte_tokens.h
+----------------------------------
+parseutil.h
+----------------------------------
+stack.h
+----------------------------------
+statistics.h
+----------------------------------
+token.h
+----------------------------------
+file.c
+----------------------------------
+help.c
+D 2.3 95/10/02 13:32:21 tom 8 7	00012/00000/00569
+MRs:
+COMMENTS:
+Made public functions I needed for the base frame Docs button.
+
+----------------------------------
+input_hist.c
+----------------------------------
+stack.c
+----------------------------------

@@ -1,0 +1,1651 @@
+Bootstrap.cc
+D 2.2 96/01/04 12:35:33 umbe 3 2	00002/00001/00054
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+CNR.cc
+D 2.6 96/01/04 12:32:43 umbe 7 6	00000/00000/00100
+MRs:
+COMMENTS:
+
+
+D 2.5 96/01/04 12:26:18 umbe 6 5	00000/00000/00100
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+D 2.4 96/01/04 12:14:50 umbe 5 4	00017/00000/00083
+MRs:
+COMMENTS:
+Added new WAG CNR method type.
+
+----------------------------------
+Calendar.cc
+D 2.5 96/01/04 12:32:44 umbe 6 5	00000/00000/00041
+MRs:
+COMMENTS:
+
+
+D 2.4 96/01/04 12:26:19 umbe 5 4	00000/00000/00041
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+----------------------------------
+Calibrator.cc
+D 1.5 96/01/04 12:35:34 umbe 5 4	00000/00000/00283
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 1.4 96/01/04 12:26:21 umbe 4 3	00007/00002/00276
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+----------------------------------
+Ceiling.cc
+D 2.5 96/01/04 12:35:34 umbe 10 9	00000/00000/00115
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.4 96/01/04 12:26:22 umbe 9 8	00007/00006/00108
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+----------------------------------
+CeilingPolicy.cc
+D 1.5 96/01/04 12:35:35 umbe 5 4	00000/00000/00068
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 1.4 96/01/04 12:26:24 umbe 4 3	00000/00000/00068
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+----------------------------------
+CeilingTool.cc
+D 2.5 96/01/04 12:35:36 umbe 8 7	00000/00000/00256
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.4 96/01/04 12:26:25 umbe 7 6	00002/00000/00254
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+----------------------------------
+Cohort.cc
+D 2.4 96/01/04 12:35:36 umbe 5 4	00000/00000/00013
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.3 96/01/04 12:26:27 umbe 4 3	00000/00000/00013
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+----------------------------------
+ContextManager.cc
+D 1.4 96/01/04 12:35:37 umbe 4 3	00000/00000/00032
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 1.3 96/01/04 12:26:28 umbe 3 2	00003/00000/00029
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+----------------------------------
+File.cc
+D 2.3 96/01/04 12:32:50 umbe 5 4	00000/00000/00075
+MRs:
+COMMENTS:
+
+
+D 2.2 96/01/04 11:17:15 umbe 4 3	00000/00000/00075
+MRs:
+COMMENTS:
+All code updata
+
+----------------------------------
+Fishery.cc
+D 2.8 96/01/04 12:32:49 umbe 23 22	00000/00000/00261
+MRs:
+COMMENTS:
+
+
+D 2.7 96/01/04 11:17:16 umbe 22 21	00001/00001/00260
+MRs:
+COMMENTS:
+All code updata
+
+----------------------------------
+FisheryManagement.cc
+D 2.7 96/01/04 12:35:38 umbe 14 13	00000/00000/00544
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.6 96/01/04 11:17:16 umbe 13 12	00000/00000/00544
+MRs:
+COMMENTS:
+All code updata
+
+----------------------------------
+FisherySummary.cc
+D 2.5 96/01/04 12:32:53 umbe 9 8	00000/00000/00114
+MRs:
+COMMENTS:
+
+
+D 2.4 96/01/04 11:17:17 umbe 8 7	00000/00000/00114
+MRs:
+COMMENTS:
+All code updata
+
+----------------------------------
+FisheryTactics.cc
+D 1.4 96/01/04 12:35:39 umbe 4 3	00000/00000/00041
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 1.3 96/01/04 11:17:18 umbe 3 2	00002/00001/00039
+MRs:
+COMMENTS:
+All code updata
+
+----------------------------------
+Fishery_UI.cc
+D 2.5 96/01/04 12:35:40 umbe 10 9	00000/00000/00047
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.4 96/01/04 11:17:18 umbe 9 8	00005/00000/00042
+MRs:
+COMMENTS:
+All code updata
+
+----------------------------------
+FixedCombHarv.cc
+D 1.4 96/01/04 12:35:40 umbe 4 3	00000/00000/00015
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 1.3 96/01/04 11:17:19 umbe 3 2	00000/00000/00015
+MRs:
+COMMENTS:
+All code updata
+
+----------------------------------
+FixedEscapementPolicy.cc
+D 1.7 96/01/04 12:35:41 umbe 7 6	00000/00000/00480
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 1.6 96/01/04 11:17:20 umbe 6 5	00000/00000/00480
+MRs:
+COMMENTS:
+All code updata
+
+----------------------------------
+FloatSlider.cc
+D 2.5 96/01/04 12:35:42 umbe 10 9	00000/00000/00135
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.4 96/01/04 11:17:20 umbe 9 8	00002/00000/00133
+MRs:
+COMMENTS:
+All code updata
+
+----------------------------------
+FloatSliderDisplay.cc
+D 2.7 96/01/04 12:35:43 umbe 16 15	00000/00000/00374
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.6 96/01/04 11:17:21 umbe 15 14	00007/00002/00367
+MRs:
+COMMENTS:
+All code updata
+
+----------------------------------
+GUI.cc
+D 2.3 96/01/04 12:35:44 umbe 7 6	00000/00000/00033
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.2 96/01/04 12:27:38 umbe 6 5	00005/00000/00028
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Harvest.cc
+D 2.6 96/01/04 12:32:30 umbe 16 15	00000/00000/00379
+MRs:
+COMMENTS:
+
+
+D 2.5 96/01/04 12:23:34 umbe 15 14	00000/00000/00379
+MRs:
+COMMENTS:
+Revised to support non-gui mode with _GUI_ define. -Steve
+
+----------------------------------
+HarvestList.cc
+D 2.3 96/01/04 12:32:32 umbe 6 5	00000/00000/00105
+MRs:
+COMMENTS:
+
+
+D 2.2 96/01/04 12:23:35 umbe 5 4	00000/00000/00105
+MRs:
+COMMENTS:
+Revised to support non-gui mode with _GUI_ define. -Steve
+
+----------------------------------
+HarvestTactics.cc
+D 1.3 96/01/04 12:35:45 umbe 3 2	00000/00000/00012
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 1.2 96/01/04 12:23:35 umbe 2 1	00002/00001/00010
+MRs:
+COMMENTS:
+Revised to support non-gui mode with _GUI_ define. -Steve
+
+----------------------------------
+Harvest_UI.cc
+D 2.6 96/01/04 12:35:45 umbe 9 8	00000/00000/00082
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.5 96/01/04 12:23:36 umbe 8 7	00004/00000/00078
+MRs:
+COMMENTS:
+Revised to support non-gui mode with _GUI_ define. -Steve
+
+----------------------------------
+HatchSurplusProduction.cc
+D 2.3 96/01/04 12:35:46 umbe 6 5	00000/00000/00047
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.2 96/01/04 12:23:37 umbe 5 4	00000/00000/00047
+MRs:
+COMMENTS:
+Revised to support non-gui mode with _GUI_ define. -Steve
+
+----------------------------------
+HatcheryProduction.cc
+D 2.3 96/01/04 12:35:47 umbe 5 4	00000/00000/00042
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.2 96/01/04 12:23:38 umbe 4 3	00000/00000/00042
+MRs:
+COMMENTS:
+Revised to support non-gui mode with _GUI_ define. -Steve
+
+----------------------------------
+Hist.cc
+D 2.4 96/01/04 12:35:47 umbe 7 6	00000/00000/00516
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.3 96/01/04 12:23:38 umbe 6 5	00011/00008/00505
+MRs:
+COMMENTS:
+Revised to support non-gui mode with _GUI_ define. -Steve
+
+----------------------------------
+HvSummary.cc
+D 2.4 96/01/04 12:35:48 umbe 8 7	00000/00000/00056
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.3 96/01/04 12:23:39 umbe 7 6	00010/00007/00046
+MRs:
+COMMENTS:
+Revised to support non-gui mode with _GUI_ define. -Steve
+
+----------------------------------
+IOCrud.cc
+D 2.13 96/01/04 12:32:45 umbe 40 39	00000/00000/02568
+MRs:
+COMMENTS:
+
+
+D 2.12 96/01/04 12:16:15 umbe 39 38	00023/00004/02545
+MRs:
+COMMENTS:
+Reads in WAG method from CNR data files.
+
+----------------------------------
+Key.cc
+D 1.2 96/01/04 12:35:49 umbe 2 1	00000/00000/00015
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+Map.cc
+D 2.4 96/01/04 12:03:55 umbe 12 11	00000/00000/00239
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MapManager.cc
+D 2.5 96/01/04 12:03:56 umbe 6 5	00003/00000/00262
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Map_ui.cc
+D 2.5 96/01/04 12:03:57 umbe 17 16	00003/00000/01019
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MonteControl.cc
+D 2.3 96/01/04 12:03:59 umbe 6 5	00000/00000/00235
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MonteDataItem.cc
+D 2.2 96/01/04 12:04:00 umbe 4 3	00000/00000/00008
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MonteOutputItem.cc
+D 2.6 96/01/04 12:04:02 umbe 8 7	00000/00000/00259
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MonteStockIntrfc.cc
+D 2.4 96/01/04 12:04:03 umbe 7 6	00000/00000/00068
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MonteStockTracking.cc
+D 1.2 96/01/04 12:04:04 umbe 2 1	00000/00000/00033
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MonteTrackingItem.cc
+D 1.2 96/01/04 12:04:06 umbe 2 1	00006/00003/00087
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MultiCeilingPolicy.cc
+D 1.4 96/01/04 12:04:07 umbe 4 3	00000/00000/00118
+MRs:
+COMMENTS:
+
+
+----------------------------------
+NamedPtrVec.cc
+D 1.3 96/01/04 12:35:52 umbe 3 2	00000/00000/00040
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+NaturalProduction.cc
+D 2.2 96/01/04 12:35:52 umbe 3 2	00000/00000/00047
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+Parser.cc
+----------------------------------
+PercentileGraph.cc
+D 2.5 96/01/04 12:32:06 umbe 8 7	00000/00000/00146
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Policy.cc
+D 1.3 96/01/04 12:32:08 umbe 3 2	00000/00000/00041
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Production.cc
+D 2.2 96/01/04 12:32:10 umbe 3 2	00000/00000/00037
+MRs:
+COMMENTS:
+
+
+----------------------------------
+RandGen.cc
+D 2.2 96/01/04 12:32:11 umbe 4 3	00000/00000/00005
+MRs:
+COMMENTS:
+
+
+----------------------------------
+RandNorm.cc
+D 2.2 96/01/04 12:32:12 umbe 3 2	00000/00000/00031
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Range.cc
+D 2.2 96/01/04 12:32:13 umbe 4 3	00000/00000/00056
+MRs:
+COMMENTS:
+
+
+----------------------------------
+ReadToken.cc
+D 2.3 96/01/04 12:32:14 umbe 3 2	00000/00000/00085
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Simulation.cc
+D 1.3 96/01/04 13:08:00 umbe 3 2	00000/00000/00035
+MRs:
+COMMENTS:
+
+
+D 1.2 96/01/04 12:35:54 umbe 2 1	00006/00003/00029
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+SliderGroup.cc
+D 1.5 96/01/04 12:35:55 umbe 5 4	00012/00005/00210
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+State.cc
+----------------------------------
+Stock.cc
+D 2.4 96/01/04 12:32:31 umbe 20 19	00000/00000/00367
+MRs:
+COMMENTS:
+
+
+----------------------------------
+StockCalib.cc
+----------------------------------
+StockConfig.cc
+D 1.4 96/01/04 12:35:57 umbe 4 3	00008/00004/00052
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+StockSummary.cc
+D 2.3 96/01/04 12:35:58 umbe 9 8	00008/00004/00115
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+Stock_UI.cc
+D 2.3 96/01/04 12:35:59 umbe 7 6	00007/00000/00043
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+String.cc
+D 1.3 96/01/04 12:35:59 umbe 3 2	00000/00000/00045
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+Token.cc
+D 2.3 96/01/04 12:36:00 umbe 3 2	00000/00000/00045
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+UIT.cc
+D 2.3 96/01/04 12:36:00 umbe 4 3	00000/00000/00034
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.2 96/01/04 11:13:33 umbe 3 2	00002/00000/00032
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_BaseFrame.cc
+D 2.5 96/01/04 12:36:01 umbe 16 15	00000/00000/00319
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.4 96/01/04 11:13:33 umbe 15 14	00013/00004/00306
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_CalibFrame.cc
+D 1.4 96/01/04 12:36:02 umbe 4 3	00000/00000/00106
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 1.3 96/01/04 11:13:34 umbe 3 2	00002/00001/00104
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_Fishery.cc
+D 2.9 96/01/04 12:36:03 umbe 14 13	00000/00000/00319
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.8 96/01/04 11:13:35 umbe 13 12	00007/00001/00312
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_FisheryFrame.cc
+D 2.5 96/01/04 12:36:03 umbe 10 9	00000/00000/00191
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.4 96/01/04 11:13:36 umbe 9 8	00004/00001/00187
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_Graph.cc
+D 2.5 96/01/04 12:36:04 umbe 9 8	00000/00000/00147
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.4 96/01/04 11:13:36 umbe 8 7	00009/00005/00138
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_Harvest.cc
+D 2.7 96/01/04 12:36:05 umbe 13 12	00000/00000/00211
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.6 96/01/04 11:13:37 umbe 12 11	00002/00000/00209
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_HarvestFrame.cc
+D 2.3 96/01/04 12:36:06 umbe 7 6	00000/00000/00216
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.2 96/01/04 11:13:38 umbe 6 5	00003/00000/00213
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_HarvestRateFrame.cc
+D 2.6 96/01/04 12:36:06 umbe 8 7	00000/00000/00058
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.5 96/01/04 11:13:39 umbe 7 6	00002/00001/00056
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_HarvestRateScalarFrame.cc
+D 2.7 96/01/04 12:36:07 umbe 8 7	00000/00000/00131
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.6 96/01/04 11:13:39 umbe 7 6	00002/00001/00129
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_MonteFrame.cc
+D 2.5 96/01/04 12:36:08 umbe 7 6	00000/00000/00069
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.4 96/01/04 11:13:40 umbe 6 5	00002/00000/00067
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_Stock.cc
+D 2.10 96/01/04 12:36:08 umbe 16 15	00000/00000/00555
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.9 96/01/04 11:13:41 umbe 15 14	00006/00003/00549
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_StockFrame.cc
+D 2.4 96/01/04 12:36:09 umbe 7 6	00000/00000/00224
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.3 96/01/04 11:13:42 umbe 6 5	00002/00000/00222
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_YearGraph.cc
+D 2.3 96/01/04 12:36:10 umbe 5 4	00000/00000/00028
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 2.2 96/01/04 11:13:42 umbe 4 3	00007/00002/00021
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_cnrFrame.cc
+D 1.4 96/01/04 12:36:11 umbe 4 3	00000/00000/00111
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 1.3 96/01/04 11:13:43 umbe 3 2	00000/00000/00111
+MRs:
+COMMENTS:
+yes
+
+D 1.2 96/01/04 10:52:19 umbe 2 1	00003/00001/00108
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_enhScalarFrame.cc
+D 1.6 96/01/04 12:36:11 umbe 6 5	00000/00000/00083
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 1.5 96/01/04 11:13:44 umbe 5 4	00000/00000/00083
+MRs:
+COMMENTS:
+yes
+
+D 1.4 96/01/04 10:52:48 umbe 4 3	00003/00041/00080
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_evScalarFrame.cc
+D 1.6 96/01/04 12:36:12 umbe 6 5	00000/00000/00105
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 1.5 96/01/04 11:13:45 umbe 5 4	00003/00001/00102
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_idlFrame.cc
+D 1.7 96/01/04 12:36:13 umbe 7 6	00000/00000/00105
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 1.6 96/01/04 11:13:46 umbe 6 5	00002/00000/00103
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+UIT_pnvFrame.cc
+D 1.8 96/01/04 12:36:14 umbe 8 7	00000/00000/00109
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+D 1.7 96/01/04 11:13:46 umbe 7 6	00002/00000/00107
+MRs:
+COMMENTS:
+yes
+
+----------------------------------
+ascii_log.cc
+D 2.2 96/01/04 12:32:16 umbe 3 2	00000/00000/00055
+MRs:
+COMMENTS:
+
+
+----------------------------------
+base_tokens.cc
+D 2.2 96/01/04 12:36:15 umbe 2 1	00000/00000/00032
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+clog.cc
+D 2.2 96/01/04 12:32:43 umbe 4 3	00000/00000/00024
+MRs:
+COMMENTS:
+
+
+----------------------------------
+cnrVisitor.cc
+D 1.3 96/01/04 12:18:45 umbe 3 2	00039/00022/00087
+MRs:
+COMMENTS:
+Calibration toggle removed, WAG sliders added, various fixes. -Steve
+
+----------------------------------
+command.cc
+D 2.2 96/01/04 12:32:16 umbe 5 4	00000/00000/00224
+MRs:
+COMMENTS:
+
+
+----------------------------------
+comtest.cc
+D 2.2 96/01/04 12:32:17 umbe 3 2	00000/00000/00056
+MRs:
+COMMENTS:
+
+
+----------------------------------
+debug.cc
+D 2.2 96/01/04 12:36:16 umbe 4 3	00000/00000/00028
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+dir.cc
+D 2.2 96/01/04 12:32:18 umbe 4 3	00000/00000/00193
+MRs:
+COMMENTS:
+
+
+----------------------------------
+engine.cc
+D 2.3 96/01/04 12:36:17 umbe 8 7	00000/00000/00053
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+globals.cc
+D 2.4 96/01/04 12:32:32 umbe 11 10	00000/00000/00029
+MRs:
+COMMENTS:
+
+
+----------------------------------
+include.cc
+D 2.2 96/01/04 12:32:18 umbe 5 4	00000/00000/00059
+MRs:
+COMMENTS:
+
+
+----------------------------------
+init.cc
+----------------------------------
+iotest.cc
+D 2.2 96/01/04 12:32:19 umbe 3 2	00000/00000/00022
+MRs:
+COMMENTS:
+
+
+----------------------------------
+log.cc
+D 2.5 96/01/04 12:32:20 umbe 8 7	00000/00000/00348
+MRs:
+COMMENTS:
+
+
+D 2.4 96/01/04 12:23:33 umbe 7 6	00034/00003/00314
+MRs:
+COMMENTS:
+Revised to support non-gui mode with _GUI_ define. -Steve
+
+----------------------------------
+main.cc
+D 2.5 96/01/04 12:32:20 umbe 12 11	00000/00000/00056
+MRs:
+COMMENTS:
+
+
+D 2.4 96/01/04 12:12:39 umbe 11 10	00019/00010/00037
+MRs:
+COMMENTS:
+Updated to support non graphical user interface (GUI) compilation
+
+----------------------------------
+monte_tokens.cc
+----------------------------------
+parse_test.cc
+D 2.2 96/01/04 12:32:28 umbe 4 3	00000/00000/00374
+MRs:
+COMMENTS:
+
+
+----------------------------------
+parseutil.cc
+D 2.2 96/01/04 12:32:21 umbe 5 4	00000/00000/00458
+MRs:
+COMMENTS:
+
+
+----------------------------------
+simple_output.cc
+D 2.3 96/01/04 12:32:45 umbe 7 6	00000/00000/00016
+MRs:
+COMMENTS:
+
+
+----------------------------------
+statistics.cc
+D 1.2 96/01/04 12:36:21 umbe 2 1	00000/00000/00038
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+token.cc
+D 2.2 96/01/04 12:32:22 umbe 7 6	00000/00000/00352
+MRs:
+COMMENTS:
+
+
+----------------------------------
+version.cc
+D 2.3 96/01/04 12:36:22 umbe 10 9	00001/00001/00036
+MRs:
+COMMENTS:
+More _GUI_ code separations. -Steve
+
+----------------------------------
+file.c
+D 2.2 96/01/04 12:32:41 umbe 4 3	00000/00000/00378
+MRs:
+COMMENTS:
+
+
+----------------------------------
+help.c
+D 2.4 96/01/04 12:32:39 umbe 9 8	00000/00000/00581
+MRs:
+COMMENTS:
+
+
+----------------------------------
+input_hist.c
+----------------------------------
+stack.c
+D 2.2 96/01/04 12:32:40 umbe 3 2	00000/00000/00060
+MRs:
+COMMENTS:
+
+
+----------------------------------
+AgeVec.h
+----------------------------------
+Args.h
+----------------------------------
+Bool.h
+D 2.2 96/01/04 12:32:33 umbe 7 6	00000/00000/00021
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Bootstrap.h
+----------------------------------
+CNR.h
+D 2.6 96/01/04 12:32:52 umbe 7 6	00000/00000/00127
+MRs:
+COMMENTS:
+
+
+D 2.5 96/01/04 12:26:18 umbe 6 5	00000/00000/00127
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+D 2.4 96/01/04 12:14:51 umbe 5 4	00033/00001/00094
+MRs:
+COMMENTS:
+Added new WAG CNR method type.
+
+----------------------------------
+Calendar.h
+D 2.5 96/01/04 12:26:20 umbe 7 6	00000/00000/00040
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+----------------------------------
+Calibrator.h
+D 1.3 96/01/04 12:26:21 umbe 3 2	00000/00000/00073
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+----------------------------------
+Ceiling.h
+D 2.4 96/01/04 12:26:23 umbe 10 9	00000/00000/00071
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+----------------------------------
+CeilingPolicy.h
+D 1.3 96/01/04 12:26:25 umbe 3 2	00000/00000/00039
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+----------------------------------
+CeilingTool.h
+D 2.3 96/01/04 12:26:26 umbe 5 4	00000/00000/00043
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+----------------------------------
+Cohort.h
+D 2.4 96/01/04 12:32:34 umbe 6 5	00000/00000/00036
+MRs:
+COMMENTS:
+
+
+D 2.3 96/01/04 12:26:27 umbe 5 4	00000/00000/00036
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+----------------------------------
+ContextManager.h
+D 1.3 96/01/04 12:26:29 umbe 3 2	00000/00000/00051
+MRs:
+COMMENTS:
+_GUI_ mode update -Steve
+
+----------------------------------
+Fishery.h
+D 2.8 96/01/04 12:32:35 umbe 26 25	00000/00000/00137
+MRs:
+COMMENTS:
+
+
+D 2.7 96/01/04 11:16:35 umbe 25 24	00000/00000/00137
+MRs:
+COMMENTS:
+
+
+----------------------------------
+FisheryList.h
+D 2.3 96/01/04 11:16:36 umbe 4 3	00000/00000/00011
+MRs:
+COMMENTS:
+
+
+----------------------------------
+FisheryManagement.h
+D 2.4 96/01/04 11:16:36 umbe 6 5	00000/00000/00070
+MRs:
+COMMENTS:
+
+
+----------------------------------
+FisherySummary.h
+D 2.4 96/01/04 11:16:37 umbe 8 7	00002/00001/00053
+MRs:
+COMMENTS:
+
+
+----------------------------------
+FisheryTactics.h
+D 1.3 96/01/04 11:16:38 umbe 3 2	00000/00000/00068
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Fishery_UI.h
+D 2.7 96/01/04 12:32:47 umbe 11 10	00000/00000/00088
+MRs:
+COMMENTS:
+
+
+D 2.6 96/01/04 11:16:39 umbe 10 9	00000/00000/00088
+MRs:
+COMMENTS:
+
+
+----------------------------------
+FixedCombHarv.h
+D 1.2 96/01/04 11:16:39 umbe 2 1	00000/00000/00027
+MRs:
+COMMENTS:
+
+
+----------------------------------
+FixedEscStock.h
+D 1.3 96/01/04 11:16:40 umbe 3 2	00000/00000/00045
+MRs:
+COMMENTS:
+
+
+----------------------------------
+FixedEscapementPolicy.h
+D 1.5 96/01/04 11:16:40 umbe 5 4	00000/00000/00149
+MRs:
+COMMENTS:
+
+
+----------------------------------
+FixedHarvestPolicy.h
+D 1.3 96/01/04 11:16:41 umbe 3 2	00000/00000/00024
+MRs:
+COMMENTS:
+
+
+----------------------------------
+FloatSlider.h
+D 2.3 96/01/04 11:16:42 umbe 8 7	00000/00000/00045
+MRs:
+COMMENTS:
+
+
+----------------------------------
+FloatSliderDisplay.h
+D 2.4 96/01/04 11:16:42 umbe 11 10	00001/00000/00086
+MRs:
+COMMENTS:
+
+
+----------------------------------
+GUI.h
+D 2.2 96/01/04 12:27:39 umbe 5 4	00000/00000/00038
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Harvest.h
+D 2.6 96/01/04 12:32:36 umbe 22 21	00000/00000/00173
+MRs:
+COMMENTS:
+
+
+----------------------------------
+HarvestList.h
+D 2.4 96/01/04 12:32:37 umbe 8 7	00000/00000/00083
+MRs:
+COMMENTS:
+
+
+----------------------------------
+HarvestTactics.h
+----------------------------------
+Harvest_UI.h
+----------------------------------
+HatchSurplusProduction.h
+----------------------------------
+HatcheryProduction.h
+----------------------------------
+Hist.h
+----------------------------------
+HvSummary.h
+----------------------------------
+IEnum.h
+----------------------------------
+IOCrud.h
+D 2.7 96/01/04 12:32:48 umbe 22 21	00000/00000/00149
+MRs:
+COMMENTS:
+
+
+D 2.6 96/01/04 12:16:17 umbe 21 20	00000/00000/00149
+MRs:
+COMMENTS:
+Reads in WAG method from CNR data files.
+
+----------------------------------
+Map.h
+D 2.3 96/01/04 12:03:55 umbe 7 6	00000/00000/00142
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MapManager.h
+D 2.4 96/01/04 12:03:57 umbe 5 4	00000/00000/00052
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Map_ui.h
+D 2.4 96/01/04 12:03:58 umbe 11 10	00000/00000/00110
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MonteControl.h
+D 2.3 96/01/04 12:04:00 umbe 5 4	00000/00000/00088
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MonteDataItem.h
+D 2.2 96/01/04 12:04:01 umbe 4 3	00000/00000/00047
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MonteOutputItem.h
+D 2.5 96/01/04 12:04:02 umbe 7 6	00000/00000/00048
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MonteStockIntrfc.h
+D 2.5 96/01/04 12:04:04 umbe 8 7	00000/00000/00058
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MonteStockTracking.h
+D 1.3 96/01/04 12:04:05 umbe 3 2	00000/00000/00046
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MonteTrackingItem.h
+D 1.2 96/01/04 12:04:06 umbe 2 1	00000/00000/00064
+MRs:
+COMMENTS:
+
+
+----------------------------------
+MultiCeilingPolicy.h
+D 1.3 96/01/04 12:04:08 umbe 3 2	00000/00000/00032
+MRs:
+COMMENTS:
+
+
+----------------------------------
+NamedPtrVec.h
+D 1.3 96/01/04 14:33:54 umbe 3 2	00000/00000/00050
+MRs:
+COMMENTS:
+
+
+----------------------------------
+NaturalProduction.h
+----------------------------------
+NonNeg.h
+----------------------------------
+Parser.h
+----------------------------------
+PercentileGraph.h
+D 2.4 96/01/04 12:32:07 umbe 7 6	00000/00000/00031
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Phase.h
+D 2.3 96/01/04 12:32:07 umbe 5 4	00000/00000/00014
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Policies.h
+D 1.4 96/01/04 12:32:08 umbe 4 3	00000/00000/00012
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Policy.h
+D 1.3 96/01/04 12:32:09 umbe 3 2	00000/00000/00060
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Production.h
+D 2.3 96/01/04 12:32:10 umbe 4 3	00000/00000/00048
+MRs:
+COMMENTS:
+
+
+----------------------------------
+RandGen.h
+D 2.2 96/01/04 12:32:11 umbe 4 3	00000/00000/00050
+MRs:
+COMMENTS:
+
+
+----------------------------------
+RandNorm.h
+D 2.3 96/01/04 12:32:13 umbe 5 4	00000/00000/00031
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Range.h
+D 2.2 96/01/04 12:32:14 umbe 4 3	00000/00000/00085
+MRs:
+COMMENTS:
+
+
+----------------------------------
+ReadToken.h
+D 2.3 96/01/04 12:32:15 umbe 3 2	00000/00000/00079
+MRs:
+COMMENTS:
+
+
+----------------------------------
+SeedPod.h
+----------------------------------
+Simulation.h
+D 1.2 96/01/04 13:08:21 umbe 2 1	00003/00004/00017
+MRs:
+COMMENTS:
+
+
+----------------------------------
+SliderGroup.h
+----------------------------------
+State.h
+----------------------------------
+Stochastic.h
+----------------------------------
+Stock.h
+D 2.8 96/01/04 12:32:37 umbe 27 26	00000/00000/00175
+MRs:
+COMMENTS:
+
+
+----------------------------------
+StockCalib.h
+----------------------------------
+StockConfig.h
+----------------------------------
+StockList.h
+----------------------------------
+StockSummary.h
+----------------------------------
+Stock_UI.h
+----------------------------------
+String.h
+----------------------------------
+Summary.h
+----------------------------------
+Token.h
+----------------------------------
+UI.h
+D 2.2 96/01/04 12:32:52 umbe 5 4	00000/00000/00020
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT.h
+D 2.2 96/01/04 11:13:02 umbe 4 3	00003/00000/00011
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_BaseFrame.h
+D 2.4 96/01/04 11:13:03 umbe 7 6	00000/00000/00038
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_CalibFrame.h
+D 1.3 96/01/04 11:13:03 umbe 3 2	00000/00000/00022
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_Fishery.h
+D 2.5 96/01/04 11:13:04 umbe 10 9	00000/00000/00044
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_FisheryFrame.h
+D 2.4 96/01/04 11:13:04 umbe 8 7	00000/00000/00052
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_Graph.h
+D 2.3 96/01/04 11:13:05 umbe 7 6	00000/00000/00063
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_Harvest.h
+D 2.4 96/01/04 11:13:06 umbe 8 7	00000/00000/00045
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_HarvestFrame.h
+D 2.2 96/01/04 11:13:06 umbe 5 4	00000/00000/00059
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_HarvestRateFrame.h
+D 2.3 96/01/04 11:13:07 umbe 4 3	00000/00000/00021
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_HarvestRateScalarFrame.h
+D 2.3 96/01/04 11:13:08 umbe 4 3	00000/00000/00029
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_MonteFrame.h
+D 2.3 96/01/04 11:13:08 umbe 4 3	00000/00000/00019
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_Stock.h
+D 2.4 96/01/04 11:13:09 umbe 8 7	00000/00000/00047
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_StockFrame.h
+D 2.3 96/01/04 11:13:10 umbe 6 5	00000/00000/00048
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_YearGraph.h
+D 2.3 96/01/04 11:13:10 umbe 5 4	00000/00000/00017
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_cnrFrame.h
+D 1.3 96/01/04 11:13:11 umbe 3 2	00000/00000/00036
+MRs:
+COMMENTS:
+
+
+D 1.2 96/01/04 10:53:52 umbe 2 1	00001/00000/00035
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_enhScalarFrame.h
+D 1.4 96/01/04 11:13:12 umbe 4 3	00000/00000/00028
+MRs:
+COMMENTS:
+
+
+D 1.3 96/01/04 10:52:59 umbe 3 2	00000/00001/00028
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_evScalarFrame.h
+D 1.2 96/01/04 11:13:12 umbe 2 1	00000/00000/00029
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_idlFrame.h
+D 1.2 96/01/04 11:13:13 umbe 2 1	00000/00000/00029
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UIT_pnvFrame.h
+D 1.2 96/01/04 11:13:14 umbe 2 1	00000/00000/00029
+MRs:
+COMMENTS:
+
+
+----------------------------------
+UniformInt.h
+----------------------------------
+base_tokens.h
+----------------------------------
+clog.h
+D 2.2 96/01/04 12:32:42 umbe 4 3	00000/00000/00023
+MRs:
+COMMENTS:
+
+
+----------------------------------
+cnrSliderVisitor.h
+D 1.2 96/01/04 12:18:44 umbe 2 1	00001/00000/00029
+MRs:
+COMMENTS:
+Calibration toggle removed, WAG sliders added, various fixes. -Steve
+
+----------------------------------
+cnrToggleVisitor.h
+D 1.2 96/01/04 12:18:44 umbe 2 1	00001/00000/00026
+MRs:
+COMMENTS:
+Calibration toggle removed, WAG sliders added, various fixes. -Steve
+
+----------------------------------
+cnrVisitor.h
+D 1.3 96/01/04 12:18:46 umbe 3 2	00002/00000/00039
+MRs:
+COMMENTS:
+Calibration toggle removed, WAG sliders added, various fixes. -Steve
+
+----------------------------------
+command.h
+D 2.2 96/01/04 12:32:23 umbe 4 3	00000/00000/00027
+MRs:
+COMMENTS:
+
+
+----------------------------------
+dir.h
+D 2.2 96/01/04 12:32:23 umbe 6 5	00000/00000/00049
+MRs:
+COMMENTS:
+
+
+----------------------------------
+file.h
+D 2.2 96/01/04 12:32:41 umbe 3 2	00000/00000/00044
+MRs:
+COMMENTS:
+
+
+----------------------------------
+globals.h
+D 2.4 96/01/04 12:32:38 umbe 10 9	00000/00000/00025
+MRs:
+COMMENTS:
+
+
+----------------------------------
+help.h
+D 2.3 96/01/04 12:32:24 umbe 6 5	00000/00000/00025
+MRs:
+COMMENTS:
+
+
+----------------------------------
+include.h
+D 2.2 96/01/04 12:32:25 umbe 4 3	00000/00000/00010
+MRs:
+COMMENTS:
+
+
+----------------------------------
+init.h
+D 2.2 96/01/04 12:32:49 umbe 5 4	00000/00000/00007
+MRs:
+COMMENTS:
+
+
+----------------------------------
+input_hist.h
+----------------------------------
+keydata.h
+----------------------------------
+log.h
+D 2.3 96/01/04 12:32:25 umbe 6 5	00000/00000/00177
+MRs:
+COMMENTS:
+
+
+D 2.2 96/01/04 12:23:33 umbe 5 4	00024/00004/00153
+MRs:
+COMMENTS:
+Revised to support non-gui mode with _GUI_ define. -Steve
+
+----------------------------------
+monte_tokens.h
+----------------------------------
+parseutil.h
+D 2.2 96/01/04 12:32:26 umbe 6 5	00000/00000/00077
+MRs:
+COMMENTS:
+
+
+----------------------------------
+stack.h
+D 2.2 96/01/04 12:32:40 umbe 3 2	00000/00000/00027
+MRs:
+COMMENTS:
+
+
+----------------------------------
+statistics.h
+----------------------------------
+token.h
+D 2.2 96/01/04 12:32:27 umbe 4 3	00000/00000/00028
+MRs:
+COMMENTS:
+
+
+----------------------------------

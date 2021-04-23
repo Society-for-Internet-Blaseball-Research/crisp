@@ -1,0 +1,150 @@
+h41293
+s 00000/00000/00134
+d D 1.2 97/12/17 10:44:30 camel 2 1
+c format changes
+e
+s 00134/00000/00000
+d D 1.1 97/09/12 14:49:55 mpmoore 1 0
+c date and time created 97/09/12 14:49:55 by mpmoore
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>Nonlinear Harvesting Formula</title></head>
+<body>
+ 
+<a href="toc.html">[Chapter Contents]</a> 
+
+<hr>
+ 
+<a name="674704">
+<h2>  Nonlinear Harvesting Formula</h2>
+</a>
+
+<a name="675014">
+Our overall goal was to modify the original PSC Chinook Model such that during the simulation period, the harvest rates in the Columbia River Sport and Net fisheries were adjusted dynamically to meet an escapement goal at McNary Dam. We also wanted to preserve the concept that in-river harvest rates would be applied to the terminal runs, just as other terminal catches are. That is, we did not want the harvest rates to be applied to the "true terminal run" returning just to the river (i.e., terminal run minus ocean terminal catches). And to the extent possible, we wanted to maintain the shaping options defined by the harvest rates, FP scalars, and the PNVs contained in the input files.<p>
+</a>
+
+<a name="675836">
+These goals proved to be impossible because scaling all river catches (by stock, age, and fishery) up or down by an equal factor often resulted in catches exceeding the fish available. For example, a strong terminal run (i.e., much larger than the escapement goal) might require a two- or three-fold increase in the input harvest rate to meet the escapement goal. Such a large increase in the catch of a weak stock often resulted in a harvest rate greater than 1.0, which is impossible. Thus, we were forced to use a non-linear harvesting function that prevented harvests from exceeding the available fish.<p>
+</a>
+
+<a name="675334">
+Recall that in non-river fisheries the preterminal and terminal legal harvests are computed as follows:<p>
+</a><a name="675339"> 
+<img src="eq438.gif"></a> 
+
+<img src="sp.gif"><b>[4.38]</b> <p>
+<a name="675340">
+where<p>
+</a>
+
+<ul><a name="675341">
+<li><img src="eq438a.gif"> = preterminal or terminal catch of stock <em>s</em>, age <em>a</em>, in fishery <em>f</em>
+</a><a name="675342">
+<li><img src="eq438b.gif"> = coastwide ocean abundance or coastwide terminal run for stock <em>s</em>, age <em>a</em>
+</a><a name="675343">
+<li><img src="eq438c.gif"> = harvest rate for stock <em>s</em>, age <em>a</em>, in fishery <em>f</em>
+</a><a name="675344">
+<li><img src="eq438d.gif"> = fishery policy scalar for stock <em>s</em> in fishery <em>f</em>
+</a><a name="675345">
+<li><img src="eq438e.gif"> = proportion vulnerable for age <em>a</em> in fishery <em>f</em> (i.e., proportion of age <em>a</em> fish that are recruited to the gear and are above the legal size limit in fishery <em>f</em>).
+</a></ul>
+
+<a name="675347">
+Note that this type of catch equation is a simple linear relationship of the form:<p>
+</a><a name="675416"> <b><em>Catch</em> = <em>Run</em> &#183; <em>P</em></b></a> <img src="sp.gif"><b>[4.39]</b> <p>
+<a name="675408">
+where P is the proportion of the run that is harvested.<p>
+</a>
+
+<a name="675353">
+A more realistic type of catch equation is the following:<p>
+</a><a name="675357"> 
+<img src="eq440.gif"></a> <img src="sp.gif"><b>[4.40]</b> <p>
+
+<a name="675330">
+where <em>q</em> is called the "Poisson Catchability Coefficient" and <em>E</em> is the amount of fishing effort (Robson and Skalski 1993). In this formulation, catch can never exceed the run size. Note that if we have an estimate of <em>P</em> for some level of effort (e.g., input values for <em>HR</em>, <em>FP</em>, and <em>PV</em>), we can solve for the product <em>qE</em>. <p>
+</a><a name="675908"> <b><em>q &#183; E</em> = -ln (1-<em>P</em>)</b></a> <img src="sp.gif"><b>[4.41]</b> <p>
+
+<a name="675909">
+If we want to simulate the effects of adjusting effort, we simply replace <em>qE</em> with <em>qERatio</em>, where <em>Ratio</em> is the relative increase or decrease in effort.<p>
+</a>
+
+<a name="675792">
+<i>Fig. 4.10</i> illustrates the differences between <i>eq (4.39)</i> and <i>eq (4.40)</i>. For low harvest rates and relative efforts less than one, the equations are very similar. However, for larger harvest rates and as relative effort is increased, the non-linear representation provides a more realistic simulation of increased harvesting because it does not permit the entire stock to be harvested.<p>
+</a>
+
+<a name="675755">
+
+<b>Fig. 4.10</b>  Illustration of the relationship between relative fishing effort level compared to the base period (E) and the fraction of the stock harvested (p) for two cohorts with base period harvest rates of 10% and 50%. Straight and curved lines represent harvesting using <i>eq (4.39)</i> and <i>eq (4.40)</i>, respectively. Note that when the effort level is increased more than two-fold, the linear harvesting equation results in a harvest fraction greater than one for one stock.
+</a>
+<br><img src="theory.mif.anc52.gif">
+
+<p>
+</a>
+
+<a name="675815">
+Before the fixed escapement and fixed harvest rate algorithms are implemented, a four step procedure is utilized to translate the harvesting equations into non-linear form by computing the input Poisson catchability coefficients.<p>
+</a>
+
+<a name="674991">
+First, we compute the maximum fraction of the terminal run for each cohort that can be taken by the river fisheries. The fish available for the river fisheries is just the terminal run minus the terminal mortalities (legal harvests plus incidental mortalities) in non-river fisheries, sometimes called the true terminal run. Thus, the maximum fraction that can be harvested is:<p>
+</a></ul>
+<a name="675098"> <img src="theory.mif.anc53.gif"></a> <img src="sp.gif"><b>[4.42]</b> <p>
+
+<a name="675425">
+where<p>
+</a><a name="675916"> <img src="theory.mif.anc54.gif"></a> <img src="sp.gif"><b>[4.43]</b> <p>
+
+<a name="675915">
+If either <img src="ttr.gif" align="top"> or <img src="tr.gif" align="top">, then we set <img src="maxp.gif" align="top"> = 0. Note that in i>eq (4.42)</i> <em>s</em> indexes all stocks that are harvested by the fisheries managed under in-river management but <em>f</em> indexes fisheries not included in in-river management.<p>
+</a>
+
+<a name="675095">
+Second, we compute the total in-river harvest fraction from input data (<em>HRs</em>, <em>FPs</em>, and <em>PVs</em>):<p>
+</a><a name="675108"> <img src="theory.mif.anc55.gif"></a> <img src="sp.gif"><b>[4.44]</b> <p>
+<a name="675096">
+where<p>
+</a><a name="675120"> 
+<img src="eq445.gif"></a> 
+<img src="sp.gif"><b>[4.45]</b> <p>
+
+<a name="675461">
+Here, <em>s</em> and <em>f</em> index stocks and fisheries that are harvested and managed under in-river management, respectively<p>
+</a>
+<a name="675123">
+Third, we create a new variable call <img src="pscal.gif" align="top"> to adjust the input variables if they are unreasonable. If <img src="totp.gif" align="top"> is less that <img src="maxp.gif" align="top">, then the input values are within reasonable limits, no adjustments are necessary, and we set <img src="pscal.gif" align="top"> = 1. However, if <img src="totp.gif" align="top"> is greater than <img src="maxp.gif" align="top">, then the input values are too large and must be scaled down by:<p>
+</a><a name="675124"> <img src="theory.mif.anc57.gif"></a> <img src="sp.gif"><b>[4.46]</b> <p>
+
+<a name="675426">
+If <img src="totp.gif" align="top"> = 0, then we set <img src="pscal.gif" align="top"> = 0.<p>
+</a>
+
+<a name="675097">
+Finally, for each stock, age, and fishery specific river harvest, we compute the Poisson catchability coefficient as<p>
+</a><a name="674980"> 
+<img src="eq447.gif"></a> 
+<img src="sp.gif"><b>[4.47]</b> <p>
+<a name="675144">
+<p>
+</a>
+
+<a name="675297">
+We set the maximum fraction of a cohort that can be harvested to be about 99% by setting a maximum limit on <img src="qsaf.gif" align="top"> to be 5.0.<p>
+</a>
+
+<a name="675298">
+Note that we now have catchability coefficients that will not generate catches that are greater than the true terminal run. However, this does not guarantee that the river catches plus the river shakers will be less than the true terminal run. We account for that possibility later.<p>
+</a>
+<hr>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+
+
+</body>
+</html>
+E 1

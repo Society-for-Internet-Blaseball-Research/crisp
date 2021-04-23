@@ -1,0 +1,1666 @@
+AgeVec.h
+D 3.1 96/06/17 16:58:59 troy 3 2	00000/00000/00105
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Args.h
+D 3.1 96/06/17 16:59:00 troy 6 5	00000/00000/00064
+MRs:
+COMMENTS:
+Release Version
+
+D 2.3 96/05/24 13:34:22 umbe 5 4	00006/00000/00058
+MRs:
+COMMENTS:
+GUI_mode changes
+
+----------------------------------
+Bool.h
+D 3.1 96/06/17 16:59:00 troy 8 7	00000/00000/00021
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Bootstrap.h
+D 3.1 96/06/17 16:59:01 troy 3 2	00000/00000/00084
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+CNR.h
+D 3.1 96/06/17 16:59:01 troy 8 7	00000/00000/00127
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Calendar.h
+D 3.1 96/06/17 16:59:02 troy 8 7	00000/00000/00040
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Calibrator.h
+D 3.1 96/06/17 16:59:02 troy 4 3	00000/00000/00073
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Ceiling.h
+D 3.1 96/06/17 16:59:03 troy 11 10	00000/00000/00071
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+CeilingPolicy.h
+D 3.1 96/06/17 16:59:03 troy 4 3	00000/00000/00039
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+CeilingTool.h
+D 3.1 96/06/17 16:59:04 troy 6 5	00000/00000/00043
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Cohort.h
+D 3.1 96/06/17 16:59:04 troy 7 6	00000/00000/00036
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+ContextManager.h
+D 3.1 96/06/17 16:59:05 troy 4 3	00000/00000/00051
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Fishery.h
+D 3.1 96/06/17 16:59:05 troy 27 26	00000/00000/00137
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FisheryList.h
+D 3.1 96/06/17 16:59:06 troy 5 4	00000/00000/00011
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FisheryManagement.h
+D 3.1 96/06/17 16:59:06 troy 7 6	00000/00000/00070
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FisherySummary.h
+D 3.1 96/06/17 16:59:07 troy 9 8	00000/00000/00055
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FisheryTactics.h
+D 3.1 96/06/17 16:59:07 troy 4 3	00000/00000/00068
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Fishery_UI.h
+D 3.1 96/06/17 16:59:08 troy 12 11	00000/00000/00088
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FixedCombHarv.h
+D 3.1 96/06/17 16:59:08 troy 3 2	00000/00000/00027
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FixedEscStock.h
+D 3.1 96/06/17 16:59:09 troy 4 3	00000/00000/00045
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FixedEscapementPolicy.h
+D 3.1 96/06/17 16:59:09 troy 6 5	00000/00000/00149
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FixedHarvestPolicy.h
+D 3.1 96/06/17 16:59:10 troy 4 3	00000/00000/00024
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FloatSlider.h
+D 3.1 96/06/17 16:59:10 troy 9 8	00000/00000/00045
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FloatSliderDisplay.h
+D 3.1 96/06/17 16:59:11 troy 12 11	00000/00000/00087
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+GUI.h
+D 3.1 96/06/17 16:59:11 troy 6 5	00000/00000/00038
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Harvest.h
+D 3.1 96/06/17 16:59:12 troy 23 22	00000/00000/00173
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HarvestList.h
+D 3.1 96/06/17 16:59:12 troy 9 8	00000/00000/00083
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HarvestTactics.h
+D 3.1 96/06/17 16:59:13 troy 2 1	00000/00000/00034
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Harvest_UI.h
+D 3.1 96/06/17 16:59:13 troy 8 7	00000/00000/00055
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HatchSurplusProduction.h
+D 3.1 96/06/17 16:59:14 troy 3 2	00000/00000/00032
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HatcheryProduction.h
+D 3.1 96/06/17 16:59:15 troy 3 2	00000/00000/00017
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Hist.h
+D 3.1 96/06/17 16:59:15 troy 5 4	00000/00000/00034
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HvSummary.h
+D 3.1 96/06/17 16:59:16 troy 9 8	00000/00000/00047
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+IEnum.h
+D 3.1 96/06/17 16:59:16 troy 7 6	00000/00000/00037
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+IOCrud.h
+D 3.1 96/06/17 16:59:17 troy 23 22	00000/00000/00149
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Map.h
+D 3.1 96/06/17 16:59:17 troy 8 7	00000/00000/00142
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MapManager.h
+D 3.1 96/06/17 16:59:18 troy 6 5	00000/00000/00052
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Map_ui.h
+D 3.1 96/06/17 16:59:18 troy 12 11	00000/00000/00110
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteControl.h
+D 3.1 96/06/17 16:59:19 troy 6 5	00000/00000/00088
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteDataItem.h
+D 3.1 96/06/17 16:59:19 troy 5 4	00000/00000/00047
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteOutputItem.h
+D 3.1 96/06/17 16:59:20 troy 8 7	00000/00000/00048
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteStockIntrfc.h
+D 3.1 96/06/17 16:59:20 troy 9 8	00000/00000/00058
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteStockTracking.h
+D 3.1 96/06/17 16:59:21 troy 4 3	00000/00000/00046
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteTrackingItem.h
+D 3.1 96/06/17 16:59:21 troy 3 2	00000/00000/00064
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MultiCeilingPolicy.h
+D 3.1 96/06/17 16:59:22 troy 4 3	00000/00000/00032
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+NamedPtrVec.h
+D 3.1 96/06/17 16:59:22 troy 4 3	00000/00000/00050
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+NaturalProduction.h
+D 3.1 96/06/17 16:59:23 troy 4 3	00000/00000/00038
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+NonNeg.h
+D 3.1 96/06/17 16:59:23 troy 4 3	00000/00000/00018
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Parser.h
+D 3.1 96/06/17 16:59:24 troy 4 3	00000/00000/00050
+MRs:
+COMMENTS:
+Release Version
+
+D 2.3 96/05/24 15:38:23 surge 3 2	00011/00001/00039
+MRs:
+COMMENTS:
+latest versions
+
+----------------------------------
+PercentileGraph.h
+D 3.1 96/06/17 16:59:24 troy 8 7	00000/00000/00031
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Phase.h
+D 3.1 96/06/17 16:59:25 troy 6 5	00000/00000/00014
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Policies.h
+D 3.1 96/06/17 16:59:25 troy 5 4	00000/00000/00012
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Policy.h
+D 3.1 96/06/17 16:59:26 troy 4 3	00000/00000/00060
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Production.h
+D 3.1 96/06/17 16:59:26 troy 5 4	00000/00000/00048
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+RandGen.h
+D 3.1 96/06/17 16:59:27 troy 5 4	00000/00000/00050
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+RandNorm.h
+D 3.1 96/06/17 16:59:27 troy 6 5	00000/00000/00031
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Range.h
+D 3.1 96/06/17 16:59:27 troy 5 4	00000/00000/00085
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+ReadToken.h
+D 3.1 96/06/17 16:59:28 troy 4 3	00000/00000/00079
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+SeedPod.h
+D 3.1 96/06/17 16:59:29 troy 3 2	00000/00000/00036
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Simulation.h
+D 3.1 96/06/17 16:59:29 troy 3 2	00000/00000/00020
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+SliderGroup.h
+D 3.1 96/06/17 16:59:29 troy 3 2	00000/00000/00056
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+State.h
+D 3.1 96/06/17 16:59:30 troy 3 2	00000/00000/00032
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Stochastic.h
+D 3.1 96/06/17 16:59:30 troy 4 3	00000/00000/00051
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Stock.h
+D 3.1 96/06/17 16:59:31 troy 28 27	00000/00000/00175
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+StockCalib.h
+D 3.1 96/06/17 16:59:31 troy 3 2	00000/00000/00083
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+StockConfig.h
+D 3.1 96/06/17 16:59:32 troy 7 6	00000/00000/00089
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+StockList.h
+D 3.1 96/06/17 16:59:32 troy 6 5	00000/00000/00011
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+StockSummary.h
+D 3.1 96/06/17 16:59:33 troy 10 9	00000/00000/00046
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Stock_UI.h
+D 3.1 96/06/17 16:59:33 troy 8 7	00000/00000/00076
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+String.h
+D 3.1 96/06/17 16:59:34 troy 5 4	00000/00000/00020
+MRs:
+COMMENTS:
+Release Version
+
+D 2.4 96/06/13 17:02:22 troy 4 3	00001/00003/00019
+MRs:
+COMMENTS:
+temporarily restore to old compiler code
+
+----------------------------------
+Summary.h
+D 3.1 96/06/17 16:59:34 troy 6 5	00000/00000/00017
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Token.h
+D 3.1 96/06/17 16:59:35 troy 4 3	00000/00000/00073
+MRs:
+COMMENTS:
+Release Version
+
+D 2.3 96/05/24 15:38:22 surge 3 2	00000/00000/00073
+MRs:
+COMMENTS:
+latest versions
+
+----------------------------------
+UI.h
+D 3.1 96/06/17 16:59:35 troy 6 5	00000/00000/00020
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT.h
+D 3.1 96/06/17 16:59:36 troy 5 4	00000/00000/00014
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_BaseFrame.h
+D 3.1 96/06/17 16:59:36 troy 8 7	00000/00000/00038
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_CalibFrame.h
+D 3.1 96/06/17 16:59:37 troy 4 3	00000/00000/00022
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_Fishery.h
+D 3.1 96/06/17 16:59:37 troy 11 10	00000/00000/00044
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_FisheryFrame.h
+D 3.1 96/06/17 16:59:38 troy 9 8	00000/00000/00052
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_Graph.h
+D 3.1 96/06/17 16:59:38 troy 8 7	00000/00000/00063
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_Harvest.h
+D 3.1 96/06/17 16:59:39 troy 9 8	00000/00000/00045
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_HarvestFrame.h
+D 3.1 96/06/17 16:59:40 troy 6 5	00000/00000/00059
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_HarvestRateFrame.h
+D 3.1 96/06/17 16:59:40 troy 5 4	00000/00000/00021
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_HarvestRateScalarFrame.h
+D 3.1 96/06/17 16:59:41 troy 5 4	00000/00000/00029
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_MonteFrame.h
+D 3.1 96/06/17 16:59:41 troy 5 4	00000/00000/00019
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_Stock.h
+D 3.1 96/06/17 16:59:42 troy 9 8	00000/00000/00047
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_StockFrame.h
+D 3.1 96/06/17 16:59:42 troy 7 6	00000/00000/00048
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_YearGraph.h
+D 3.1 96/06/17 16:59:43 troy 6 5	00000/00000/00017
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_cnrFrame.h
+D 3.1 96/06/17 16:59:43 troy 4 3	00000/00000/00036
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_enhScalarFrame.h
+D 3.1 96/06/17 16:59:44 troy 5 4	00000/00000/00028
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_evScalarFrame.h
+D 3.1 96/06/17 16:59:44 troy 3 2	00000/00000/00029
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_idlFrame.h
+D 3.1 96/06/17 16:59:45 troy 3 2	00000/00000/00029
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_pnvFrame.h
+D 3.1 96/06/17 16:59:45 troy 3 2	00000/00000/00029
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UniformInt.h
+D 3.1 96/06/17 16:59:46 troy 4 3	00000/00000/00027
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+base_tokens.h
+D 3.1 96/06/17 16:59:46 troy 2 1	00000/00000/00009
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+clog.h
+D 3.1 96/06/17 16:59:47 troy 5 4	00000/00000/00023
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+cnrSliderVisitor.h
+D 3.1 96/06/17 16:59:47 troy 3 2	00000/00000/00030
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+cnrToggleVisitor.h
+D 3.1 96/06/17 16:59:48 troy 3 2	00000/00000/00027
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+cnrVisitor.h
+D 3.1 96/06/17 16:59:48 troy 4 3	00000/00000/00041
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+command.h
+D 3.1 96/06/17 16:59:49 troy 5 4	00000/00000/00027
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+dir.h
+D 3.1 96/06/17 16:59:49 troy 8 7	00000/00000/00049
+MRs:
+COMMENTS:
+Release Version
+
+D 2.3 96/06/13 16:54:23 troy 7 6	00001/00001/00048
+MRs:
+COMMENTS:
+minor fixes to please the compiler
+
+----------------------------------
+file.h
+D 3.1 96/06/17 16:59:50 troy 4 3	00000/00000/00044
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+globals.h
+D 3.1 96/06/17 16:59:50 troy 11 10	00000/00000/00025
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+help.h
+D 3.1 96/06/17 16:59:50 troy 7 6	00000/00000/00025
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+include.h
+D 3.1 96/06/17 16:59:51 troy 5 4	00000/00000/00010
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+init.h
+D 3.1 96/06/17 16:59:51 troy 6 5	00000/00000/00007
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+input_hist.h
+D 3.1 96/06/17 16:59:52 troy 9 8	00000/00000/00126
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+keydata.h
+D 3.1 96/06/17 16:59:52 troy 3 2	00000/00000/00005
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+log.h
+D 3.1 96/06/17 16:59:53 troy 8 7	00000/00000/00177
+MRs:
+COMMENTS:
+Release Version
+
+D 2.4 96/06/13 16:54:22 troy 7 6	00001/00001/00176
+MRs:
+COMMENTS:
+minor fixes to please the compiler
+
+----------------------------------
+monte_tokens.h
+D 3.1 96/06/17 16:59:53 troy 2 1	00000/00000/00008
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+parseutil.h
+D 3.1 96/06/17 16:59:54 troy 7 6	00000/00000/00077
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+stack.h
+D 3.1 96/06/17 16:59:54 troy 4 3	00000/00000/00027
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+statistics.h
+D 3.1 96/06/17 16:59:55 troy 2 1	00000/00000/00002
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+token.h
+D 3.1 96/06/17 16:59:55 troy 5 4	00000/00000/00028
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Bootstrap.cc
+D 3.1 96/06/17 16:57:59 troy 4 3	00000/00000/00056
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+CNR.cc
+D 3.1 96/06/17 16:58:00 troy 8 7	00000/00000/00100
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Calendar.cc
+D 3.1 96/06/17 16:58:01 troy 7 6	00000/00000/00041
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Calibrator.cc
+D 3.1 96/06/17 16:58:01 troy 6 5	00000/00000/00283
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Ceiling.cc
+D 3.1 96/06/17 16:58:02 troy 11 10	00000/00000/00115
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+CeilingPolicy.cc
+D 3.1 96/06/17 16:58:02 troy 6 5	00000/00000/00068
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+CeilingTool.cc
+D 3.1 96/06/17 16:58:03 troy 9 8	00000/00000/00256
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Cohort.cc
+D 3.1 96/06/17 16:58:04 troy 6 5	00000/00000/00013
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+ContextManager.cc
+D 3.1 96/06/17 16:58:05 troy 7 6	00000/00000/00032
+MRs:
+COMMENTS:
+Release Version
+
+D 1.6 96/05/24 15:41:01 umbe 6 5	00003/00000/00029
+MRs:
+COMMENTS:
+
+
+D 1.5 96/05/24 15:38:27 umbe 5 4	00000/00003/00029
+MRs:
+COMMENTS:
+GUI ifdefs added
+
+----------------------------------
+File.cc
+D 3.1 96/06/17 16:58:05 troy 6 5	00000/00000/00075
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Fishery.cc
+D 3.1 96/06/17 16:58:06 troy 24 23	00000/00000/00261
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FisheryManagement.cc
+D 3.1 96/06/17 16:58:07 troy 15 14	00000/00000/00544
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FisherySummary.cc
+D 3.1 96/06/17 16:58:08 troy 10 9	00000/00000/00114
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FisheryTactics.cc
+D 3.1 96/06/17 16:58:08 troy 5 4	00000/00000/00041
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Fishery_UI.cc
+D 3.1 96/06/17 16:58:09 troy 11 10	00000/00000/00047
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FixedCombHarv.cc
+D 3.1 96/06/17 16:58:10 troy 5 4	00000/00000/00015
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FixedEscapementPolicy.cc
+D 3.1 96/06/17 16:58:10 troy 8 7	00000/00000/00480
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FloatSlider.cc
+D 3.1 96/06/17 16:58:11 troy 11 10	00000/00000/00135
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+FloatSliderDisplay.cc
+D 3.1 96/06/17 16:58:11 troy 17 16	00000/00000/00374
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+GUI.cc
+D 3.1 96/06/17 16:58:12 troy 9 8	00000/00000/00035
+MRs:
+COMMENTS:
+Release Version
+
+D 2.4 96/05/24 13:37:10 umbe 8 7	00002/00000/00033
+MRs:
+COMMENTS:
+GUI_mode update
+
+----------------------------------
+Harvest.cc
+D 3.1 96/06/17 16:58:13 troy 17 16	00000/00000/00379
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HarvestList.cc
+D 3.1 96/06/17 16:58:13 troy 7 6	00000/00000/00105
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HarvestTactics.cc
+D 3.1 96/06/17 16:58:14 troy 4 3	00000/00000/00012
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Harvest_UI.cc
+D 3.1 96/06/17 16:58:14 troy 10 9	00000/00000/00082
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HatchSurplusProduction.cc
+D 3.1 96/06/17 16:58:15 troy 7 6	00000/00000/00047
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HatcheryProduction.cc
+D 3.1 96/06/17 16:58:15 troy 6 5	00000/00000/00042
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Hist.cc
+D 3.1 96/06/17 16:58:16 troy 8 7	00000/00000/00516
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+HvSummary.cc
+D 3.1 96/06/17 16:58:16 troy 9 8	00000/00000/00056
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+IOCrud.cc
+D 3.1 96/06/17 16:58:17 troy 41 40	00000/00000/02568
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Key.cc
+D 3.1 96/06/17 16:58:18 troy 3 2	00000/00000/00015
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Map.cc
+D 3.1 96/06/17 16:58:19 troy 13 12	00000/00000/00239
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MapManager.cc
+D 3.1 96/06/17 16:58:19 troy 7 6	00000/00000/00265
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Map_ui.cc
+D 3.1 96/06/17 16:58:20 troy 18 17	00000/00000/01022
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteControl.cc
+D 3.1 96/06/17 16:58:21 troy 7 6	00000/00000/00235
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteDataItem.cc
+D 3.1 96/06/17 16:58:21 troy 5 4	00000/00000/00008
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteOutputItem.cc
+D 3.1 96/06/17 16:58:22 troy 9 8	00000/00000/00259
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteStockIntrfc.cc
+D 3.1 96/06/17 16:58:22 troy 8 7	00000/00000/00068
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteStockTracking.cc
+D 3.1 96/06/17 16:58:23 troy 3 2	00000/00000/00033
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MonteTrackingItem.cc
+D 3.1 96/06/17 16:58:23 troy 3 2	00000/00000/00093
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+MultiCeilingPolicy.cc
+D 3.1 96/06/17 16:58:24 troy 5 4	00000/00000/00118
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+NamedPtrVec.cc
+D 3.1 96/06/17 16:58:24 troy 4 3	00000/00000/00040
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+NaturalProduction.cc
+D 3.1 96/06/17 16:58:25 troy 4 3	00000/00000/00047
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Parser.cc
+D 3.1 96/06/17 16:58:25 troy 5 4	00000/00000/00100
+MRs:
+COMMENTS:
+Release Version
+
+D 2.4 96/05/24 15:38:24 surge 4 3	00035/00002/00065
+MRs:
+COMMENTS:
+latest versions
+
+----------------------------------
+PercentileGraph.cc
+D 3.1 96/06/17 16:58:26 troy 10 9	00000/00000/00151
+MRs:
+COMMENTS:
+Release Version
+
+D 2.6 96/05/24 15:44:43 umbe 9 8	00010/00005/00141
+MRs:
+COMMENTS:
+assertions fis
+
+----------------------------------
+Policy.cc
+D 3.1 96/06/17 16:58:26 troy 4 3	00000/00000/00041
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Production.cc
+D 3.1 96/06/17 16:58:27 troy 5 4	00000/00000/00038
+MRs:
+COMMENTS:
+Release Version
+
+D 2.3 96/05/24 15:46:54 umbe 4 3	00002/00001/00036
+MRs:
+COMMENTS:
+assertions fixed
+
+----------------------------------
+RandGen.cc
+D 3.1 96/06/17 16:58:27 troy 5 4	00000/00000/00005
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+RandNorm.cc
+D 3.1 96/06/17 16:58:28 troy 4 3	00000/00000/00031
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Range.cc
+D 3.1 96/06/17 16:58:28 troy 5 4	00000/00000/00056
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+ReadToken.cc
+D 3.1 96/06/17 16:58:29 troy 4 3	00000/00000/00085
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Simulation.cc
+D 3.1 96/06/17 16:58:29 troy 4 3	00000/00000/00035
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+SliderGroup.cc
+D 3.1 96/06/17 16:58:30 troy 6 5	00000/00000/00222
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+State.cc
+D 3.1 96/06/17 16:58:30 troy 4 3	00000/00000/00064
+MRs:
+COMMENTS:
+Release Version
+
+D 2.3 96/05/24 15:38:24 surge 3 2	00012/00006/00052
+MRs:
+COMMENTS:
+latest versions
+
+----------------------------------
+Stock.cc
+D 3.1 96/06/17 16:58:31 troy 22 21	00000/00000/00368
+MRs:
+COMMENTS:
+Release Version
+
+D 2.5 96/05/24 15:49:33 umbe 21 20	00004/00003/00364
+MRs:
+COMMENTS:
+assertions fixed
+
+----------------------------------
+StockCalib.cc
+D 3.1 96/06/17 16:58:31 troy 4 3	00000/00000/00656
+MRs:
+COMMENTS:
+Release Version
+
+D 1.3 96/05/24 15:39:56 tom 3 2	00009/00001/00647
+MRs:
+COMMENTS:
+debug ifdefs
+
+----------------------------------
+StockConfig.cc
+D 3.1 96/06/17 16:58:32 troy 5 4	00000/00000/00060
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+StockSummary.cc
+D 3.1 96/06/17 16:58:32 troy 10 9	00000/00000/00123
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Stock_UI.cc
+D 3.1 96/06/17 16:58:33 troy 8 7	00000/00000/00050
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+String.cc
+D 3.1 96/06/17 16:58:33 troy 4 3	00000/00000/00045
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+Token.cc
+D 3.1 96/06/17 16:58:34 troy 4 3	00000/00000/00045
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT.cc
+D 3.1 96/06/17 16:58:34 troy 5 4	00000/00000/00034
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_BaseFrame.cc
+D 3.1 96/06/17 16:58:35 troy 17 16	00000/00000/00319
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_CalibFrame.cc
+D 3.1 96/06/17 16:58:35 troy 5 4	00000/00000/00106
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_Fishery.cc
+D 3.1 96/06/17 16:58:36 troy 15 14	00000/00000/00319
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_FisheryFrame.cc
+D 3.1 96/06/17 16:58:36 troy 12 11	00000/00000/00192
+MRs:
+COMMENTS:
+Release Version
+
+D 2.6 96/06/13 16:52:51 troy 11 10	00002/00001/00190
+MRs:
+COMMENTS:
+compiler compatibility fixes
+
+----------------------------------
+UIT_Graph.cc
+D 3.1 96/06/17 16:58:37 troy 10 9	00000/00000/00147
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_Harvest.cc
+D 3.1 96/06/17 16:58:38 troy 14 13	00000/00000/00211
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_HarvestFrame.cc
+D 3.1 96/06/17 16:58:39 troy 9 8	00000/00000/00215
+MRs:
+COMMENTS:
+Release Version
+
+D 2.4 96/06/13 16:52:52 troy 8 7	00001/00002/00214
+MRs:
+COMMENTS:
+compiler compatibility fixes
+
+----------------------------------
+UIT_HarvestRateFrame.cc
+D 3.1 96/06/17 16:58:39 troy 10 9	00000/00000/00058
+MRs:
+COMMENTS:
+Release Version
+
+D 2.7 96/06/13 16:52:53 troy 9 8	00002/00002/00056
+MRs:
+COMMENTS:
+compiler compatibility fixes
+
+----------------------------------
+UIT_HarvestRateScalarFrame.cc
+D 3.1 96/06/17 16:58:40 troy 10 9	00000/00000/00131
+MRs:
+COMMENTS:
+Release Version
+
+D 2.8 96/06/13 16:52:53 troy 9 8	00002/00002/00129
+MRs:
+COMMENTS:
+compiler compatibility fixes
+
+----------------------------------
+UIT_MonteFrame.cc
+D 3.1 96/06/17 16:58:41 troy 8 7	00000/00000/00069
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_Stock.cc
+D 3.1 96/06/17 16:58:41 troy 17 16	00000/00000/00555
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_StockFrame.cc
+D 3.1 96/06/17 16:58:42 troy 9 8	00000/00000/00225
+MRs:
+COMMENTS:
+Release Version
+
+D 2.5 96/06/13 16:52:52 troy 8 7	00002/00001/00223
+MRs:
+COMMENTS:
+compiler compatibility fixes
+
+----------------------------------
+UIT_YearGraph.cc
+D 3.1 96/06/17 16:58:42 troy 6 5	00000/00000/00028
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+UIT_cnrFrame.cc
+D 3.1 96/06/17 16:58:43 troy 6 5	00000/00000/00111
+MRs:
+COMMENTS:
+Release Version
+
+D 1.5 96/06/13 16:52:56 troy 5 4	00001/00001/00110
+MRs:
+COMMENTS:
+compiler compatibility fixes
+
+----------------------------------
+UIT_enhScalarFrame.cc
+D 3.1 96/06/17 16:58:43 troy 8 7	00000/00000/00082
+MRs:
+COMMENTS:
+Release Version
+
+D 1.7 96/06/13 16:52:56 troy 7 6	00002/00003/00080
+MRs:
+COMMENTS:
+compiler compatibility fixes
+
+----------------------------------
+UIT_evScalarFrame.cc
+D 3.1 96/06/17 16:58:44 troy 8 7	00000/00000/00105
+MRs:
+COMMENTS:
+Release Version
+
+D 1.7 96/06/13 16:52:54 troy 7 6	00002/00002/00103
+MRs:
+COMMENTS:
+compiler compatibility fixes
+
+----------------------------------
+UIT_idlFrame.cc
+D 3.1 96/06/17 16:58:44 troy 9 8	00000/00000/00105
+MRs:
+COMMENTS:
+Release Version
+
+D 1.8 96/06/13 16:52:54 troy 8 7	00002/00002/00103
+MRs:
+COMMENTS:
+compiler compatibility fixes
+
+----------------------------------
+UIT_pnvFrame.cc
+D 3.1 96/06/17 16:58:45 troy 10 9	00000/00000/00109
+MRs:
+COMMENTS:
+Release Version
+
+D 1.9 96/06/13 16:52:55 troy 9 8	00002/00002/00107
+MRs:
+COMMENTS:
+compiler compatibility fixes
+
+----------------------------------
+ascii_log.cc
+D 3.1 96/06/17 16:58:46 troy 4 3	00000/00000/00055
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+base_tokens.cc
+D 3.1 96/06/17 16:58:46 troy 3 2	00000/00000/00032
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+clog.cc
+D 3.1 96/06/17 16:58:46 troy 5 4	00000/00000/00024
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+cnrVisitor.cc
+D 3.1 96/06/17 16:58:47 troy 4 3	00000/00000/00126
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+command.cc
+D 3.1 96/06/17 16:58:47 troy 6 5	00000/00000/00224
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+comtest.cc
+D 3.1 96/06/17 16:58:48 troy 4 3	00000/00000/00056
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+debug.cc
+D 3.1 96/06/17 16:58:48 troy 5 4	00000/00000/00028
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+dir.cc
+D 3.1 96/06/17 16:58:49 troy 5 4	00000/00000/00193
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+engine.cc
+D 3.1 96/06/17 16:58:49 troy 9 8	00000/00000/00053
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+globals.cc
+D 3.1 96/06/17 16:58:50 troy 12 11	00000/00000/00029
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+include.cc
+D 3.1 96/06/17 16:58:51 troy 6 5	00000/00000/00059
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+init.cc
+D 3.1 96/06/17 16:58:51 troy 17 16	00000/00000/00144
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+iotest.cc
+D 3.1 96/06/17 16:58:52 troy 4 3	00000/00000/00022
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+log.cc
+D 3.1 96/06/17 16:58:52 troy 9 8	00000/00000/00348
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+main.cc
+D 3.1 96/06/17 16:58:53 troy 14 13	00000/00000/00051
+MRs:
+COMMENTS:
+Release Version
+
+D 2.6 96/05/24 15:52:08 umbe 13 12	00005/00010/00046
+MRs:
+COMMENTS:
+
+
+----------------------------------
+monte_tokens.cc
+D 3.1 96/06/17 16:58:53 troy 4 3	00000/00000/00150
+MRs:
+COMMENTS:
+Release Version
+
+D 2.3 96/05/24 15:38:25 surge 3 2	00000/00000/00150
+MRs:
+COMMENTS:
+latest versions
+
+----------------------------------
+parse_test.cc
+D 3.1 96/06/17 16:58:54 troy 5 4	00000/00000/00374
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+parseutil.cc
+D 3.1 96/06/17 16:58:54 troy 6 5	00000/00000/00458
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+simple_output.cc
+D 3.1 96/06/17 16:58:55 troy 8 7	00000/00000/00016
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+statistics.cc
+D 3.1 96/06/17 16:58:55 troy 3 2	00000/00000/00038
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+token.cc
+D 3.1 96/06/17 16:58:56 troy 8 7	00000/00000/00352
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+version.cc
+D 3.1 96/06/17 16:58:56 troy 13 12	00000/00000/00037
+MRs:
+COMMENTS:
+Release Version
+
+D 2.4 96/06/17 16:47:11 troy 12 10	00002/00002/00035
+MRs:
+COMMENTS:
+fixed sccs string, bump release to 2.1.1
+
+----------------------------------
+file.c
+D 3.1 96/06/17 16:58:57 troy 5 4	00000/00000/00378
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+help.c
+D 3.1 96/06/17 16:58:57 troy 10 9	00000/00000/00581
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+input_hist.c
+D 3.1 96/06/17 16:58:58 troy 11 10	00000/00000/01079
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------
+stack.c
+D 3.1 96/06/17 16:58:59 troy 4 3	00000/00000/00060
+MRs:
+COMMENTS:
+Release Version
+
+----------------------------------

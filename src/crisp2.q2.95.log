@@ -1,0 +1,608 @@
+Bootstrap.cc
+----------------------------------
+CNR.cc
+----------------------------------
+Calendar.cc
+----------------------------------
+Calibrator.cc
+----------------------------------
+Ceiling.cc
+D 2.3 95/04/11 15:24:45 troy 8 7	00001/00000/00113
+MRs:
+COMMENTS:
+new fixed escapement policy revisions
+
+----------------------------------
+CeilingPolicy.cc
+D 1.3 95/06/14 10:42:57 troy 3 2	00002/00002/00066
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+CeilingTool.cc
+----------------------------------
+Cohort.cc
+----------------------------------
+ContextManager.cc
+----------------------------------
+File.cc
+----------------------------------
+Fishery.cc
+D 2.5 95/06/14 10:42:49 troy 20 19	00021/00019/00240
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+D 2.4 95/04/11 15:24:43 troy 19 18	00009/00010/00250
+MRs:
+COMMENTS:
+new fixed escapement policy revisions
+
+----------------------------------
+FisheryManagement.cc
+D 2.3 95/06/14 10:42:50 troy 10 9	00003/00003/00486
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+FisherySummary.cc
+D 2.3 95/04/11 15:24:43 troy 7 6	00004/00004/00110
+MRs:
+COMMENTS:
+new fixed escapement policy revisions
+
+----------------------------------
+FisheryTactics.cc
+----------------------------------
+Fishery_UI.cc
+D 2.2 95/06/14 10:42:50 troy 7 6	00005/00008/00037
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+FixedEscapementPolicy.cc
+D 1.4 95/06/14 10:42:58 troy 4 3	00002/00002/00488
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+D 1.3 95/04/11 15:24:46 troy 3 2	00260/00091/00230
+MRs:
+COMMENTS:
+new fixed escapement policy revisions
+
+----------------------------------
+FloatSlider.cc
+----------------------------------
+FloatSliderDisplay.cc
+----------------------------------
+GUI.cc
+----------------------------------
+Harvest.cc
+D 2.3 95/04/11 15:24:39 troy 13 12	00014/00027/00295
+MRs:
+COMMENTS:
+new fixed escapement policy revisions
+
+----------------------------------
+HarvestList.cc
+----------------------------------
+HarvestTactics.cc
+----------------------------------
+Harvest_UI.cc
+D 2.3 95/06/14 10:42:57 troy 6 5	00004/00012/00074
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+HatchSurplusProduction.cc
+----------------------------------
+HatcheryProduction.cc
+----------------------------------
+Hist.cc
+----------------------------------
+HvSummary.cc
+----------------------------------
+IOCrud.cc
+D 2.8 95/04/11 15:24:41 troy 35 34	00002/00002/02493
+MRs:
+COMMENTS:
+new fixed escapement policy revisions
+
+----------------------------------
+Key.cc
+----------------------------------
+Map.cc
+----------------------------------
+MapManager.cc
+----------------------------------
+Map_ui.cc
+----------------------------------
+MonteControl.cc
+----------------------------------
+MonteDataItem.cc
+----------------------------------
+MonteOutputItem.cc
+----------------------------------
+MonteStockIntrfc.cc
+----------------------------------
+MonteStockTracking.cc
+----------------------------------
+MonteTrackingItem.cc
+----------------------------------
+MultiCeilingPolicy.cc
+D 1.3 95/06/14 10:42:59 troy 3 2	00002/00002/00116
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+NamedPtrVec.cc
+D 1.2 95/06/14 10:43:00 troy 2 1	00011/00023/00029
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+D 1.1 95/06/07 16:43:41 troy 1 0	00052/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/06/07 16:43:41 by troy
+
+----------------------------------
+NaturalProduction.cc
+----------------------------------
+Parser.cc
+----------------------------------
+PercentileGraph.cc
+----------------------------------
+Policy.cc
+----------------------------------
+Production.cc
+----------------------------------
+RandGen.cc
+----------------------------------
+RandNorm.cc
+----------------------------------
+Range.cc
+----------------------------------
+ReadToken.cc
+----------------------------------
+SliderGroup.cc
+----------------------------------
+State.cc
+----------------------------------
+Stock.cc
+----------------------------------
+StockCalib.cc
+----------------------------------
+StockConfig.cc
+----------------------------------
+StockList.cc
+----------------------------------
+StockSummary.cc
+----------------------------------
+Stock_UI.cc
+D 2.2 95/06/14 10:42:53 troy 6 5	00005/00008/00038
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+String.cc
+D 1.2 95/06/01 08:49:48 surge 2 1	00045/00000/00000
+MRs:
+COMMENTS:
+Subclassed to add functionality.
+
+D 1.1 95/05/31 11:53:25 surge 1 0	00000/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/05/31 11:53:25 by surge
+
+----------------------------------
+Token.cc
+----------------------------------
+UIT.cc
+----------------------------------
+UIT_BaseFrame.cc
+----------------------------------
+UIT_Fishery.cc
+D 2.5 95/06/14 10:42:54 troy 10 9	00006/00006/00294
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+UIT_FisheryFrame.cc
+D 2.2 95/06/14 10:42:55 troy 7 6	00018/00009/00160
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+UIT_Graph.cc
+----------------------------------
+UIT_Harvest.cc
+----------------------------------
+UIT_HarvestFrame.cc
+----------------------------------
+UIT_HarvestRateFrame.cc
+----------------------------------
+UIT_HarvestRateScalarFrame.cc
+----------------------------------
+UIT_MonteFrame.cc
+----------------------------------
+UIT_Stock.cc
+----------------------------------
+UIT_StockFrame.cc
+----------------------------------
+UIT_YearGraph.cc
+----------------------------------
+UIT_evScalarFrame.cc
+----------------------------------
+UIT_idlFrame.cc
+----------------------------------
+UIT_pnvFrame.cc
+D 1.3 95/06/12 14:22:45 tom 3 2	00001/00001/00104
+MRs:
+COMMENTS:
+Fixed HVAgeVec indexing problem (< instead of <=)
+
+----------------------------------
+ascii_log.cc
+----------------------------------
+base_tokens.cc
+----------------------------------
+clog.cc
+----------------------------------
+command.cc
+----------------------------------
+comtest.cc
+----------------------------------
+debug.cc
+----------------------------------
+dir.cc
+----------------------------------
+engine.cc
+----------------------------------
+globals.cc
+----------------------------------
+harvest_frame.cc
+----------------------------------
+include.cc
+----------------------------------
+init.cc
+D 2.4 95/06/14 10:42:47 troy 13 12	00019/00002/00119
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+iotest.cc
+----------------------------------
+log.cc
+----------------------------------
+main.cc
+----------------------------------
+map.cc
+----------------------------------
+monte_tokens.cc
+----------------------------------
+parse_test.cc
+----------------------------------
+parseutil.cc
+----------------------------------
+simple_output.cc
+----------------------------------
+statistics.cc
+----------------------------------
+token.cc
+----------------------------------
+version.cc
+----------------------------------
+AgeVec.h
+----------------------------------
+Args.h
+----------------------------------
+Bool.h
+----------------------------------
+Bootstrap.h
+----------------------------------
+CNR.h
+----------------------------------
+Calendar.h
+----------------------------------
+Calibrator.h
+----------------------------------
+Ceiling.h
+D 2.3 95/04/11 15:24:44 troy 9 8	00003/00000/00068
+MRs:
+COMMENTS:
+new fixed escapement policy revisions
+
+----------------------------------
+CeilingPolicy.h
+----------------------------------
+CeilingTool.h
+----------------------------------
+Cohort.h
+----------------------------------
+ContextManager.h
+----------------------------------
+File.h
+----------------------------------
+Fishery.h
+D 2.5 95/06/14 10:42:47 troy 23 22	00000/00000/00137
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+D 2.4 95/04/11 15:24:40 troy 22 21	00008/00009/00129
+MRs:
+COMMENTS:
+new fixed escapement policy revisions
+
+----------------------------------
+FisheryList.h
+D 2.2 95/06/14 10:42:51 troy 3 2	00002/00002/00009
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+FisheryManagement.h
+----------------------------------
+FisherySummary.h
+D 2.2 95/04/11 15:24:45 troy 6 5	00004/00004/00049
+MRs:
+COMMENTS:
+new fixed escapement policy revisions
+
+----------------------------------
+FisheryTactics.h
+----------------------------------
+Fishery_UI.h
+D 2.4 95/06/14 10:42:49 troy 8 7	00007/00005/00074
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+FixedEscStock.h
+----------------------------------
+FixedEscapementPolicy.h
+D 1.3 95/04/11 15:24:46 troy 3 2	00042/00020/00096
+MRs:
+COMMENTS:
+new fixed escapement policy revisions
+
+----------------------------------
+FixedHarvestPolicy.h
+----------------------------------
+FloatSlider.h
+----------------------------------
+FloatSliderDisplay.h
+----------------------------------
+GUI.h
+----------------------------------
+Harvest.h
+D 2.4 95/04/11 15:24:41 troy 20 19	00014/00005/00156
+MRs:
+COMMENTS:
+new fixed escapement policy revisions
+
+----------------------------------
+HarvestList.h
+----------------------------------
+HarvestTactics.h
+----------------------------------
+Harvest_UI.h
+D 2.5 95/06/14 10:42:56 troy 7 6	00005/00002/00050
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+HatchSurplusProduction.h
+----------------------------------
+HatcheryProduction.h
+----------------------------------
+Hist.h
+----------------------------------
+HvSummary.h
+----------------------------------
+IEnum.h
+----------------------------------
+IOCrud.h
+----------------------------------
+Map.h
+----------------------------------
+MapManager.h
+----------------------------------
+Map_ui.h
+----------------------------------
+MonteControl.h
+----------------------------------
+MonteDataItem.h
+----------------------------------
+MonteOutputItem.h
+----------------------------------
+MonteStockIntrfc.h
+----------------------------------
+MonteStockTracking.h
+----------------------------------
+MonteTrackingItem.h
+----------------------------------
+MultiCeilingPolicy.h
+----------------------------------
+NamedPtrVec.h
+D 1.2 95/06/14 10:42:59 troy 2 1	00017/00023/00033
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+D 1.1 95/06/07 16:43:41 troy 1 0	00056/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/06/07 16:43:41 by troy
+
+----------------------------------
+NaturalProduction.h
+----------------------------------
+NonNeg.h
+----------------------------------
+Parser.h
+----------------------------------
+PercentileGraph.h
+----------------------------------
+Phase.h
+----------------------------------
+Policies.h
+----------------------------------
+Policy.h
+----------------------------------
+Production.h
+----------------------------------
+RandGen.h
+----------------------------------
+RandNorm.h
+----------------------------------
+Range.h
+----------------------------------
+ReadToken.h
+----------------------------------
+SeedPod.h
+----------------------------------
+SliderGroup.h
+----------------------------------
+State.h
+----------------------------------
+Stochastic.h
+----------------------------------
+Stock.h
+D 2.7 95/06/14 10:42:48 troy 26 25	00008/00002/00167
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+D 2.6 95/06/13 10:59:56 tom 25 24	00010/00001/00159
+MRs:
+COMMENTS:
+Calibration access functions.
+
+----------------------------------
+StockCalib.h
+----------------------------------
+StockConfig.h
+----------------------------------
+StockList.h
+D 2.2 95/06/14 10:42:53 troy 5 4	00002/00002/00009
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+StockSummary.h
+----------------------------------
+Stock_UI.h
+D 2.3 95/06/14 10:42:54 troy 6 5	00005/00002/00053
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+String.h
+D 2.2 95/06/01 08:49:38 surge 2 1	00013/00001/00007
+MRs:
+COMMENTS:
+Subclassed to add functionality.
+
+----------------------------------
+Summary.h
+----------------------------------
+Token.h
+----------------------------------
+UI.h
+----------------------------------
+UIT.h
+----------------------------------
+UIT_BaseFrame.h
+----------------------------------
+UIT_Fishery.h
+D 2.3 95/06/14 10:42:51 troy 8 7	00002/00002/00039
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+UIT_FisheryFrame.h
+D 2.2 95/06/14 10:42:56 troy 6 5	00002/00002/00047
+MRs:
+COMMENTS:
+change NALists to NamedPtrVecs
+
+----------------------------------
+UIT_Graph.h
+----------------------------------
+UIT_Harvest.h
+----------------------------------
+UIT_HarvestFrame.h
+----------------------------------
+UIT_HarvestRateFrame.h
+----------------------------------
+UIT_HarvestRateScalarFrame.h
+----------------------------------
+UIT_MonteFrame.h
+----------------------------------
+UIT_Stock.h
+----------------------------------
+UIT_StockFrame.h
+----------------------------------
+UIT_YearGraph.h
+----------------------------------
+UIT_evScalarFrame.h
+----------------------------------
+UIT_idlFrame.h
+----------------------------------
+UIT_pnvFrame.h
+----------------------------------
+UniformInt.h
+----------------------------------
+base_tokens.h
+----------------------------------
+clog.h
+----------------------------------
+command.h
+----------------------------------
+dir.h
+----------------------------------
+file.h
+----------------------------------
+globals.h
+----------------------------------
+help.h
+----------------------------------
+include.h
+----------------------------------
+init.h
+----------------------------------
+input_hist.h
+----------------------------------
+keydata.h
+----------------------------------
+log.h
+----------------------------------
+monte_tokens.h
+----------------------------------
+parseutil.h
+----------------------------------
+stack.h
+----------------------------------
+statistics.h
+----------------------------------
+token.h
+----------------------------------

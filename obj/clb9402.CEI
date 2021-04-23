@@ -1,0 +1,287 @@
+1979               , Start of base period
+1984               , End of base period
+1985               , First year for ceiling management
+2005               , Last year for ceiling management
+14                 , Number of fisheries with ceilings
+ 9                 , Number of years to change ceilings
+ 1986 1987 1988 1989 1990 1991 1992 1993 1994 , years to change ceilings
+........... S.E. Alaska Troll (excluding hatchery add-ON)...
+1                  , 1st Fishery Number
+  338000  , 1979, catch
+  300000  , 1980, catch
+  248000  , 1981, catch
+  242000  , 1982, catch
+  271000  , 1983, catch
+  236000  , 1984, catch
+  212827  , 1985, catch
+  229980  , 1986, catch
+  230901  , 1987, catch
+  216427  , 1988, catch
+  220966  , 1989, catch
+  263340  , 1990, catch
+  230712  , 1991, catch
+  162995  , 1992, catch
+  211590  , 1993, catch
+  199260  , 1994, catch
+  10      , Number of years to force ceilings
+  1985 1986 1987 1988 1989 1990 1991 1992 1993 1994, Years to force ceilings
+'........... Northern BC Troll ............................
+2                  , 2nd Fishery Number
+  148726  , 1979, catch
+  163563  , 1980, catch
+  151731  , 1981, catch
+  174147  , 1982, catch
+  163055  , 1983, catch
+  179665  , 1984, catch
+  186723  , 1985, catch
+  152999  , 1986, catch
+  177457  , 1987, catch
+  152369  , 1988, catch
+  207679  , 1989, catch
+  154116  , 1990, catch
+  194015  , 1991, catch
+  142268  , 1992, catch
+  161719  , 1993, catch
+  161719  , 1994, through last year of clg mgt
+  10       , Number of years to force ceilings
+  1985 1986 1987 1988 1989 1990 1991 1992 1993 1994, Years to force ceilings
+'............. Central BC Troll ............................
+3                  , 3rd Fishery Number
+  109034  , 1979, catch
+   97889  , 1980, catch
+   79670  , 1981, catch
+   74731  , 1982, catch
+  105569  , 1983, catch
+   83303  , 1984, catch
+   28818  , 1985, catch
+   52556  , 1986, catch
+   64016  , 1987, catch
+   31104  , 1988, catch
+   19093  , 1989, catch
+   27312  , 1990, catch
+   27853  , 1991, catch
+   42308  , 1992, catch
+   24484  , 1993, catch
+   24484  , 1994, through last year of clg mgt
+  10      , Number of years to force ceilings
+  1985 1986 1987 1988 1989 1990 1991 1992 1993 1994, Years to force ceilings
+'............. WCVI Troll + Variable % WCVI Sport............
+4                  , 4th Fishery Number
+  480768 , 1979, catch
+  488709 , 1980, catch
+  398135 , 1981, catch
+  543991 , 1982, catch
+  385571 , 1983, catch
+  473101 , 1984, catch  SP 13000  ASSUME 1985 ESTIMATE
+  367112 , 1985, catch  SP 13044  WCVI EXCEPT FOR INSIDE NOOTKA-NITNAT LAKE-TERMINAL
+  353180 , 1986, catch  SP 11117  RBH INSIDE ALBERNI INLET & BARKLEY SOUND
+  426273 , 1987, catch  SP 47342          DO
+  443821 , 1988, catch  SP 35097          DO
+  263601 , 1989, catch  SP 59906          DO
+  366396 , 1990, catch  SP 68422          DO
+  261363 , 1991, catch  SP 58444          DO
+  387325 , 1992, catch  SP 40511          DO
+  342286 , 1993, catch  SP 67229          DO
+  500000 , 1994, through last year of clg mgt (FP control)
+  9      , Number of years to force ceilings
+ 1985 1986 1987 1988 1989 1990 1991 1992 1993 , Years to force ceilings
+............. Georgia Strait Troll .........................
+6                  , 5th Fishery Number
+  257278 , 1979, catch
+  273122 , 1980, catch
+  238876 , 1981, catch
+  178498 , 1982, catch
+  105061 , 1983, catch
+   88158 , 1984, catch
+   55686 , 1985, catch
+   43899 , 1986, catch
+   38695 , 1987, catch
+   19611 , 1988, catch
+   28474 , 1989, catch
+   34384 , 1990, catch
+   32230 , 1991, catch
+   37249 , 1992, catch
+   33237 , 1993, catch
+   31000 , 1994, through last year of clg mgt
+  10      , Number of years to force ceilings
+ 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994, Years to force ceilings
+'............. SE Alaska Net (EXCLUDING HATCHERY ADD-ON)...
+7                  , 6th Fishery Number
+   29000 , 1979, catch
+   22000 , 1980, catch
+   20000 , 1981, catch
+   49000 , 1982, catch
+   20000 , 1983, catch
+   32000 , 1984, catch
+   35139 , 1985, catch
+   20193 , 1986, catch
+   13821 , 1987, catch
+   17673 , 1988, catch
+   17342 , 1989, catch
+   17593 , 1990, catch
+   20112 , 1991, catch
+   23435 , 1992, catch
+   16224 , 1993, catch
+   20000 , 1994, through last year of clg mgt
+  10      , Number of years to force ceilings
+  1985 1986 1987 1988 1989 1990 1991 1992 1993 1994, Years to force ceilings
+.......... Northern BC Net (total chinook)..........................
+8                  , 7th Fishery Number
+   59897 , 1979, catch
+   38794 , 1980, catch
+   58721 , 1981, catch
+   81625 , 1982, catch
+   26624 , 1983, catch
+   50767 , 1984, catch
+   70667 , 1985, catch
+   42716 , 1986, catch
+   41245 , 1987, catch
+   40368 , 1988, catch
+   48907 , 1989, catch
+   38976 , 1990, catch
+   56586 , 1991, catch
+   43699 , 1992, catch
+   44105 , 1993, catch
+   51440 , 1994, 1988-1993 Average + 6000 for term exclusion
+  10      , Number of years to force ceilings
+  1985 1986 1987 1988 1989 1990 1991 1992 1993 1994, Years to force ceilings
+.............. Central BC Net (total chinook)............................
+9                  , 8th Fishery Number
+   81505 , 1979, catch
+   51747 , 1980, catch
+   32671 , 1981, catch
+   51774 , 1982, catch
+   33604 , 1983, catch
+   10347 , 1984, catch
+   27902 , 1985, catch
+   56253 , 1986, catch
+   22545 , 1987, catch
+   21955 , 1988, catch
+    8921 , 1989, catch
+   32728 , 1990, catch
+   20149 , 1991, catch
+   22334 , 1992, catch
+   13170 , 1993, catch
+   20876 , 1994, 1988-1993 Average  + 1000 terminal exclusion
+  10      , Number of years to force ceilings
+  1985 1986 1987 1988 1989 1990 1991 1992 1993 1994, Years to force ceilings
+.............. SE Alaska Sport (EXCLUDING HATCHERY ADD-ON).....
+18                  , 9th Fishery Number
+   17000 , 1979, catch
+   20000 , 1980, catch
+   21000 , 1981, catch
+   26000 , 1982, catch
+   22000 , 1983, catch
+   22000 , 1984, catch
+   21935 , 1985, catch
+   17926 , 1986, catch
+   18979 , 1987, catch
+   19301 , 1988, catch
+   26084 , 1989, catch
+   37601 , 1990, catch
+   43983 , 1991, catch
+   36326 , 1992, catch
+   43654 , 1993, catch
+   43740 , 1994, allocation of base ceiling accdg AK Bd of Fish
+  10      , Number of years to force ceilings
+  1985 1986 1987 1988 1989 1990 1991 1992 1993 1994, Years to force ceilings
+'.............. North/Central BC Sport ..................
+19                  , 10th  Fishery Number
+   15302 , 1979, catch
+   19669 , 1980, catch
+   11425 , 1981, catch
+   17274 , 1982, catch
+   12353 , 1983, catch
+   10525 , 1984, catch
+    9867 , 1985, catch
+   12619 , 1986, catch
+   13827 , 1987, catch
+   19307 , 1988, catch
+   35650 , 1989, catch
+   31967 , 1990, catch
+   32496 , 1991, catch
+   37881 , 1992, catch
+   38232 , 1993, catch
+   35000 , 1994, management intent
+  10      , Number of years to force ceilings
+  1985 1986 1987 1988 1989 1990 1991 1992 1993 1994, Years to force ceilings
+............... Georgia Strait Sport .....................
+24                  , 11th  Fishery Number
+  350000 , 1979, catch
+  371000 , 1980, catch
+  253300 , 1981, catch
+  163793 , 1982, catch
+  198433 , 1983, catch
+  369445 , 1984, catch
+  234838 , 1985, catch
+  181896 , 1986, catch
+  121081 , 1987, catch
+  119117 , 1988, catch
+  132846 , 1989, catch
+  111914 , 1990, catch
+  115523 , 1991, catch
+  116579 , 1992, catch
+  118845 , 1993, catch
+  244000 , 1994, through last year of ceiling mgmt
+  9      , Number of years to force ceilings
+ 1985 1986 1987 1988 1989 1990 1991 1992 1993 , Years to force ceilings
+ ............... WA/OR Troll N of Cape Falcon .....................
+5                  , 12th  Fishery Number
+  138100 , 1979, catch
+  133900 , 1980, catch
+  222800 , 1981, catch
+  165300 , 1982, catch
+   79500 , 1983, catch
+   28800 , 1984, catch
+   57500 , 1985, catch
+   51600 , 1986, catch
+   81000 , 1987, catch
+  107700 , 1988, catch
+   74200 , 1989, catch
+   65000 , 1990, catch
+   50500 , 1991, catch
+   68900 , 1992, catch
+   54600 , 1993, catch
+  400000 , 1994, FP Control
+  9      , Number of years to force ceilings
+  1985 1986 1987 1988 1989 1990 1991 1992 1993 , Years to force ceilings
+............... WA/OR Sport N of Cape Falcon .....................
+21                  , 13th  Fishery Number
+   84400 , 1979, catch
+   59100 , 1980, catch
+   95900 , 1981, catch
+  114900 , 1982, catch
+   51700 , 1983, catch
+    6900 , 1984, catch
+   31700 , 1985, catch
+   23000 , 1986, catch
+   44500 , 1987, catch
+   19400 , 1988, catch
+   20800 , 1989, catch
+   32900 , 1990, catch
+   13300 , 1991, catch
+   19000 , 1992, catch
+   13700 , 1993, catch
+  400000 , 1994, FP Control
+  9      , Number of years to force ceilings
+  1985 1986 1987 1988 1989 1990 1991 1992 1993 , Years to force ceilings
+  '.............. WCVI Sport INSIDE AREAS .............................
+  20                , 14th fishery number
+   22000, 1979, model est
+   21400, 1980, model est
+   23100, 1981, model est
+   30000, 1982, model est
+   56000, 1983, model est
+   59022, 1984, Total - Base Outside Catch
+   13177, 1985, Alberni CANAL/BARKLEY SND-NITNAT LAKE-NOOTKA INSIDE
+   10881, 1986,         DO
+   19679, 1987,         DO
+   36444, 1988,         DO
+   29500, 1989,         DO
+   56861, 1990,         DO
+   78144, 1991,         DO
+   42828, 1992,         DO
+   49904, 1993,         DO
+   48947, 1994, continue at 1988-1993 average
+   9    , number of years to force ceiling
+   1985 1986 1987 1988 1989 1990 1991 1992 1993 , Years to force ceilings

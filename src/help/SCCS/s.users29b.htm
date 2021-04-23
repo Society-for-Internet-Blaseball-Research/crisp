@@ -1,0 +1,278 @@
+h16022
+s 00000/00000/00262
+d D 1.2 97/12/17 10:32:41 camel 2 1
+c not used anymore, replaced with *.html
+e
+s 00268/00000/00000
+d D 1.1 97/12/15 11:21:42 troy 1 0
+c date and time created 97/12/15 11:21:42 by troy
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>Fisheries Alternatives</title></head>
+<body>
+ 
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+
+<a name="712182">
+<h2>  Fisheries Alternatives</h2>
+</a><a name="700237">
+<h4>  Catch Ceilings</h4>
+</a>
+Catch ceilings are the primary means used by the PSC to reduce stock exploitation rates. The <code><b>*.cei</b></code> file is used: (1) to specify fisheries with ceilings; (2) to set ceiling levels (catch levels); and (3) to allow the user to force Model catches to equal the ceiling. Note: the catches given in the <code><b>*.cei </b></code>file and the model catches will not be equal. A scalar is applied to the simulation period modeled catches that is determined from the ratio of base period modeled catches and the preterminal and terminal catches.  In a word, CRiSP Harvest does not recognize all available stocks that the given fishery harvests and accounts for this difference with this method.<p>
+<a name="708174">
+<h5> Analysis Procedure</h5>
+</a>
+Interactive Method:<p>
+<ol>
+<a name="708921">
+<li>Change run title in <code><b>*.opt</b></code> file (Line 1).
+</a><a name="708922">
+<li>Change "PREFIX FOR SAVE FILE" in <code><b>*.opt</b></code> file (can include a path).
+</a><a name="708873">
+<li>If desired, check that output flags are set on lines 9* so that stock and fishery output is produced.
+</a><a name="708877">
+<li>Save <code><b>*.opt</b></code> file under new file name.
+</a><a name="708878">
+<li>Launch Model with new <code><b>*.opt</b></code> file.
+</a><a name="708862">
+<li>Open Catch Ceilings dialog box from the Fishery menu.
+</a><a name="708866">
+<li>Edit the Catch Ceilings (see <a href="users27.htm#700289">"Dialog Boxes"</a>).
+</a><a name="708867">
+<li>Click OK.
+</a><a name="708868">
+<li>Run the model.
+</a>
+</ol>
+<p>
+Input File Method:<p>
+<a name="708178">
+<ol>
+<li>Make appropriate changes in the <code><b>*.cei</b></code> file using an ASCII text editor.
+</a>
+<a name="708179">
+<li>Save modified <code><b>*.cei</b></code> file under new name.
+</a><a name="708180">
+<li>Change <code><b>*.cei</b></code> file name in the <code><b>*.opt</b></code> file (Line 26a).
+</a><a name="708930">
+<li>Change run title in <code><b>*.opt</b></code> file (Line 1).
+</a><a name="708931">
+<li>Change "PREFIX FOR SAVE FILE" in <code><b>*.opt</b></code> file (can include a path).
+</a><a name="708887">
+<li>If desired, check that output flags are set on lines 9* so that stock and fishery output is produced.
+</a><a name="708194">
+<li>Save <code><b>*.opt</b></code> file under new file name.
+</a><a name="708207">
+<li>Launch Model with new <code><b>*.opt</b></code> file.
+</a>
+</ol>
+<a name="708240">
+<h5> Interpretation of Results</h5>
+</a>
+Effects can be observed by viewing the escapements of affected stocks. Remember that there is a time lag between the application of the scalar and the resultant escapement.<p>
+
+Look for effects of the change in catch in non-ceilinged fisheries with substantial harvest of the stock or in stock escapement statistics. The impacts of changes in Catch Ceilings can be seen by comparing output files and/or graphs. First, check the effect on catch in the fishery. Next, check for effects on escapement or terminal run size of stocks caught in the fishery. CNR mortality could also change, depending on the method specified. To compare harvest rates to the base period, check the RT values for the fishery in the <code><b><i>prefix</i>RT.prn</b></code> file.<p>
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "700238">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="700238">
+<h4>  Harvest Rate Strategies</h4>
+</a>
+For each stock, age, and fishery, Base Period Harvest Rates are the estimated average rate for the years 1979-1982. All other Harvest Rates in the model are scaled up or down from these base period rates by using Harvest Rate (HR) Scalars. HR Scalars are stock and fishery dependent and can be used to reflect changes in fishing patterns (e.g., time/area closures) designed to alter harvest rates on individual stocks. For example, delaying harvest in a fishery may reduce the harvest rate on early migrating stocks while increasing the harvest rate on late migrating stocks.<p>
+
+The HR Scalars can be used to examine a general set of questions regarding harvest rate strategies, including:<p>
+<ul><a name="708314">
+<li>How are harvest rates on particular stocks affected by harvest rate changes in terminal fisheries?
+</a><a name="708315">
+<li>How would specific harvest rate strategies affect rebuilding?
+</a><a name="708318">
+<li>How do shaping options differently impact particular stocks?
+</ul>
+</a>
+Such questions can be evaluated through the use of <code><b>*.fp</b></code> files (the "fp" suffix stands for "Fishery Policy"). HR Scalars are stock, fishery, and year specific scalars that modify fishery exploitation/harvest rates relative to the base period; for example, an FP value of 0.75 would reduce base period exploitation/harvest rates for a stock by 25%. <p>
+
+Currently, HR Scalars other than 1.0 are used to reflect: (1) changes in terminal fishing patterns from the base period for particular stocks; (2) the 25% reduction in harvest rates by Canadian net fisheries expected under Canadian management; (3) fishery indices estimated through exploitation rate analysis; and (4) differential impacts associated with fishery shaping options.<p>
+<a name="708359">
+<h5> Analysis Procedure</h5>
+</a>
+Interactive Method:<p>
+<ol>
+<a name="708924">
+<li>Change run title in <code><b>*.opt</b></code> file (Line 1).
+</a>
+<a name="708925">
+<li>Change "PREFIX FOR SAVE FILE" in <code><b>*.opt</b></code> file (can include a path).
+</a><a name="708893">
+<li>If desired, check that output flags are set on lines 9* so that stock and fishery output is produced.
+</a><a name="708367">
+<li>Save <code><b>*.opt</b></code> file under new file name.
+</a><a name="708895">
+<li>Launch Model with new <code><b>*.opt</b></code> file.
+</a><a name="708296">
+<li>Open the Harvest Rate Scalars dialog box from the Harvest menu.
+</a><a name="708298">
+<li>Change Harvest Rate Scalar values.
+</a><a name="708384">
+<li>Click OK.
+</a><a name="708386">
+<li>Run the model.
+</ol></a>
+Input File Method:<p>
+<ol>
+<a name="708900">
+<li>Make appropriate changes in the <code><b>*.fp</b></code> file using an ASCII text editor.
+</a><a name="708901">
+<li>Save modified <code><b>*.fp</b></code> file under new name.
+</a><a name="708902">
+<li>Change <code><b>*.fp</b></code> file name in the <code><b>*.opt</b></code> file (Line 26a).
+</a><a name="708927">
+<li>Change run title in <code><b>*.opt</b></code> file (Line 1).
+</a><a name="708928">
+<li>Change "PREFIX FOR SAVE FILE" in <code><b>*.opt</b></code> file (can include a path).
+</a><a name="708904">
+<li>If desired, check that output flags are set on lines 9* so that stock and fishery output is produced.
+</a><a name="708905">
+<li>Save <code><b>*.opt</b></code> file under new file name.
+</a><a name="708906">
+<li>Launch Model with new <code><b>*.opt</b></code> file.
+</a>
+</ol>
+<a name="708361">
+<h5> Interpretation of Results</h5>
+</a>
+To see the effects of a harvest rate change, look for alterations in the catch and/or escapement abundances.<p>
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "714790">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="714790">
+<h4>  Fixed Escapements</h4>
+</a>
+Unlike pre-terminal fisheries, terminal fisheries target only stocks in a particular river. The most common strategy for in-river management is fixed escapement. An escapement goal is established for one or more stocks and catches are adjusted to meet the escapement goal.<p>
+
+The <code><b>*.riv</b></code> file specified on line 31 of the <code><b>*.opt</b></code> file details the exact method of applying in-river harvest strategies and  details of this method. There are three different management types that can be used for fixed escapement: a weak stock strategy, a combined stock strategy and a fixed harvest rate strategy. Examples of each of these file types are shown in <a href="users29d1.htm#714869">"Files of type *.riv"</a>. <p>
+<a name="714811">
+<h5> Analysis Procedure</h5>
+</a>
+Interactive Method: Not available<p>
+
+Input File Method:<p>
+<ol>
+<a name="714817">
+<li>Make appropriate changes in the <code><b>*.riv </b></code> file using an ASCII text editor.
+</a>
+<a name="714818">
+<li>Save modified <code><b>*.riv </b></code> file under new name.
+</a><a name="714819">
+<li>Change <code><b>*.riv </b></code> file name in the <code><b>*.opt</b></code> file (Line 26a).
+</a><a name="714820">
+<li>Change run title in <code><b>*.opt</b></code> file (Line 1).
+</a><a name="714821">
+<li>Change "PREFIX FOR SAVE FILE" in <code><b>*.opt</b></code> file (can include a path).
+</a><a name="714822">
+<li>If desired, check that output flags are set on lines 9* so that stock and fishery output is produced.
+</a><a name="714823">
+<li>Save <code><b>*.opt</b></code> file under new file name.
+</a><a name="714824">
+<li>Launch Model with new <code><b>*.opt</b></code> file.
+</a>
+</ol>
+<a name="714832">
+<h5> Interpretation of Result</h5>
+</a>
+Compare a fixed escapement strategy with a base case run. Note that only Columbia River stocks can be affected by this alternative and that it affects only the Columbia River Net fishery.<p>
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "700239">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="700239">
+<h4>  Size Limit Changes (PNV)</h4>
+</a>
+Management agencies have altered minimum size limits when implementing PSC catch ceiling regimes. Changes in size limits affect incidental mortality losses since the proportion of the population that can be legally retained changes in response. Impacts of size limit changes can be evaluated through the use of <code><b>*.pnv</b></code> files.<p>
+
+The <code><b>*.bse </b></code>file specified in line 4 of the <code><b>*.opt</b></code> file contains data that defines the proportion of a population of a given age which is not vulnerable to each fishery. These proportion non-vulnerable (PNV) specifications remain fixed unless changed by the user. "PNV" is an abbreviation for "proportion non-vulnerable," a phrase that is slightly misleading since this file actually provides data on the proportion of each age class in a fishery that is recruited to the gear, but is below the legal size limit.<p>
+
+<code><b>*.pnv</b></code> files were originally created with the assistance of a LOTUS 123 spreadsheet file <code><b>pvcalc3.wk1</b></code>. The size distribution data in <code><b>pvcalc3.wk1</b></code> were compiled in 1986, based upon CWT recovery data that provided a means for positive aging and size at recovery. Where available, data for troll and seine recoveries were combined because troll fisheries tend to crop a substantial portion of larger fish from the population while recoveries by seine gear, believed to be the least size-selective gear type, provide size distribution of fish in the remaining population.<p>
+
+When a fishery size limit is input into <code><b>pvcalc3.wk1</b></code>, the total proportion of the population below the size limit is initially estimated using area-specific, length distribution data. The proportion initially estimated by the program includes a portion that is not yet recruited to the gear. Encounters of age 2 fish are adjusted so that the estimate of total encounters is consistent with estimates reported by the agencies. The final result is an estimate of the proportion of each age class in a fishery that is vulnerable to the gear but is below the legal size limit. This adjusted estimate is incorporated into the <code><b>*.pnv</b></code> file. The values in the <code><b>*.pnv</b></code> file are actual proportions, not changes relative to the base period. The <code><b>*.pnv</b></code> file is infrequently revised (usually only once a year).<p>
+
+A separate <code><b>*.pnv</b></code> file is created for each fishery in which one or more changes in the minimum size limit have occurred since the base period. The proportion in a <code><b>*.pnv</b></code> file replace those proportions in the <code><b>*.bse</b></code> file for each fishery specified by a <code><b>*.pnv</b></code> file.<p>
+<a name="708445">
+<h5> Analysis Procedure</h5>
+</a>
+Interactive Method:<p>
+<ol>
+<a name="708460">
+<li>Change run title in <code><b>*.opt</b></code> file (Line 1).
+</a>
+<a name="708936">
+<li>Change "PREFIX FOR SAVE FILE" in <code><b>*.opt</b></code> file (can include a path).
+</a><a name="708471">
+<li>Save <code><b>*.opt</b></code> file under new file name.
+</a><a name="708472">
+<li>Launch Model with new <code><b>*.opt</b></code> file.
+</a><a name="708475">
+<li>Open the PNV dialog box from the Fishery menu.
+</a><a name="708478">
+<li>Edit PNV values.
+</a><a name="708479">
+<li>Click OK.
+</a><a name="708480">
+<li>Run model.
+</ol></a>
+Input File Method:<p>
+<ol>
+<a name="708446">
+<li>Change appropriate column(s) in the <code><b>*.pnv</b></code> file using an ASCII text editor.
+</a>
+<a name="708409">
+<li>Save modified <code><b>*.pnv</b></code> file under new name.
+</a><a name="708410">
+<li>Change corresponding <code><b>*.pnv</b></code> file name in the <code><b>*.opt</b></code> file (Line 23a-f).
+</a><a name="708411">
+<li>If this is a new fishery, change "number of <code><b>*.pnv</b></code> changes" in <code><b>*.opt</b></code> file (Line 23).
+</a><a name="708412">
+<li>Check that this number agrees with the number of <code><b>*.pnv</b></code> file names listed in the <code><b>*.opt</b></code> file
+</a><a name="708413">
+<li>Change run title in <code><b>*.opt</b></code> file (Line 1).
+</a><a name="708938">
+<li>Change "PREFIX FOR SAVE FILE" in <code><b>*.opt</b></code> file (can include a path).
+</a><a name="708593">
+<li>If desired, check that output flags are set on lines 9* so that stock and fishery output is produced.
+</a><a name="708415">
+<li>Save <code><b>*.opt</b></code> file under new file name.
+</a><a name="708416">
+<li>Launch Model with new <code><b>*.opt</b></code> file.
+</a>
+</ol>
+<a name="708419">
+<h5> Interpretation of Results</h5>
+</a>
+Examine incidental and total mortality output and graphs. Increases or decreases in incidental mortalities resulting from the size limit change can be seen directly in the incidental mortality files (<i>prefix</i><strong>tim.prn</strong>, <i>prefix</i><strong>sim.prn</strong>, and <i>prefix</i><strong>lim.prn</strong>). Changes in non-retention fisheries will have other impacts throughout the Model output, for example, in escapement statistics.<p>
+
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+</body>
+</html>
+E 1

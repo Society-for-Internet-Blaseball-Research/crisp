@@ -1,0 +1,471 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "menuconst.h"
+#include "zcdialogconstants.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+PRINT DIALOG DISCARDABLE  98, 60, 127, 58
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Print"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",2,41,40,42,14
+    LTEXT           "Printing",101,2,5,121,10,NOT WS_GROUP
+    LTEXT           "Page",102,3,16,122,10,NOT WS_GROUP
+    LTEXT           "Band",103,2,27,122,8,NOT WS_GROUP
+END
+
+IDD_PNVFRAME DIALOG DISCARDABLE  23, 35, 171, 217
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "PNV Frame"
+BEGIN
+    COMBOBOX        IDC_COMBOBOX1,4,3,53,117,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBOBOX2,63,3,103,117,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDC_OK,16,202,27,13
+    PUSHBUTTON      "Cancel",IDC_CANCEL,46,202,27,13
+    PUSHBUTTON      "Apply",IDC_APPLY,76,202,27,13
+    PUSHBUTTON      "Reset",IDC_RESET,106,202,27,13
+    PUSHBUTTON      "Help",IDC_DHELP,136,202,27,13
+END
+
+IDD_CNRFRAME DIALOG DISCARDABLE  35, 54, 415, 245
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "CNR Frame"
+BEGIN
+    COMBOBOX        IDC_COMBOBOX1,4,3,140,129,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDC_OK,182,228,39,14
+    PUSHBUTTON      "Cancel",IDC_CANCEL,228,228,39,14
+    PUSHBUTTON      "Apply",IDC_APPLY,274,228,39,14
+    PUSHBUTTON      "Reset",IDC_RESET,321,228,39,14
+    PUSHBUTTON      "Help",IDC_DHELP,367,228,39,14
+END
+
+IDD_CATCHCEILINGS DIALOG DISCARDABLE  34, 34, 195, 237
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Catch Ceilings"
+BEGIN
+    COMBOBOX        IDC_COMBOBOX1,4,3,95,129,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDC_OK,40,220,27,13
+    PUSHBUTTON      "Cancel",IDC_CANCEL,70,220,27,13
+    PUSHBUTTON      "Apply",IDC_APPLY,100,220,27,13
+    PUSHBUTTON      "Reset",IDC_RESET,130,220,27,13
+    PUSHBUTTON      "Help",IDC_DHELP,160,220,27,13
+END
+
+IDD_INTERDAMLOSS DIALOG DISCARDABLE  22, 38, 170, 237
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Inter Dam Loss"
+BEGIN
+    COMBOBOX        IDC_COMBOBOX1,4,3,95,129,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDC_OK,15,220,27,13
+    PUSHBUTTON      "Cancel",IDC_CANCEL,45,220,27,13
+    PUSHBUTTON      "Apply",IDC_APPLY,75,220,27,13
+    PUSHBUTTON      "Reset",IDC_RESET,105,220,27,13
+    PUSHBUTTON      "Help",IDC_DHELP,135,220,27,13
+END
+
+IDD_EVSCALARS DIALOG DISCARDABLE  22, 38, 170, 237
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Ev Scalars"
+BEGIN
+    COMBOBOX        IDC_COMBOBOX1,4,3,95,129,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDC_OK,15,220,27,13
+    PUSHBUTTON      "Cancel",IDC_CANCEL,45,220,27,13
+    PUSHBUTTON      "Apply",IDC_APPLY,75,220,27,13
+    PUSHBUTTON      "Reset",IDC_RESET,105,220,27,13
+    PUSHBUTTON      "Help",IDC_DHELP,135,220,27,13
+END
+
+IDD_ENHSCALARS DIALOG DISCARDABLE  22, 38, 170, 237
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Stock Enhancements"
+BEGIN
+    COMBOBOX        IDC_COMBOBOX1,4,3,95,129,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDC_OK,15,220,27,13
+    PUSHBUTTON      "Cancel",IDC_CANCEL,45,220,27,13
+    PUSHBUTTON      "Apply",IDC_APPLY,75,220,27,13
+    PUSHBUTTON      "Reset",IDC_RESET,105,220,27,13
+    PUSHBUTTON      "Help",IDC_DHELP,135,220,27,13
+END
+
+IDD_BASEPERIODHARVESTRATES DIALOG DISCARDABLE  23, 35, 171, 217
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Base Period (79-82) Harvest Rates"
+BEGIN
+    COMBOBOX        IDC_COMBOBOX1,4,3,73,117,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBOBOX2,83,3,83,117,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDC_OK,16,202,27,13
+    PUSHBUTTON      "Cancel",IDC_CANCEL,46,202,27,13
+    PUSHBUTTON      "Apply",IDC_APPLY,76,202,27,13
+    PUSHBUTTON      "Reset",IDC_RESET,106,202,27,13
+    PUSHBUTTON      "Help",IDC_DHELP,136,202,27,13
+END
+
+IDD_HARVESTRATESCALARS DIALOG DISCARDABLE  23, 35, 171, 217
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Harvest Rate Scalars"
+BEGIN
+    COMBOBOX        IDC_COMBOBOX1,4,3,73,117,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBOBOX2,83,3,83,117,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDC_OK,16,202,27,13
+    PUSHBUTTON      "Cancel",IDC_CANCEL,46,202,27,13
+    PUSHBUTTON      "Apply",IDC_APPLY,76,202,27,13
+    PUSHBUTTON      "Reset",IDC_RESET,106,202,27,13
+    PUSHBUTTON      "Help",IDC_DHELP,136,202,27,13
+END
+
+IDD_MOUSETOOL DIALOG DISCARDABLE  46, 122, 209, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Mouse Tool"
+BEGIN
+    COMBOBOX        IDC_COMBOBOX1,64,17,65,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBOBOX2,64,35,65,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBOBOX3,64,52,65,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBOBOX4,133,17,65,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBOBOX5,133,35,65,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBOBOX6,133,52,65,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "On Fishery",-1,9,17,55,16,NOT WS_GROUP
+    LTEXT           "On Stock",-1,9,35,55,16,NOT WS_GROUP
+    LTEXT           "On Background",-1,9,52,55,16,NOT WS_GROUP
+    CTEXT           "Left Button",-1,64,5,57,12,NOT WS_GROUP
+    CTEXT           "Right Button",-1,133,5,57,12,NOT WS_GROUP
+    DEFPUSHBUTTON   "OK",IDC_OK,141,73,27,13
+    PUSHBUTTON      "Help",IDC_DHELP,172,73,27,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+ID_REFRESH              BITMAP  MOVEABLE PURE   "refresh.bmp"
+ID_OPEN                 BITMAP  MOVEABLE PURE   "fopen.bmp"
+ID_SAVE                 BITMAP  MOVEABLE PURE   "fsave.bmp"
+ID_PRINT                BITMAP  MOVEABLE PURE   "print.bmp"
+ID_CON                  BITMAP  MOVEABLE PURE   "help.bmp"
+ID_SELFIS               BITMAP  MOVEABLE PURE   "hook.bmp"
+ID_SELSTO               BITMAP  MOVEABLE PURE   "fish.bmp"
+ID_HATCHERY             BITMAP  MOVEABLE PURE   "hatch.bmp"
+ID_MOUSETOOL            BITMAP  MOVEABLE PURE   "mouse.bmp"
+ID_MAP_FISH             BITMAP  MOVEABLE PURE   "mapFish.bmp"
+ID_MAP_BOAT             BITMAP  MOVEABLE PURE   "mapBoat.bmp"
+ID_SCE                  BITMAP  MOVEABLE PURE   "run.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open",                       ID_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Save",                       ID_SAVE
+        MENUITEM "&Save As..",                  ID_SAVEAS
+        MENUITEM "&Print..",                    ID_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "&Mouse Tool",                 ID_MOUSETOOL
+        MENUITEM SEPARATOR
+        MENUITEM "&Exit",                       ID_EXIT
+    END
+    POPUP "F&ishery"
+    BEGIN
+        MENUITEM "&PNV..",                      ID_PNV
+        MENUITEM "&CNR..",                      ID_CNR
+        MENUITEM "C&eilings..",                 ID_CEL
+        MENUITEM SEPARATOR
+        POPUP "Fishery &Graphs"
+        BEGIN
+            MENUITEM "&Abundance Index",            ID_FG_ABUIND
+            POPUP "&Catches"
+            BEGIN
+                MENUITEM "&Total",                      ID_FG_TOT
+                MENUITEM "&Preterminal",                ID_FG_PRE
+                MENUITEM "T&erminal",                   ID_FG_TER
+            END
+            POPUP "&Incidental Mortality"
+            BEGIN
+                MENUITEM "Total (CNR+Shakers)",         ID_FG_INCMOR
+                MENUITEM "Sublegal CNR",                ID_FG_SUB
+                MENUITEM "Legal CNR",                   ID_FG_LEG
+            END
+        END
+    END
+    POPUP "&Stock"
+    BEGIN
+        MENUITEM "&Inter Dam Loss..",           ID_INTDAMLOS
+        MENUITEM "&Ev Scalars..",               ID_EV
+        MENUITEM "&Enhancement..",              ID_ENH
+        MENUITEM SEPARATOR
+        POPUP "Stock &Graphs"
+        BEGIN
+            MENUITEM "&Abundances",                 ID_SG_ABU
+            MENUITEM "&Escapements",                ID_SG_ESC
+            POPUP "C&NR"
+            BEGIN
+                MENUITEM "Sublegal",                    ID_SG_SUB
+                MENUITEM "Legal",                       ID_SG_LEG
+            END
+            POPUP "&Catches"
+            BEGIN
+                MENUITEM "&Total",                      ID_SG_TOT
+                MENUITEM "&Preterminal",                ID_SG_PRE
+                MENUITEM "T&erminal",                   ID_SG_TER
+            END
+            MENUITEM "&True Term Run",              ID_SG_TRUTERRUN
+        END
+    END
+    POPUP "&Harvest"
+    BEGIN
+        MENUITEM "&Harvest Rate Scalars..",     ID_HARRATSCA
+        MENUITEM "&Base Period Harvest Rates..", ID_BASPER
+        MENUITEM SEPARATOR
+        POPUP "&Mortality Graphs"
+        BEGIN
+            MENUITEM "&Total",                      ID_HG_TOT
+            MENUITEM "&Incidental",                 ID_HG_INC
+        END
+    END
+    POPUP "&Run"
+    BEGIN
+        MENUITEM "&Scenario",                   ID_SCE
+        MENUITEM "&Monte Carlo..",              ID_MON
+        MENUITEM SEPARATOR
+        MENUITEM "&Calibrate",                  ID_CAL
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Contents",                   ID_CON
+        MENUITEM "&README",                     IDC_README
+        MENUITEM "&Getting Started",            ID_GETSTA
+        MENUITEM SEPARATOR
+        MENUITEM "&About CRiSP2",               ID_ABO
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""menuconst.h""\r\n"
+    "#include ""zcdialogconstants.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OPEN                 "Open a new data configuration file."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SAVE                 "Save current configuration."
+    ID_SAVEAS               "Save current configuration as.."
+    ID_PRINT                "Print the current view."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EXIT                 "Exit Crisp2."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SELFIS               "Select the default fishery."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PNV                  "Proportion Non-Vulnerable (PNV)"
+    ID_CNR                  "Chinook Non-Retention (CNR) method scalars."
+    ID_CEL                  "Set catch ceiling levels and allows user to force Model catches to equal the ceiling."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FG_INCMOR            "Incidental Mortality"
+    ID_FG_ABUIND            "Abundance Index"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FG_SUB               "Sublegal"
+    ID_FG_LEG               "Legal"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FG_TOT               "Total"
+    ID_FG_PRE               "Pre-terminal"
+    ID_FG_TER               "Terminal"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SELSTO               "Select the default stock."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INTDAMLOS            "Inter-Dam Loss."
+    ID_EV                   "Pre-recruitment (prior to age 1) survival scalars."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ENH                  "Production activity enhancements."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SG_ABU               "Stock Abundance Graph"
+    ID_SG_ESC               "Escapement"
+    ID_SG_TRUTERRUN         "True terminal run."
+    ID_SG_SUB               "Sublegal"
+    ID_SG_LEG               "Legal"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SG_TOT               "Total"
+    ID_SG_PRE               "Pre-terminal"
+    ID_SG_TER               "Terminal"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_HARRATSCA            "Harvest Ratio scalars."
+    ID_BASPER               "Base Period (before age 1) Harvest Ratio"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_HG_TOT               "Total Harvest Graph"
+    ID_HG_INC               "Incidental Graph"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SCE                  "Run scenario."
+    ID_MON                  "Run Monte Carlo simulation."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CAL                  "Calibrate system."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CON                  "Table of Contents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GETSTA               "A guide to help you get started and using Crisp2."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

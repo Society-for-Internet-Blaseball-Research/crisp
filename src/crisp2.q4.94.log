@@ -1,0 +1,668 @@
+AList.cc
+----------------------------------
+Bootstrap.cc
+----------------------------------
+CNR.cc
+----------------------------------
+Calendar.cc
+D 2.2 95/01/06 15:23:01 tom 3 2	00003/00001/00038
+MRs:
+COMMENTS:
+Added sim_start_year()
+
+----------------------------------
+Ceiling.cc
+----------------------------------
+CeilingTool.cc
+D 2.2 95/01/06 17:30:37 tom 5 4	00141/00047/00111
+MRs:
+COMMENTS:
+Added inactive base period sliders/MegaSliders.
+
+----------------------------------
+Cohort.cc
+----------------------------------
+ContextManager.cc
+----------------------------------
+File.cc
+----------------------------------
+Fishery.cc
+----------------------------------
+FisheryManagement.cc
+----------------------------------
+FisheryPolicy.cc
+----------------------------------
+FisherySummary.cc
+----------------------------------
+Fishery_UI.cc
+----------------------------------
+FloatSlider.cc
+D 2.2 95/01/06 15:31:32 tom 7 6	00031/00063/00102
+MRs:
+COMMENTS:
+Removed auto_apply feature -- replaced with proper notify handling.
+
+----------------------------------
+FloatSliderDisplay.cc
+D 2.3 95/01/06 15:34:01 tom 12 11	00273/00294/00092
+MRs:
+COMMENTS:
+Added the MetaSliders thing, reorged some code.
+
+----------------------------------
+GUI.cc
+----------------------------------
+Harvest.cc
+----------------------------------
+HarvestList.cc
+----------------------------------
+HarvestPolicy.cc
+----------------------------------
+HarvestPolicy_ui.cc
+----------------------------------
+Harvest_UI.cc
+----------------------------------
+HatchSurplusProduction.cc
+----------------------------------
+HatcheryProduction.cc
+----------------------------------
+Hist.cc
+----------------------------------
+HvSummary.cc
+----------------------------------
+IOCrud.cc
+D 2.4 95/01/06 15:23:53 tom 31 30	00141/00051/02298
+MRs:
+COMMENTS:
+Added new mort options, capability of printing mrt for selected stks.
+
+----------------------------------
+Key.cc
+----------------------------------
+Map.cc
+----------------------------------
+MapManager.cc
+----------------------------------
+Map_ui.cc
+----------------------------------
+MonteControl.cc
+----------------------------------
+MonteDataItem.cc
+----------------------------------
+MonteOutputItem.cc
+----------------------------------
+MonteStockIntrfc.cc
+----------------------------------
+MonteStockTracking.cc
+----------------------------------
+MonteTrackingItem.cc
+----------------------------------
+NAList.cc
+----------------------------------
+NaturalProduction.cc
+----------------------------------
+Parser.cc
+D 2.2 95/01/09 18:53:53 surge 2 1	00063/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+D 2.1 94/10/07 16:18:56 surge 1 0	00000/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/10/07 16:18:56 by surge
+
+----------------------------------
+PercentileGraph.cc
+----------------------------------
+Production.cc
+----------------------------------
+RandGen.cc
+----------------------------------
+RandNorm.cc
+----------------------------------
+Range.cc
+----------------------------------
+ReadToken.cc
+D 2.2 95/01/09 18:55:08 surge 2 1	00085/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+D 2.1 94/10/10 21:08:44 surge 1 0	00000/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/10/10 21:08:44 by surge
+
+----------------------------------
+SliderGroup.cc
+D 1.2 95/01/06 17:25:49 tom 2 1	00037/00006/00178
+MRs:
+COMMENTS:
+Added support for activating/inactivating a subset of the sliders, fixed max_check, which I'd broken earlier.
+
+D 1.1 94/11/14 20:24:03 tom 1 0	00184/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/11/14 20:24:03 by tom
+
+----------------------------------
+State.cc
+D 2.2 95/01/09 18:54:59 surge 2 1	00058/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+D 2.1 94/10/07 16:19:04 surge 1 0	00000/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/10/07 16:19:04 by surge
+
+----------------------------------
+Stock.cc
+----------------------------------
+StockList.cc
+----------------------------------
+StockPolicy.cc
+----------------------------------
+StockSummary.cc
+----------------------------------
+Stock_UI.cc
+----------------------------------
+Token.cc
+D 2.2 95/01/09 18:53:32 surge 2 1	00045/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+D 2.1 94/10/07 16:18:49 surge 1 0	00000/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/10/07 16:18:49 by surge
+
+----------------------------------
+UIT.cc
+----------------------------------
+UIT_BaseFrame.cc
+----------------------------------
+UIT_Fishery.cc
+D 2.3 95/01/06 15:33:10 tom 8 7	00013/00026/00287
+MRs:
+COMMENTS:
+Now there's one pnv frame for all fisheries, instead of one each.
+
+----------------------------------
+UIT_FisheryFrame.cc
+----------------------------------
+UIT_Graph.cc
+----------------------------------
+UIT_Harvest.cc
+D 2.2 95/01/06 15:38:24 tom 8 7	00007/00003/00200
+MRs:
+COMMENTS:
+One HRSF now contains all stock/fishery pairs, instead of one pair per.
+
+----------------------------------
+UIT_HarvestFrame.cc
+----------------------------------
+UIT_HarvestRateFrame.cc
+D 2.2 95/01/06 15:36:53 tom 4 3	00033/00023/00024
+MRs:
+COMMENTS:
+One HRF now contains all possible Stock/Fishery pairs, instead of one per.
+
+----------------------------------
+UIT_HarvestRateScalarFrame.cc
+D 2.2 95/01/06 17:27:43 tom 3 2	00100/00026/00028
+MRs:
+COMMENTS:
+Added base period inactivation by default, consolidated all HRSF's into one.
+
+----------------------------------
+UIT_MonteFrame.cc
+----------------------------------
+UIT_Stock.cc
+D 2.3 95/01/06 15:35:16 tom 9 8	00006/00047/00537
+MRs:
+COMMENTS:
+Parted out the inter_dam_loss_editor and ev_scalar_editor.
+
+----------------------------------
+UIT_StockFrame.cc
+----------------------------------
+UIT_YearGraph.cc
+----------------------------------
+UIT_evScalarFrame.cc
+D 1.1 95/01/06 17:31:45 tom 1 0	00100/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/06 17:31:45 by tom
+
+----------------------------------
+UIT_idlFrame.cc
+D 1.1 95/01/06 17:32:06 tom 1 0	00101/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/06 17:32:06 by tom
+
+----------------------------------
+UIT_pnvFrame.cc
+D 1.1 95/01/06 17:32:11 tom 1 0	00105/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/06 17:32:11 by tom
+
+----------------------------------
+ascii_log.cc
+----------------------------------
+base_tokens.cc
+D 2.1 95/01/09 18:54:33 surge 1 0	00032/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/09 18:54:33 by surge
+
+----------------------------------
+clog.cc
+----------------------------------
+command.cc
+----------------------------------
+comtest.cc
+----------------------------------
+debug.cc
+----------------------------------
+dir.cc
+----------------------------------
+engine.cc
+----------------------------------
+globals.cc
+----------------------------------
+harvest_frame.cc
+----------------------------------
+include.cc
+----------------------------------
+init.cc
+D 2.2 95/01/06 15:18:45 tom 11 10	00003/00001/00124
+MRs:
+COMMENTS:
+Added sim_start_year to Calendar init.
+
+----------------------------------
+iotest.cc
+----------------------------------
+log.cc
+----------------------------------
+main.cc
+----------------------------------
+map.cc
+----------------------------------
+monte_tokens.cc
+D 2.1 95/01/09 18:54:18 surge 1 0	00143/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/09 18:54:18 by surge
+
+----------------------------------
+parse_test.cc
+----------------------------------
+parseutil.cc
+----------------------------------
+simple_output.cc
+----------------------------------
+statistics.cc
+----------------------------------
+token.cc
+----------------------------------
+version.cc
+D 2.2 94/11/29 15:27:10 troy 9 8	00001/00001/00036
+MRs:
+COMMENTS:
+new development on 2.1.1
+
+----------------------------------
+AList.h
+----------------------------------
+Args.h
+----------------------------------
+Bool.h
+----------------------------------
+Bootstrap.h
+----------------------------------
+CNR.h
+----------------------------------
+Calendar.h
+D 2.2 95/01/06 15:22:42 tom 4 3	00003/00001/00041
+MRs:
+COMMENTS:
+Added sim_start_year()
+
+----------------------------------
+Ceiling.h
+----------------------------------
+CeilingTool.h
+D 2.2 95/01/06 17:30:37 tom 4 3	00009/00002/00034
+MRs:
+COMMENTS:
+Added inactive base period sliders/MegaSliders.
+
+----------------------------------
+Cohort.h
+----------------------------------
+ContextManager.h
+----------------------------------
+File.h
+----------------------------------
+Fishery.h
+----------------------------------
+FisheryList.h
+----------------------------------
+FisheryManagement.h
+----------------------------------
+FisheryPolicy.h
+----------------------------------
+FisherySummary.h
+----------------------------------
+Fishery_UI.h
+----------------------------------
+FloatSlider.h
+D 2.2 95/01/06 15:28:21 tom 7 6	00009/00018/00036
+MRs:
+COMMENTS:
+Made assignment of slider value to variable problem of callback, added getActive()
+
+----------------------------------
+FloatSliderDisplay.h
+D 2.2 95/01/06 15:34:02 tom 9 8	00027/00022/00047
+MRs:
+COMMENTS:
+Added the MetaSliders thing, reorged some code.
+
+----------------------------------
+GUI.h
+----------------------------------
+Harvest.h
+----------------------------------
+HarvestList.h
+----------------------------------
+HarvestPolicy.h
+----------------------------------
+Harvest_UI.h
+D 2.2 95/01/06 17:28:49 tom 4 3	00004/00002/00048
+MRs:
+COMMENTS:
+Consolidated HarvestRate & RateScalar frames into one from many.
+
+----------------------------------
+HatchSurplusProduction.h
+----------------------------------
+HatcheryProduction.h
+----------------------------------
+Hist.h
+----------------------------------
+HvSummary.h
+----------------------------------
+IEnum.h
+----------------------------------
+IOCrud.h
+D 2.2 95/01/06 15:24:58 tom 17 16	00011/00003/00134
+MRs:
+COMMENTS:
+Added sim_start_year, capability to save mrt for selected stks only.
+
+----------------------------------
+Map.h
+----------------------------------
+MapManager.h
+----------------------------------
+Map_ui.h
+----------------------------------
+MonteControl.h
+----------------------------------
+MonteDataItem.h
+----------------------------------
+MonteOutputItem.h
+----------------------------------
+MonteStockIntrfc.h
+----------------------------------
+MonteStockTracking.h
+----------------------------------
+MonteTrackingItem.h
+----------------------------------
+NAList.h
+----------------------------------
+NaturalProduction.h
+----------------------------------
+NonNeg.h
+----------------------------------
+Parser.h
+D 2.2 95/01/09 18:53:45 surge 2 1	00040/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+D 2.1 94/10/07 16:18:53 surge 1 0	00000/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/10/07 16:18:53 by surge
+
+----------------------------------
+PercentileGraph.h
+----------------------------------
+Phase.h
+----------------------------------
+Production.h
+----------------------------------
+RandGen.h
+----------------------------------
+RandNorm.h
+----------------------------------
+Range.h
+----------------------------------
+ReadToken.h
+D 2.2 95/01/09 18:55:18 surge 2 1	00079/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+D 2.1 94/10/10 21:08:58 surge 1 0	00000/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/10/10 21:08:58 by surge
+
+----------------------------------
+SeedPod.h
+----------------------------------
+SliderGroup.h
+D 1.2 95/01/06 17:25:50 tom 2 1	00005/00002/00051
+MRs:
+COMMENTS:
+Added support for activating/inactivating a subset of the sliders, fixed max_check, which I'd broken earlier.
+
+D 1.1 94/11/14 20:24:04 tom 1 0	00053/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/11/14 20:24:04 by tom
+
+----------------------------------
+State.h
+D 2.2 95/01/09 18:54:49 surge 2 1	00032/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+D 2.1 94/10/07 16:19:02 surge 1 0	00000/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/10/07 16:19:02 by surge
+
+----------------------------------
+Stochastic.h
+----------------------------------
+Stock.h
+D 2.2 95/01/06 15:22:02 tom 21 20	00002/00002/00142
+MRs:
+COMMENTS:
+Publicized get_adult_eq()
+
+----------------------------------
+StockList.h
+----------------------------------
+StockPolicy.h
+----------------------------------
+StockSummary.h
+----------------------------------
+Stock_UI.h
+----------------------------------
+String.h
+D 2.1 94/10/07 16:17:35 surge 1 0	00008/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/10/07 16:17:35 by surge
+
+----------------------------------
+Summary.h
+----------------------------------
+Token.h
+D 2.2 95/01/09 18:53:23 surge 2 1	00073/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+D 2.1 94/10/07 16:18:44 surge 1 0	00000/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/10/07 16:18:44 by surge
+
+----------------------------------
+UI.h
+----------------------------------
+UIT.h
+----------------------------------
+UIT_BaseFrame.h
+----------------------------------
+UIT_Fishery.h
+D 2.2 95/01/06 15:33:10 tom 7 6	00002/00002/00039
+MRs:
+COMMENTS:
+Now there's one pnv frame for all fisheries, instead of one each.
+
+----------------------------------
+UIT_FisheryFrame.h
+----------------------------------
+UIT_Graph.h
+----------------------------------
+UIT_Harvest.h
+D 2.2 95/01/06 15:38:24 tom 6 5	00002/00002/00043
+MRs:
+COMMENTS:
+One HRSF now contains all stock/fishery pairs, instead of one pair per.
+
+----------------------------------
+UIT_HarvestFrame.h
+----------------------------------
+UIT_HarvestRateFrame.h
+D 2.2 95/01/06 15:37:11 tom 3 2	00001/00006/00020
+MRs:
+COMMENTS:
+One HRF now contains all possible Stock/Fishery pairs, instead of one per.
+
+----------------------------------
+UIT_HarvestRateScalarFrame.h
+D 2.2 95/01/06 17:27:44 tom 3 2	00010/00007/00019
+MRs:
+COMMENTS:
+Added base period inactivation by default, consolidated all HRSF's into one.
+
+----------------------------------
+UIT_MonteFrame.h
+----------------------------------
+UIT_Stock.h
+D 2.2 95/01/06 15:35:17 tom 6 5	00004/00003/00040
+MRs:
+COMMENTS:
+Parted out the inter_dam_loss_editor and ev_scalar_editor.
+
+----------------------------------
+UIT_StockFrame.h
+----------------------------------
+UIT_YearGraph.h
+----------------------------------
+UIT_evScalarFrame.h
+D 1.1 95/01/06 17:31:46 tom 1 0	00029/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/06 17:31:46 by tom
+
+----------------------------------
+UIT_idlFrame.h
+D 1.1 95/01/06 17:32:07 tom 1 0	00029/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/06 17:32:07 by tom
+
+----------------------------------
+UIT_pnvFrame.h
+D 1.1 95/01/06 17:32:11 tom 1 0	00029/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/06 17:32:11 by tom
+
+----------------------------------
+UniformInt.h
+----------------------------------
+base_tokens.h
+D 2.1 95/01/09 18:55:59 surge 1 0	00009/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/09 18:55:59 by surge
+
+----------------------------------
+clog.h
+----------------------------------
+command.h
+----------------------------------
+dir.h
+----------------------------------
+file.h
+----------------------------------
+globals.h
+----------------------------------
+help.h
+----------------------------------
+include.h
+----------------------------------
+init.h
+----------------------------------
+input_hist.h
+----------------------------------
+keydata.h
+----------------------------------
+log.h
+----------------------------------
+monte_tokens.h
+D 2.1 95/01/09 18:55:45 surge 1 0	00008/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/09 18:55:45 by surge
+
+----------------------------------
+parseutil.h
+----------------------------------
+stack.h
+----------------------------------
+statistics.h
+----------------------------------
+token.h
+----------------------------------
+file.c
+----------------------------------
+help.c
+D 2.2 94/10/04 13:01:00 tom 7 6	00003/00001/00566
+MRs:
+COMMENTS:
+Widened the help window to 80 columns, at least for default font.
+
+----------------------------------
+input_hist.c
+----------------------------------
+stack.c
+----------------------------------

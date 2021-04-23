@@ -1,0 +1,281 @@
+#include <windows.h>
+#include "ZasMenuConst.h"
+#include "ZatDialogConstants.h"
+
+#define IDI_ICON1 4444
+
+ID_REFRESH BITMAP  refresh.bmp
+ID_OPEN BITMAP     fopen.bmp
+ID_SAVE BITMAP     fsave.bmp
+ID_GOOB BITMAP     goob.bmp
+ID_PRINT BITMAP    print.bmp
+ID_MAPSIZE BITMAP  map.bmp
+ID_MAPHELP BITMAP      mhelp.bmp
+ID_SELFIS BITMAP   hook.bmp
+ID_SELSTO BITMAP     fish.bmp
+ID_MOUSETOOL BITMAP  mouse.bmp
+ID_MAP_FISH2 BITMAP  mapFish2.bmp
+ID_MAP_BOAT2 BITMAP  mapBoat2.bmp
+ID_MAP_FISH BITMAP  mapFish.bmp
+ID_MAP_BOAT BITMAP  mapBoat.bmp
+ID_SCE  BITMAP  run.bmp
+ID_CON  BITMAP  help.bmp
+ID_GRID  BITMAP  grid.bmp
+ID_WAND  BITMAP  wand.bmp
+
+
+IDI_ICON1 ICON icon1.ico
+
+MAINMENU MENU {
+
+	POPUP "&File" {
+	      MENUITEM "&Print Map..", ID_PRINT
+	      MENUITEM SEPARATOR
+	      MENUITEM "&Mouse Tool", ID_MOUSETOOL
+	      MENUITEM SEPARATOR              
+	      MENUITEM "&Exit", ID_EXIT
+	}
+	POPUP "F&ishery" {
+	      MENUITEM "&PNV..", ID_PNV
+	      MENUITEM "&CNR..", ID_CNR
+	      MENUITEM "C&atch Ceilings..", ID_CEL
+	      MENUITEM SEPARATOR              
+	      POPUP "Fishery &Graphs" {
+		    MENUITEM "&Abundance Index", ID_FG_ABUIND
+		    POPUP "&Catches" {
+			  MENUITEM "&Total", ID_FG_TOT
+			  MENUITEM "&Preterminal", ID_FG_PRE
+			  MENUITEM "T&erminal", ID_FG_TER
+		    }               
+		    POPUP "&Incidental Mortality" {
+			  MENUITEM "Total (CNR+Shakers)", ID_FG_INCMOR
+			  MENUITEM "Sublegal CNR", ID_FG_SUB
+			  MENUITEM "Legal CNR", ID_FG_LEG
+		    }
+	      }
+	}
+	POPUP "&Stock" {
+	      MENUITEM "&Inter Dam Loss..", ID_INTDAMLOS
+	      MENUITEM "&Ev Scalars..", ID_EV
+	      MENUITEM "&Enhancement..", ID_ENH
+	      MENUITEM "&Maturation Rates..", ID_MR
+	      MENUITEM SEPARATOR              
+	      POPUP "Stock &Graphs" {
+		    MENUITEM "&Abundances", ID_SG_ABU
+		    MENUITEM "&Escapements", ID_SG_ESC
+		    POPUP "C&NR" {
+			  MENUITEM "Sublegal", ID_SG_SUB
+			  MENUITEM "Legal", ID_SG_LEG
+		    }
+		    POPUP "&Catches" {
+			  MENUITEM "&Total", ID_SG_TOT
+			  MENUITEM "&Preterminal", ID_SG_PRE
+			  MENUITEM "T&erminal", ID_SG_TER
+		    }               
+		    MENUITEM "&True Term Run", ID_SG_TRUTERRUN
+	      }
+	}
+	POPUP "&Harvest" {
+	      MENUITEM "&Harvest Rate Scalars..", ID_HARRATSCA
+	      MENUITEM "&Base Period Harvest Rates..", ID_BASPER
+	      MENUITEM SEPARATOR              
+	      POPUP "&Mortality Graphs" {
+		    MENUITEM "&Total", ID_HG_TOT        
+		    MENUITEM "&Incidental", ID_HG_INC   
+	      } 
+	}
+
+	POPUP "&Run" {
+	      MENUITEM "&Scenario", ID_SCE
+	      MENUITEM "&Monte Carlo..", ID_MON
+	      MENUITEM SEPARATOR              
+	      MENUITEM "&Calibrate", ID_CAL
+	}       
+
+	POPUP "&Help" { 
+	      MENUITEM "&Contents", ID_CON      
+	      MENUITEM "&Glossary", ID_GETSTA
+	      MENUITEM SEPARATOR              
+	      MENUITEM "&About CRiSP Harvest", ID_ABO
+	}             
+
+}
+
+
+STRINGTABLE LOADONCALL DISCARDABLE
+BEGIN
+
+	ID_OPEN,                "Open a new data configuration file."
+	ID_SAVE,                "Save current configuration."
+	ID_SAVEAS,              "Save current configuration as.."
+	ID_PRINT,               "Print the current view."
+	ID_EXIT,                "Exit Crisp Harvest."
+
+	ID_SELFIS,              "Enables fishery map circles when pressed."
+	ID_PNV,                 "Proportion Non-Vulnerable (PNV)"
+	ID_CNR,                 "Chinook Non-Retention (CNR) method scalars." 
+	ID_CEL,                 "Set catch ceiling levels and allows user to force Model catches to equal the ceiling."
+
+	ID_FG_INCMOR,           "Incidental Mortality"              
+	ID_FG_SUB,              "Sublegal"                  
+	ID_FG_LEG,              "Legal"
+
+	ID_FG_TOT,              "Total"
+	ID_FG_PRE,              "Pre-terminal"              
+	ID_FG_TER,              "Terminal"                  
+
+	ID_FG_ABUIND,           "Abundance Index"                   
+
+	ID_SELSTO,              "Enables stock map circles when pressed."
+	ID_INTDAMLOS,           "Inter-Dam Loss."
+	ID_EV,                  "Pre-recruitment (prior to age 1) survival scalars."
+	ID_ENH,                 "Production activity enhancements."
+	
+	ID_SG_ABU,              "Stock Abundance Graph"             
+	ID_SG_ESC,              "Escapement"                
+
+	ID_SG_SUB,              "Sublegal"                  
+	ID_SG_LEG,              "Legal"             
+	ID_SG_TOT,              "Total"         
+
+	ID_SG_PRE,              "Pre-terminal"              
+	ID_SG_TER,              "Terminal"                  
+	ID_SG_TRUTERRUN,        "True terminal run."               
+
+	ID_HARRATSCA,           "Harvest Ratio scalars."
+	ID_BASPER,              "Base Period (before age 1) Harvest Ratio"
+	ID_HG_TOT,              "Total Harvest Graph"
+	ID_HG_INC,              "Incidental Graph"
+	
+	ID_SCE,                 "Run scenario."
+	ID_MON,                 "Run Monte Carlo simulation."
+	ID_CAL,                 "Calibrate system."
+	
+	ID_CON,                 "Table of Contents"
+	ID_GETSTA,              "A guide to help you get started and using Crisp Harvest."
+
+	ID_MAPHELP,             "When enabled, moving the mouse over a stock/fishery icon will bring up information."
+	ID_MAPSIZE,             "Minimizes the map section of the program."
+
+END
+
+IDD_PNVFRAME DIALOG 23, 35, 200, 200
+STYLE   WS_POPUP | WS_CAPTION | WS_THICKFRAME
+CAPTION "PNV Frame"
+FONT 8, "MS Sans Serif"
+BEGIN
+	CONTROL "", IDC_COMBOBOX1, "combobox", WS_VSCROLL | WS_CHILD | WS_TABSTOP | CBS_DROPDOWN, 4, 3, 53, 117
+	CONTROL "", IDC_COMBOBOX2, "combobox", WS_VSCROLL | WS_CHILD | WS_TABSTOP | CBS_DROPDOWN, 63, 3, 103, 117
+END
+
+
+IDD_CNRFRAME DIALOG 35, 54, 415, 245
+STYLE   WS_POPUP | WS_CAPTION | WS_THICKFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX  
+CAPTION "CNR Frame"
+FONT 8, "MS Sans Serif"
+BEGIN
+	CONTROL "", IDC_COMBOBOX1, "combobox", WS_VSCROLL | WS_CHILD | WS_TABSTOP | CBS_DROPDOWN, 4, 3, 140, 129
+END
+
+
+IDD_CATCHCEILINGS DIALOG 34, 34, 210, 200
+STYLE   WS_POPUP | WS_CAPTION | WS_THICKFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX 
+CAPTION "Catch Ceilings"
+FONT 8, "MS Sans Serif"
+BEGIN
+	CONTROL "", IDC_COMBOBOX1, "combobox", WS_CHILD | WS_TABSTOP | WS_VSCROLL | CBS_DROPDOWNLIST, 4, 3, 95, 129
+END
+
+
+IDD_INTERDAMLOSS DIALOG 22, 38, 200, 200
+STYLE   WS_POPUP | WS_CAPTION | WS_THICKFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX
+CAPTION "Inter Dam Loss"
+FONT 8, "MS Sans Serif"
+BEGIN
+	CONTROL "", IDC_COMBOBOX1, "combobox", WS_CHILD | WS_TABSTOP | WS_VSCROLL | CBS_DROPDOWNLIST, 4, 3, 95, 129
+END
+
+IDD_EVSCALARS DIALOG 22, 38, 200, 200
+STYLE   WS_POPUP | WS_CAPTION | WS_THICKFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX 
+CAPTION "EV Scalars"
+FONT 8, "MS Sans Serif"
+BEGIN
+	CONTROL "", IDC_COMBOBOX1, "combobox", WS_CHILD | WS_TABSTOP |  WS_VSCROLL | CBS_DROPDOWNLIST, 4, 3, 95, 129
+END
+
+IDD_ENHSCALARS DIALOG 22, 38, 200, 200
+STYLE   WS_POPUP | WS_CAPTION | WS_THICKFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX 
+CAPTION "Stock Enhancements"
+FONT 8, "MS Sans Serif"
+BEGIN
+	CONTROL "", IDC_COMBOBOX1, "combobox", WS_CHILD | WS_TABSTOP |  WS_VSCROLL | CBS_DROPDOWNLIST, 4, 3, 95, 129
+END
+
+IDD_BASEPERIODHARVESTRATES DIALOG 23, 35, 200, 200
+STYLE   WS_POPUP | WS_CAPTION | WS_THICKFRAME 
+CAPTION "Base Period (79-82) Harvest Rates"
+FONT 8, "MS Sans Serif"
+BEGIN
+	CONTROL "", IDC_COMBOBOX1, "combobox", WS_VSCROLL | WS_CHILD | WS_TABSTOP | CBS_DROPDOWN, 4, 3, 73, 117
+	CONTROL "", IDC_COMBOBOX2, "combobox", WS_VSCROLL | WS_CHILD | WS_TABSTOP | CBS_DROPDOWN, 83, 3, 83, 117
+END
+
+IDD_HARVESTRATESCALARS DIALOG 23, 35, 200, 200
+STYLE   WS_POPUP | WS_CAPTION | WS_THICKFRAME 
+CAPTION "Harvest Rate Scalars"
+FONT 8, "MS Sans Serif"
+BEGIN
+	CONTROL "", IDC_COMBOBOX1, "combobox", WS_VSCROLL | WS_CHILD | WS_TABSTOP | CBS_DROPDOWN, 4, 3, 73, 117
+	CONTROL "", IDC_COMBOBOX2, "combobox", WS_VSCROLL | WS_CHILD | WS_TABSTOP | CBS_DROPDOWN, 83, 3, 83, 117
+END
+
+IDD_MATURATIONRATES DIALOG 23, 35, 200, 200
+STYLE   WS_POPUP | WS_CAPTION | WS_THICKFRAME 
+CAPTION "Maturation Rates"
+FONT 8, "MS Sans Serif"
+BEGIN
+	CONTROL "", IDC_COMBOBOX1, "combobox", WS_VSCROLL | WS_CHILD | WS_TABSTOP | CBS_DROPDOWN, 4, 3, 73, 117
+	CONTROL "", IDC_COMBOBOX2, "combobox", WS_VSCROLL | WS_CHILD | WS_TABSTOP | CBS_DROPDOWN, 83, 3, 83, 117
+END
+
+
+
+IDD_MOUSETOOL DIALOG 46, 122, 275, 89
+STYLE   WS_POPUP | WS_CAPTION | DS_MODALFRAME
+CAPTION "Mouse Tool"
+FONT 8, "MS Sans Serif"
+BEGIN
+	CONTROL "", IDC_COMBOBOX1, "combobox", WS_CHILD | WS_TABSTOP | WS_VSCROLL | CBS_DROPDOWN, 64,18,91,120
+	CONTROL "", IDC_COMBOBOX2, "combobox", WS_CHILD | WS_TABSTOP | WS_VSCROLL | CBS_DROPDOWN, 64,34,91,120
+	CONTROL "", IDC_COMBOBOX3, "combobox", WS_CHILD | WS_TABSTOP | WS_VSCROLL | CBS_DROPDOWN, 64,50,91,120
+	CONTROL "", IDC_COMBOBOX4, "combobox", WS_CHILD | WS_TABSTOP | WS_VSCROLL | CBS_DROPDOWN, 171,18,91,120
+	CONTROL "", IDC_COMBOBOX5, "combobox", WS_CHILD | WS_TABSTOP | WS_VSCROLL | CBS_DROPDOWN, 171,34,91,120
+	CONTROL "", IDC_COMBOBOX6, "combobox", WS_CHILD | WS_TABSTOP | WS_VSCROLL | CBS_DROPDOWN, 171,50,91,120
+	CONTROL "On Fishery", -1, "static", WS_CHILD | WS_VISIBLE |  SS_LEFT, 7,20,55,11
+	CONTROL "On Stock", -1, "static", WS_CHILD | WS_VISIBLE |  SS_LEFT, 7,36,55,10
+	CONTROL "On Background", -1, "static", WS_CHILD | WS_VISIBLE | SS_LEFT, 7,52,55,10
+	CONTROL "Left Button", -1, "static", WS_CHILD | WS_VISIBLE | SS_CENTER,80,6,57,9
+	CONTROL "Right Button", -1, "static", WS_CHILD | WS_VISIBLE  | SS_CENTER,185,7,57,8
+	CONTROL "OK", IDC_OK, "button", WS_CHILD | BS_DEFPUSHBUTTON | WS_TABSTOP, 205,70,27,13
+	CONTROL "Help", IDC_DHELP, "button", WS_CHILD | BS_PUSHBUTTON | WS_VISIBLE | WS_TABSTOP, 235,70,27,13
+END
+
+
+IDD_MONTE DIALOG  0, 0, 186, 85
+STYLE   WS_POPUP | WS_CAPTION | DS_MODALFRAME
+CAPTION "Monte Carlo Run.."
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL "Run Monte", IDC_OK, "button", WS_CHILD | BS_DEFPUSHBUTTON | WS_TABSTOP, 129,7,50,14
+    CONTROL "Cancel",IDC_CANCEL, "button", WS_CHILD |  WS_TABSTOP,129,24,50,14
+END
+
+PRINT DIALOG LOADONCALL MOVEABLE DISCARDABLE 98, 60, 127, 58
+CAPTION "Print"
+STYLE WS_BORDER|WS_CAPTION|WS_DLGFRAME|WS_SYSMENU|WS_POPUP|WS_VISIBLE
+BEGIN
+    CONTROL "Cancel", 2, "button", BS_DEFPUSHBUTTON | WS_TABSTOP | WS_CHILD, 41, 40, 42, 14
+    CONTROL "Printing", 101, "static", SS_LEFT | WS_CHILD, 2, 5, 121, 10
+    CONTROL "Page", 102, "static", SS_LEFT | WS_CHILD, 3, 16, 122, 10
+    CONTROL "Band", 103, "static", SS_LEFT | WS_CHILD, 2, 27, 122, 8
+END

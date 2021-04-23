@@ -1,0 +1,1074 @@
+,ZatMercatorTransform.cpp
+----------------------------------
+,ZatPointTransform.cpp
+----------------------------------
+Bootstrap.cpp
+----------------------------------
+CNR.cpp
+----------------------------------
+Calendar.cpp
+----------------------------------
+Calibrator.cpp
+----------------------------------
+Ceiling.cpp
+----------------------------------
+CeilingPolicy.cpp
+----------------------------------
+Cohort.cpp
+----------------------------------
+Fishery.cpp
+----------------------------------
+FisheryManagement.cpp
+----------------------------------
+FisherySummary.cpp
+----------------------------------
+FisheryTactics.cpp
+----------------------------------
+FixedCombHarv.cpp
+----------------------------------
+FixedEscapementPolicy.cpp
+----------------------------------
+GUI.cpp
+----------------------------------
+Harvest.cpp
+D 4.2 96/10/22 16:28:29 troy 3 2	00389/00389/00000
+MRs:
+COMMENTS:
+dos2unix
+
+----------------------------------
+HarvestList.cpp
+----------------------------------
+HarvestTactics.cpp
+----------------------------------
+HatchSurplusProduction.cpp
+----------------------------------
+HatcheryProduction.cpp
+----------------------------------
+HvSummary.cpp
+----------------------------------
+IOCrud.cpp
+----------------------------------
+MonteControl.cpp
+----------------------------------
+MonteDataItem.cpp
+----------------------------------
+MonteOutputItem.cpp
+----------------------------------
+MonteStockIntrfc.cpp
+----------------------------------
+MonteStockTracking.cpp
+----------------------------------
+MonteTrackingItem.cpp
+----------------------------------
+MultiCeilingPolicy.cpp
+----------------------------------
+NamedPtrVec.cpp
+----------------------------------
+NaturalProduction.cpp
+----------------------------------
+Parser.cpp
+----------------------------------
+Policy.cpp
+----------------------------------
+Production.cpp
+----------------------------------
+RandGen.cpp
+----------------------------------
+RandNorm.cpp
+----------------------------------
+Range.cpp
+----------------------------------
+ReadToken.cpp
+----------------------------------
+Sample.cpp
+----------------------------------
+Simulation.cpp
+----------------------------------
+State.cpp
+----------------------------------
+Stock.cpp
+----------------------------------
+StockCalib.cpp
+----------------------------------
+StockConfig.cpp
+----------------------------------
+StockSummary.cpp
+----------------------------------
+String.cpp
+----------------------------------
+Strtools.cpp
+----------------------------------
+Token.cpp
+----------------------------------
+ZasCalibration.cpp
+D 1.2 96/10/24 18:52:23 umbe 2 1	00000/00000/00147
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasDialogMedBPHR.cpp
+D 4.2 96/10/24 18:52:25 umbe 3 2	00000/00000/00110
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasDialogMedPNV.cpp
+D 4.2 96/10/24 18:52:26 umbe 3 2	00000/00000/00102
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasGraphMedMonteCarlo.cpp
+D 1.2 96/10/24 18:52:28 umbe 2 1	00000/00000/00110
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasGraphUpdateMed.cpp
+D 4.2 96/10/24 18:52:29 umbe 3 2	00000/00000/00019
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasMapMedCrispHarvest.cpp
+D 4.2 96/11/26 11:06:23 troy 3 2	00079/00025/00178
+MRs:
+COMMENTS:
+changes from umbe
+
+----------------------------------
+ZasMediatorFactory.cpp
+D 4.3 96/10/24 18:52:32 umbe 4 3	00165/00033/00182
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasMonteCarlo.cpp
+D 4.3 96/10/24 18:52:34 umbe 4 3	00029/00012/00066
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasTabDialogCeilings.cpp
+D 4.2 96/10/24 18:52:36 umbe 3 2	00000/00000/00039
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasTabDialogENH.cpp
+D 4.2 96/10/24 18:52:37 umbe 3 2	00001/00001/00043
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasTabDialogMedCeilings.cpp
+D 4.2 96/10/24 18:52:41 umbe 3 2	00013/00004/00175
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasTabDialogMedENH.cpp
+D 4.2 96/10/24 18:52:42 umbe 3 2	00000/00000/00162
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasTabDialogMedEV.cpp
+D 4.2 96/10/24 18:52:43 umbe 3 2	00000/00000/00105
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasTabDialogMedHRS.cpp
+D 4.2 96/10/24 18:52:45 umbe 3 2	00000/00000/00125
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasTabDialogMedIDL.cpp
+D 4.2 96/10/24 18:52:46 umbe 3 2	00000/00000/00105
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatCheckBoxGroup.cpp
+D 4.2 96/10/24 18:52:48 umbe 3 2	00002/00002/00071
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatDialogBase.cpp
+D 4.2 96/10/24 18:52:50 umbe 3 2	00002/00004/00180
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatDialogMedBase.cpp
+D 4.2 96/10/24 18:52:52 umbe 3 2	00015/00000/00217
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatEditSliderBase.cpp
+D 4.2 96/10/24 18:52:55 umbe 3 2	00000/00000/00051
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatEditSliderDouble.cpp
+D 4.2 96/10/24 18:52:56 umbe 3 2	00000/00000/00100
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatEditSliderLong.cpp
+D 4.2 96/10/24 18:52:57 umbe 3 2	00000/00000/00102
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatGraphDialog.cpp
+D 4.2 96/10/24 18:53:00 umbe 3 2	00264/00179/00291
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatGraphicPane.cpp
+----------------------------------
+ZatImplicitScroller.cpp
+D 4.2 96/10/24 18:53:04 umbe 3 2	00000/00000/00071
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatMapMediator.cpp
+D 4.2 96/10/24 18:53:06 umbe 3 2	00372/00270/00000
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatMapPane.cpp
+D 4.2 96/10/24 18:53:07 umbe 3 2	00016/00011/00126
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatMercatorTransform.cpp
+D 1.1 96/11/26 10:36:02 umbe 1 0	00082/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/11/26 10:36:02 by umbe
+
+----------------------------------
+ZatPointTransform.cpp
+D 1.1 96/11/26 10:36:14 umbe 1 0	00013/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/11/26 10:36:14 by umbe
+
+----------------------------------
+ZatRowColumnBox.cpp
+D 4.2 96/10/24 18:53:09 umbe 3 2	00005/00004/00074
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatTabDialog.cpp
+D 4.2 96/10/24 18:53:10 umbe 3 2	00000/00000/00117
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatTabDialogMed.cpp
+D 4.2 96/10/24 18:53:12 umbe 3 2	00000/00000/00049
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+base_tokens.cpp
+----------------------------------
+c2main.cpp
+D 4.4 96/10/24 18:58:03 umbe 5 4	00406/00326/00000
+MRs:
+COMMENTS:
+save and open file options disabled, cosmetic menu changes, lat/lon coordinates added to status bar
+
+----------------------------------
+clog.cpp
+----------------------------------
+command.cpp
+----------------------------------
+datFisheryCeilings.cpp
+----------------------------------
+datIntDouble.cpp
+----------------------------------
+debug.cpp
+----------------------------------
+dir.cpp
+----------------------------------
+engine.cpp
+----------------------------------
+globals.cpp
+----------------------------------
+idcBPHR.cpp
+----------------------------------
+idcCeilings.cpp
+----------------------------------
+idcENH.cpp
+----------------------------------
+idcEV.cpp
+----------------------------------
+idcHRS.cpp
+----------------------------------
+idcIDL.cpp
+----------------------------------
+idcPNV.cpp
+----------------------------------
+implicit_base.cpp
+----------------------------------
+include.cpp
+----------------------------------
+init.cpp
+----------------------------------
+log.cpp
+----------------------------------
+mapController.cpp
+D 4.2 96/10/23 10:48:40 troy 3 2	00002/00001/00140
+MRs:
+COMMENTS:
+removed extra brackets on static initialization
+
+----------------------------------
+mapObject.cpp
+----------------------------------
+monte_tokens.cpp
+----------------------------------
+parseutil.cpp
+----------------------------------
+resfile.cpp
+----------------------------------
+simple_output.cpp
+----------------------------------
+statistics.cpp
+----------------------------------
+version.cpp
+----------------------------------
+zcGMF_AbundanceIndex.cpp
+----------------------------------
+zcGMF_CatchPreterm.cpp
+----------------------------------
+zcGMF_CatchTerminal.cpp
+----------------------------------
+zcGMF_CatchTotal.cpp
+----------------------------------
+zcGMF_InMortLegal.cpp
+----------------------------------
+zcGMF_InMortSublegal.cpp
+----------------------------------
+zcGMF_InMortTotal.cpp
+D 4.2 96/10/24 18:55:15 umbe 3 2	00001/00001/00044
+MRs:
+COMMENTS:
+Modified graphing system supports printing, x/y position tracking, and zoom in/out with mouse buttons 1 & 2
+
+----------------------------------
+zcGMH_HarvestGraphs.cpp
+----------------------------------
+zcGMS_Abundance.cpp
+----------------------------------
+zcGMS_CNRGraphs.cpp
+----------------------------------
+zcGMS_CatchGraphs.cpp
+----------------------------------
+zcGMS_Escapement.cpp
+----------------------------------
+zcGMS_TrueTermRun.cpp
+----------------------------------
+zcGM_YearAgeGraph.cpp
+D 4.2 96/10/24 18:55:18 umbe 3 2	00007/00004/00098
+MRs:
+COMMENTS:
+Modified graphing system supports printing, x/y position tracking, and zoom in/out with mouse buttons 1 & 2
+
+----------------------------------
+zcGM_YearGraph.cpp
+D 4.2 96/10/24 18:55:19 umbe 3 2	00071/00071/00028
+MRs:
+COMMENTS:
+Modified graphing system supports printing, x/y position tracking, and zoom in/out with mouse buttons 1 & 2
+
+----------------------------------
+zcGraphMediator.cpp
+D 4.3 96/10/24 18:55:21 umbe 4 3	00169/00108/00047
+MRs:
+COMMENTS:
+Modified graphing system supports printing, x/y position tracking, and zoom in/out with mouse buttons 1 & 2
+
+----------------------------------
+zcMouseTool.cpp
+----------------------------------
+zcMouseToolCrisp2.cpp
+----------------------------------
+file.c
+----------------------------------
+help.c
+----------------------------------
+,ZatMercatorTransform.h
+----------------------------------
+,ZatPointTransform.h
+----------------------------------
+AgeVec.h
+----------------------------------
+Args.h
+D 4.3 96/10/24 18:57:03 umbe 9 8	00074/00074/00002
+MRs:
+COMMENTS:
+cosmetic changes
+
+----------------------------------
+Bool.h
+----------------------------------
+Bootstrap.h
+----------------------------------
+CNR.h
+----------------------------------
+Calendar.h
+----------------------------------
+Calibrator.h
+----------------------------------
+Ceiling.h
+----------------------------------
+CeilingPolicy.h
+----------------------------------
+CeilingTool.h
+----------------------------------
+Cohort.h
+----------------------------------
+ContextManager.h
+----------------------------------
+Fishery.h
+D 4.3 96/10/23 13:38:32 troy 30 29	00144/00144/00000
+MRs:
+COMMENTS:
+dos2unix
+
+----------------------------------
+FisheryList.h
+----------------------------------
+FisheryManagement.h
+----------------------------------
+FisherySummary.h
+----------------------------------
+FisheryTactics.h
+----------------------------------
+Fishery_UI.h
+----------------------------------
+FixedCombHarv.h
+----------------------------------
+FixedEscStock.h
+----------------------------------
+FixedEscapementPolicy.h
+----------------------------------
+FixedHarvestPolicy.h
+----------------------------------
+GUI.h
+----------------------------------
+Harvest.h
+D 4.3 96/10/23 12:18:57 troy 26 25	00172/00172/00000
+MRs:
+COMMENTS:
+dos2unix
+
+----------------------------------
+HarvestList.h
+D 4.3 96/10/23 13:39:47 troy 12 11	00083/00083/00000
+MRs:
+COMMENTS:
+dos2unix
+
+----------------------------------
+HarvestTactics.h
+----------------------------------
+Harvest_UI.h
+----------------------------------
+HatchSurplusProduction.h
+----------------------------------
+HatcheryProduction.h
+----------------------------------
+Hist.h
+----------------------------------
+HvSummary.h
+----------------------------------
+IEnum.h
+----------------------------------
+IOCrud.h
+----------------------------------
+Map.h
+----------------------------------
+MonteControl.h
+----------------------------------
+MonteDataItem.h
+----------------------------------
+MonteOutputItem.h
+----------------------------------
+MonteStockIntrfc.h
+----------------------------------
+MonteStockTracking.h
+----------------------------------
+MonteTrackingItem.h
+----------------------------------
+MultiCeilingPolicy.h
+----------------------------------
+NamedPtrVec.h
+----------------------------------
+NaturalProduction.h
+----------------------------------
+NonNeg.h
+----------------------------------
+Parser.h
+----------------------------------
+PercentileGraph.h
+----------------------------------
+Phase.h
+----------------------------------
+Policies.h
+----------------------------------
+Policy.h
+----------------------------------
+Production.h
+----------------------------------
+RandGen.h
+----------------------------------
+RandNorm.h
+----------------------------------
+Range.h
+----------------------------------
+ReadToken.h
+----------------------------------
+SeedPod.h
+----------------------------------
+Simulation.h
+----------------------------------
+SliderGroup.h
+----------------------------------
+State.h
+----------------------------------
+Stochastic.h
+----------------------------------
+Stock.h
+----------------------------------
+StockCalib.h
+----------------------------------
+StockConfig.h
+----------------------------------
+StockList.h
+----------------------------------
+StockSummary.h
+----------------------------------
+Stock_UI.h
+----------------------------------
+Strings.h
+----------------------------------
+Summary.h
+----------------------------------
+Token.h
+----------------------------------
+UI.h
+----------------------------------
+UniformInt.h
+----------------------------------
+ZasCalibration.h
+D 1.2 96/10/24 18:52:24 umbe 2 1	00000/00000/00044
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasDialogMedBPHR.h
+D 4.3 96/10/24 18:52:26 umbe 4 3	00000/00000/00027
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasDialogMedPNV.h
+D 4.3 96/10/24 18:52:27 umbe 4 3	00000/00000/00027
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasGraphMedMonteCarlo.h
+D 1.2 96/10/24 18:52:28 umbe 2 1	00000/00000/00020
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasGraphUpdateMed.h
+D 4.3 96/10/24 18:52:30 umbe 4 3	00000/00000/00046
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasMapMedCrispHarvest.h
+D 4.2 96/10/24 18:52:31 umbe 3 2	00004/00003/00035
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasMediatorFactory.h
+D 4.3 96/10/24 18:52:33 umbe 4 3	00004/00006/00050
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasMenuConst.h
+D 4.3 96/10/24 18:52:34 umbe 4 3	00011/00001/00066
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasMonteCarlo.h
+D 4.3 96/10/24 18:52:35 umbe 4 3	00000/00000/00033
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasTabDialogCeilings.h
+D 4.3 96/10/24 18:52:36 umbe 4 3	00000/00000/00023
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasTabDialogENH.h
+D 4.3 96/10/24 18:52:38 umbe 4 3	00000/00000/00027
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasTabDialogMedCeilings.h
+D 4.3 96/10/24 18:52:41 umbe 4 3	00000/00000/00030
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasTabDialogMedENH.h
+D 4.3 96/10/24 18:52:43 umbe 4 3	00000/00000/00028
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasTabDialogMedEV.h
+D 4.3 96/10/24 18:52:44 umbe 4 3	00000/00000/00027
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasTabDialogMedHRS.h
+D 4.3 96/10/24 18:52:46 umbe 4 3	00000/00000/00027
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZasTabDialogMedIDL.h
+D 4.3 96/10/24 18:52:47 umbe 4 3	00000/00000/00027
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatCheckBoxGroup.h
+D 4.3 96/10/24 18:52:48 umbe 4 3	00000/00000/00065
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatConstants.h
+D 4.3 96/10/24 18:52:49 umbe 4 3	00000/00000/00015
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatDefines.h
+D 4.3 96/10/24 18:52:50 umbe 4 3	00000/00000/00017
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatDialogBase.h
+D 4.3 96/10/24 18:52:51 umbe 4 3	00000/00000/00118
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatDialogConstants.h
+D 4.4 96/10/24 18:52:52 umbe 5 4	00000/00000/00039
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatDialogMedBase.h
+D 4.3 96/10/24 18:52:53 umbe 4 3	00008/00002/00077
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatEditSliderBase.h
+D 4.3 96/10/24 18:52:55 umbe 4 3	00000/00000/00049
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatEditSliderDouble.h
+D 4.3 96/10/24 18:52:57 umbe 4 3	00000/00000/00037
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatEditSliderLong.h
+D 4.3 96/10/24 18:52:58 umbe 4 3	00000/00000/00037
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatGraphConstants.h
+D 4.3 96/10/24 18:52:59 umbe 4 3	00000/00000/00016
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatGraphDialog.h
+D 4.3 96/10/24 18:53:01 umbe 4 3	00007/00006/00109
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatGraphicPane.h
+D 4.3 96/10/24 18:53:02 umbe 4 3	00009/00005/00025
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatImConScroller.h
+D 4.3 96/10/24 18:53:02 umbe 4 3	00000/00000/00050
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatImpTabCtrl.h
+D 4.3 96/10/24 18:53:03 umbe 4 3	00000/00000/00022
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatImplicitScroller.h
+D 4.3 96/10/24 18:53:04 umbe 4 3	00000/00000/00032
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatItem.h
+D 4.3 96/10/24 18:53:05 umbe 4 3	00000/00000/00041
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatMapMediator.h
+D 4.2 96/10/24 18:53:06 umbe 3 2	00015/00002/00071
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatMapPane.h
+D 4.3 96/10/24 18:53:08 umbe 4 3	00000/00000/00048
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+D 4.2 96/10/23 15:31:17 troy 3 2	00004/00003/00044
+MRs:
+COMMENTS:
+new version from umbe
+
+----------------------------------
+ZatMercatorTransform.h
+D 1.1 96/11/26 10:35:57 umbe 1 0	00048/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/11/26 10:35:57 by umbe
+
+----------------------------------
+ZatPointTransform.h
+D 1.1 96/11/26 10:36:23 umbe 1 0	00049/00000/00000
+MRs:
+COMMENTS:
+date and time created 96/11/26 10:36:23 by umbe
+
+----------------------------------
+ZatRowColumnBox.h
+D 4.3 96/10/24 18:53:10 umbe 4 3	00000/00000/00035
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatTabDialog.h
+D 4.3 96/10/24 18:53:11 umbe 4 3	00000/00000/00070
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+ZatTabDialogMed.h
+D 4.3 96/10/24 18:53:12 umbe 4 3	00000/00000/00030
+MRs:
+COMMENTS:
+Added grid lines, printing support (disabled under SUNOS as zApp printing under UNIX has bugs), added enlarged bitmaps for printouts.
+
+----------------------------------
+base_tokens.h
+----------------------------------
+c2main.h
+D 4.4 96/10/24 18:58:46 umbe 5 4	00046/00045/00000
+MRs:
+COMMENTS:
+
+
+----------------------------------
+clog.h
+----------------------------------
+cnrSliderVisitor.h
+----------------------------------
+cnrToggleVisitor.h
+----------------------------------
+cnrVisitor.h
+----------------------------------
+command.h
+----------------------------------
+constant.h
+----------------------------------
+datFisheryCNR.h
+----------------------------------
+datFisheryCeilings.h
+----------------------------------
+datFisheryIDL.h
+----------------------------------
+datFisheryPNV.h
+----------------------------------
+datHarvestBPHR.h
+----------------------------------
+datHarvestHRS.h
+----------------------------------
+datIntDouble.h
+----------------------------------
+datStockENH.h
+----------------------------------
+datStockEV.h
+----------------------------------
+datStockEv.h
+----------------------------------
+datStockIDL.h
+----------------------------------
+datTypes.h
+----------------------------------
+dir.h
+----------------------------------
+dlgconst.h
+----------------------------------
+file.h
+----------------------------------
+globals.h
+----------------------------------
+help.h
+----------------------------------
+idcBPHR.h
+----------------------------------
+idcBPHarvestRates.h
+----------------------------------
+idcCeilings.h
+----------------------------------
+idcENH.h
+----------------------------------
+idcEV.h
+----------------------------------
+idcHRS.h
+----------------------------------
+idcHarvestRateScalars.h
+----------------------------------
+idcIDL.h
+----------------------------------
+idcPNV.h
+----------------------------------
+idc_pnv.h
+----------------------------------
+implicit.h
+----------------------------------
+implicit_base.h
+----------------------------------
+include.h
+----------------------------------
+init.h
+----------------------------------
+input_hist.h
+----------------------------------
+interfaceDataControl.h
+----------------------------------
+keydata.h
+----------------------------------
+log.h
+----------------------------------
+mapConstants.h
+----------------------------------
+mapController.h
+----------------------------------
+mapObject.h
+----------------------------------
+mapPoint.h
+----------------------------------
+menuconst.h
+----------------------------------
+monte_tokens.h
+----------------------------------
+parseutil.h
+----------------------------------
+resource.h
+D 4.3 96/10/24 18:58:28 umbe 4 3	00006/00005/00014
+MRs:
+COMMENTS:
+cosmetic changes
+
+----------------------------------
+sample.h
+----------------------------------
+smart_ptr.h
+----------------------------------
+stack.h
+----------------------------------
+statistics.h
+----------------------------------
+strtools.h
+----------------------------------
+token.h
+----------------------------------
+tokens.h
+----------------------------------
+zcConst.h
+----------------------------------
+zcControlGroup.h
+----------------------------------
+zcFactory.h
+----------------------------------
+zcGMF_AbundanceIndex.h
+----------------------------------
+zcGMF_CatchGraphs.h
+----------------------------------
+zcGMF_InMortGraphs.h
+----------------------------------
+zcGMH_HarvestGraphs.h
+----------------------------------
+zcGMS_Abundance.h
+----------------------------------
+zcGMS_CNRGraphs.h
+----------------------------------
+zcGMS_CatchGraphs.h
+----------------------------------
+zcGMS_Escapement.h
+----------------------------------
+zcGMS_TrueTermRun.h
+----------------------------------
+zcGM_YearAgeGraph.h
+D 4.3 96/10/24 18:55:19 umbe 4 3	00000/00000/00020
+MRs:
+COMMENTS:
+Modified graphing system supports printing, x/y position tracking, and zoom in/out with mouse buttons 1 & 2
+
+----------------------------------
+zcGM_YearGraph.h
+D 4.3 96/10/24 18:55:20 umbe 4 3	00001/00001/00017
+MRs:
+COMMENTS:
+Modified graphing system supports printing, x/y position tracking, and zoom in/out with mouse buttons 1 & 2
+
+----------------------------------
+zcGraph.h
+----------------------------------
+zcGraphConstants.h
+----------------------------------
+zcGraphDialog.h
+----------------------------------
+zcGraphMediator.h
+D 4.3 96/10/24 18:55:22 umbe 4 3	00009/00009/00077
+MRs:
+COMMENTS:
+Modified graphing system supports printing, x/y position tracking, and zoom in/out with mouse buttons 1 & 2
+
+----------------------------------
+zcGraphPane.h
+----------------------------------
+zcIterator.h
+----------------------------------
+zcMediatorFactory.h
+----------------------------------
+zcMouseTool.h
+----------------------------------
+zcMouseToolCrisp2.h
+----------------------------------
+zcPointTransform.h
+----------------------------------

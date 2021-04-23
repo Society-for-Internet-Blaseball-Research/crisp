@@ -1,0 +1,222 @@
+h42163
+s 00210/00000/00000
+d D 1.1 97/12/17 11:04:14 camel 1 0
+c date and time created 97/12/17 11:04:14 by camel
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>Production Alternatives</title></head>
+<body>
+ 
+<a href="users2.html">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="700485">
+<h2>  Production Alternatives</h2>
+</a><a name="712148">
+<h4>  Brood Year Survival</h4>
+</a>
+Brood year survival rates, also known as pre-recruitment survival rates or EV (Environmental Variability) Scalars, compensate for both environmental variation and any bias in the original production parameters. There is a lot of variability in the spawner-recruit relationship and these scalars take that into consideration. Thus, EV Scalars include factors associated with early life history rearing, downstream smolt survival and early ocean survival prior to age one.<p>
+
+Model results are very sensitive to assumptions regarding future survivals. You can evaluate effects of different assumptions regarding projected survival on stock specific rebuilding schedules by specifying different EV values. <p>
+
+The <code><b>*.evo</b></code> file produced during calibration contains (1) stock specific annual age one survival scalars and (2) the estimated EV values as survival projections for all subsequent years. <p>
+
+When Running in scenario mode, the model uses the appropriate value from the file and applies it during the simulation. When run in Monte Carlo mode there are two ways that the model can choose an EV scalar. It can "Bootstrap" the value from the set of values for that stock or it can draw from a distribution of the EV scalars that are fitted to a log normal distribution. The log normal values are assumed to be independent of each other. The form of this sampling is determined by the <code><b>*.monte</b></code>  file, and the EV values used should be appropriate for the method being chosen.<p>
+
+Two options are available for changing the EV Scalars. Either create separate <code><b>*.evo</b></code> files for each option or use dialog box controls for modifying the EV Scalars immediately before running the model. <p>
+<a name="712154">
+<h5> Analysis Procedure</h5>
+</a>
+Interactive Method:<p>
+<ol>
+<a name="712156">
+<li>Change run title in <code><b>*.opt</b></code> file (Line 1) to document the new conditions being modeled.
+</a>
+<a name="712157">
+<li>Change "PREFIX FOR SAVE FILE" in <code><b>*.opt</b></code> file so output files can be identified.
+</a><a name="712158">
+<li>Check that output flags are set on lines 9* so that stock and fishery output is produced.
+</a><a name="712159">
+<li>Save <code><b>*.opt</b></code> file under new file name.
+</a><a name="712160">
+<li>Launch Model with new <code><b>*.opt</b></code> file.
+</a><a name="712161">
+<li>Open the EV scalars dialog box from the Stock menu.
+</a><a name="712165">
+<li>Edit the EV scalars (see <a href="users27.html#700289">"Dialog Boxes"</a>).
+</a><a name="712166">
+<li>Click OK.
+</a><a name="712167">
+<li>Run the model.
+</ol></a>
+Input File Method:<p>
+<ol>
+<a name="712169">
+<li>Change <code><b>*.evo</b></code> file by using an ASCII text editor.
+</a>
+<a name="712170">
+<li>Save <code><b>*.evo</b></code> under new file name.
+</a><a name="712171">
+<li>Change <code><b>*.evo</b></code> file name in the <code><b>*.opt</b></code> file (Line 9a).
+</a><a name="712172">
+<li>Change run title in <code><b>*.opt</b></code> file (Line 1).
+</a><a name="712173">
+<li>Change "PREFIX FOR SAVE FILE" in <code><b>*.opt</b></code> file (can include a path).
+</a><a name="712174">
+<li>Check that output flags are set on lines 9* so that stock and fishery output is produced.
+</a><a name="712175">
+<li>Save <code><b>*.opt</b></code> file under new file name.
+</a><a name="712176">
+<li>Launch Model with new <code><b>*.opt</b></code> file.
+</a>
+</ol>
+<a name="712177">
+<h5> Interpretation of Results</h5>
+</a>
+The impacts of changes in EV Scalars can be observed by viewing the escapements of affected stocks. Remember that there is a time lag between the application of the scalar and the resultant escapement.<p>
+
+Look for effects of the change in catch in non-ceilinged fisheries with substantial harvest of the stock or in stock escapement statistics.<p>
+<hr><br>
+ 
+<a href="users2.html">[Chapter Contents]</a>
+
+<!Page "712184">
+<a href="users2.html">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="712184">
+<h4>  Enhancement</h4>
+</a>
+Production from enhancement activities can affect the performance of stocks and fisheries. The PSC chinook model incorporates enhancement through two primary means: (a) by including hatchery stocks in the model; and (b) by providing for supplementation of natural production. The Model assumes that enhancement is maintained at base period average levels (1979-1981) unless instructed otherwise. It is the <em>changes</em> in enhancement that are evaluated. <p>
+
+The <code><b>*.enh</b></code> file has information on changes in enhancement schedules for hatchery and natural supplementation programs. Modifications of the <code><b>*.enh</b></code> values can be made either: (1) to incorporate actual changes in the enhancement schedule; (2) to assess possible changes in enhancement. All enhancement changes are relative to average levels during the 1979-1981 base period.<p>
+<a name="712187">
+<h5> Analysis Procedure</h5>
+</a>
+Interactive Method:<p>
+<ol>
+<a name="712189">
+<li>Change run title in <code><b>*.opt</b></code> file (Line 1).
+</a>
+<a name="712190">
+<li>Change "PREFIX FOR SAVE FILE" in <code><b>*.opt</b></code> file (Line 9a).
+</a><a name="712191">
+<li>Check other file names in <code><b>*.opt</b></code> file.
+</a><a name="712192">
+<li>Save <code><b>*.opt</b></code> file under new file name.
+</a><a name="712193">
+<li>Run Model with new <code><b>*.opt</b></code> file.
+</a><a name="712194">
+<li>Open the Enhancements dialog box from the Stock menu.
+</a><a name="712195">
+<li>Edit Enhancement values.
+</a><a name="712196">
+<li>Click OK.
+</a><a name="712197">
+<li>Run model.
+</ol></a>
+Input File Method:<p>
+<ol>
+<a name="712199">
+<li>Change the <code><b>*.enh</b></code> file using an ASCII text editor.
+</a>
+<a name="712200">
+<li>Save modified <code><b>*.enh</b></code> file under new name.
+</a><a name="712201">
+<li>Change run title in <code><b>*.opt</b></code> file (Line 1).
+</a><a name="712202">
+<li>Change "PREFIX FOR SAVE FILE" in <code><b>*.opt</b></code> file (Line 9a).
+</a><a name="712203">
+<li>Ensure <code><b>*.opt</b></code> file has the correct "NUMBER OF STOCKS WITH ENHANCEMENT" (Line 21).
+</a><a name="712204">
+<li>Specify in <code><b>*.opt</b></code> file if density dependence is on or off (Line 21a). Enter 1 to indicate that production is considered to be density dependent for natural stocks that are supplemented by hatchery releases. Under most circumstances, this line will read 1.
+</a><a name="712205">
+<li>Change <code><b>*.enh</b></code> file name in <code><b>*.opt</b></code> file (Line 21b).
+</a><a name="712206">
+<li>Check other file names in <code><b>*.opt</b></code> file.
+</a><a name="712207">
+<li>Save <code><b>*.opt</b></code> file under new file name.
+</a><a name="712208">
+<li>Run model with new <code><b>*.opt</b></code> file.
+</a>
+</ol>
+<a name="712209">
+<h5> Interpretation of Results</h5>
+</a>
+The most direct way of identifying changes is to look at the escapement of the enhanced stocks in graphs or output files. You can also look to see if the enhancement affected the catch and escapement of other stocks.<p>
+<hr><br>
+ 
+<a href="users2.html">[Chapter Contents]</a>
+
+<!Page "712211">
+<a href="users2.html">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="712211">
+<h4>  Inter-Dam Loss</h4>
+</a>
+Effects of post-fishery, pre-spawning mortality can be examined through use of <code><b>*.idl</b></code> files. The <code><b>*.idl</b></code> file contains estimates of pre-spawning survival that occurs after fisheries. Currently, this file only includes estimates of inter-dam loss for Columbia River stocks. Since most inter-dam loss occurs after all fisheries, inter-dam loss is essentially treated as escapement when calculating ocean and terminal area harvest rates. Estimated IDL values are used through the present year, then an average of all estimated values is used for future years. <p>
+
+Changes in estimates of inter-dam loss rates can be assessed by modifying this file. It should be noted, however, that the numbers in the <code><b>*.idl</b></code> files are actually estimates of total adult <em>survival</em> past all Columbia River dams.<p>
+<a name="712214">
+<h5> Analysis Procedure</h5>
+</a>
+Interactive Method:<p>
+<ol>
+<a name="712216">
+<li>Change run title in <code><b>*.opt</b></code> file (Line 1).
+</a><a name="712217">
+<li>Change "PREFIX FOR SAVE FILE' in <code><b>*.opt</b></code> file (Line 9a).
+</a><a name="712218">
+<li>Check other file names in <code><b>*.opt</b></code> file.
+</a><a name="712219">
+<li>Save <code><b>*.opt</b></code> file under new file name.
+</a><a name="712220">
+<li>Launch Model with new <code><b>*.opt</b></code> file.
+</a><a name="712221">
+<li>Open the Inter Dam Loss dialog box from the Stock menu.
+</a><a name="712222">
+<li>Edit IDL values.
+</a><a name="712223">
+<li>Click OK.
+</a><a name="712224">
+<li>Run Model.
+</ol>
+</a>
+Input File Method:<p>
+<ol>
+<a name="712226">
+<li>Change <code><b>*.idl</b></code> file using an ASCII text editor.
+</a>
+<a name="712227">
+<li>Save modified <code><b>*.idl</b></code> file under new name.
+</a><a name="712228">
+<li>Change <code><b>*.idl</b></code> file name in the <code><b>*.opt</b></code> file (Line 8a).
+</a><a name="712229">
+<li>Change run title in <code><b>*.opt</b></code> file (Line 1).
+</a><a name="712230">
+<li>Change "PREFIX FOR SAVE FILE' in <code><b>*.opt</b></code> file (Line 9a).
+</a><a name="712231">
+<li>Check other file names in <code><b>*.opt</b></code> file.
+</a><a name="712232">
+<li>Save <code><b>*.opt</b></code> file under new file name.
+</a><a name="712233">
+<li>Launch Model with new <code><b>*.opt</b></code> file.
+</a>
+</ol>
+<a name="712234">
+<h5> Interpretation of Results</h5>
+</a>
+Effects of changing inter-dam loss values are most evident in escapement statistics. In addition, changes will also be reflected in harvest rates of Columbia River stocks in the <em>prefix</em><strong>ohr.prn</strong> and <em>prefix</em><strong>thr.prn</strong> output if these have been selected. Ocean and terminal harvest rates should decrease as inter-dam loss increases. Since the file actually contains estimates of inter-dam survival, this means that as the numbers in the file increase, harvest rates should also increase.<p>
+<hr><br>
+ 
+<a href="users2.html">[Chapter Contents]</a>
+
+</body>
+</html>
+E 1

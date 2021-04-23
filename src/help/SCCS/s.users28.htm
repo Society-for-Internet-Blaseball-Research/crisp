@@ -1,0 +1,367 @@
+h12255
+s 00000/00000/00351
+d D 1.2 97/12/17 10:32:38 camel 2 1
+c not used anymore, replaced with *.html
+e
+s 00354/00000/00000
+d D 1.1 97/12/15 11:21:40 troy 1 0
+c date and time created 97/12/15 11:21:40 by troy
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>2.8 -  Model Operations</title></head>
+<body>
+ 
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+ 
+<a name="709929">
+<h1>2.8 -  Model Operations</h1>
+</a><a name="702647">
+<h2>  Introduction</h2>
+</a>
+Once the model has been launched, you can interactively adjust various parameters and run the model as frequently as desired in Scenario mode. This section describes in detail how to interactively adjust model parameters. To alter parameters for several modeling sessions, we advise altering the input files directly and saving  these under separate names. The model can then be run with a specific <code><b>*.opt</b></code> file that identifies the parameter files that you want to use (see <a href="users29d.htm#704819">"Files of type *.opt"</a> and <a href="users22.htm#709490">"File Structure"</a>). For help on using individual model features see <a href="users27.htm#700289">"Dialog Boxes"</a>, <a href="users25.htm#714299">"The Toolbar"</a>, and <a href="users24.htm#714305">"Drop-Down Menus"</a>.<p>
+<hr><br>
+<a href="users2.htm">[Chapter Contents]</a> 
+
+<!Page "700319">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+ 
+<a name="700319">
+<h2>  Fishery Menu</h2>
+</a><a name="700412">
+<h5> Changing PNVs (Proportion Non-Vulnerable)</h5>
+</a>
+The Proportion Non-Vulnerable is the proportion of a cohort that is below the legal size limit. The tacit assumption is that all stocks have the same growth rate so these values vary by year, age and fishery.<p>
+<ol>
+<a name="700321">
+<li>Choose PNV.. from the Fishery menu.
+</a>
+<a name="700324">
+<li>Choose a fishery from the drop-down sub-menu next to the default fishery.
+</a><a name="700323">
+<li>Choose a year from the drop-down sub-menu next to the default year.
+</a><a name="704269">
+<li>Change and apply values according to the methods described in <a href="users27.htm#700289">"Dialog Boxes"</a>.
+</a><a name="704265">
+</ol>
+<blockquote><i>Reminder</i>: PNV values during the calibration period (1979-1993) can not be changed.</blockquote>
+</a>
+
+<a name="704006">
+<h5> Changing CNR Mortalities</h5>
+</a>
+Chinook Non-retention (CNR) mortalities are incidental mortalities that occur when a fishery is targeting on other salmon species (e.g., coho). These mortalities usually are restricted to the few troll fisheries. This feature is not available in this release. You must alter the <code><b>*.cnr</b></code> file directly if you want to alter CNR values.<p>
+<a name="700451">
+<h5> Changing Catch Ceilings</h5>
+</a>
+Catch ceilings are the principle tool for managing many fisheries. They represent the numerical upper limit on the number of fish that can be caught during a given year.<p>
+<ol>
+<a name="700452">
+<li>Choose Catch Ceilings.. from the Fishery menu.
+</a>
+<a name="703698">
+<li>Choose a fishery from the fishery list.
+</a><a name="703713">
+<li>Left-click the Ceilings button to get a list of sliders for controlling catch ceilings.
+</a><a name="704280">
+<li>Change and apply values according to the methods described in <a href="users27.htm#700289">"Dialog Boxes"</a>.
+</a><a name="703715">
+</ol>
+<blockquote><i>Reminder</i>: Catch Ceilings during the calibration period (1979-1993) can not be changed.</blockquote>
+</a>
+
+<a name="700364">
+<h5> Graphing Abundance Index for a Fishery</h5>
+</a>
+The Abundance Index for a given fishery in a given year is a scalar value comparing the catch under the simulated regulations to what catch would have been if the base period harvest rates had been used.<p>
+
+See <a href="users26.htm#701249">"Graph Windows"</a> for details on graph windows.<p>
+<ol>
+<a name="703735">
+<li>Choose a fishery on the Toolbar (See <a href="users25.htm#714299">"The Toolbar"</a>).
+</a>
+
+<li>Choose Fishery Graphs from the Fishery menu.
+<a name="703736">
+<li>Choose Abundance Index from the Fishery Graphs sub-menu.
+</a><a name="703739">
+<li>To view another fishery, repeat steps 1 through 3 above.
+</a>
+</ol>
+<a name="703734">
+<h5> Graphing Catches for a Fishery</h5>
+</a>
+See <a href="users26.htm#701249">"Graph Windows"</a> for details on graph windows.<p>
+<ol>
+<a name="703948">
+<li>Choose a fishery on the Toolbar (See <a href="users25.htm#714299">"The Toolbar"</a>).
+</a>
+<a name="703778">
+<li>Choose Fishery Graphs from the Fishery menu.
+</a><a name="703780">
+<li>Choose Catches from the Fishery Graphs sub-menu.
+</a><a name="703772">
+<li>Choose Total, Preterminal, or Terminal from the Catches sub-menu.
+</a><a name="700457">
+<br>* "Total" refers to the "Preterminal" plus "Terminal" catches.
+</a><a name="703994">
+<li>To view another fishery, repeat steps 1 through 4 above.
+</a>
+</ol>
+<a name="700366">
+<h5> Graphing Incidental Mortality for a Fishery</h5>
+</a>
+"Incidental Mortality" refers to fish that die as a result of the fishing process, but are not part of the legal catch or harvest. These mortalities include shakers (i.e., chinook that are hooked and brought up to the boat but are released ("shaken") because they are not of legal size) and CNRs (Chinook Non-Retention mortalities are both legal and sub-legal chinook that are hooked and brought up to the boat during coho fisheries at times when all chinook are not legal to land and sell). Shakers and CNRs have increased natural  mortality rates due to the handling process.<p>
+
+See <a href="users26.htm#701249">"Graph Windows"</a> for details on graph windows.<p>
+<ol>
+<a name="703953">
+<li>Choose a fishery on the Toolbar (See <a href="users25.htm#714299">"The Toolbar"</a>).
+</a>
+<a name="703875">
+<li>Choose Fishery Graphs from the Fishery menu.
+</a><a name="703877">
+<li>Choose Total, Sublegal, or Legal from the Incidental Mortality sub-menu.
+</a><a name="700251">
+<br>* Total refers to the "shakers" plus Chinook Non-Retention mortalities.
+</a><a name="703998">
+<li>To view another fishery, repeat steps 1 through 3 above.
+</a>
+</ol>
+<hr><br>
+<a href="users2.htm">[Chapter Contents]</a> 
+
+<!Page "700382">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+ 
+<a name="700382">
+<h2>  Stock Menu</h2>
+</a><a name="700377">
+<h5> Changing Inter-Dam Loss</h5>
+</a>
+Inter-Dam Loss (IDL) is applied to Columbia River stocks that spawn upstream from one or more dams. This is also called pre-spawning mortality.<p>
+<ol>
+<a name="704020">
+<li>Choose a stock on the Toolbar (See <a href="users25.htm#714299">"The Toolbar"</a>).
+</a>
+<a name="700379">
+<li>Choose Inter-Dam Loss.. from the Stock menu.
+</a><a name="703724">
+<li>Change and apply values according to the methods described in <a href="users27.htm#700289">"Dialog Boxes"</a>.
+</a><a name="700383">
+</ol>
+<blockquote><i>Reminder</i>: IDL values during the calibration period (1979-1993) can not be changed.</blockquote>
+</a>
+
+<a name="700385">
+<h5> Changing EV Scalars</h5>
+</a>
+The EV (Environmental Variability) Scalars represent brood year survival rates to age one.<p>
+<ol>
+<a name="704045">
+<li>Choose a stock on the Toolbar (See <a href="users25.htm#714299">"The Toolbar"</a>).
+</a>
+<a name="704047">
+<li>Choose EV Scalars.. from the Stock menu.
+</a><a name="704287">
+<li>Change and apply values according to the methods described in <a href="users27.htm#700289">"Dialog Boxes"</a>.
+</a><a name="700384">
+</ol>
+<blockquote><i>Reminder</i>: EV Scalars during the calibration period (1979-1993) can not be changed.</blockquote>
+</a>
+
+<a name="700266">
+<h5> Changing Stock Enhancements</h5>
+</a>
+Hatchery fish production is assumed to stay at a level equal to the average production between 1979-1981. Any levels above or below this level are considered enhancement changes (positive or negative). For each year, you can adjust the number of Age 1 fish that the hatchery produces. Since there may be limitations on the number of spawners that can be used for hatchery production and/or the hatchery efficiency in producing age 1 fish, other sliders are available for adjusting these parameters.<p>
+<ol>
+<a name="704080">
+<li>Choose a stock on the Toolbar ( See <a href="users25.htm#714299">"The Toolbar"</a>).
+</a>
+<a name="704083">
+<li>Choose Enhancement.. from the Stock menu.
+</a><a name="704292">
+<li>Change and apply values according to the methods described in <a href="users27.htm#700289">"Dialog Boxes"</a>.
+</a>
+</ol>
+<a name="704101">
+<h5> Changing Maturation Rates</h5>
+</a>
+Maturation rates refer to the proportion of a stock that is mature and ready to return to the spawning ground. These are age and stock specific and can vary between years. Because the model does not allow for age six fish, the maturation rate for age five fish should always be 1. The mature portion of a cohort is considered the terminal run.<p>
+<ol>
+<a name="704105">
+<li>Choose a stock on the Toolbar (See <a href="users25.htm#714299">"The Toolbar"</a>).
+</a>
+<a name="704106">
+<li>Choose Maturation Rates.. from the Stock menu.
+</a><a name="704297">
+<li>Change and apply values according to the methods described in <a href="users27.htm#700289">"Dialog Boxes"</a>.
+</a>
+</ol>
+<a name="704081">
+<h5> Graphing Start of Year Abundances</h5>
+</a>
+See <a href="users26.htm#701249">"Graph Windows"</a> for details on graph windows.<p>
+<ol>
+<a name="704145">
+<li>Choose a stock on the Toolbar (See <a href="users25.htm#714299">"The Toolbar"</a>).
+</a>
+<a name="704147">
+<li>Choose Stock Graphs from the Stock menu.
+</a><a name="700263">
+<li>Choose Abundances from the sub-menu.
+</a>
+</ol>
+<a name="700386">
+<h5> Graphing Escapements</h5>
+</a>
+See <a href="users26.htm#701249">"Graph Windows"</a> for details on graph windows.<p>
+<ol>
+<a name="704184">
+<li>Choose a stock on the Toolbar (See <a href="users25.htm#714299">"The Toolbar"</a>).
+</a>
+<a name="704201">
+<li>Choose Escapements from the sub-menu.
+</a>
+</ol>
+<a name="700332">
+<h5> Graphing CNR Mortalities	</h5>
+</a>
+See <a href="users26.htm#701249">"Graph Windows"</a> for details on graph windows.<p>
+<ol>
+<a name="704189">
+<li>Choose a stock on the Toolbar (See <a href="users25.htm#714299">"The Toolbar"</a>).
+</a>
+<a name="704217">
+<li>Choose CNR from the sub-menu.
+</a><a name="704219">
+<li>Choose Sublegal or Legal from the sub-menu.
+</a>
+</ol>
+<a name="700388">
+<h5> Graphing Legal Catches</h5>
+</a>
+See <a href="users26.htm#701249">"Graph Windows"</a> for details on graph windows.<p>
+<ol>
+<a name="704194">
+<li>Choose a stock on the Toolbar (See <a href="users25.htm#714299">"The Toolbar"</a>).
+</a>
+<a name="704205">
+<li>Choose Catches from the sub-menu.
+</a><a name="704227">
+<li>Choose Total, Preterminal or Terminal from the sub-menu.
+</a>
+</ol>
+<a name="700389">
+<h5> Graphing True Terminal Run Sizes</h5>
+</a>
+See <a href="users26.htm#701249">"Graph Windows"</a> for details on graph windows.<p>
+<ol>
+<a name="704199">
+<li>Choose a stock on the Toolbar (See <a href="users25.htm#714299">"The Toolbar"</a>).
+</a>
+<a name="704207">
+<li>Choose True Term Run from the sub-menu.
+</a>
+</ol>
+<hr><br>
+<a href="users2.htm">[Chapter Contents]</a> 
+
+<!Page "709528">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+ 
+<a name="709528">
+<h2>  Harvest Menu</h2>
+</a><a name="715168">
+<h5> Base Period Harvest Rates</h5>
+</a>
+The Base Period Harvest Rates are determined during parameter estimation and model calibration. They represent the average harvest rates on each age class of each stock in each fishery during the period 1979-1982.  They cannot be changed by the user. This tool is only for viewing these values.<p>
+<a name="709529">
+<h5> Changing Harvest Rate Scalars</h5>
+</a>
+The Harvest Rate Scalars are used to simulate the effects of changes in fishery policies that disproportionately impact different stocks relative to the base period (e.g. changing the timing of the fishing period may impact the stocks differently).<p>
+<ol>
+<a name="704386">
+<li>Choose Harvest Rate Scalars.. from the Harvest menu.
+</a>
+<a name="704389">
+<li>Change and apply values according to the methods described in <a href="users27.htm#700289">"Dialog Boxes"</a>.
+</a><a name="704391">
+</ol>
+<blockquote><i>Reminder</i>: During simulation runs to compare different harvest rate strategies, HR Scalars during the calibration period (1979-1993) can not be changed.</blockquote>
+</a>
+
+<a name="700221">
+<h5> Graphing Stock/Fishery Specific Mortality</h5>
+</a>
+See <a href="users26.htm#701249">"Graph Windows"</a> for details on graph windows.<p>
+<ol>
+<a name="704347">
+<li>Choose a stock on the Toolbar (See <a href="users25.htm#714299">"The Toolbar"</a>).
+</a>
+<a name="704352">
+<li>Choose a fishery on the Toolbar (See <a href="users25.htm#714299">"The Toolbar"</a>).
+</a><a name="702129">
+<li>Choose Mortality Graphs from the Harvest menu.
+</a><a name="704371">
+<li>Choose Total or Incidental from the sub-menu.
+</a><a name="704367">
+<br>* "Incidental" mortalities include shakers and CNR mortalities.
+</a><a name="704368">
+<li>"Total" mortalities include legal catches plus incidental mortalities.
+</a>
+</ol>
+<hr><br>
+<a href="users2.htm">[Chapter Contents]</a> 
+
+<!Page "702643">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+ 
+<a name="702643">
+<h2>  Run Menu</h2>
+</a><a name="702644">
+<h5> Running the model in Scenario mode</h5>
+</a>
+The scenario mode runs a single instance of the model. When CRiSP Harvest is first launched it runs with the parameters specified in the <code><b>*.opt</b></code> file. The map and other GUI tools allow you to interpret the <code><b>*.opt</b></code> run, make changes to the parameters during the simulation period and make additional runs.<p>
+<ol>
+<a name="702645">
+<li>Adjust simulation period parameters as desired according to methods described under <a href="users28.htm#700319">"Fishery Menu"</a>, <a href="users28.htm#700382">"Stock Menu"</a>, and <a href="users28.htm#709528">"Harvest Menu"</a>.
+</a>
+<a name="704450">
+<li>Choose Scenario from the Run menu.
+</a><a name="704453">
+<li>Evaluate results (see <a href="users26.htm#701249">"Graph Windows"</a> and ?? something on model results).
+</a>
+</ol>
+<a name="704519">
+<h5> Running the model  in Monte Carlo mode</h5>
+</a>
+In Monte Carlo mode, results are determined stochastically (i.e., in a random manner) instead of deterministically. When run in deterministic mode (a scenario), model results are sensitive to the EV Scalars set for the simulation period. If one is optimistic about "Environmental Variability" (i.e., predicting good brood year survival rates), stocks have good production. Conversely, if one is pessimistic about future survival rates, stocks have poor production.<p>
+
+Under Monte Carlo mode, the EV Scalars for all stocks are selected in a random manner. Each random run is referred to as a "game." The EV Scalar for any game can be randomly selected using one of two methods: "bootstrapping" from the calibration period EV values in the <code><b>*.evo</b></code> file or drawing from a log-normal distribution fit to the calibration period EV values. The method is specified by the <code><b>*.monte </b></code>file identified in the <code><b>*.opt</b></code> file (see <a href="users29d.htm#704819">"Files of type *.opt"</a>). The stock escapements for each game are stored and analyzed to provide a measure of the variability one might expect in the future.<p>
+<ol>
+<a name="704475">
+<li>Choose Monte Carlo from the Run menu.
+</a>
+<a name="704476">
+<li>Choose the number of games in the dialog box.
+</a><a name="704477">
+<li>Click the Run Monte button.
+</ol></a>
+A status bar in the dialog box shows the current game. Once all games are completed, a graph of escapements for the default stock is displayed. See <a href="users26.htm#701249">"Graph Windows"</a> for details on using the graph windows.<p>
+
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+</body>
+</html>
+E 1

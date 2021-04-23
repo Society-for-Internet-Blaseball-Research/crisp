@@ -1,0 +1,1133 @@
+AList.h
+----------------------------------
+AgeVec.h
+D 1.2 95/03/22 18:20:56 troy 2 1	00010/00000/00095
+MRs:
+COMMENTS:
+
+
+D 1.1 95/03/20 16:33:50 troy 1 0	00095/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/20 16:33:50 by troy
+
+----------------------------------
+Args.h
+----------------------------------
+Bool.h
+----------------------------------
+Bootstrap.h
+----------------------------------
+CNR.h
+D 2.2 95/02/01 13:07:06 troy 3 2	00001/00001/00077
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+----------------------------------
+Calendar.h
+D 2.4 95/03/22 18:20:42 troy 6 5	00000/00004/00040
+MRs:
+COMMENTS:
+
+
+D 2.3 95/02/01 13:07:09 troy 5 4	00002/00002/00042
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+D 2.2 95/01/06 15:22:42 tom 4 3	00003/00001/00041
+MRs:
+COMMENTS:
+Added sim_start_year()
+
+----------------------------------
+Calibrator.h
+D 1.1 95/03/30 17:41:24 tom 1 0	00070/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/30 17:41:24 by tom
+
+----------------------------------
+Ceiling.h
+D 2.2 95/02/01 13:07:09 troy 8 7	00001/00001/00067
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+----------------------------------
+CeilingPolicy.h
+D 1.2 95/03/22 18:20:49 troy 2 1	00000/00000/00039
+MRs:
+COMMENTS:
+
+
+D 1.1 95/03/07 15:17:06 troy 1 0	00039/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/07 15:17:06 by troy
+
+----------------------------------
+CeilingTool.h
+D 2.2 95/01/06 17:30:37 tom 4 3	00009/00002/00034
+MRs:
+COMMENTS:
+Added inactive base period sliders/MegaSliders.
+
+----------------------------------
+Cohort.h
+D 2.2 95/03/22 18:20:31 troy 4 3	00013/00007/00023
+MRs:
+COMMENTS:
+
+
+----------------------------------
+ContextManager.h
+----------------------------------
+File.h
+----------------------------------
+Fishery.h
+D 2.3 95/03/22 18:20:31 troy 21 20	00011/00010/00127
+MRs:
+COMMENTS:
+
+
+D 2.2 95/02/01 13:07:01 troy 20 19	00007/00007/00130
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+----------------------------------
+FisheryList.h
+----------------------------------
+FisheryManagement.h
+D 2.3 95/03/22 18:20:44 troy 5 4	00048/00014/00022
+MRs:
+COMMENTS:
+
+
+D 2.2 95/02/01 13:07:12 troy 4 3	00000/00000/00036
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+----------------------------------
+FisherySummary.h
+----------------------------------
+FisheryTactics.h
+D 1.2 95/03/22 18:20:52 troy 2 1	00002/00001/00066
+MRs:
+COMMENTS:
+
+
+D 1.1 95/02/01 13:05:23 troy 1 0	00067/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/02/01 13:05:23 by troy
+
+----------------------------------
+Fishery_UI.h
+D 2.3 95/03/22 18:20:35 troy 7 6	00001/00000/00078
+MRs:
+COMMENTS:
+
+
+D 2.2 95/02/01 13:07:05 troy 6 5	00008/00008/00070
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+----------------------------------
+FixedEscStock.h
+D 1.2 95/03/22 18:20:56 troy 2 1	00000/00000/00045
+MRs:
+COMMENTS:
+
+
+D 1.1 95/03/07 15:26:50 troy 1 0	00045/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/07 15:26:50 by troy
+
+----------------------------------
+FixedEscapementPolicy.h
+D 1.2 95/03/22 18:20:54 troy 2 1	00011/00003/00105
+MRs:
+COMMENTS:
+
+
+D 1.1 95/03/07 15:17:07 troy 1 0	00108/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/07 15:17:07 by troy
+
+----------------------------------
+FixedHarvestPolicy.h
+D 1.2 95/03/22 18:20:54 troy 2 1	00000/00000/00024
+MRs:
+COMMENTS:
+
+
+D 1.1 95/03/07 15:17:08 troy 1 0	00024/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/07 15:17:08 by troy
+
+----------------------------------
+FloatSlider.h
+D 2.2 95/01/06 15:28:21 tom 7 6	00009/00018/00036
+MRs:
+COMMENTS:
+Made assignment of slider value to variable problem of callback, added getActive()
+
+----------------------------------
+FloatSliderDisplay.h
+D 2.2 95/01/06 15:34:02 tom 9 8	00027/00022/00047
+MRs:
+COMMENTS:
+Added the MetaSliders thing, reorged some code.
+
+----------------------------------
+GUI.h
+----------------------------------
+Harvest.h
+D 2.3 95/03/22 18:20:32 troy 19 18	00012/00009/00149
+MRs:
+COMMENTS:
+
+
+D 2.2 95/02/01 13:07:02 troy 18 17	00003/00003/00155
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+----------------------------------
+HarvestList.h
+----------------------------------
+HarvestTactics.h
+D 1.1 95/02/01 13:05:23 troy 1 0	00034/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/02/01 13:05:23 by troy
+
+----------------------------------
+Harvest_UI.h
+D 2.4 95/03/22 18:20:47 troy 6 5	00001/00001/00051
+MRs:
+COMMENTS:
+
+
+D 2.3 95/02/01 13:07:14 troy 5 4	00006/00006/00046
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+D 2.2 95/01/06 17:28:49 tom 4 3	00004/00002/00048
+MRs:
+COMMENTS:
+Consolidated HarvestRate & RateScalar frames into one from many.
+
+----------------------------------
+HatchSurplusProduction.h
+----------------------------------
+HatcheryProduction.h
+----------------------------------
+Hist.h
+----------------------------------
+HvSummary.h
+D 2.2 95/03/22 18:20:39 troy 8 7	00005/00004/00042
+MRs:
+COMMENTS:
+
+
+----------------------------------
+IEnum.h
+D 2.2 95/03/22 18:20:38 troy 5 4	00012/00007/00025
+MRs:
+COMMENTS:
+
+
+----------------------------------
+IOCrud.h
+D 2.4 95/03/22 18:20:36 troy 19 18	00003/00001/00145
+MRs:
+COMMENTS:
+
+
+D 2.3 95/02/10 17:59:18 tom 18 17	00002/00001/00144
+MRs:
+COMMENTS:
+Init of num_ev_stocks
+
+D 2.2 95/01/06 15:24:58 tom 17 16	00011/00003/00134
+MRs:
+COMMENTS:
+Added sim_start_year, capability to save mrt for selected stks only.
+
+----------------------------------
+Map.h
+----------------------------------
+MapManager.h
+----------------------------------
+Map_ui.h
+----------------------------------
+MonteControl.h
+----------------------------------
+MonteDataItem.h
+----------------------------------
+MonteOutputItem.h
+----------------------------------
+MonteStockIntrfc.h
+D 2.3 95/02/01 13:07:16 troy 6 5	00004/00004/00054
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+----------------------------------
+MonteStockTracking.h
+----------------------------------
+MonteTrackingItem.h
+----------------------------------
+MultiCeilingPolicy.h
+D 1.2 95/03/22 18:20:55 troy 2 1	00000/00000/00032
+MRs:
+COMMENTS:
+
+
+D 1.1 95/03/07 15:17:08 troy 1 0	00032/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/07 15:17:08 by troy
+
+----------------------------------
+NAList.h
+D 2.2 95/03/22 18:20:40 troy 5 4	00001/00000/00041
+MRs:
+COMMENTS:
+
+
+----------------------------------
+NaturalProduction.h
+----------------------------------
+NonNeg.h
+----------------------------------
+Parser.h
+D 2.2 95/01/09 18:53:45 surge 2 1	00040/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+----------------------------------
+PercentileGraph.h
+----------------------------------
+Phase.h
+D 2.2 95/03/22 18:20:40 troy 4 3	00001/00001/00013
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Policies.h
+D 1.2 95/03/22 18:20:51 troy 2 1	00000/00000/00012
+MRs:
+COMMENTS:
+
+
+D 1.1 95/03/07 15:17:09 troy 1 0	00012/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/07 15:17:09 by troy
+
+----------------------------------
+Policy.h
+D 1.2 95/03/22 18:20:53 troy 2 1	00000/00000/00060
+MRs:
+COMMENTS:
+
+
+D 1.1 95/03/07 15:17:09 troy 1 0	00060/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/07 15:17:09 by troy
+
+----------------------------------
+Production.h
+----------------------------------
+RandGen.h
+----------------------------------
+RandNorm.h
+----------------------------------
+Range.h
+----------------------------------
+ReadToken.h
+D 2.2 95/01/09 18:55:18 surge 2 1	00079/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+----------------------------------
+SeedPod.h
+----------------------------------
+SliderGroup.h
+D 1.2 95/01/06 17:25:50 tom 2 1	00005/00002/00051
+MRs:
+COMMENTS:
+Added support for activating/inactivating a subset of the sliders, fixed max_check, which I'd broken earlier.
+
+----------------------------------
+State.h
+D 2.2 95/01/09 18:54:49 surge 2 1	00032/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+----------------------------------
+Stochastic.h
+----------------------------------
+Stock.h
+D 2.5 95/03/22 18:20:33 troy 24 23	00027/00015/00133
+MRs:
+COMMENTS:
+
+
+D 2.4 95/02/08 18:05:25 tom 23 22	00004/00000/00144
+MRs:
+COMMENTS:
+Added ev interface for use by calibration code (only).
+
+D 2.3 95/02/01 13:07:02 troy 22 21	00010/00010/00134
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+D 2.2 95/01/06 15:22:02 tom 21 20	00002/00002/00142
+MRs:
+COMMENTS:
+Publicized get_adult_eq()
+
+----------------------------------
+StockCalib.h
+D 1.1 95/03/30 17:41:33 tom 1 0	00081/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/30 17:41:33 by tom
+
+----------------------------------
+StockConfig.h
+D 1.3 95/03/22 18:20:50 troy 3 2	00026/00015/00057
+MRs:
+COMMENTS:
+
+
+D 1.2 95/02/10 17:59:57 tom 2 1	00005/00002/00067
+MRs:
+COMMENTS:
+Added interface to evs for use in calibration.
+
+D 1.1 95/02/01 13:05:24 troy 1 0	00069/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/02/01 13:05:24 by troy
+
+----------------------------------
+StockList.h
+----------------------------------
+StockSummary.h
+D 2.2 95/03/22 18:20:42 troy 9 8	00004/00003/00042
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Stock_UI.h
+D 2.2 95/02/01 13:07:12 troy 5 4	00002/00002/00053
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+----------------------------------
+String.h
+----------------------------------
+Summary.h
+----------------------------------
+Token.h
+D 2.2 95/01/09 18:53:23 surge 2 1	00073/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+----------------------------------
+UI.h
+----------------------------------
+UIT.h
+----------------------------------
+UIT_BaseFrame.h
+----------------------------------
+UIT_Fishery.h
+D 2.2 95/01/06 15:33:10 tom 7 6	00002/00002/00039
+MRs:
+COMMENTS:
+Now there's one pnv frame for all fisheries, instead of one each.
+
+----------------------------------
+UIT_FisheryFrame.h
+----------------------------------
+UIT_Graph.h
+----------------------------------
+UIT_Harvest.h
+D 2.3 95/02/01 13:07:13 troy 7 6	00001/00001/00044
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+D 2.2 95/01/06 15:38:24 tom 6 5	00002/00002/00043
+MRs:
+COMMENTS:
+One HRSF now contains all stock/fishery pairs, instead of one pair per.
+
+----------------------------------
+UIT_HarvestFrame.h
+----------------------------------
+UIT_HarvestRateFrame.h
+D 2.2 95/01/06 15:37:11 tom 3 2	00001/00006/00020
+MRs:
+COMMENTS:
+One HRF now contains all possible Stock/Fishery pairs, instead of one per.
+
+----------------------------------
+UIT_HarvestRateScalarFrame.h
+D 2.2 95/01/06 17:27:44 tom 3 2	00010/00007/00019
+MRs:
+COMMENTS:
+Added base period inactivation by default, consolidated all HRSF's into one.
+
+----------------------------------
+UIT_MonteFrame.h
+----------------------------------
+UIT_Stock.h
+D 2.2 95/01/06 15:35:17 tom 6 5	00004/00003/00040
+MRs:
+COMMENTS:
+Parted out the inter_dam_loss_editor and ev_scalar_editor.
+
+----------------------------------
+UIT_StockFrame.h
+----------------------------------
+UIT_YearGraph.h
+----------------------------------
+UIT_evScalarFrame.h
+D 1.1 95/01/06 17:31:46 tom 1 0	00029/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/06 17:31:46 by tom
+
+----------------------------------
+UIT_idlFrame.h
+D 1.1 95/01/06 17:32:07 tom 1 0	00029/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/06 17:32:07 by tom
+
+----------------------------------
+UIT_pnvFrame.h
+D 1.1 95/01/06 17:32:11 tom 1 0	00029/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/06 17:32:11 by tom
+
+----------------------------------
+UniformInt.h
+----------------------------------
+base_tokens.h
+D 2.1 95/01/09 18:55:59 surge 1 0	00009/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/09 18:55:59 by surge
+
+----------------------------------
+clog.h
+----------------------------------
+command.h
+----------------------------------
+dir.h
+----------------------------------
+file.h
+----------------------------------
+globals.h
+D 2.2 95/03/22 18:20:33 troy 8 7	00001/00001/00018
+MRs:
+COMMENTS:
+
+
+----------------------------------
+help.h
+----------------------------------
+include.h
+----------------------------------
+init.h
+----------------------------------
+input_hist.h
+----------------------------------
+keydata.h
+----------------------------------
+log.h
+----------------------------------
+monte_tokens.h
+D 2.1 95/01/09 18:55:45 surge 1 0	00008/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/09 18:55:45 by surge
+
+----------------------------------
+parseutil.h
+----------------------------------
+stack.h
+----------------------------------
+statistics.h
+----------------------------------
+token.h
+----------------------------------
+AList.cc
+----------------------------------
+Bootstrap.cc
+----------------------------------
+CNR.cc
+D 2.2 95/01/31 16:19:07 troy 3 2	00023/00002/00044
+MRs:
+COMMENTS:
+fixed possible divide by zero error
+
+----------------------------------
+Calendar.cc
+D 2.3 95/02/01 13:07:03 troy 4 3	00001/00001/00040
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+D 2.2 95/01/06 15:23:01 tom 3 2	00003/00001/00038
+MRs:
+COMMENTS:
+Added sim_start_year()
+
+----------------------------------
+Calibrator.cc
+D 1.1 95/03/30 17:41:24 tom 1 0	00257/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/30 17:41:24 by tom
+
+----------------------------------
+Ceiling.cc
+D 2.2 95/03/22 18:20:43 troy 7 6	00003/00003/00110
+MRs:
+COMMENTS:
+
+
+----------------------------------
+CeilingPolicy.cc
+D 1.2 95/03/22 18:20:48 troy 2 1	00000/00000/00068
+MRs:
+COMMENTS:
+
+
+D 1.1 95/03/07 15:17:06 troy 1 0	00068/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/07 15:17:06 by troy
+
+----------------------------------
+CeilingTool.cc
+D 2.2 95/01/06 17:30:37 tom 5 4	00141/00047/00111
+MRs:
+COMMENTS:
+Added inactive base period sliders/MegaSliders.
+
+----------------------------------
+Cohort.cc
+D 2.2 95/03/22 18:20:43 troy 3 2	00002/00002/00011
+MRs:
+COMMENTS:
+
+
+----------------------------------
+ContextManager.cc
+----------------------------------
+File.cc
+----------------------------------
+Fishery.cc
+D 2.3 95/03/22 18:20:36 troy 18 17	00029/00035/00231
+MRs:
+COMMENTS:
+
+
+D 2.2 95/02/01 13:07:06 troy 17 16	00008/00008/00258
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+----------------------------------
+FisheryManagement.cc
+D 2.2 95/03/22 18:20:38 troy 9 8	00450/00168/00039
+MRs:
+COMMENTS:
+
+
+----------------------------------
+FisherySummary.cc
+D 2.2 95/03/22 18:20:37 troy 6 5	00005/00005/00109
+MRs:
+COMMENTS:
+
+
+----------------------------------
+FisheryTactics.cc
+D 1.2 95/03/22 18:20:51 troy 2 1	00004/00004/00036
+MRs:
+COMMENTS:
+
+
+D 1.1 95/02/01 13:05:23 troy 1 0	00040/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/02/01 13:05:23 by troy
+
+----------------------------------
+Fishery_UI.cc
+----------------------------------
+FixedEscapementPolicy.cc
+D 1.2 95/03/22 18:20:50 troy 2 1	00167/00020/00154
+MRs:
+COMMENTS:
+
+
+D 1.1 95/03/07 15:17:07 troy 1 0	00174/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/07 15:17:07 by troy
+
+----------------------------------
+FloatSlider.cc
+D 2.2 95/01/06 15:31:32 tom 7 6	00031/00063/00102
+MRs:
+COMMENTS:
+Removed auto_apply feature -- replaced with proper notify handling.
+
+----------------------------------
+FloatSliderDisplay.cc
+D 2.3 95/01/06 15:34:01 tom 12 11	00273/00294/00092
+MRs:
+COMMENTS:
+Added the MetaSliders thing, reorged some code.
+
+----------------------------------
+GUI.cc
+----------------------------------
+Harvest.cc
+D 2.2 95/03/22 18:20:29 troy 12 11	00108/00029/00214
+MRs:
+COMMENTS:
+
+
+----------------------------------
+HarvestList.cc
+----------------------------------
+HarvestTactics.cc
+D 1.1 95/02/01 13:05:22 troy 1 0	00011/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/02/01 13:05:22 by troy
+
+----------------------------------
+Harvest_UI.cc
+D 2.2 95/02/01 13:07:15 troy 5 4	00005/00005/00081
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+----------------------------------
+HatchSurplusProduction.cc
+----------------------------------
+HatcheryProduction.cc
+----------------------------------
+Hist.cc
+----------------------------------
+HvSummary.cc
+D 2.2 95/03/22 18:20:39 troy 6 5	00016/00014/00037
+MRs:
+COMMENTS:
+
+
+----------------------------------
+IOCrud.cc
+D 2.7 95/03/29 17:30:38 tom 34 33	00037/00017/02458
+MRs:
+COMMENTS:
+Calibration parsing hooks installed.
+
+D 2.6 95/03/22 18:20:34 troy 33 32	00062/00026/02413
+MRs:
+COMMENTS:
+
+
+D 2.5 95/02/01 13:07:04 troy 32 31	00040/00040/02399
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+D 2.4 95/01/06 15:23:53 tom 31 30	00141/00051/02298
+MRs:
+COMMENTS:
+Added new mort options, capability of printing mrt for selected stks.
+
+----------------------------------
+Key.cc
+----------------------------------
+Map.cc
+----------------------------------
+MapManager.cc
+----------------------------------
+Map_ui.cc
+----------------------------------
+MonteControl.cc
+----------------------------------
+MonteDataItem.cc
+----------------------------------
+MonteOutputItem.cc
+----------------------------------
+MonteStockIntrfc.cc
+D 2.3 95/02/01 13:07:16 troy 6 5	00004/00004/00064
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+----------------------------------
+MonteStockTracking.cc
+----------------------------------
+MonteTrackingItem.cc
+----------------------------------
+MultiCeilingPolicy.cc
+D 1.2 95/03/22 18:20:55 troy 2 1	00000/00000/00118
+MRs:
+COMMENTS:
+
+
+D 1.1 95/03/07 15:17:08 troy 1 0	00118/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/07 15:17:08 by troy
+
+----------------------------------
+NAList.cc
+----------------------------------
+NaturalProduction.cc
+----------------------------------
+Parser.cc
+D 2.3 95/02/09 15:13:07 surge 3 2	00005/00001/00062
+MRs:
+COMMENTS:
+Revision, not yet perfect.
+
+D 2.2 95/01/09 18:53:53 surge 2 1	00063/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+----------------------------------
+PercentileGraph.cc
+----------------------------------
+Policy.cc
+D 1.2 95/03/22 18:20:53 troy 2 1	00000/00000/00041
+MRs:
+COMMENTS:
+
+
+D 1.1 95/03/07 15:17:09 troy 1 0	00041/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/07 15:17:09 by troy
+
+----------------------------------
+Production.cc
+----------------------------------
+RandGen.cc
+----------------------------------
+RandNorm.cc
+----------------------------------
+Range.cc
+----------------------------------
+ReadToken.cc
+D 2.2 95/01/09 18:55:08 surge 2 1	00085/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+----------------------------------
+SliderGroup.cc
+D 1.3 95/02/28 18:03:25 tom 3 2	00001/00001/00214
+MRs:
+COMMENTS:
+Fixed problem setting values to > max at init time when allowed.
+
+D 1.2 95/01/06 17:25:49 tom 2 1	00037/00006/00178
+MRs:
+COMMENTS:
+Added support for activating/inactivating a subset of the sliders, fixed max_check, which I'd broken earlier.
+
+----------------------------------
+State.cc
+D 2.2 95/01/09 18:54:59 surge 2 1	00058/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+----------------------------------
+Stock.cc
+D 2.3 95/03/22 18:20:29 troy 19 18	00087/00050/00280
+MRs:
+COMMENTS:
+
+
+D 2.2 95/02/01 13:07:00 troy 18 17	00002/00002/00328
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+----------------------------------
+StockCalib.cc
+D 1.1 95/03/30 17:41:32 tom 1 0	00673/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/03/30 17:41:32 by tom
+
+----------------------------------
+StockConfig.cc
+D 1.2 95/03/22 18:20:52 troy 2 1	00020/00008/00036
+MRs:
+COMMENTS:
+
+
+D 1.1 95/02/01 13:05:24 troy 1 0	00044/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/02/01 13:05:24 by troy
+
+----------------------------------
+StockList.cc
+----------------------------------
+StockSummary.cc
+D 2.2 95/03/22 18:20:41 troy 8 7	00018/00014/00101
+MRs:
+COMMENTS:
+
+
+----------------------------------
+Stock_UI.cc
+----------------------------------
+Token.cc
+D 2.2 95/01/09 18:53:32 surge 2 1	00045/00000/00000
+MRs:
+COMMENTS:
+First version, in progress.
+
+----------------------------------
+UIT.cc
+----------------------------------
+UIT_BaseFrame.cc
+----------------------------------
+UIT_Fishery.cc
+D 2.4 95/03/22 18:20:46 troy 9 8	00023/00023/00277
+MRs:
+COMMENTS:
+
+
+D 2.3 95/01/06 15:33:10 tom 8 7	00013/00026/00287
+MRs:
+COMMENTS:
+Now there's one pnv frame for all fisheries, instead of one each.
+
+----------------------------------
+UIT_FisheryFrame.cc
+----------------------------------
+UIT_Graph.cc
+----------------------------------
+UIT_Harvest.cc
+D 2.4 95/03/22 18:20:47 troy 10 9	00008/00008/00199
+MRs:
+COMMENTS:
+
+
+D 2.3 95/02/01 13:07:13 troy 9 8	00001/00001/00206
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+D 2.2 95/01/06 15:38:24 tom 8 7	00007/00003/00200
+MRs:
+COMMENTS:
+One HRSF now contains all stock/fishery pairs, instead of one pair per.
+
+----------------------------------
+UIT_HarvestFrame.cc
+----------------------------------
+UIT_HarvestRateFrame.cc
+D 2.3 95/03/22 18:20:46 troy 5 4	00002/00002/00055
+MRs:
+COMMENTS:
+
+
+D 2.2 95/01/06 15:36:53 tom 4 3	00033/00023/00024
+MRs:
+COMMENTS:
+One HRF now contains all possible Stock/Fishery pairs, instead of one per.
+
+----------------------------------
+UIT_HarvestRateScalarFrame.cc
+D 2.3 95/02/01 13:07:14 troy 4 3	00002/00002/00126
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+D 2.2 95/01/06 17:27:43 tom 3 2	00100/00026/00028
+MRs:
+COMMENTS:
+Added base period inactivation by default, consolidated all HRSF's into one.
+
+----------------------------------
+UIT_MonteFrame.cc
+----------------------------------
+UIT_Stock.cc
+D 2.4 95/03/22 18:20:45 troy 10 9	00062/00062/00481
+MRs:
+COMMENTS:
+
+
+D 2.3 95/01/06 15:35:16 tom 9 8	00006/00047/00537
+MRs:
+COMMENTS:
+Parted out the inter_dam_loss_editor and ev_scalar_editor.
+
+----------------------------------
+UIT_StockFrame.cc
+----------------------------------
+UIT_YearGraph.cc
+----------------------------------
+UIT_evScalarFrame.cc
+D 1.1 95/01/06 17:31:45 tom 1 0	00100/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/06 17:31:45 by tom
+
+----------------------------------
+UIT_idlFrame.cc
+D 1.1 95/01/06 17:32:06 tom 1 0	00101/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/06 17:32:06 by tom
+
+----------------------------------
+UIT_pnvFrame.cc
+D 1.2 95/03/22 18:20:48 troy 2 1	00001/00001/00104
+MRs:
+COMMENTS:
+
+
+D 1.1 95/01/06 17:32:11 tom 1 0	00105/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/06 17:32:11 by tom
+
+----------------------------------
+ascii_log.cc
+----------------------------------
+base_tokens.cc
+D 2.1 95/01/09 18:54:33 surge 1 0	00032/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/09 18:54:33 by surge
+
+----------------------------------
+clog.cc
+----------------------------------
+command.cc
+----------------------------------
+comtest.cc
+----------------------------------
+debug.cc
+----------------------------------
+dir.cc
+----------------------------------
+engine.cc
+D 2.2 95/03/22 18:20:44 troy 7 6	00013/00009/00040
+MRs:
+COMMENTS:
+
+
+----------------------------------
+globals.cc
+D 2.2 95/03/22 18:20:30 troy 9 8	00002/00002/00025
+MRs:
+COMMENTS:
+
+
+----------------------------------
+harvest_frame.cc
+----------------------------------
+include.cc
+----------------------------------
+init.cc
+D 2.3 95/03/22 18:20:28 troy 12 11	00003/00009/00118
+MRs:
+COMMENTS:
+
+
+D 2.2 95/01/06 15:18:45 tom 11 10	00003/00001/00124
+MRs:
+COMMENTS:
+Added sim_start_year to Calendar init.
+
+----------------------------------
+iotest.cc
+----------------------------------
+log.cc
+----------------------------------
+main.cc
+----------------------------------
+map.cc
+----------------------------------
+monte_tokens.cc
+D 2.2 95/02/09 15:13:47 surge 2 1	00007/00000/00143
+MRs:
+COMMENTS:
+Revision.
+
+D 2.1 95/01/09 18:54:18 surge 1 0	00143/00000/00000
+MRs:
+COMMENTS:
+date and time created 95/01/09 18:54:18 by surge
+
+----------------------------------
+parse_test.cc
+----------------------------------
+parseutil.cc
+----------------------------------
+simple_output.cc
+D 2.2 95/02/01 13:07:04 troy 6 5	00001/00020/00015
+MRs:
+COMMENTS:
+change Policy symbols to Tactics or Config
+
+----------------------------------
+statistics.cc
+----------------------------------
+token.cc
+----------------------------------
+version.cc
+----------------------------------
+file.c
+----------------------------------
+help.c
+----------------------------------
+input_hist.c
+----------------------------------
+stack.c
+----------------------------------

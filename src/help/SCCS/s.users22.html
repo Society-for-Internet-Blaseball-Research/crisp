@@ -1,0 +1,107 @@
+h45640
+s 00095/00000/00000
+d D 1.1 97/12/17 11:04:09 camel 1 0
+c date and time created 97/12/17 11:04:09 by camel
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>2.2 -  Getting Started</title></head>
+<body>
+ 
+<a href="users2.html">[Chapter Contents]</a>  
+<hr><br>
+ 
+<a name="711986">
+<h1>2.2 -  Getting Started</h1>
+</a><a name="709490">
+<h2>  File Structure</h2>
+</a>
+CRiSP Harvest is composed of files that fall broadly into four categories:<p>
+<ol>
+<a name="709492">
+<li>An executable file (<code><b>crisph.exe</b></code>) that is the main computation engine.
+</a>
+<a name="709493">
+<li>One or more control files (<code><b>Proto.opt</b></code> is the default) that tells the computation engine what data files to use for that session of running the model.
+</a><a name="709494">
+<li>Several data files that allow you to simulate various biological and fishing processes. These are in a sub-directory named <code><b>Input.</b></code>
+</a><a name="709495">
+<li>Other files not integral for running the model such as those used by the help engine, the help engine itself and the output files (<code><b>*.prn</b></code> files).
+</a>
+</ol>
+<p>
+None of these files can be edited from within the executable program. However, many of the data imported from the various data files can be changed interactively through the Graphical User Interface (GUI) to simulate and run different types of future management scenarios. For example, catch quotas and hatchery smolt production can be changed through the GUI. The basic model configuration (e.g. number of stocks and fisheries, years to be modeled, data for past years) cannot be changed interactively.<p>
+
+When the executable program starts, it first looks for an <code><b>*.opt</b></code> file to tell it what data to use. If no <code><b>*.opt</b></code> file is specified by you, it uses the default <code><b>*.opt</b></code> file, named <strong>Proto.opt</strong>. <p>
+
+The file structure has been maintained for backwards compatibility with other versions of the model that have run on different platforms and/or with different features.<p>
+<hr><br>
+<a href="users2.html">[Chapter Contents]</a>  
+
+<!Page "700288">
+ 
+<a href="users2.html">[Chapter Contents]</a>  
+<hr><br>
+ 
+<a name="700288">
+<h2>  Launching CRiSP Harvest</h2>
+</a>
+Whenever CRiSP Harvest is launched, the management scenario specified in the <code><b>*.opt</b></code> (see <a href="users29d.html#704819">"Files of type *.opt"</a>) and associated files is run and output files are produced. <p>
+
+Once the CRiSP Harvest window is open, it is possible to interact with the map, icons and graphs to alter the parameters and rerun the model. Below are the options for launching the model for the first time. Subsequent interactions are described in the sections that follow.<p>
+<a name="701156">
+<h5> To start CRiSP Harvest from the Program Folder</h5>
+</a><ul><a name="701153">
+<li>Click the Start button.
+</a><a name="701157">
+<li>Select Programs.
+</a><a name="701158">
+<li>Click on the CRiSP Harvest icon:
+<br>
+</a>
+		<img src="usersa20.gif"><p>
+
+<p>
+</ul><a name="702144">
+<h5> To start CRiSP Harvest from the Run dialog box</h5>
+</a><ul>
+<li>Click the Start button.
+<li>Select Run.
+<li>In the dialog box type:
+</a>
+<br><code><b>"C:\PROGRAM FILES\CBR\CRiSP Harvest\crisph.exe"<br></b></code>(or another path if you did not use the default installation path).<br>Note: the location of quotation marks is important!
+<li>Click OK to start the program.
+</ul><a name="701176">
+<h5> To run CRiSP Harvest in "No Graphics" mode</h5>
+</a>
+For scientific applications that require running more than one scenario, it is often convenient to run CRiSP Harvest without using the GUI. When run in this "No Graphics" mode, the output files specified in the <code><b>*.opt</b></code> file are still produced automatically. Note that it is important to keep track of output files because there is no other way of examining model output.<p>
+<ul><a name="701499">
+<li>Follow the instructions for running CRiSP Harvest from the Windows Run dialog box and add the <code><b>-ng</b></code> flag following the <code><b>*.exe</b></code> file name. For example:
+</a>
+<br><code><b>"C:\PROGRAM FILES\CBR\CRiSP Harvest\crisph.exe" -ng</b></code>
+</a></ul><a name="701512">
+<h5> To specify a *.opt file</h5>
+</a><ul><a name="701515">
+<li>Follow the instructions for running CRiSP Harvest from the Windows Run dialog box and add the flag <code><b>-f*</b></code> following the file name, where * is the name of the desired <code><b>*.opt</b></code> file. For example:
+</a>
+<br><code><b>"C:\ ... \crisph.exe" -fmyfile.opt</b></code>
+</a>
+<br><a name="702019">
+There is a default *.opt file called <code><b>Proto.opt</b></code> that is used if none is specified. See <a href="users29d.html#704819">"Files of type *.opt"</a> for details on this file.
+</a></ul><a name="708804">
+<h5> Other options</h5>
+</a>
+Multiple flags can be used together. For example to run the model with a specific <code><b>*.opt</b></code> file and in no graphics mode:<p>
+<ul><code><b>"C:\ ... \crisph.exe" -fmyfile.opt -ng</b></code>
+</a></ul>
+<hr><br>
+ 
+<a href="users2.html">[Chapter Contents]</a>
+
+</body>
+</html>
+E 1

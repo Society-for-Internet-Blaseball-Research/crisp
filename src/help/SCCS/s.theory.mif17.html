@@ -1,0 +1,110 @@
+h38885
+s 00000/00000/00094
+d D 1.2 97/12/17 10:44:24 camel 2 1
+c format changes
+e
+s 00094/00000/00000
+d D 1.1 97/09/12 14:49:51 mpmoore 1 0
+c date and time created 97/09/12 14:49:51 by mpmoore
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>Shaker Mortality</title></head>
+<body>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+
+<hr>
+ 
+<a name="673357">
+<h2>  Shaker Mortality</h2>
+</a><a name="673358">
+Many chinook salmon fisheries have size limits. Any captured chinook salmon whose length is below the size limit must be released, or "shaken" off the gear, hence the term "shakers." Some of the shakers survive, but others die due to the stress of being captured and released. The shaker mortality rate (i.e., the fraction of shakers that die) is gear dependent. Troll and sport gears cause relatively low shaker mortality, since the fish are captured individually and in many cases can be released without serious injury. Net fisheries cause higher shaker mortalities, because the capture process is more stressful.<p>
+</a><a name="673359">
+Modeling stock/age/fishery specific shaker mortalities involves two estimation problems: (1) estimating the number fish from each stock/age cohort that are shaken in a given fishery, and (2) estimating the mortality rate for shaken fish. Since there are no landing records for shaken fish, both problems are difficult.<p>
+</a><a name="673360">
+There are no estimates for age specific shaker mortality rates for chinook salmon, although the subject is currently being studied. Until improved estimates become available, the model sets the shaker mortality rates for troll and sport fisheries at 0.30 and for net fisheries at 0.90. These values are in the range of accepted values agreed to by the full Chinook Technical Committee in 1986. Note that these rates are not age specific, and thus affect all ages equally.<p>
+</a>
+
+<a name="673361">
+<b>Shaker Calculations</b></a><p>
+<a name="673362">
+Calculating shaker mortalities consists of six steps. The procedure is identical for calculating both preterminal and terminal shaker mortalities. The steps are outlined below and further illustrated in <a href="theory.mif17.html#673390">Table 4.4</a>.<p>
+</a>
+
+<a name="673363">
+<b><i>Step 1</i></b></a><p>
+<a name="673364">
+Compute the relative contribution of each stock in each fishery, called <em>StkWgt(s,f)</em>, as follows:<p>
+</a>
+<a name="673366"> <img src="theory.mif.anc27.gif">.</a> <img src="sp.gif"><b>[4.19]</b> <p>
+
+<a name="673369">
+Note that the numerator is the catch of stock <em>s</em> by fishery <em>f</em> and the denominator is the total catch by fishery <em>f</em>. Note also that if all catches by fishery <em>f</em> are multiplied by a common scaling factor, call it <em>R</em>, the <em>StkWgt(s,f)</em> term is unchanged. This fact is useful in examining catch ceiling and fixed escapement management algorithms which require adjusting all catches by a fishery to meet management objectives.<p>
+</a>
+
+<a name="673370">
+<b><i>Step 2</i></b></a><p>
+<a name="673371">
+Compute <em>TotPNV(f)</em> and <em>TotPV(f)</em> for each fishery, as follows:<p>
+</a><a name="673372"> <img src="theory.mif.anc28.gif"></a> <img src="sp.gif"><b>[4.20]</b> <p>
+
+<a name="673374"> <img src="theory.mif.anc29.gif"></a> <img src="sp.gif"><b>[4.21]</b> <p>
+
+<a name="673376">
+Note that these variables represent the total number of sublegal (<em>TotPNV(f)</em>) and legal (<em>TotPV(f)</em>) fish recruited to the gear in fishery <em>f</em>.<p>
+</a><a name="673377">
+<b><i>Step 3</i></b></a><p>
+<a name="673378">
+ Compute the encounter rate <em>EncRte(f)</em> for each fishery.<p>
+</a><a name="673379"> <img src="theory.mif.anc30.gif"></a> <img src="sp.gif"><b>[4.22]</b> <p>
+
+<a name="673380">
+<b><i>Step 4</i></b></a><p>
+<a name="673381">
+Compute <em>FracNV(s,a,f)</em> for each stock, age, and fishery.<p>
+</a><a name="673382"> <img src="theory.mif.anc31.gif"></a> <img src="sp.gif"><b>[4.23]</b> <p>
+
+<a name="673383">
+<b><i>Step 5</i></b></a><p>
+<a name="673384">
+Compute the total shakers <em>TotShak(f)</em> for each fishery. Total shakers in fishery <em>f</em> is the product of the total catch by fishery <em>f</em> (the summation terms in the equation below) times the encounter rate times the shaker mortality rate.<p>
+</a><a name="673385">
+<dl><dt><dd><b><em>TotShak(f) </em>= </b>
+</a><a name="673386"> <dt><dd><img src="theory.mif.anc32.gif"></a> <b>[4.24]</b></dl><p>
+
+<a name="673142">
+Note that if all the catches in a given fishery are multiplied by a common scaling factor, <em>TotShak(f)</em> is also multiplied by that factor.<p>
+</a>
+
+<a name="673387">
+<b><i>Step 6</i></b></a><p>
+<a name="673388">
+Compute shaker mortalities <em>Shakers(s,a,f)</em> for all stocks, ages, and fisheries by distributing total shakers across all cohorts.<p>
+</a><a name="673185">
+<p>
+</a><a name="673389"> <b><em>Shakers(s,a,f)</em> = <em>FracNV(s,a,f)TotShak(f)</em></b></a> <img src="sp.gif"><b>[4.25]</b> <p>
+
+
+<hr>
+<a href="toc.html">[Chapter Contents]</a>
+
+<!Page "673390">
+<a href="toc.html">[Chapter Contents]</a>
+<hr>
+
+<a name="673390">
+<img src="table44.gif">
+</a>
+
+<hr>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+
+</body>
+</html>
+E 1

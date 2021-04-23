@@ -1,0 +1,283 @@
+.KEEP_STATE:
+
+SRC   = ../src
+BIN   = ../bin
+HELPSRC = $(SRC)/help
+#add ps files as other dat files
+DATFILES = map.dat 
+HELPFILES = crisp2.zhp
+PNAME = crisp2
+BPNAME = crisp2bat
+EXECS = $(PNAME) $(BPNAME) zhelp
+
+OBJS =  Args.o Calendar.o Calibrator.o Ceiling.o CeilingPolicy.o \
+	CNR.o Cohort.o Fishery.o FisheryManagement.o FisherySummary.o \
+	FisheryTactics.o FixedCombHarv.o FixedEscapementPolicy.o GUI.o \
+	Harvest.o HarvestList.o HarvestTactics.o Bootstrap.o \
+	HatchSurplusProduction.o HatcheryProduction.o \
+	HvSummary.o IOCrud.o \
+	MonteDataItem.o MonteControl.o MonteOutputItem.o \
+	MonteTrackingItem.o MonteStockTracking.o MonteStockIntrfc.o \
+	MultiCeilingPolicy.o NaturalProduction.o Parser.o Policy.o \
+	Production.o \
+	RandGen.o RandNorm.o ReadToken.o Simulation.o State.o \
+	Stock.o StockCalib.o StockConfig.o StockSummary.o \
+	String.o Sample.o Token.o \
+	\
+	base_tokens.o monte_tokens.o \
+	\
+	clog.o command.o debug.o dir.o engine.o file.o \
+	globals.o include.o init.o log.o \
+	parseutil.o simple_output.o statistics.o version.o \
+	\
+	implicit_base.o Strtools.o
+
+BOBJS = crisp2bat.o $(OBJS)
+
+ZOBJS = \
+	c2main.o datFisheryCeilings.o datIntDouble.o \
+	idcBPHR.o idcCeilings.o idcENH.o idcEV.o \
+	idcHRS.o idcIDL.o idcPNV.o idcMR.o \
+	mapController.o mapObject.o \
+	ZasDialogMedBPHR.o ZasDialogMedPNV.o ZasGraphUpdateMed.o \
+	ZasMediatorFactory.o ZasMonteCarlo.o \
+	ZasTabDialogCeilings.o ZasTabDialogENH.o \
+	ZasTabDialogMedCeilings.o ZasTabDialogMedENH.o ZasTabDialogMedMR.o \
+	ZasTabDialogMedEV.o ZasTabDialogMedHRS.o ZasTabDialogMedIDL.o \
+	ZatPointTransform.o ZatMercatorTransform.o \
+	ZatCheckBoxGroup.o ZatDialogBase.o ZatDialogMedBase.o \
+	ZatEditSliderBase.o ZatEditSliderDouble.o ZatEditSliderLong.o \
+	ZatGraphDialog.o ZatImplicitScroller.o ZatRowColumnBox.o \
+	ZatTabDialog.o ZatTabDialogMed.o ZatGraphicPane.o \
+	zcGM_YearGraph.o zcGM_YearAgeGraph.o \
+	zcGMF_AbundanceIndex.o zcGMF_CatchPreterm.o zcGMF_CatchTerminal.o \
+	zcGMF_CatchTotal.o \
+	zcGMF_InMortLegal.o zcGMF_InMortSublegal.o zcGMF_InMortTotal.o \
+	zcGMH_HarvestGraphs.o zcGMS_Abundance.o zcGMS_CatchGraphs.o \
+	zcGMS_CNRGraphs.o \
+	zcGMS_Escapement.o zcGMS_TrueTermRun.o zcGraphMediator.o \
+	ZatMapMediator.o ZatMapPane.o zcMouseTool.o zcMouseToolCrisp2.o \
+	ZasMapMedCrispHarvest.o ZasGraphMedMonteCarlo.o ZasCalibration.o \
+	resfile.o
+
+SRCS =  $(OBJS:%.o=%.cpp)
+ZSRCS =  $(ZOBJS:%.o=%.cpp)
+
+# locations of various packages and utilities
+ROGUEHOME = /usr/local/rwav/workspaces/SOLARIS25/SUNPRO42
+ROGUEINCDIR = -I$(ROGUEHOME) -I$(ROGUEHOME)/include
+ROGUELIBDIR = -L$(ROGUEHOME)/lib 
+ROGUELIBS = -ltls12s -lmth12s -lstd12s
+ROGUE-DBG-LIBS = -ltls15s -lmth15s -lstd15s
+
+ZAPPDIR = $(ROGUEHOME)
+ZINCDIR = -I$(ZAPPDIR)
+ZLIBDIR = -L$(ZAPPDIR)/lib
+ZLIBS = -lzip12s -lzhp12s -lzap12s
+Z-DBG-LIBS = -lzip15s -lzhp15s -lzap15s
+
+# X stuff includes motif
+XDIR = /usr/openwin
+MOTIFDIR = /usr/dt
+XINCDIRS = -I$(XDIR)/include -I$(MOTIFDIR)/include
+XLIBDIRS = -L$(XDIR)/lib -L$(MOTIFDIR)/lib
+XLIBS   = -lXm -lXt -lXmu -lXext -lX11
+
+COMMON_LIBS = -lm  -lthread -lsocket -lnsl
+
+#application macros.  user may override on command line
+DEFS = -D_ZAPP_GUI_
+
+#flag specifications used in the compiler macros
+DEFINES = $(COMPILER_DEFS) $(DEFS)
+INCDIRS = $(ROGUEINCDIR) $(XINCDIRS) 
+LIBDIRS = $(ROGUELIBDIR) $(ZLIBDIR) $(XLIBDIRS) 
+LIBS = $(ZLIBS) $(ROGUELIBS) $(XLIBS) $(COMMON_LIBS) 
+BLIBS = $(ROGUELIBS) $(XLIBS) $(COMMON_LIBS) 
+
+#compilers and flags
+#CC = acc -Xs
+CPP = CC 
+#LINK = purelink
+CC_LD = $(LINK) $(CPP)
+CFLAGS = $(DEFINES) $(INCDIRS) -mt
+OFLAGS = $(DEFINES)
+COMPILER_DEFS = -DSYSV -DSVR4 -DSOLARIS2=1
+
+%.o: $(SRC)/%.cpp
+	$(COMPILE.cc) $(CFLAGS) $<
+
+%.o: $(SRC)/%.c
+	$(COMPILE.c) $(CFLAGS) $<
+
+#entry points
+
+default: optimize
+#default: debug
+
+debug optimize: package
+
+debug := CFLAGS += -g  
+debug := OFLAGS += -g 
+debug := DEFINES += -DDEBUG -DRWDEBUG
+debug := ROGUELIBS = $(ROGUE-DBG-LIBS)
+debug := ZLIBS = $(Z-DBG-LIBS)
+debug := ROGUEHOME = /usr/local/rwav/workspaces/SOLARIS25/SUNPRO42/15s
+
+optimize := CFLAGS += -O
+optimize := OFLAGS += -O
+optimize := LINK = 
+optimize := ROGUEHOME = /usr/local/rwav/workspaces/SOLARIS25/SUNPRO42/12s
+
+fast: optimize
+fast := CFLAGS += -fast
+fast := OFLAGS += -fast
+fast := LIBS += -lfast
+fast := CASE_EXT = .fast
+
+gnu: debug
+gnu := CPP = g++ -frepo 
+gnu := CC = gcc
+gnu := COMP = GNU
+
+#special dependencies for resource file
+$(SRC)/resfile.cpp: $(SRC)/crisp2.rc
+	cd $(SRC); \
+	    $(ZAPPDIR)/bin/rct -I$(ZAPPDIR) -I$(ZAPPDIR)/zapph crisp2.rc
+
+FORCE:
+
+# needed for standard C++ library.
+ 
+RHO = /usr/local/rwav/workspaces/SOLARIS25/SUNPRO42/12s
+RHD = /usr/local/rwav/workspaces/SOLARIS25/SUNPRO42/15s
+ 
+$(RHO)/include/algorithm: FORCE
+$(RHD)/include/algorithm: FORCE
+ 
+$(RHO)/include/bitset: FORCE
+$(RHD)/include/bitset: FORCE
+ 
+$(RHO)/include/complex: FORCE
+$(RHD)/include/complex: FORCE
+ 
+$(RHO)/include/deque: FORCE
+$(RHD)/include/deque: FORCE
+ 
+$(RHO)/include/iterator: FORCE
+$(RHD)/include/iterator: FORCE
+ 
+$(RHO)/include/list: FORCE
+$(RHD)/include/list: FORCE
+
+$(RHO)/include/string: FORCE
+$(RHD)/include/string: FORCE
+ 
+$(RHO)/include/tree: FORCE
+$(RHD)/include/tree: FORCE
+ 
+$(RHO)/include/vector: FORCE
+$(RHD)/include/vector: FORCE
+ 
+#help files - zhp files are copied, pdf files rely on symbolic links to
+#make the help files "appear"
+
+%.zhp: FORCE
+	cd $(HELPSRC); $(MAKE) $@ ZAPPDIR=$(ZAPPDIR)
+
+%.pdf:
+ 
+$(PNAME): $(OBJS) $(ZOBJS)
+	$(CC_LD) $(OFLAGS) -o $@$(CASE_EXT) \
+		$(OBJS) $(ZOBJS) $(INCDIRS) $(LIBDIRS) $(LIBS) 
+
+$(BPNAME): $(BOBJS)
+	$(CC_LD) $(OFLAGS) -o $@$(CASE_EXT) \
+		$(BOBJS) $(INCDIRS) $(LIBDIRS) $(BLIBS) 
+
+package : $(PNAME) $(BPNAME) $(HELPFILES) 
+
+#**************************************************************
+# utility section. 
+#**************************************************************
+
+# major new revision.  must set REV variable as parameter
+# crisp2 is assumed, so crisp2.2.1 is "make release REV=2"
+release: check revision install		# order dependent
+
+# a patch is a sub release, without a full sccs new revision.
+# for now, simply assumes that the new version string is properly
+# set in "version.cc".  no automatic version bump is enabled 
+# ("bump_sub_rev" does nothing).
+
+patch: check bump_sub_rev install	
+
+#cause failure if no revision level or if any files are checked out
+check:
+	@ sh -c 'if [ x$(REV) = x ] ; \
+	   then echo "please specify REV"; exit 1 ; fi'
+	sccs check; cd $(SRC); sccs check
+
+# full sccs revision; internal use only (use target "release")
+revision:
+	cd $(SRC); sccs edit -s -r$(REV) *.cc *.c *.h *.xbm $(DATFILES)
+#	cd $(SRC); crisprev.sh $(REV)
+	cd $(SRC); \
+	   sccs delget -s -y"Release Version"  *.cpp *.c *.h *.xbm $(DATFILES)
+	sccs edit -s -r$(REV) SCCS; sccs delget -s -y"Release Version" SCCS
+
+#auto bump of sub rev currently disabled
+bump_sub_rev:
+
+clean:
+	rm -rf *.o core ptrepository Templates.DB $(PNAME) .nse_depinfo 
+	rm -f .make.state 
+
+tape:
+	tar cf /dev/rst8 Makefile *.h *.cc *.icon *.desc 
+
+install: clean common update
+install := LINK = purelink -final
+
+update:
+	cp $(EXECS) $(DATFILES) $(HELPFILES) $(BIN)
+
+
+#**************************************************************
+# support for development applications
+#**************************************************************
+
+CASE = 
+CASE_EXT =
+
+pure := CC_LD = $(LINK) purify $(CPP)
+pure := CASE_EXT = .pure
+pure: default
+
+quantify := CC_LD = $(LINK) quantify $(CPP)
+quantify := CASE_EXT = .q
+quantify: default
+
+CLHOME=/appl/CenterLine
+oc := ROGUEHOME=$(CLHOME)/rwtool/sparc-sunos4
+oc := ROGUELIBS=-lrwtool
+oc := CC = clcc
+oc := CPP = CC
+oc := CFLAGS += -g -ptv 
+oc := OFLAGS += -g
+oc := DEFS += -DDEBUG
+oc := INCDIRS += -I$(SRC)
+
+oc: $(OBJS)
+	#use $(SRC) $(SRC)/../clobj 
+	#setopt swap_uses_path
+	#setopt load_flags -ptv $(CFLAGS)
+	#setopt tmpl_instantiate_flg -ptv  $(INCDIRS)
+	#load $(CFLAGS) $(OBJS) $(LIBDIRS) $(LIBS) 
+	#link
+
+#**************************************************************
+# test stuff
+#**************************************************************
+
+#none at present

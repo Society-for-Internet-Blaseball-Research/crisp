@@ -1,0 +1,371 @@
+h38391
+s 00000/00000/00355
+d D 1.2 97/12/17 10:32:45 camel 2 1
+c not used anymore, replaced with *.html
+e
+s 00362/00000/00000
+d D 1.1 97/12/15 11:21:44 troy 1 0
+c date and time created 97/12/15 11:21:44 by troy
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>File Structure Details</title></head>
+<body>
+ 
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+
+<h2>  File Structure Details</h2>
+
+<a name="705217">
+<h4>  Files of type *.evo</h4>
+</a>
+The <code><b>*.evo</b></code> files (<i>Fig. 2.4</i>) contain estimates of stock and brood specific productivity scalars (EV scalars) up through the last year of available data and then uses averages for all subsequent years. You can modify the EV's for years following the last estimated year using the dialog boxes (see <a href="users27.htm#700289">"Dialog Boxes"</a>) opened from the drop-down menus (see <a href="users24.htm#714305">"Drop-Down Menus"</a>) or by modifying the <code><b>*.evo</b></code> file with a text editor. <p>
+
+EV values are approximately log-normally distributed and future versions of the model will incorporate this feature which will be useful for running the model in Monte Carlo mode when the model has to select a value for the EV for each stock for each year. The standard method is to "Bootstrap" the value from the historical values. 
+<p>
+<a name="fig24">Fig. 2.4</a> Sample <code><b>*.evo</b></code> file.<p>
+
+<img src="evo.gif"><p>
+
+
+<ul>
+<li><i>Line 1</i>:	First brood year for EV scalars
+<li><i>Line 2</i>:	Last brood year for EV scalars
+<li><i>Line 3</i>:	EV scalars
+<br>* Item 1:	Stock number
+<br>* Item 2,3,4,...:	 EV scalars (one for each year)
+
+</ul>
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "705242">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="705242">
+<h4>  Files of type *.msc</h4>
+</a>
+This file must be specified for simulation runs. Results of annual exploitation rate analyses indicate that maturation schedules can vary substantially from year to year. This information can be incorporated into CRiSP Harvest through the use of an <code><b>*.msc</b></code> file (<i>Fig. 2.5</i>). The <code><b>*.msc</b></code> file identifies stocks with annual estimates of year-specific maturation schedules and provides the name of the file that actually contains the maturation data (.MAT). The <code><b>*.mat</b></code>, <code><b>*.bse</b></code>, and <code><b>*.stk</b></code> files must correspond to a particular Model calibration; you must insure that the same maturation schedules are used for both calibration and model runs so that results will be compatible. You should enter "NONE" if the model was calibrated with no annual variation in maturation schedules.  
+<p>
+<a name="fig25">Fig. 2.5</a>  Sample <code><b>*.msc</b></code> file.<p>
+
+<img src="msc.gif">
+
+<p>
+
+<ul>
+<li><i>Line 1</i>: Name of file containing annual maturity schedules, Descriptor
+<li><i>Lines 2,3,4,...</i>: One line for each stock
+
+<br>* Item 1:	Stock abbreviation (see Introduction for list)
+<br>* Item 2:	Descriptor
+</ul>
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "705268">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="705268">
+<h4>  Files of type  *.mat </h4>
+</a>
+The <code><b>*.mat</b></code> file is used in conjunction with the <code><b>*.msc</b></code> file. See "<code><b>*.msc</b></code> File Structure" above. The information appears in blocks in the file (<i>Fig. 2.6</i>). Each block corresponds to a year and begins with the year in the first column followed by rows corresponding to each stock. Subsequent values on each row are the maturation rates and adult equivalents for the stock.
+<p>
+
+ 
+<a name="fig26">Fig. 2.6</a>  Sample <code><b>*.mat</b></code> file.<p>
+<img src="mat.gif">
+<p>
+<ul>
+<li><i>Col 1</i>:	Stock abbreviation.
+<li><i>Cols 2, 4, 6</i>:	Maturation rates (ages 2, 3, and 4)
+<li><i>Cols 3, 5, 7</i>:	Adult equivalent factors (ages 2, 3, and 4).
+</ul>
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "705273">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="705273">
+<h4>  Files of type *.cei </h4>
+</a>
+The <code><b>*.cei</b></code> files (see <i>Fig. 2.7</i>) is used to set catch ceilings which are the primary means selected by the PSC to reduce stock exploitation rates. The <code><b>*.cei</b></code> file is used: (1) to specify fisheries with ceilings; (2) to set ceiling levels (catch levels); and (3) to allow you to force Model catches to equal the ceiling. 
+<p>
+<a name="fig27">Fig. 2.7</a>  Sample <code><b>*.cei</b></code> file.<p>
+<img src="cei.gif">
+<p>
+<ul>
+<li><i>Line 1</i>:	Start of base period. The Model computes average catches during a user-specified based period and then compares subsequent ceiling levels with these averages.
+<li><i>Line 2</i>:	End of base period.
+<li><i>Line 3</i>:	First year for ceiling management to be applied.
+<li><i>Line 4</i>:	Last year for ceiling management to be applied. After the last year, the Model will use RT factors associated with the last ceiling level to constrain fishery exploitation/harvest rates.
+<li><i>Line 5</i>:	Number of fisheries with ceilings.
+<li><i>Line 6</i>:	Number of changes in ceiling levels.
+<li><i>Line 7</i>:	Years in which ceiling levels are changed.
+<li><i>Lines 8a through 8r</i>: One set per ceilinged fishery.
+<li><i>Line 8a</i>:	Header to improve readability. Contents are ignored by the Model.
+<li><i>Line 8b</i>:	Number of Ceilinged Fishery, descriptor.
+<li><i>Lines 8c-8p</i>: Ceiling level (Catches), year, descriptor.
+<li><i>Line 8q</i>:	Number of years to treat ceilings as quotas ("forcing"). When a ceiling is not treated as a quota, the harvest rate in a fishery will be held at or below base period levels as modified by the <code><b>*.fp</b></code> file. Under conditions of low abundance, catches will be less than the ceiling level if base period harvest rates are maintained. If the ceiling is forced, then the harvest rate in the fishery is allowed to increase so that the ceiling is reached. In most circumstances, all ceilings are forced all years.
+<li><i>Line 8r</i>:	Years to treat ceiling as quotas, followed by descriptor.
+</ul>
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "705307">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="705307">
+<h4>  Files of type *.pnv</h4>
+</a>
+A separate <code><b>*.pnv</b></code>  file (see <i>Fig. 2.8</i>) is created for each fishery in which one or more changes in the minimum size limit have occurred since the base period. The proportions in a <code><b>*.pnv</b></code> file replace those proportions in the <code><b>*.bse</b></code> file for each fishery specified by a <code><b>*.pnv</b></code> file.<p>
+
+
+<a name="fig28">Fig. 2.8</a>  Sample<code><b>*.pnv</b></code> file<p>
+<img src="pnv.gif"><p>
+
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "706580">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="706580">
+<h4>  Files of type *.fp</h4>
+</a>
+The<code><b> *.fp </b></code>files are used for detailed Fishery Policy (Harvest Rate) scalars that alter the impact of a given fishery on the stocks on a year-by-year basis. The format is to place all of the FP values in a block for a year. Each year has a separate block. Within each block the 30 rows are for the 30 stocks and each of the 25 columns is one of the fisheries. There are no other flags, values or tokens in this file.<p>
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "708343">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="708343">
+<h4>  Files of type *.cnr </h4>
+</a>
+Management agencies have implemented non-retention restrictions to prevent the catch in a fishery from exceeding an established ceiling. These chinook non-retention (CNR) fisheries result in incidental mortality losses of adults and juveniles. The format of the <code><b>*.cnr</b></code> file (see <i>Fig. 2.9</i>) is described below. 
+<p>
+<a name="fig29">Fig. 2.9</a>  Sample <code><b>*.cnr</b></code> file<p>
+<img src="cnr.gif">
+<p>
+<ul>
+<li><i>Line 1</i>:	First year for CNR data, Descriptor
+<li><i>Line 2</i>:	Last year for CNR data, Descriptor
+<p>Sets of data for each CNR fishery
+<p>
+<li><i>Line 3</i>:	Number of fishery with CNR regulations, Descriptor
+<li><i>Line 4</i>:	Legal selectivity scalar, Sublegal selectivity scalar, Descriptor
+<p>
+Selectivity scalars are used to compensate for changes in fleet behavior during CNR restrictions. Scalar values are all relative to 1.0 (no change). Values in the example above indicate a 66% reduction in impacts on legal-sized chinook retention.
+<p>
+<li><i>Line 5</i>:		Specifications for CNR fisheries, one for each year
+<p>
+Currently, there are three different methods that can be used to calculate CNR mortality. Each method requires different types of data. The section that follows details how to describe this data in the <code><b>*.cnr</b></code> files.<p>
+</ul>
+<a name="706969">
+<h5> Methods for determining CNR mortality</h5>
+</a>
+<u>Method 0 ("RT Method")</u> estimates CNR mortality through ratio (RT) factors generated by the Model. RT factors represent the ratio between harvest rates associated with a catch ceiling and base period rates. Consequently, RTs can be considered as surrogate indicators for season length. If the RT method is selected, the Model estimates CNR mortality of legals and sublegals by multiplying mortalities associated with the catch ceiling by the selectivity scalars and mortality rates appropriate for the gear involved. This method is generally applied when no other data are available or when projecting regimes into the future. If this method is used, Line 5 will have the following format:<p>
+<ul>
+<li><i>Item 1</i>: Flag for CNR fishery (0 = no CNR fishery; 1 = CNR fishery)
+<li><i>Item 2</i>: CNR method (0 = RT method; 1 = Season length; 2 = encounters)
+<li><i>Item 3</i>: Descriptor
+<br>e.g. <code><b>1, 0, CNR RT 1990</b></code>
+</ul>
+<p>
+
+Different CNR mortality methods can be used to determine how mortalities are calculated during the calibration period. during the simulation period, however, the current version of CRiSP Harvest uses the "RT Method" exclusively.<p>
+
+<u>Method 1 ("Season Length Method")</u> can be used to model past seasons when only information about season length is available. This method uses the ratio of regular season length to the CNR season length.<p>
+<ul>
+<li><i>Item 1</i>: Flag for CNR fishery (0 = no CNR fishery; 1 = CNR fishery)
+<li><i>Item 2</i>: CNR method (0 = RT method; 1 = Season length; 2 = encounters)
+<li><i>Item 3</i>: Season length (days)
+<li><i>Item 4</i>: CNR Season length (days)
+<li><i>Item 5</i>: Descriptor
+<br>e.g. <code><b>1, 1, 60, 9, Season length/legal season/ CNR days for 1990</b></code>
+</ul><p>
+
+<u>Method 2 ("Encounter Rate Method")</u> is used when specific data on encounter rates are available. To use this method, you must enter the following data.<p>
+<ul>
+<li><i>Item 1</i>: Flag for CNR fishery (0 = no CNR fishery; 1 = CNR fishery)
+<li><i>Item 2</i>: CNR method (0 = RT method; 1 = Season length; 2 = encounters)
+<li><i>Item 3</i>: Encounters of legal sized fish during CNR fishery
+<li><i>Item 4</i>: Encounters of sublegal sized fish during CNR fishery
+<li><i>Item 5</i>: Total landed catch in fishery
+<li><i>Item 6</i>: Descriptor
+<br>e.g. <code><b>1, 2, 18225, 18578, 248000, Enc./Est of CNR enc/year = 1990</b></code><p>
+</ul>
+
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "705410">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="705410">
+<h4>  Files of type *.enh </h4>
+</a>
+The <code><b>*.enh</b></code> file (see <i>Fig. 2.10</i>) has information on changes in enhancement schedules for hatchery and natural supplementation programs. Modifications of the <code><b>*.enh</b></code> file can be made either: (1) to incorporate actual changes in the enhancement schedule; (2) to assess possible changes in enhancement. All enhancement changes are relative to average levels during the 1979-1981 base period.  
+<p>
+<a name="fig210">Fig. 2.10</a>  Sample <code><b>*.enh</b></code> file<p>
+<img src="enh.gif"><p>
+<ul>
+<li><i>Line 1</i>: First year for enhancement changes, Descriptor
+<li><i>Line 2</i>: Last year for enhancement changes, Descriptor
+<li><i>Line 3</i>: For each stock with enhancement changes, include 2-line sets of data
+<br>* Item 1: Stock number
+<br>* Item 2: `A' value for enhancement productivity, simulated using exponential function (ea ) 
+<br>* Item 3:	 Smolt to age 1 survival
+<br>* Item 4: Maximum proportion of spawners that can be used for broodstock (used for supplementation).
+<li><i>Line 4</i>: This line must contain one data element for each year in the period indicated by lines 1 and 2. Data entry values represent smolt production changes from the base period by brood year (measured as yearly releases minus average base period releases).
+</ul>
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "705506">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="705506">
+<h4>  Files of type *.idl</h4>
+</a>
+Effects of post-fishery, pre-spawning mortality can be examined through use of <code><b>*.idl</b></code> files. Currently, this file (see <i>Fig. 2.11</i>) only includes estimates of inter-dam loss for Columbia River stocks. Since most inter-dam loss occurs after all fisheries, inter-dam loss is essentially treated as escapement when calculating ocean and terminal area harvest rates. Changes in estimates of inter-dam loss rates can be assessed by modifying this file. It should be noted, however, that the numbers in the <code><b>*.idl</b></code> files are actually estimates of total adult <em>survival</em> past all Columbia River dams. Estimated IDL values are used through the present year, then an average of all estimated values is used for future years.
+<p>
+<a name="fig211">Fig. 2.11</a>  Sample <code><b>*.idl</b></code> file.<p>
+<img src="idl.gif">
+<ul>
+<li><i>Line 1</i>: Number of stocks with IDL factor.
+<p>For each stock, sets of 4 data lines:<p>
+<li><i>Line 2</i>: Three character identifier for stock (defined in <code><b>*.bse</b></code> file)
+<li><i>Line 3</i>: First year for start of IDL scalars
+<li><i>Line 4</i>: Last year for IDL scalars
+<li><i>Line 5</i>: Post-fishery, prespawning survival, one entry per year
+</ul>
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "710788">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="710788">
+<h4>  Files of type *.monte</h4>
+</a><a name="714948">
+<h5>  *.monte File Structure</h5>
+</a>
+The <code><b>*.monte</b></code> file (see <i>Fig. 2.12</i>) uses a token based structure and hence the specific keywords are expected by the file parser. The <code><b>*.monte </b></code>file is used to configure the model for Monte Carlo simulations. See <a href="users28.htm#702643">"Running the model in Monte Carlo mode"</a>. 
+<p>
+<a name="fig212">Fig. 2.12</a>  Sample *.monte file.<p>
+<img src="monte.gif">
+<p>
+<ul>
+<li><i>Line 1</i>:	 Keyword "monte" followed by a second keyword ("Bootstrap" or "Log Normal Indep.") describing the type of sampling method to use for EV scalars. 
+<p>
+If the "Bootstrap" method is used, then for each year during the simulation period (i.e., future years) this method randomly selects a year from the calibration period (e.g. 1979-1991), with each calibration year having equal probability of being selected. For each stock, the program then sets the EV Scalar for the simulation year equal to the EV Scalar value for that stock in the selected calibration year. For example, if the simulation year is 2002 and the calibration period is 1979-1991, the program randomly selects a year between 1979 and 1991, say 1983. For each stock, the program then sets the EV Scalar in year 2002 to the same value used in year 1983. The basic idea of this method is to allow for correlations between stocks. Instead of letting the EV Scalars vary independently, this methods says "lets make future year 2002 look just like year 1983 for all stocks."<p>
+
+If the "Log Normal Indep." method is used, then for each year during the simulation period (i.e., future years), the model randomly selects EV Scalars for each stock from a log normal distribution unique to that stock. The two parameters defining each stock's log normal distribution are included in the <code><b>*.evo</b></code> file and typically are estimated from the calibration period EV Scalars computed during the calibration process. This method allows the EV Scalars for each stock to vary independently.<p>
+
+<li><i>Line 2</i>: Keyword "seed" followed by a random number seed value (an integer)
+<li><i>Line 3</i>: Keyword "games" followed by the number of "games" or simulations to be "played" (run).
+<li><i>Line 4</i>: Keyword "start_year" followed by the first year in which the random EV scalars are to be used. The EV Scalars (brood year survival rates) can only be estimated after all the age classes from a given brood year have returned to the spawning grounds (five year lag). For example, once the data for 1996 have been gathered it is possible to estimate the EV Scalars for the brood year 1991, but not for brood years 1992-1995. In this example, the "start_year" should be set to 1992.
+<li><i>Line 5</i>: Keyword "track" followed by the type of output to be tracked. Currently, only "escapement" can be tracked during monte carlo runs so this line must read "track escapement".
+<li><i>Line 6</i>:	Keyword "output_config_file" followed by a filename in which the data will be stored.
+<li><i>Line 7</i>: Keyword "end monte".
+</ul>
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "714946">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="714946">
+<h4>  Files of type *.config </h4>
+</a>
+The <code><b>*.config</b></code> file (see <i>Fig. 2.13</i>) is used to configure output from Monte Carlo runs. 
+<p>
+<a name="fig213">Fig. 2.13</a>  Sample *.config file.<p>
+<img src="config.gif">
+<p>
+<ul>
+<li><i>Line 1</i>:	Keyword "config".
+<li><i>Line 2</i>: Keyword "output" followed by keyword "escapement".  This tells the program to store the escapement data for all games for the stocks and  years given in lines 3 and 4 below. 
+<li><i>Line 3</i>: Keyword "stocks" followed by the number of stocks to store outputs for  and a list of the stock abbreviations (e.g., LYF, URB). The stock abbreviations must be the same as the ones used in the *.bse file.  
+<li><i>Line 4</i>: Keyword "years" followed by the number of years to store  outputs for and a list of the years.
+<li><i>Line 5</i>: Keywords "end output".
+<li><i>Line 6</i>: Keyword "output" followed by keyword "escapement_quantiles". This tells the program to compute and store the median and 75th and 95th quantiles of the escapements from all games for the stocks listed in line 7 below.
+<li><i>Line 7</i>: Keyword "stocks" followed by the number of stocks to store outputs for and a list of the stock abbreviations (e.g., LYF, URB). The stock abbreviations must be the same as the ones used in the <code><b>*.bse</b></code> file. 
+<li><i>Line 8</i>: Keywords "end output". 
+<li><i>Line 9</i>: Keywords "end config".
+</ul>
+
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a>
+
+<!Page "714869">
+<a href="users2.htm">[Chapter Contents]</a> 
+<hr><br>
+
+
+<a name="714869">
+<h4>  Files of type *.riv </h4>
+</a><a name="710728">
+The <code><b>*.riv</b></code> file (see <i>Fig. 2.14</i>, <i>Fig. 2.15</i> and <i>Fig. 2.16</i>)  uses a token based structure and hence the specific keywords are expected by the file parser. The <code><b>*.riv</b></code> files are used to specify the management parameters controlling in-river harvest.
+</a>
+<p>
+<a name="714895">
+<h5>  Fixed Escapements, Weak Stock Management</h5> </a>
+<p>
+<a name="fig214">Fig. 2.14</a>  Sample <code><b>*.riv</b></code> file for fixed escapement, weak stock management.<p>
+<img src="riv.gif">
+<p>
+
+
+<a name="714941">
+<h5> Fixed Escapements, Combined Stock Management</h5>
+</a> 
+<p>
+<a name="fig215">Fig. 2.15</a>  Sample <code><b>*.riv</b></code> file for fixed escapement, combined stock management.<p>
+<img src="riv1.gif">
+<p>
+
+<a name="714940">
+<h5> Fixed Escapements, Fixed Harvest Rate Management</h5>
+</a> 
+<p>
+<a name="fig216">Fig. 2.16</a>  Sample <code><b>*.riv</b></code> file using combined fixed harvest rate management.<p>
+<img src="riv2.gif">
+<p>
+
+<hr><br>
+ 
+<a href="users2.htm">[Chapter Contents]</a> 
+</body>
+</html>
+E 1

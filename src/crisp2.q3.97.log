@@ -1,0 +1,1834 @@
+AgeVec.h
+SCCS/s.AgeVec.h:
+
+----------------------------------
+Args.h
+SCCS/s.Args.h:
+
+----------------------------------
+Bool.h
+SCCS/s.Bool.h:
+
+----------------------------------
+Bootstrap.h
+SCCS/s.Bootstrap.h:
+
+----------------------------------
+CNR.h
+SCCS/s.CNR.h:
+
+----------------------------------
+Calendar.h
+SCCS/s.Calendar.h:
+
+D 4.3 97/07/28 11:36:09 mpmoore 11 10	00001/00001/00039
+MRs:
+COMMENTS:
+warning cleanup on PC
+
+----------------------------------
+Calibrator.h
+SCCS/s.Calibrator.h:
+
+----------------------------------
+Ceiling.h
+SCCS/s.Ceiling.h:
+
+----------------------------------
+CeilingPolicy.h
+SCCS/s.CeilingPolicy.h:
+
+----------------------------------
+Cohort.h
+SCCS/s.Cohort.h:
+
+----------------------------------
+Fishery.h
+SCCS/s.Fishery.h:
+
+D 4.7 97/07/31 11:43:56 mpmoore 34 33	00002/00000/00149
+MRs:
+COMMENTS:
+now getting proper terminal and preterminal total catches.
+
+D 4.6 97/07/15 15:32:10 troy 33 32	00001/00001/00148
+MRs:
+COMMENTS:
+made op== const 
+
+
+----------------------------------
+FisheryList.h
+SCCS/s.FisheryList.h:
+
+----------------------------------
+FisheryManagement.h
+SCCS/s.FisheryManagement.h:
+
+----------------------------------
+FisherySummary.h
+SCCS/s.FisherySummary.h:
+
+D 4.3 97/07/28 11:55:28 mpmoore 12 11	00003/00010/00045
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+FisheryTactics.h
+SCCS/s.FisheryTactics.h:
+
+----------------------------------
+FixedCombHarv.h
+SCCS/s.FixedCombHarv.h:
+
+----------------------------------
+FixedEscStock.h
+SCCS/s.FixedEscStock.h:
+
+----------------------------------
+FixedEscapementPolicy.h
+SCCS/s.FixedEscapementPolicy.h:
+
+----------------------------------
+FixedHarvestPolicy.h
+SCCS/s.FixedHarvestPolicy.h:
+
+----------------------------------
+GUI.h
+SCCS/s.GUI.h:
+
+----------------------------------
+Harvest.h
+SCCS/s.Harvest.h:
+
+----------------------------------
+HarvestList.h
+SCCS/s.HarvestList.h:
+
+----------------------------------
+HarvestTactics.h
+SCCS/s.HarvestTactics.h:
+
+----------------------------------
+HatchSurplusProduction.h
+SCCS/s.HatchSurplusProduction.h:
+
+----------------------------------
+HatcheryProduction.h
+SCCS/s.HatcheryProduction.h:
+
+----------------------------------
+HvSummary.h
+SCCS/s.HvSummary.h:
+
+D 4.3 97/07/28 11:55:25 mpmoore 12 11	00003/00001/00046
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+IEnum.h
+SCCS/s.IEnum.h:
+
+----------------------------------
+IOCrud.h
+SCCS/s.IOCrud.h:
+
+----------------------------------
+MonteControl.h
+SCCS/s.MonteControl.h:
+
+----------------------------------
+MonteDataItem.h
+SCCS/s.MonteDataItem.h:
+
+----------------------------------
+MonteOutputItem.h
+SCCS/s.MonteOutputItem.h:
+
+----------------------------------
+MonteStockIntrfc.h
+SCCS/s.MonteStockIntrfc.h:
+
+----------------------------------
+MonteStockTracking.h
+SCCS/s.MonteStockTracking.h:
+
+----------------------------------
+MonteTrackingItem.h
+SCCS/s.MonteTrackingItem.h:
+
+----------------------------------
+MultiCeilingPolicy.h
+SCCS/s.MultiCeilingPolicy.h:
+
+----------------------------------
+NamedPtrVec.h
+SCCS/s.NamedPtrVec.h:
+
+----------------------------------
+NaturalProduction.h
+SCCS/s.NaturalProduction.h:
+
+----------------------------------
+NonNeg.h
+SCCS/s.NonNeg.h:
+
+----------------------------------
+Parser.h
+SCCS/s.Parser.h:
+
+----------------------------------
+Phase.h
+SCCS/s.Phase.h:
+
+----------------------------------
+Policies.h
+SCCS/s.Policies.h:
+
+----------------------------------
+Policy.h
+SCCS/s.Policy.h:
+
+----------------------------------
+Production.h
+SCCS/s.Production.h:
+
+----------------------------------
+RandGen.h
+SCCS/s.RandGen.h:
+
+D 4.5 97/07/25 17:04:02 troy 10 9	00001/00004/00038
+MRs:
+COMMENTS:
+new random number generator corrected
+
+D 4.4 97/07/25 15:25:27 troy 9 8	00003/00001/00039
+MRs:
+COMMENTS:
+use older random number generator until new one is fixed
+
+----------------------------------
+RandNorm.h
+SCCS/s.RandNorm.h:
+
+----------------------------------
+ReadToken.h
+SCCS/s.ReadToken.h:
+
+----------------------------------
+SeedPod.h
+SCCS/s.SeedPod.h:
+
+D 4.4 97/07/25 17:21:00 troy 7 6	00002/00002/00035
+MRs:
+COMMENTS:
+fixed val() to return a reference so the seed can be updated
+
+----------------------------------
+Simulation.h
+SCCS/s.Simulation.h:
+
+----------------------------------
+State.h
+SCCS/s.State.h:
+
+----------------------------------
+Stochastic.h
+SCCS/s.Stochastic.h:
+
+----------------------------------
+Stock.h
+SCCS/s.Stock.h:
+
+----------------------------------
+StockCalib.h
+SCCS/s.StockCalib.h:
+
+----------------------------------
+StockConfig.h
+SCCS/s.StockConfig.h:
+
+----------------------------------
+StockList.h
+SCCS/s.StockList.h:
+
+----------------------------------
+StockSummary.h
+SCCS/s.StockSummary.h:
+
+D 4.3 97/07/28 11:55:26 mpmoore 13 12	00003/00001/00045
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+Strings.h
+SCCS/s.Strings.h:
+
+----------------------------------
+Summary.h
+SCCS/s.Summary.h:
+
+----------------------------------
+Token.h
+SCCS/s.Token.h:
+
+----------------------------------
+UI.h
+SCCS/s.UI.h:
+
+----------------------------------
+UniformInt.h
+SCCS/s.UniformInt.h:
+
+----------------------------------
+ZasCalibration.h
+SCCS/s.ZasCalibration.h:
+
+----------------------------------
+ZasDialogMedBPHR.h
+SCCS/s.ZasDialogMedBPHR.h:
+
+D 4.5 97/08/05 14:34:02 mpmoore 6 5	00001/00001/00029
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+----------------------------------
+ZasDialogMedPNV.h
+SCCS/s.ZasDialogMedPNV.h:
+
+D 4.6 97/08/05 14:34:01 mpmoore 7 6	00001/00001/00029
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+D 4.5 97/08/01 15:55:47 mpmoore 6 5	00001/00000/00029
+MRs:
+COMMENTS:
+set scroller ranges to [0 - 1]
+
+----------------------------------
+ZasGraphMedMonteCarlo.h
+SCCS/s.ZasGraphMedMonteCarlo.h:
+
+----------------------------------
+ZasGraphUpdateMed.h
+SCCS/s.ZasGraphUpdateMed.h:
+
+----------------------------------
+ZasMapMedCrispHarvest.h
+SCCS/s.ZasMapMedCrispHarvest.h:
+
+----------------------------------
+ZasMediatorFactory.h
+SCCS/s.ZasMediatorFactory.h:
+
+----------------------------------
+ZasMenuConst.h
+SCCS/s.ZasMenuConst.h:
+
+----------------------------------
+ZasMonteCarlo.h
+SCCS/s.ZasMonteCarlo.h:
+
+----------------------------------
+ZasTabDialogCeilings.h
+SCCS/s.ZasTabDialogCeilings.h:
+
+----------------------------------
+ZasTabDialogENH.h
+SCCS/s.ZasTabDialogENH.h:
+
+----------------------------------
+ZasTabDialogMedCeilings.h
+SCCS/s.ZasTabDialogMedCeilings.h:
+
+D 4.5 97/08/05 14:34:03 mpmoore 6 5	00001/00001/00032
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+----------------------------------
+ZasTabDialogMedENH.h
+SCCS/s.ZasTabDialogMedENH.h:
+
+D 4.6 97/08/05 14:34:05 mpmoore 7 6	00001/00001/00029
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+D 4.5 97/07/31 15:04:05 mpmoore 6 5	00000/00001/00030
+MRs:
+COMMENTS:
+some fields made read-only
+
+----------------------------------
+ZasTabDialogMedEV.h
+SCCS/s.ZasTabDialogMedEV.h:
+
+D 4.6 97/08/05 14:34:06 mpmoore 7 6	00001/00001/00030
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+D 4.5 97/07/31 10:36:29 mpmoore 6 5	00001/00000/00030
+MRs:
+COMMENTS:
+slider range now 0.0 - 10.0
+
+----------------------------------
+ZasTabDialogMedHRS.h
+SCCS/s.ZasTabDialogMedHRS.h:
+
+D 4.5 97/08/05 14:34:08 mpmoore 6 5	00001/00001/00029
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+----------------------------------
+ZasTabDialogMedIDL.h
+SCCS/s.ZasTabDialogMedIDL.h:
+
+D 4.5 97/08/05 14:34:09 mpmoore 6 5	00001/00001/00029
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+----------------------------------
+ZasTabDialogMedMR.h
+SCCS/s.ZasTabDialogMedMR.h:
+
+D 1.4 97/08/05 14:34:26 mpmoore 4 3	00001/00001/00030
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+D 1.3 97/08/01 15:55:49 mpmoore 3 2	00001/00000/00030
+MRs:
+COMMENTS:
+set scroller ranges to [0 - 1]
+
+----------------------------------
+ZatCheckBoxGroup.h
+SCCS/s.ZatCheckBoxGroup.h:
+
+----------------------------------
+ZatConstants.h
+SCCS/s.ZatConstants.h:
+
+----------------------------------
+ZatDefines.h
+SCCS/s.ZatDefines.h:
+
+----------------------------------
+ZatDialogBase.h
+SCCS/s.ZatDialogBase.h:
+
+D 4.5 97/07/30 10:34:20 mpmoore 6 5	00006/00000/00120
+MRs:
+COMMENTS:
+fixed check-all boxes
+
+----------------------------------
+ZatDialogConstants.h
+SCCS/s.ZatDialogConstants.h:
+
+----------------------------------
+ZatDialogMedBase.h
+SCCS/s.ZatDialogMedBase.h:
+
+D 4.5 97/08/05 14:34:11 mpmoore 6 5	00002/00000/00087
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+----------------------------------
+ZatEditSliderBase.h
+SCCS/s.ZatEditSliderBase.h:
+
+D 4.5 97/08/04 13:05:51 mpmoore 6 5	00002/00003/00049
+MRs:
+COMMENTS:
+fixed graph x-axis again, fixed edit sliders
+
+----------------------------------
+ZatEditSliderDouble.h
+SCCS/s.ZatEditSliderDouble.h:
+
+D 4.5 97/08/04 13:05:53 mpmoore 6 5	00001/00001/00038
+MRs:
+COMMENTS:
+fixed graph x-axis again, fixed edit sliders
+
+----------------------------------
+ZatEditSliderLong.h
+SCCS/s.ZatEditSliderLong.h:
+
+D 4.5 97/08/04 13:05:54 mpmoore 6 5	00001/00001/00038
+MRs:
+COMMENTS:
+fixed graph x-axis again, fixed edit sliders
+
+----------------------------------
+ZatGraphConstants.h
+SCCS/s.ZatGraphConstants.h:
+
+----------------------------------
+ZatGraphDialog.h
+SCCS/s.ZatGraphDialog.h:
+
+D 4.8 97/08/05 11:29:32 mpmoore 9 8	00002/00006/00120
+MRs:
+COMMENTS:
+fixed printing and monte carlo run bugs
+
+D 4.7 97/08/04 13:05:56 mpmoore 8 7	00002/00001/00124
+MRs:
+COMMENTS:
+fixed graph x-axis again, fixed edit sliders
+
+D 4.6 97/08/01 14:05:37 mpmoore 7 6	00007/00000/00118
+MRs:
+COMMENTS:
+added dotted line to graphs
+
+D 4.5 97/07/29 14:27:26 mpmoore 6 5	00003/00003/00115
+MRs:
+COMMENTS:
+fixed mouse pointer in graph problems
+
+----------------------------------
+ZatGraphicPane.h
+SCCS/s.ZatGraphicPane.h:
+
+D 4.6 97/08/05 11:29:34 mpmoore 7 6	00000/00001/00035
+MRs:
+COMMENTS:
+fixed printing and monte carlo run bugs
+
+----------------------------------
+ZatImConScroller.h
+SCCS/s.ZatImConScroller.h:
+
+----------------------------------
+ZatImpTabCtrl.h
+SCCS/s.ZatImpTabCtrl.h:
+
+----------------------------------
+ZatImplicitScroller.h
+SCCS/s.ZatImplicitScroller.h:
+
+----------------------------------
+ZatItem.h
+SCCS/s.ZatItem.h:
+
+----------------------------------
+ZatMapMediator.h
+SCCS/s.ZatMapMediator.h:
+
+----------------------------------
+ZatMapPane.h
+SCCS/s.ZatMapPane.h:
+
+----------------------------------
+ZatMercatorTransform.h
+SCCS/s.ZatMercatorTransform.h:
+
+----------------------------------
+ZatPointTransform.h
+SCCS/s.ZatPointTransform.h:
+
+----------------------------------
+ZatRowColumnBox.h
+SCCS/s.ZatRowColumnBox.h:
+
+----------------------------------
+ZatTabDialog.h
+SCCS/s.ZatTabDialog.h:
+
+----------------------------------
+ZatTabDialogMed.h
+SCCS/s.ZatTabDialogMed.h:
+
+----------------------------------
+base_tokens.h
+SCCS/s.base_tokens.h:
+
+----------------------------------
+c2main.h
+SCCS/s.c2main.h:
+
+D 4.6 97/07/31 13:26:57 mpmoore 7 6	00000/00001/00045
+MRs:
+COMMENTS:
+fixed help button in graph dialogs.
+
+----------------------------------
+clog.h
+SCCS/s.clog.h:
+
+----------------------------------
+cnrVisitor.h
+SCCS/s.cnrVisitor.h:
+
+----------------------------------
+command.h
+SCCS/s.command.h:
+
+----------------------------------
+datFisheryCeilings.h
+SCCS/s.datFisheryCeilings.h:
+
+----------------------------------
+datFisheryPNV.h
+SCCS/s.datFisheryPNV.h:
+
+----------------------------------
+datHarvestBPHR.h
+SCCS/s.datHarvestBPHR.h:
+
+----------------------------------
+datHarvestHRS.h
+SCCS/s.datHarvestHRS.h:
+
+----------------------------------
+datIntDouble.h
+SCCS/s.datIntDouble.h:
+
+D 4.4 97/07/28 11:36:13 mpmoore 5 4	00004/00002/00035
+MRs:
+COMMENTS:
+warning cleanup on PC
+
+----------------------------------
+datStockENH.h
+SCCS/s.datStockENH.h:
+
+----------------------------------
+datStockEV.h
+SCCS/s.datStockEV.h:
+
+----------------------------------
+datStockIDL.h
+SCCS/s.datStockIDL.h:
+
+----------------------------------
+datStockMR.h
+SCCS/s.datStockMR.h:
+
+----------------------------------
+datTypes.h
+SCCS/s.datTypes.h:
+
+----------------------------------
+dir.h
+SCCS/s.dir.h:
+
+----------------------------------
+globals.h
+SCCS/s.globals.h:
+
+----------------------------------
+idcBPHR.h
+SCCS/s.idcBPHR.h:
+
+----------------------------------
+idcCeilings.h
+SCCS/s.idcCeilings.h:
+
+D 4.3 97/07/28 16:42:19 mpmoore 4 3	00001/00000/00026
+MRs:
+COMMENTS:
+fixed crashing bug on last pane of Catch Ceilings dialog
+
+----------------------------------
+idcENH.h
+SCCS/s.idcENH.h:
+
+----------------------------------
+idcEV.h
+SCCS/s.idcEV.h:
+
+----------------------------------
+idcHRS.h
+SCCS/s.idcHRS.h:
+
+----------------------------------
+idcIDL.h
+SCCS/s.idcIDL.h:
+
+----------------------------------
+idcMR.h
+SCCS/s.idcMR.h:
+
+----------------------------------
+idcPNV.h
+SCCS/s.idcPNV.h:
+
+----------------------------------
+implicit.h
+SCCS/s.implicit.h:
+
+----------------------------------
+implicit_base.h
+SCCS/s.implicit_base.h:
+
+----------------------------------
+include.h
+SCCS/s.include.h:
+
+----------------------------------
+init.h
+SCCS/s.init.h:
+
+----------------------------------
+interfaceDataControl.h
+SCCS/s.interfaceDataControl.h:
+
+----------------------------------
+log.h
+SCCS/s.log.h:
+
+----------------------------------
+mapConstants.h
+SCCS/s.mapConstants.h:
+
+----------------------------------
+mapController.h
+SCCS/s.mapController.h:
+
+----------------------------------
+mapObject.h
+SCCS/s.mapObject.h:
+
+----------------------------------
+mapPoint.h
+SCCS/s.mapPoint.h:
+
+----------------------------------
+monte_tokens.h
+SCCS/s.monte_tokens.h:
+
+----------------------------------
+parseutil.h
+SCCS/s.parseutil.h:
+
+----------------------------------
+resource.h
+SCCS/s.resource.h:
+
+----------------------------------
+sample.h
+SCCS/s.sample.h:
+
+D 4.4 97/07/25 17:22:00 troy 5 4	00001/00001/00017
+MRs:
+COMMENTS:
+made the seed holder a required reference parameter
+
+----------------------------------
+smart_ptr.h
+SCCS/s.smart_ptr.h:
+
+----------------------------------
+statistics.h
+SCCS/s.statistics.h:
+
+----------------------------------
+strtools.h
+SCCS/s.strtools.h:
+
+----------------------------------
+tokens.h
+SCCS/s.tokens.h:
+
+----------------------------------
+zcGMF_AbundanceIndex.h
+SCCS/s.zcGMF_AbundanceIndex.h:
+
+----------------------------------
+zcGMF_CatchGraphs.h
+SCCS/s.zcGMF_CatchGraphs.h:
+
+----------------------------------
+zcGMF_InMortGraphs.h
+SCCS/s.zcGMF_InMortGraphs.h:
+
+----------------------------------
+zcGMH_HarvestGraphs.h
+SCCS/s.zcGMH_HarvestGraphs.h:
+
+----------------------------------
+zcGMS_Abundance.h
+SCCS/s.zcGMS_Abundance.h:
+
+----------------------------------
+zcGMS_CNRGraphs.h
+SCCS/s.zcGMS_CNRGraphs.h:
+
+----------------------------------
+zcGMS_CatchGraphs.h
+SCCS/s.zcGMS_CatchGraphs.h:
+
+----------------------------------
+zcGMS_Escapement.h
+SCCS/s.zcGMS_Escapement.h:
+
+----------------------------------
+zcGMS_TrueTermRun.h
+SCCS/s.zcGMS_TrueTermRun.h:
+
+----------------------------------
+zcGM_YearAgeGraph.h
+SCCS/s.zcGM_YearAgeGraph.h:
+
+----------------------------------
+zcGM_YearGraph.h
+SCCS/s.zcGM_YearGraph.h:
+
+----------------------------------
+zcGraphMediator.h
+SCCS/s.zcGraphMediator.h:
+
+D 4.5 97/08/01 14:05:38 mpmoore 6 5	00002/00002/00084
+MRs:
+COMMENTS:
+added dotted line to graphs
+
+----------------------------------
+zcMouseTool.h
+SCCS/s.zcMouseTool.h:
+
+----------------------------------
+zcMouseToolCrisp2.h
+SCCS/s.zcMouseToolCrisp2.h:
+
+----------------------------------
+Args.cpp
+SCCS/s.Args.cpp:
+
+D 1.3 97/07/28 11:56:18 mpmoore 3 2	00000/00001/00086
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+Bootstrap.cpp
+SCCS/s.Bootstrap.cpp:
+
+----------------------------------
+CNR.cpp
+SCCS/s.CNR.cpp:
+
+----------------------------------
+Calendar.cpp
+SCCS/s.Calendar.cpp:
+
+----------------------------------
+Calibrator.cpp
+SCCS/s.Calibrator.cpp:
+
+----------------------------------
+Ceiling.cpp
+SCCS/s.Ceiling.cpp:
+
+D 4.3 97/07/28 11:36:12 mpmoore 4 3	00001/00001/00116
+MRs:
+COMMENTS:
+warning cleanup on PC
+
+----------------------------------
+CeilingPolicy.cpp
+SCCS/s.CeilingPolicy.cpp:
+
+----------------------------------
+Cohort.cpp
+SCCS/s.Cohort.cpp:
+
+----------------------------------
+Fishery.cpp
+SCCS/s.Fishery.cpp:
+
+D 4.3 97/07/31 11:43:55 mpmoore 4 3	00023/00001/00261
+MRs:
+COMMENTS:
+now getting proper terminal and preterminal total catches.
+
+D 4.2 97/07/28 11:55:30 mpmoore 3 2	00002/00001/00260
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+FisheryManagement.cpp
+SCCS/s.FisheryManagement.cpp:
+
+D 4.3 97/07/28 11:55:32 mpmoore 4 3	00002/00002/00550
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+FisherySummary.cpp
+SCCS/s.FisherySummary.cpp:
+
+D 4.2 97/07/28 11:55:35 mpmoore 3 2	00018/00000/00114
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+FisheryTactics.cpp
+SCCS/s.FisheryTactics.cpp:
+
+----------------------------------
+FixedCombHarv.cpp
+SCCS/s.FixedCombHarv.cpp:
+
+----------------------------------
+FixedEscapementPolicy.cpp
+SCCS/s.FixedEscapementPolicy.cpp:
+
+D 4.3 97/07/28 11:55:37 mpmoore 4 3	00001/00001/00480
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+GUI.cpp
+SCCS/s.GUI.cpp:
+
+----------------------------------
+Harvest.cpp
+SCCS/s.Harvest.cpp:
+
+D 4.4 97/07/28 11:55:34 mpmoore 5 4	00003/00001/00389
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+HarvestList.cpp
+SCCS/s.HarvestList.cpp:
+
+----------------------------------
+HarvestTactics.cpp
+SCCS/s.HarvestTactics.cpp:
+
+----------------------------------
+HatchSurplusProduction.cpp
+SCCS/s.HatchSurplusProduction.cpp:
+
+----------------------------------
+HatcheryProduction.cpp
+SCCS/s.HatcheryProduction.cpp:
+
+----------------------------------
+HvSummary.cpp
+SCCS/s.HvSummary.cpp:
+
+----------------------------------
+IOCrud.cpp
+SCCS/s.IOCrud.cpp:
+
+D 4.4 97/07/28 11:55:39 mpmoore 5 4	00008/00008/02572
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+MonteControl.cpp
+SCCS/s.MonteControl.cpp:
+
+----------------------------------
+MonteDataItem.cpp
+SCCS/s.MonteDataItem.cpp:
+
+----------------------------------
+MonteOutputItem.cpp
+SCCS/s.MonteOutputItem.cpp:
+
+D 4.3 97/07/28 11:55:42 mpmoore 4 3	00010/00010/00251
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+MonteStockIntrfc.cpp
+SCCS/s.MonteStockIntrfc.cpp:
+
+----------------------------------
+MonteStockTracking.cpp
+SCCS/s.MonteStockTracking.cpp:
+
+----------------------------------
+MonteTrackingItem.cpp
+SCCS/s.MonteTrackingItem.cpp:
+
+----------------------------------
+MultiCeilingPolicy.cpp
+SCCS/s.MultiCeilingPolicy.cpp:
+
+----------------------------------
+NamedPtrVec.cpp
+SCCS/s.NamedPtrVec.cpp:
+
+D 4.2 97/07/28 11:56:24 mpmoore 3 2	00001/00001/00039
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+NaturalProduction.cpp
+SCCS/s.NaturalProduction.cpp:
+
+----------------------------------
+Parser.cpp
+SCCS/s.Parser.cpp:
+
+----------------------------------
+Policy.cpp
+SCCS/s.Policy.cpp:
+
+----------------------------------
+Production.cpp
+SCCS/s.Production.cpp:
+
+----------------------------------
+RandGen.cpp
+SCCS/s.RandGen.cpp:
+
+----------------------------------
+RandNorm.cpp
+SCCS/s.RandNorm.cpp:
+
+----------------------------------
+ReadToken.cpp
+SCCS/s.ReadToken.cpp:
+
+D 4.3 97/07/28 11:55:46 mpmoore 4 3	00002/00002/00083
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+Sample.cpp
+SCCS/s.Sample.cpp:
+
+D 4.5 97/07/28 11:17:44 mpmoore 6 5	00002/00002/00163
+MRs:
+COMMENTS:
+got rid of warnings on PC>
+
+D 4.4 97/07/25 17:23:14 troy 5 4	00014/00013/00151
+MRs:
+COMMENTS:
+fixed the drand fn to properly handle multiple streams 
+
+D 4.3 97/07/25 16:59:14 mpmoore 4 3	00002/00002/00162
+MRs:
+COMMENTS:
+fixed warnings from MSVC5.0
+
+----------------------------------
+Simulation.cpp
+SCCS/s.Simulation.cpp:
+
+----------------------------------
+State.cpp
+SCCS/s.State.cpp:
+
+----------------------------------
+Stock.cpp
+SCCS/s.Stock.cpp:
+
+D 4.3 97/07/28 11:55:44 mpmoore 4 3	00003/00001/00368
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+StockCalib.cpp
+SCCS/s.StockCalib.cpp:
+
+D 4.3 97/07/28 11:55:47 mpmoore 4 3	00000/00001/00656
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+StockConfig.cpp
+SCCS/s.StockConfig.cpp:
+
+----------------------------------
+StockSummary.cpp
+SCCS/s.StockSummary.cpp:
+
+----------------------------------
+String.cpp
+SCCS/s.String.cpp:
+
+----------------------------------
+Strtools.cpp
+SCCS/s.Strtools.cpp:
+
+----------------------------------
+Token.cpp
+SCCS/s.Token.cpp:
+
+----------------------------------
+ZasCalibration.cpp
+SCCS/s.ZasCalibration.cpp:
+
+D 1.4 97/07/28 11:56:23 mpmoore 4 3	00002/00001/00149
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZasDialogMedBPHR.cpp
+SCCS/s.ZasDialogMedBPHR.cpp:
+
+D 4.5 97/08/05 14:34:14 mpmoore 6 5	00006/00000/00112
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+D 4.4 97/07/28 11:55:49 mpmoore 5 4	00001/00001/00111
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZasDialogMedPNV.cpp
+SCCS/s.ZasDialogMedPNV.cpp:
+
+D 4.6 97/08/05 14:34:15 mpmoore 7 6	00005/00000/00127
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+D 4.5 97/08/01 15:55:46 mpmoore 6 5	00023/00000/00104
+MRs:
+COMMENTS:
+set scroller ranges to [0 - 1]
+
+D 4.4 97/07/28 11:55:51 mpmoore 5 4	00001/00001/00103
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZasGraphMedMonteCarlo.cpp
+SCCS/s.ZasGraphMedMonteCarlo.cpp:
+
+D 1.8 97/08/05 11:29:44 mpmoore 8 7	00001/00001/00150
+MRs:
+COMMENTS:
+fixed printing and monte carlo run bugs
+
+D 1.7 97/08/01 14:05:46 mpmoore 7 6	00010/00001/00141
+MRs:
+COMMENTS:
+added dotted line to graphs
+
+D 1.6 97/07/31 16:43:11 mpmoore 6 5	00038/00015/00104
+MRs:
+COMMENTS:
+fixed min/max/median calculations.
+
+D 1.5 97/07/29 14:27:32 mpmoore 5 4	00011/00004/00108
+MRs:
+COMMENTS:
+fixed mouse pointer in graph problems
+
+D 1.4 97/07/28 11:56:26 mpmoore 4 3	00003/00004/00109
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZasGraphUpdateMed.cpp
+SCCS/s.ZasGraphUpdateMed.cpp:
+
+----------------------------------
+ZasMapMedCrispHarvest.cpp
+SCCS/s.ZasMapMedCrispHarvest.cpp:
+
+D 4.5 97/07/28 11:56:21 mpmoore 6 5	00001/00002/00258
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZasMediatorFactory.cpp
+SCCS/s.ZasMediatorFactory.cpp:
+
+D 4.5 97/08/05 14:34:12 mpmoore 6 5	00073/00024/00332
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+----------------------------------
+ZasMonteCarlo.cpp
+SCCS/s.ZasMonteCarlo.cpp:
+
+D 4.6 97/08/05 11:29:36 mpmoore 7 6	00001/00000/00098
+MRs:
+COMMENTS:
+fixed printing and monte carlo run bugs
+
+D 4.5 97/07/28 11:55:52 mpmoore 6 5	00002/00002/00096
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZasTabDialogCeilings.cpp
+SCCS/s.ZasTabDialogCeilings.cpp:
+
+D 4.4 97/07/28 11:55:55 mpmoore 5 4	00003/00003/00039
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZasTabDialogENH.cpp
+SCCS/s.ZasTabDialogENH.cpp:
+
+D 4.4 97/07/31 15:04:06 mpmoore 5 4	00010/00007/00040
+MRs:
+COMMENTS:
+some fields made read-only
+
+----------------------------------
+ZasTabDialogMedCeilings.cpp
+SCCS/s.ZasTabDialogMedCeilings.cpp:
+
+D 4.8 97/08/05 14:34:17 mpmoore 9 8	00006/00000/00199
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+D 4.7 97/07/30 11:42:17 mpmoore 8 7	00003/00001/00196
+MRs:
+COMMENTS:
+really fixed it this time
+
+D 4.6 97/07/30 10:34:22 mpmoore 7 6	00011/00004/00186
+MRs:
+COMMENTS:
+fixed check-all boxes
+
+D 4.5 97/07/28 16:42:56 mpmoore 6 5	00004/00004/00186
+MRs:
+COMMENTS:
+fixed crashing bug on last pane of Catch Ceilings dialog
+
+D 4.4 97/07/28 11:55:54 mpmoore 5 4	00003/00004/00187
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZasTabDialogMedENH.cpp
+SCCS/s.ZasTabDialogMedENH.cpp:
+
+D 4.9 97/08/05 14:34:19 mpmoore 10 9	00006/00000/00155
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+D 4.8 97/08/04 13:40:52 mpmoore 9 8	00001/00001/00154
+MRs:
+COMMENTS:
+fixed a caption string.
+
+D 4.7 97/07/31 15:04:07 mpmoore 8 7	00017/00039/00138
+MRs:
+COMMENTS:
+some fields made read-only
+
+D 4.6 97/07/30 10:34:24 mpmoore 7 6	00007/00000/00170
+MRs:
+COMMENTS:
+fixed check-all boxes
+
+D 4.5 97/07/28 11:55:57 mpmoore 6 5	00001/00001/00169
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZasTabDialogMedEV.cpp
+SCCS/s.ZasTabDialogMedEV.cpp:
+
+D 4.7 97/08/05 14:34:20 mpmoore 8 7	00005/00000/00138
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+D 4.6 97/07/31 10:36:28 mpmoore 7 6	00023/00000/00115
+MRs:
+COMMENTS:
+slider range now 0.0 - 10.0
+
+D 4.5 97/07/30 10:34:26 mpmoore 6 5	00007/00000/00108
+MRs:
+COMMENTS:
+fixed check-all boxes
+
+D 4.4 97/07/28 11:55:58 mpmoore 5 4	00001/00001/00107
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZasTabDialogMedHRS.cpp
+SCCS/s.ZasTabDialogMedHRS.cpp:
+
+D 4.6 97/08/05 14:34:22 mpmoore 7 6	00005/00000/00135
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+D 4.5 97/07/30 10:34:28 mpmoore 6 5	00007/00000/00128
+MRs:
+COMMENTS:
+fixed check-all boxes
+
+D 4.4 97/07/28 11:56:00 mpmoore 5 4	00001/00001/00127
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZasTabDialogMedIDL.cpp
+SCCS/s.ZasTabDialogMedIDL.cpp:
+
+D 4.6 97/08/05 14:34:23 mpmoore 7 6	00005/00000/00115
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+D 4.5 97/07/30 10:34:30 mpmoore 6 5	00007/00000/00108
+MRs:
+COMMENTS:
+fixed check-all boxes
+
+D 4.4 97/07/28 11:56:01 mpmoore 5 4	00001/00001/00107
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZasTabDialogMedMR.cpp
+SCCS/s.ZasTabDialogMedMR.cpp:
+
+D 1.6 97/08/05 14:34:25 mpmoore 6 5	00005/00000/00163
+MRs:
+COMMENTS:
+only one slider dialog of each type can exist
+
+D 1.5 97/08/01 15:55:48 mpmoore 5 4	00023/00000/00140
+MRs:
+COMMENTS:
+set scroller ranges to [0 - 1]
+
+D 1.4 97/07/30 10:34:35 mpmoore 4 3	00007/00000/00133
+MRs:
+COMMENTS:
+fixed check-all boxes
+
+D 1.3 97/07/28 11:56:27 mpmoore 3 2	00001/00001/00132
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZatCheckBoxGroup.cpp
+SCCS/s.ZatCheckBoxGroup.cpp:
+
+D 4.4 97/07/28 11:56:20 mpmoore 5 4	00003/00003/00073
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZatDialogBase.cpp
+SCCS/s.ZatDialogBase.cpp:
+
+D 4.5 97/07/30 10:34:31 mpmoore 6 5	00002/00000/00185
+MRs:
+COMMENTS:
+fixed check-all boxes
+
+D 4.4 97/07/28 11:56:03 mpmoore 5 4	00007/00007/00178
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZatDialogMedBase.cpp
+SCCS/s.ZatDialogMedBase.cpp:
+
+D 4.5 97/07/30 10:34:33 mpmoore 6 5	00001/00001/00234
+MRs:
+COMMENTS:
+fixed check-all boxes
+
+D 4.4 97/07/28 11:56:04 mpmoore 5 4	00001/00001/00234
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZatEditSliderBase.cpp
+SCCS/s.ZatEditSliderBase.cpp:
+
+D 4.4 97/08/04 13:05:57 mpmoore 5 4	00002/00003/00051
+MRs:
+COMMENTS:
+fixed graph x-axis again, fixed edit sliders
+
+----------------------------------
+ZatEditSliderDouble.cpp
+SCCS/s.ZatEditSliderDouble.cpp:
+
+D 4.5 97/08/13 10:29:16 mpmoore 6 5	00007/00004/00098
+MRs:
+COMMENTS:
+fixed bug - range not being set in constructor.
+
+D 4.4 97/08/04 13:06:03 mpmoore 5 4	00014/00015/00088
+MRs:
+COMMENTS:
+fixed graph x-axis again, fixed edit sliders
+
+----------------------------------
+ZatEditSliderLong.cpp
+SCCS/s.ZatEditSliderLong.cpp:
+
+D 4.5 97/08/13 10:29:15 mpmoore 6 5	00010/00004/00100
+MRs:
+COMMENTS:
+fixed bug - range not being set in constructor.
+
+D 4.4 97/08/04 13:06:04 mpmoore 5 4	00014/00015/00090
+MRs:
+COMMENTS:
+fixed graph x-axis again, fixed edit sliders
+
+----------------------------------
+ZatGraphDialog.cpp
+SCCS/s.ZatGraphDialog.cpp:
+
+D 4.10 97/08/05 11:29:37 mpmoore 11 10	00120/00146/00458
+MRs:
+COMMENTS:
+fixed printing and monte carlo run bugs
+
+D 4.9 97/08/04 13:05:59 mpmoore 10 9	00015/00000/00589
+MRs:
+COMMENTS:
+fixed graph x-axis again, fixed edit sliders
+
+D 4.8 97/08/01 14:05:40 mpmoore 9 8	00024/00005/00565
+MRs:
+COMMENTS:
+added dotted line to graphs
+
+D 4.7 97/07/31 13:26:58 mpmoore 8 7	00011/00020/00559
+MRs:
+COMMENTS:
+fixed help button in graph dialogs.
+
+D 4.6 97/07/29 14:27:27 mpmoore 7 6	00034/00015/00545
+MRs:
+COMMENTS:
+fixed mouse pointer in graph problems
+
+D 4.5 97/07/28 11:56:06 mpmoore 6 5	00004/00005/00556
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+D 4.4 97/07/10 11:10:39 mpmoore 5 4	00005/00002/00556
+MRs:
+COMMENTS:
+fixed bug - double delete of "labelFont_"
+
+----------------------------------
+ZatGraphicPane.cpp
+SCCS/s.ZatGraphicPane.cpp:
+
+D 1.3 97/08/05 11:29:42 mpmoore 3 2	00020/00016/00009
+MRs:
+COMMENTS:
+fixed printing and monte carlo run bugs
+
+----------------------------------
+ZatImplicitScroller.cpp
+SCCS/s.ZatImplicitScroller.cpp:
+
+----------------------------------
+ZatMapMediator.cpp
+SCCS/s.ZatMapMediator.cpp:
+
+----------------------------------
+ZatMapPane.cpp
+SCCS/s.ZatMapPane.cpp:
+
+----------------------------------
+ZatMercatorTransform.cpp
+SCCS/s.ZatMercatorTransform.cpp:
+
+D 1.4 97/08/08 15:25:30 mpmoore 4 3	00004/00000/00084
+MRs:
+COMMENTS:
+work around PC optimization bug
+
+D 1.3 97/07/28 11:56:29 mpmoore 3 2	00003/00003/00081
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZatPointTransform.cpp
+SCCS/s.ZatPointTransform.cpp:
+
+----------------------------------
+ZatRowColumnBox.cpp
+SCCS/s.ZatRowColumnBox.cpp:
+
+D 4.5 97/07/28 11:56:08 mpmoore 6 5	00006/00005/00075
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZatTabDialog.cpp
+SCCS/s.ZatTabDialog.cpp:
+
+D 4.4 97/07/28 11:56:10 mpmoore 5 4	00009/00009/00110
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+ZatTabDialogMed.cpp
+SCCS/s.ZatTabDialogMed.cpp:
+
+----------------------------------
+base_tokens.cpp
+SCCS/s.base_tokens.cpp:
+
+----------------------------------
+c2main.cpp
+SCCS/s.c2main.cpp:
+
+D 4.11 97/08/28 14:46:07 mpmoore 12 11	00002/00002/00434
+MRs:
+COMMENTS:
+fixed interface to help file.
+
+D 4.10 97/08/07 16:52:05 mpmoore 11 10	00002/00002/00434
+MRs:
+COMMENTS:
+version 3.0.6 declared, has various bug fixes.
+
+D 4.9 97/07/31 13:26:56 mpmoore 10 9	00013/00009/00423
+MRs:
+COMMENTS:
+fixed help button in graph dialogs.
+
+D 4.8 97/07/28 11:36:10 mpmoore 9 8	00000/00001/00432
+MRs:
+COMMENTS:
+warning cleanup on PC
+
+D 4.7 97/07/09 11:10:40 troy 8 7	00001/00000/00432
+MRs:
+COMMENTS:
+added include
+
+----------------------------------
+clog.cpp
+SCCS/s.clog.cpp:
+
+----------------------------------
+command.cpp
+SCCS/s.command.cpp:
+
+D 4.3 97/07/28 11:36:12 mpmoore 4 3	00001/00001/00223
+MRs:
+COMMENTS:
+warning cleanup on PC
+
+----------------------------------
+datFisheryCeilings.cpp
+SCCS/s.datFisheryCeilings.cpp:
+
+----------------------------------
+datIntDouble.cpp
+SCCS/s.datIntDouble.cpp:
+
+----------------------------------
+debug.cpp
+SCCS/s.debug.cpp:
+
+----------------------------------
+dir.cpp
+SCCS/s.dir.cpp:
+
+D 4.2 97/07/09 11:09:55 troy 3 2	00001/00001/00192
+MRs:
+COMMENTS:
+changed index() to strchr()
+
+----------------------------------
+engine.cpp
+SCCS/s.engine.cpp:
+
+----------------------------------
+globals.cpp
+SCCS/s.globals.cpp:
+
+----------------------------------
+idcBPHR.cpp
+SCCS/s.idcBPHR.cpp:
+
+----------------------------------
+idcCeilings.cpp
+SCCS/s.idcCeilings.cpp:
+
+D 4.2 97/07/28 16:42:18 mpmoore 3 2	00003/00003/00078
+MRs:
+COMMENTS:
+fixed crashing bug on last pane of Catch Ceilings dialog
+
+----------------------------------
+idcENH.cpp
+SCCS/s.idcENH.cpp:
+
+----------------------------------
+idcEV.cpp
+SCCS/s.idcEV.cpp:
+
+----------------------------------
+idcHRS.cpp
+SCCS/s.idcHRS.cpp:
+
+----------------------------------
+idcIDL.cpp
+SCCS/s.idcIDL.cpp:
+
+----------------------------------
+idcMR.cpp
+SCCS/s.idcMR.cpp:
+
+----------------------------------
+idcPNV.cpp
+SCCS/s.idcPNV.cpp:
+
+----------------------------------
+implicit_base.cpp
+SCCS/s.implicit_base.cpp:
+
+----------------------------------
+include.cpp
+SCCS/s.include.cpp:
+
+----------------------------------
+init.cpp
+SCCS/s.init.cpp:
+
+----------------------------------
+log.cpp
+SCCS/s.log.cpp:
+
+----------------------------------
+mapController.cpp
+SCCS/s.mapController.cpp:
+
+D 4.5 97/07/28 11:56:11 mpmoore 7 6	00000/00001/00133
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+mapObject.cpp
+SCCS/s.mapObject.cpp:
+
+----------------------------------
+monte_tokens.cpp
+SCCS/s.monte_tokens.cpp:
+
+----------------------------------
+parseutil.cpp
+SCCS/s.parseutil.cpp:
+
+----------------------------------
+resfile.cpp
+----------------------------------
+simple_output.cpp
+SCCS/s.simple_output.cpp:
+
+----------------------------------
+statistics.cpp
+SCCS/s.statistics.cpp:
+
+D 4.2 97/07/28 11:56:13 mpmoore 3 2	00001/00001/00037
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+version.cpp
+SCCS/s.version.cpp:
+
+----------------------------------
+zcGMF_AbundanceIndex.cpp
+SCCS/s.zcGMF_AbundanceIndex.cpp:
+
+----------------------------------
+zcGMF_CatchPreterm.cpp
+SCCS/s.zcGMF_CatchPreterm.cpp:
+
+D 4.3 97/07/31 11:43:58 mpmoore 4 3	00001/00001/00058
+MRs:
+COMMENTS:
+now getting proper terminal and preterminal total catches.
+
+----------------------------------
+zcGMF_CatchTerminal.cpp
+SCCS/s.zcGMF_CatchTerminal.cpp:
+
+D 4.3 97/07/31 11:43:57 mpmoore 4 3	00002/00005/00058
+MRs:
+COMMENTS:
+now getting proper terminal and preterminal total catches.
+
+----------------------------------
+zcGMF_CatchTotal.cpp
+SCCS/s.zcGMF_CatchTotal.cpp:
+
+----------------------------------
+zcGMF_InMortLegal.cpp
+SCCS/s.zcGMF_InMortLegal.cpp:
+
+----------------------------------
+zcGMF_InMortSublegal.cpp
+SCCS/s.zcGMF_InMortSublegal.cpp:
+
+----------------------------------
+zcGMF_InMortTotal.cpp
+SCCS/s.zcGMF_InMortTotal.cpp:
+
+----------------------------------
+zcGMH_HarvestGraphs.cpp
+SCCS/s.zcGMH_HarvestGraphs.cpp:
+
+D 4.4 97/08/05 11:29:39 mpmoore 5 4	00002/00000/00125
+MRs:
+COMMENTS:
+fixed printing and monte carlo run bugs
+
+D 4.3 97/07/28 11:56:14 mpmoore 4 3	00001/00001/00124
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+zcGMS_Abundance.cpp
+SCCS/s.zcGMS_Abundance.cpp:
+
+----------------------------------
+zcGMS_CNRGraphs.cpp
+SCCS/s.zcGMS_CNRGraphs.cpp:
+
+----------------------------------
+zcGMS_CatchGraphs.cpp
+SCCS/s.zcGMS_CatchGraphs.cpp:
+
+----------------------------------
+zcGMS_Escapement.cpp
+SCCS/s.zcGMS_Escapement.cpp:
+
+----------------------------------
+zcGMS_TrueTermRun.cpp
+SCCS/s.zcGMS_TrueTermRun.cpp:
+
+----------------------------------
+zcGM_YearAgeGraph.cpp
+SCCS/s.zcGM_YearAgeGraph.cpp:
+
+D 4.6 97/08/01 14:05:43 mpmoore 7 6	00004/00002/00104
+MRs:
+COMMENTS:
+added dotted line to graphs
+
+D 4.5 97/07/29 14:27:29 mpmoore 6 5	00005/00003/00101
+MRs:
+COMMENTS:
+fixed mouse pointer in graph problems
+
+D 4.4 97/07/28 11:56:16 mpmoore 5 4	00002/00005/00102
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+zcGM_YearGraph.cpp
+SCCS/s.zcGM_YearGraph.cpp:
+
+D 4.6 97/08/01 14:05:45 mpmoore 7 6	00004/00002/00097
+MRs:
+COMMENTS:
+added dotted line to graphs
+
+D 4.5 97/07/29 14:27:31 mpmoore 6 5	00003/00003/00096
+MRs:
+COMMENTS:
+fixed mouse pointer in graph problems
+
+D 4.4 97/07/28 11:56:17 mpmoore 5 4	00002/00004/00097
+MRs:
+COMMENTS:
+warning cleanup for PC
+
+----------------------------------
+zcGraphMediator.cpp
+SCCS/s.zcGraphMediator.cpp:
+
+D 4.7 97/08/05 11:29:41 mpmoore 8 7	00005/00004/00220
+MRs:
+COMMENTS:
+fixed printing and monte carlo run bugs
+
+D 4.6 97/08/04 13:06:01 mpmoore 7 6	00005/00003/00219
+MRs:
+COMMENTS:
+fixed graph x-axis again, fixed edit sliders
+
+D 4.5 97/08/01 14:05:42 mpmoore 6 5	00006/00002/00216
+MRs:
+COMMENTS:
+added dotted line to graphs
+
+----------------------------------
+zcMouseTool.cpp
+SCCS/s.zcMouseTool.cpp:
+
+----------------------------------
+zcMouseToolCrisp2.cpp
+SCCS/s.zcMouseToolCrisp2.cpp:
+
+----------------------------------
+file.c
+SCCS/s.file.c:
+
+----------------------------------

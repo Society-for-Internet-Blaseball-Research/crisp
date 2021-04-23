@@ -1,0 +1,64 @@
+h18638
+s 00000/00000/00048
+d D 1.2 97/12/17 10:44:28 camel 2 1
+c format changes
+e
+s 00048/00000/00000
+d D 1.1 97/09/12 14:49:54 mpmoore 1 0
+c date and time created 97/09/12 14:49:54 by mpmoore
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>Setting Catch Ceilings</title></head>
+<body>
+ 
+<a href="toc.html">[Chapter Contents]</a> 
+
+<hr>
+ 
+<a name="672700">
+<h2>  Setting Catch Ceilings</h2>
+</a>
+
+<a name="673461">
+For catch ceiling management, the simulation period is divided into two time segments. The base period includes the years 1979 to 1984 (i.e., years prior to enactment of the PST). The simulation period includes year 1985 and beyond.<p>
+</a>
+
+<a name="673215">
+Catch ceilings are established in two steps. During data entry, base period (1979-1984) catches for each fishery (from the <b><code>*.cei</code></b> file) are summed and averaged. Catches for the remaining years are divided by the average to get scalar values relating observed catches to average base period catches. During model execution, preterminal and terminal catches for each fishery are summed and averaged. At the end of the base period, the scalars computed during data entry are multiplied by the average preterminal and terminal model catches to get the catch ceilings for the remainder of the simulation period. Thus, the model catches during the ceiling management period are not equal to the catches given in the <b><code>*.cei</code></b> file, but have the same relative value compared to the base period catches. <i>Table 4.6</i> illustrates how the catch ceilings are computed.<p>
+</a>
+
+<a name="673218">
+<img src="table46.gif"> 
+</a>
+<p>
+
+<a name="673460">
+The algorithm used to keep model catches for each fishery below ceilings (or equal to quotas, if forcing is specified) depends on whether or not any ceilinged fisheries have both preterminal and terminal harvests. If a fishery has only preterminal harvests, the model simulates the effects of ceiling management policies by calculating catches in two passes. The first pass calculates catch as if no ceiling were present. The ratio of the ceiling divided by the total catch of all stocks in the fishery is then calculated. This ratio is the basis for adjustment during the second pass. If the ratio is less than one (i.e., the ceiling is less than the computed catch), the catch is reduced by multiplying the age-specific catch of each stock by the ratio. If the ratio is greater than one and the user specifies quota management, the catch is increased to meet the quota; if the ratio is greater than one and ceiling management is specified, no adjustment to catch is made.<p>
+</a>
+
+<a name="673463">
+Fisheries that are "terminal" for one or more stocks must use an iterative procedure to compute the appropriate adjustment ratios. This is because preterminal catches are computed prior to the calculation of mature run sizes and terminal catches. For each fishery, the procedure is as follows:<p>
+</a><ul><a name="673464">
+<li>Compute ocean catches and mature run sizes
+</a><a name="673465">
+<li>Compute terminal catches by age and stock, using any specified fishery policies
+</a><a name="673466">
+<li>Compute a cumulative ratio as the previous ratio (= 1 on the first iteration) multiplied by the ratio between the ceiling and the total catch for all stocks
+</a><a name="673467">
+<li>Process the ceiling according to the same procedure described for ocean fisheries
+</a><a name="673468">
+<li>Repeat the procedure until the computed catch using the cumulative ratio factor is within .999 of the specified ceiling level.
+</a></ul><a name="673469">
+In instances where a fishery is (1) terminal for a particular stock and (2) the terminal run size after fishing exceeds the specified spawning escapement goal, any catch ceilings specified for that fishery will not include the harvest of fish in excess of the spawning escapement goal.<p>
+</a>
+<hr>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+</body>
+</html>
+E 1

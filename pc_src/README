@@ -1,0 +1,8 @@
+ To build a PC version, FTP everything in /proj/crisp2/src to
+c:\Workshop\crisp2\src, then FTP everything in /proj/crisp2/pc_src to the
+same place, then fire up Dev Studio with VC++ 5.0 and Rebuild All.
+
+ This directory contains file which exist for the PC only and not for the
+Unix version of Crisp2.
+
+

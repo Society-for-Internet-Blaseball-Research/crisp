@@ -1,0 +1,95 @@
+h61520
+s 00000/00000/00079
+d D 1.2 97/12/17 10:32:25 camel 2 1
+c not used anymore, replaced with *.html
+e
+s 00083/00000/00000
+d D 1.1 97/12/15 11:19:23 troy 1 0
+c date and time created 97/12/15 11:19:23 by troy
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>1.2 -  General Description</title></head>
+<body>
+ 
+<a href="intro.htm">[Chapter Contents]</a>
+
+<hr><br>
+ 
+<a name="185253">
+<h1> 1.2 -  General Description</h1>
+</a>
+CRiSP Harvest is a user-friendly, interactive chinook salmon harvest forecasting model. It is based on the forecasting portion of the Pacific Salmon Commission (PSC) Chinook Model, which is written in Microsoft QuickBasic(TM) and runs under the PC MS-DOS platform. CRiSP Harvest is written in the C++ language and was originally designed to run on Sun workstations using the UNIX operating system. A Windows 95/NT version has been under development since 1996.<p>
+
+The PSC Chinook Model was developed by the PSC Chinook Technical Committee to examine alternative management approaches to implement the PSC chinook rebuilding program (the next section contains a brief history of the model). The model is capable of simulating a large number of years, stocks (hatchery and natural), and fisheries (troll, net, and sport) (<a href="intro2.htm#table11">Table 1.1</a> and <a href="intro2.htm#table12">Table 1.2</a>). A key feature of the model is the interaction between stocks through annual catch ceilings imposed upon fisheries that harvest multiple stocks. As stocks rebuild or decline at different rates over time, relative harvest rates in ceilinged fisheries also change. Single stock models cannot simulate this type of interaction.<p>
+
+Simulations are divided into two time periods: (1) a calibration period; and (2) a management simulation period. The calibration period runs from 1979 through the last year for which model parameters can be estimated (usually one year behind the current year). The simulation period runs from the current year to any future year (usually about 10-15 years in the future). The PSC Chinook Model produces information to help evaluate the effects of changes in brood year survival rates and several management actions:<p>
+<ul><a name="184702">
+<li>pre-recruitment (i.e., age one) survival projections
+</a><a name="184626">
+<li>pre-spawning survival (i.e., inter-dam losses)
+</a><a name="185505">
+<li>enhancement activities
+</a><a name="184703">
+<li>catch ceilings (catch quotas)
+</a><a name="184706">
+<li>harvest rate strategies
+</a><a name="184708">
+<li>size limits.
+</ul>
+</a>
+Parameters must be estimated and the model must be calibrated to produce useful results. The calibrated parameters provided with this version of the model were obtained from the PSC Chinook Technical Committee and were based on the best available information through 1995. These parameters are stored in temporary files in ASCII text format which can be read by CRiSP Harvest without modification.<p>
+
+Production parameters for both hatchery and natural stocks are estimated from historical data. Ocean survival rates for ages one through five are assumed fixed (at 0.5, 0.6, 0.7, 0.8, and 0.9, respectively) for all stocks. Survival rates to age one (also called Environmental Variability, or "EV," scalars) are estimated during the calibration process. Other parameters are estimated by a technique known as "cohort analysis" or "virtual population analysis." This type of analysis involves the reconstruction of an annual series of abundance estimates using catch and escapement data and making assumptions about natural and incidental mortalities. Once each cohort has been reconstructed, the following parameters are estimated:<p>
+<a name="184628">
+<ul>
+<li>Cohort size for each age class at the beginning of each year
+</a><a name="184629">
+<li>Age specific harvest rates for each fishery
+</a><a name="184630">
+<li>Maturity schedule for all ages
+</a><a name="184631">
+<li>Estimates of incidental fishing mortalities.
+</ul>
+</a>
+The model is calibrated by finding a suite of stock and year-specific smolt to age one survival rates (EV scalars) that results in model outputs that most closely match user specific terminal run sizes, escapements, or catches for individual stocks during the base period. The user specifies the EV scalars for the simulation period, often taken to be the average of the base period values. The model results are known to be sensitive to the selection of the EV scalars for the simulation period.<p>
+
+Management changes are evaluated by changing key parameters, such as future catch ceilings or harvest rates, and rerunning the model. In the QuickBasic(TM) version of the PSC Chinook Model, parameters are changed by opening appropriate ASCII data files and changing the appropriate data fields. This process also involves changing file names in control files. A 25 year simulation with 30 stocks and 25 fisheries takes three to five minutes using a PC computer with a 486 microprocessor. Output data are displayed by downloading to data files which must be imported into other analysis programs, such as a spreadsheet.<p>
+
+CRiSP Harvest allows the operator to change parameters and view results interactively. Parameter values can be changed by using the mouse or keyboard. Results can be presented in graphical form on the screen immediately after a simulation run (graphs can also be printed), or can be downloaded to data files for archiving or further analysis.<p>
+<hr><br>
+ 
+<a href="ch_manual.html">[Manual Contents]</a> 
+
+
+<!Page "table11">
+<a href="intro.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="table11">
+<img src="table11.gif">
+</a>
+<p>
+<hr><br>
+ 
+<a href="ch_manual.html">[Manual Contents]</a> 
+<!Page "table12">
+<a href="intro.htm">[Chapter Contents]</a> 
+<hr><br>
+
+<a name="table12">
+<img src="table12.gif">
+</a>
+<p>
+
+<hr><br>
+ 
+<a href="ch_manual.html">[Manual Contents]</a> 
+ 
+</body>
+</html>
+E 1

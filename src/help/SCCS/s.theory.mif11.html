@@ -1,0 +1,158 @@
+h00175
+s 00000/00000/00142
+d D 1.2 97/12/17 10:44:19 camel 2 1
+c format changes
+e
+s 00142/00000/00000
+d D 1.1 97/09/12 14:49:47 mpmoore 1 0
+c date and time created 97/09/12 14:49:47 by mpmoore
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>Natural Stocks</title></head>
+<body>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+
+<hr>
+ 
+<a name="673506">
+<h2>  Natural Stocks</h2>
+</a><a name="673139">
+All natural stocks incorporate a truncated Ricker Spawner/Recruit Relationship (SRR) relating spawners to adult equivalent recruitment. The general form of the Ricker SRR is:<p>
+</a><a name="673181">
+<p>
+</a><a name="673141"> <img src="theory.mif.anc15.gif"></a> <img src="sp.gif"><b>[4.7]</b> <p>
+
+<a name="673134">
+where<p>
+</a><ul><a name="673135">
+<li><em>Spawners</em> = number of adult spawners on the spawning grounds
+</a><a name="673308">
+<li><em>Recruits</em> = number of adults recruiting to the fishery
+</a><a name="673318">
+<li><img src="alpha.gif" alt="alpha"> = productivity parameter
+</a><a name="673470">
+<li><img src="beta.gif" alt="beta"> = capacity parameter.
+</a></ul>
+
+<a name="673143">
+The general form of the Ricker SRR is illustrated in <i>Fig. 4.4</i>. The slope of the curve at the origin is <img src="eq46b.gif"> and <img src="beta.gif" alt="beta"> is the spawning level at the point where the SRR intersects the exact replacement line (in most cases, this is equivalent to the equilibrium condition in the absence of harvesting). <p>
+</a>
+
+<a name="673146">
+ 
+<a name="673145">
+<b>Fig. 4.4</b> Typical Ricker spawner-recruit relationship. <img src="sopt.gif" align="top"> is the spawning level that produces maximum sustainable harvest (i.e., maximum difference between recruitment and exact replacement line), <img src="smax.gif" align="top"> produces the maximum number of recruits, and <img src="beta.gif" alt="beta"> is the equilibrium spawning level in the absence of harvest.
+</a>
+<br>
+<img src="fig44.gif">
+<p>
+</a>
+
+<a name="673148">
+For each stock, the input data files provide <img src="alpha.gif" alt="alpha">, but not <em><img src="beta.gif" alt="beta"></em>. Instead the model inputs the estimated optimum number of spawners (<img src="sopt.gif" align="top">), as determined from historical data and field observations. The Ricker <img src="beta.gif" alt="beta"> parameter is then computed from <img src="sopt.gif" align="top"> and <img src="alpha.gif" alt="alpha"> using the approximation given by Hilborn (1985):<p>
+</a><a name="673475">
+<p>
+</a><a name="673150"> <img src="theory.mif.anc16.gif"></a> <img src="sp.gif"><b>[4.8]</b> <p>
+
+<a name="673477">
+Maximum production (<img src="smax.gif" align="top">) is given by<p>
+</a>
+<a name="673478"> <img src="theory.mif.anc17.gif"></a> <img src="sp.gif"><b>[4.9]</b> <p>
+
+<a name="673156">
+Note that <em>Recruits</em> in <i>eq (4.7)</i> includes ages two through five. For modeling purposes, it is necessary to simulate the production of <em>AgeOneFish</em>, not the mature fish recruiting to the fishery. For chinook salmon stocks, several year classes may contribute to the spawning stock. In the equilibrium condition with no fishing, the age distribution is stationary and there is a constant linear relationship between adult recruitment and <em>AgeOneFish</em> (<i>Fig. 4.5</i>).
+<p>
+ 
+<a name="673158">
+<b>Fig. 4.5</b> Illustration of abundance and recruitment when there is no fishing mortality and the age distribution is stationary.
+</a>
+<br><img src="fig45.gif">
+
+<p>
+</a>
+
+<a name="673159">
+For ages three, four and five, the abundance at the start of each year and the number of mature fish returning to spawn are given by<p>
+</a>
+<a name="673160"> <b><em>N(s,a)</em> = <em>N(s,a-1)SurvRt(s,a-1)(1-MatRt(s,a-1))</em></b></a> <img src="sp.gif"><b>[4.10]</b> <p>
+
+<a name="673163"> <b><em>Recruits(s,a)</em> = <em>N(s,a)SurvRt(s,a)(1-MatRt(s,a))</em></b></a> <img src="sp.gif"><b>[4.11]</b> <p>
+
+<a name="673164">
+The model relates spawners to <em>AgeOneFish</em> by computing a constant scaling factor called <em>RecAtAge1</em>. This value is computed by setting <em>N(s,1)</em> equal to one and recursively computing <em>N(s,a)</em> using <i>eq (4.10)</i> and summing <em>Recruits(s,a)</em> for ages two through five:<p>
+</a><a name="673165"> <img src="theory.mif.anc20.gif"></a> <img src="sp.gif"><b>[4.12]</b> <p>
+
+<a name="673151">
+When maturation rates are permitted to vary by year, new <em>RectAtAge1</em> parameters are computed each year. The number of AgeOneFish is computed by:<p>
+</a>
+<a name="675431"> <img src="theory.mif.anc21.gif"></a> <img src="sp.gif"><b>[4.13]</b> <p>
+
+<a name="673180">
+For natural stocks without supplementation, the Ricker SRR is truncated at either <img src="sopt.gif" align="top"> or <img src="smax.gif" align="top"> (<i>Fig. 4.6</i>).
+<p>
+ 
+<a name="673480">
+<b>Fig. 4.6</b>  Truncated Ricker curves used for natural production with no enhancement.
+</a>
+<br><img src="fig46.gif">
+<p>
+
+<a name="673471">
+<b><i>Supplementation</i></b></a><p>
+<a name="673476">
+The model allows for enhancement of natural stocks (also called supplementation) in which a portion of the natural spawners are removed for hatchery production. The number of spawners removed may not exceed a maximum allowable percentage of the adult spawners.<p>
+</a><a name="673147"> <b><em>MaxBrood(s)</em> = <em>EnhProp(s)</em>&#183;<em>Spawners(s)</em></b></a> <img src="sp.gif"><b>[4.14]</b> <p>
+<a name="673149">
+where<p>
+</a>
+<ul><a name="673153">
+<li><em>MaxBrood(s)</em> = maximum number of spawners that can be removed for supplementation for stock <em>s</em>.
+</a><a name="673197">
+<li><em>EnhProp(s)</em> = maximum enhancement proportion for stock <em>s</em>.
+</a></ul>
+
+<a name="673199">
+Smolts from hatchery production are returned back to the river of origin, and therefore may compete with the naturally produced smolts. This competition may be modeled as either density dependent or density independent. In either case, the number of spawners required to meet the smolt production goal (<em>EnhSpawners</em>) is computed using <a href="theory.mif10.html">eq (4.6)</a>, just as for hatchery stocks, truncating to <em>MaxBrood</em>, if necessary.<p>
+</a>
+
+<a name="673201">
+When density independence is assumed, natural and hatchery production are computed independently and added together. The naturally produced portion of <em>AgeOneFish</em> is computed from the remaining natural spawners (i.e., <em>Spawners(s)</em> - <em>EnhSpawn(s)</em>) using the appropriate truncated Ricker curve (<i>Fig. 4.6</i>). Hatchery produced portion of <em>AgeOneFish</em> is computed as follows: <p>
+</a>
+<a name="673177"> 
+<img src="eq415.gif"></a> 
+
+<img src="sp.gif"><b>[4.15]</b> <p>
+
+<a name="673482">
+When density dependence is assumed, <em>AgeOneFish</em> is computed using a truncated Ricker curve (<i>Fig. 4.6</i>), but the "effective" size of the spawning stock is increased to reflect the fact that eggs from some of the spawners are reared in a hatchery. The enhancement efficiency of the hatchery is given by<p>
+</a>
+<a name="673207"> <img src="theory.mif.anc24.gif"></a> <img src="sp.gif"><b>[4.16]</b> <p>
+
+<a name="673484">
+In general, <em>HatchProd(s)</em> is greater than <img src="alpha.gif" alt="alpha"><em>(s)</em> so <em>EnhEff(s)</em> is usually greater than one. The effective number of spawners is given by<p>
+</a><a name="673208">
+<p>
+</a><a name="673487"> <img src="theory.mif.anc25.gif"></a> <img src="sp.gif"><b>[4.17]</b> <p>
+
+<a name="673486">
+ 
+<a name="673155">
+<b>Fig. 4.7</b>  Production functions for natural stocks with enhancement. Ricker curves truncated at <img src="smax.gif" align="top"> are shown. Other stocks may have the Ricker curve truncated at <img src="sopt.gif" align="top">.
+</a>
+<br><img src="fig47.gif">
+<p>
+</a>
+<hr>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+
+
+</body>
+</html>
+E 1

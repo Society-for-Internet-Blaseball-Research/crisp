@@ -1,0 +1,142 @@
+.MAKE_VERSION:	VERSION-1.0
+users29d.html:
+	sccs  get -s users29d.html -Gusers29d.html
+users29c.html:
+	sccs  get -s users29c.html -Gusers29c.html
+users29b.html:
+	sccs  get -s users29b.html -Gusers29b.html
+lessons.html:
+	sccs  get -s lessons.html -Glessons.html
+users29a.html:
+	sccs  get -s users29a.html -Gusers29a.html
+.BUILT_LAST_MAKE_RUN:
+crisp2.zhp:
+	/usr/local/rwav/workspaces/SOLARIS25/SUNPRO42/12s/bin/zhc -w0 index.html readme.html faq.html  \
+	info.html info1.html info2.html \
+	info3.html info4.html info5.html info6.html info7.html ch_manual.html \
+	intro.html intro1.html intro2.html intro3.html intro4.html intro5.html \
+	intro6.html users2.html users21.html users22.html users23.html users24.html \
+	users25.html users26.html users27.html users28.html users29.html users29a.html \
+	users29b.html users29c.html users29d.html users29d1.html users29e.html \
+	users29f.html users29g.html users29h.html lessons.html toc.html \
+	theory.mif2.html theory.mif4.html theory.mif5.html theory.mif6.html \
+	theory.mif7.html theory.mif9.html theory.mif10.html theory.mif11.html \
+	theory.mif12.html theory.mif13.html theory.mif14.html theory.mif15.html \
+	theory.mif16.html theory.mif17.html theory.mif18.html theory.mif20.html \
+	theory.mif21.html theory.mif22.html theory.mif23.html theory.mif24.html \
+	theory.mif25.html mapinfo.html
+	cp index.hzhp crisp2.zhp
+info7.html:
+	sccs  get -s info7.html -Ginfo7.html
+info6.html:
+	sccs  get -s info6.html -Ginfo6.html
+info5.html:
+	sccs  get -s info5.html -Ginfo5.html
+info4.html:
+	sccs  get -s info4.html -Ginfo4.html
+info3.html:
+	sccs  get -s info3.html -Ginfo3.html
+users29.html:
+	sccs  get -s users29.html -Gusers29.html
+info2.html:
+	sccs  get -s info2.html -Ginfo2.html
+users28.html:
+	sccs  get -s users28.html -Gusers28.html
+info1.html:
+	sccs  get -s info1.html -Ginfo1.html
+readme.html:
+	sccs  get -s readme.html -Greadme.html
+users27.html:
+	sccs  get -s users27.html -Gusers27.html
+users26.html:
+	sccs  get -s users26.html -Gusers26.html
+users25.html:
+	sccs  get -s users25.html -Gusers25.html
+users24.html:
+	sccs  get -s users24.html -Gusers24.html
+intro.html:
+	sccs  get -s intro.html -Gintro.html
+users23.html:
+	sccs  get -s users23.html -Gusers23.html
+users22.html:
+	sccs  get -s users22.html -Gusers22.html
+ch_manual.html:
+	sccs  get -s ch_manual.html -Gch_manual.html
+users21.html:
+	sccs  get -s users21.html -Gusers21.html
+users29d1.html:
+	sccs  get -s users29d1.html -Gusers29d1.html
+mapinfo.html:
+	sccs  get -s mapinfo.html -Gmapinfo.html
+users2.html:
+	sccs  get -s users2.html -Gusers2.html
+index.html:
+	sccs  get -s index.html -Gindex.html
+toc.html:
+	sccs  get -s toc.html -Gtoc.html
+theory.mif9.html:
+	sccs  get -s theory.mif9.html -Gtheory.mif9.html
+theory.mif7.html:
+	sccs  get -s theory.mif7.html -Gtheory.mif7.html
+theory.mif6.html:
+	sccs  get -s theory.mif6.html -Gtheory.mif6.html
+theory.mif5.html:
+	sccs  get -s theory.mif5.html -Gtheory.mif5.html
+theory.mif4.html:
+	sccs  get -s theory.mif4.html -Gtheory.mif4.html
+faq.html:
+	sccs  get -s faq.html -Gfaq.html
+theory.mif2.html:
+	sccs  get -s theory.mif2.html -Gtheory.mif2.html
+theory.mif18.html:
+	sccs  get -s theory.mif18.html -Gtheory.mif18.html
+theory.mif17.html:
+	sccs  get -s theory.mif17.html -Gtheory.mif17.html
+theory.mif25.html:
+	sccs  get -s theory.mif25.html -Gtheory.mif25.html
+theory.mif16.html:
+	sccs  get -s theory.mif16.html -Gtheory.mif16.html
+theory.mif24.html:
+	sccs  get -s theory.mif24.html -Gtheory.mif24.html
+theory.mif15.html:
+	sccs  get -s theory.mif15.html -Gtheory.mif15.html
+theory.mif23.html:
+	sccs  get -s theory.mif23.html -Gtheory.mif23.html
+theory.mif14.html:
+	sccs  get -s theory.mif14.html -Gtheory.mif14.html
+theory.mif22.html:
+	sccs  get -s theory.mif22.html -Gtheory.mif22.html
+theory.mif13.html:
+	sccs  get -s theory.mif13.html -Gtheory.mif13.html
+theory.mif21.html:
+	sccs  get -s theory.mif21.html -Gtheory.mif21.html
+theory.mif12.html:
+	sccs  get -s theory.mif12.html -Gtheory.mif12.html
+theory.mif20.html:
+	sccs  get -s theory.mif20.html -Gtheory.mif20.html
+theory.mif11.html:
+	sccs  get -s theory.mif11.html -Gtheory.mif11.html
+theory.mif10.html:
+	sccs  get -s theory.mif10.html -Gtheory.mif10.html
+intro6.html:
+	sccs  get -s intro6.html -Gintro6.html
+info.html:
+	sccs  get -s info.html -Ginfo.html
+intro5.html:
+	sccs  get -s intro5.html -Gintro5.html
+intro4.html:
+	sccs  get -s intro4.html -Gintro4.html
+users29h.html:
+	sccs  get -s users29h.html -Gusers29h.html
+intro3.html:
+	sccs  get -s intro3.html -Gintro3.html
+users29g.html:
+	sccs  get -s users29g.html -Gusers29g.html
+intro2.html:
+	sccs  get -s intro2.html -Gintro2.html
+users29f.html:
+	sccs  get -s users29f.html -Gusers29f.html
+intro1.html:
+	sccs  get -s intro1.html -Gintro1.html
+users29e.html:
+	sccs  get -s users29e.html -Gusers29e.html

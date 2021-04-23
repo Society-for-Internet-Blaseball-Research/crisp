@@ -1,0 +1,1452 @@
+,RandNorm.cc
+----------------------------------
+AList.cc
+----------------------------------
+Bootstrap.cc
+D 1.1 94/05/10 12:37:57 troy 1 0	00055/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 12:37:57 by troy
+
+----------------------------------
+CNR.cc
+----------------------------------
+Calendar.cc
+----------------------------------
+Ceiling.cc
+----------------------------------
+Cohort.cc
+----------------------------------
+File.cc
+----------------------------------
+Fishery.cc
+D 1.15 94/05/23 17:25:37 troy 15 14	00008/00006/00258
+MRs:
+COMMENTS:
+decreased ceiling tolerance
+
+D 1.14 94/05/12 16:41:22 tom 14 13	00001/00002/00263
+MRs:
+COMMENTS:
+Fixed abundance index calculation.
+
+D 1.13 94/04/15 18:54:49 tom 13 12	00010/00000/00255
+MRs:
+COMMENTS:
+Added data access function (esp. summary) for graphing/summarizing.
+
+D 1.12 94/04/06 12:22:11 troy 12 11	00000/00003/00255
+MRs:
+COMMENTS:
+pnvs moved to policy object
+
+----------------------------------
+FisheryManagement.cc
+D 1.7 94/05/23 17:26:50 troy 7 6	00001/00003/00206
+MRs:
+COMMENTS:
+eliminated uneeded first pass var
+
+D 1.6 94/05/12 11:46:24 troy 6 5	00001/00001/00208
+MRs:
+COMMENTS:
+removed debugging info
+
+----------------------------------
+FisheryPolicy.cc
+D 1.7 94/04/06 10:27:08 troy 7 6	00003/00040/00037
+MRs:
+COMMENTS:
+changed pnvs to full policy variable
+
+----------------------------------
+FisherySummary.cc
+D 1.4 94/05/12 18:14:32 tom 4 3	00005/00003/00109
+MRs:
+COMMENTS:
+Filled in get_abundance_index and get_hv_ceiling_scalar
+
+D 1.3 94/04/15 18:55:22 tom 3 2	00073/00000/00039
+MRs:
+COMMENTS:
+Added some data and data access functions.
+
+D 1.2 94/04/11 13:15:39 tom 2 1	00011/00000/00028
+MRs:
+COMMENTS:
+Added hv_ceiling_scalars
+
+----------------------------------
+Fishery_UI.cc
+D 1.4 94/05/29 15:43:44 tom 4 3	00001/00000/00044
+MRs:
+COMMENTS:
+Fixed find() to return something meaningful (0) on failure.
+
+D 1.3 94/05/16 12:39:13 tom 3 2	00001/00001/00043
+MRs:
+COMMENTS:
+Fixed a slightly screwy for loop.
+
+D 1.2 94/04/11 13:13:51 tom 2 1	00018/00012/00026
+MRs:
+COMMENTS:
+Added destroy()
+
+----------------------------------
+FloatSlider.cc
+D 1.4 94/05/27 17:26:24 tom 4 3	00002/00001/00157
+MRs:
+COMMENTS:
+Added setCheckMax for unlimitted sliders.
+
+----------------------------------
+FloatSliderDisplay.cc
+----------------------------------
+GUI.cc
+D 1.4 94/04/27 15:40:12 tom 4 3	00002/00000/00026
+MRs:
+COMMENTS:
+Fixed crash when UI::mode == UI::NONE.
+
+D 1.3 94/04/15 13:34:24 surge 3 2	00001/00001/00025
+MRs:
+COMMENTS:
+Added call to destroy the Harvest_UI
+
+D 1.2 94/04/11 13:08:27 tom 2 1	00007/00000/00019
+MRs:
+COMMENTS:
+Initial creation.
+
+D 1.1 94/04/11 11:57:14 tom 1 0	00019/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/11 11:57:14 by tom
+
+----------------------------------
+Harvest.cc
+D 1.10 94/05/16 12:36:56 tom 10 9	00019/00009/00224
+MRs:
+COMMENTS:
+added get_abundance_index, privatized get_*_abundance.
+
+D 1.9 94/04/15 18:53:25 tom 9 8	00022/00000/00211
+MRs:
+COMMENTS:
+Added summary data, data access, and graphs.
+
+----------------------------------
+HarvestList.cc
+----------------------------------
+HarvestPolicy.cc
+----------------------------------
+HarvestPolicy_ui.cc
+----------------------------------
+Harvest_UI.cc
+D 1.3 94/04/21 17:45:03 surge 3 2	00006/00003/00080
+MRs:
+COMMENTS:
+Patched memory leak.
+
+D 1.2 94/04/15 13:35:24 surge 2 1	00021/00014/00062
+MRs:
+COMMENTS:
+First working version.
+
+D 1.1 94/04/13 10:34:34 surge 1 0	00076/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/13 10:34:34 by surge
+
+----------------------------------
+HatchSurplusProduction.cc
+----------------------------------
+HatcheryProduction.cc
+----------------------------------
+Hist.cc
+D 1.3 94/06/14 15:10:38 tom 3 2	00150/00073/00367
+MRs:
+COMMENTS:
+Fixed a couple bugs, added ymax setting, guessing at float precision.
+
+D 1.2 94/05/13 15:33:03 tom 2 1	00249/00090/00191
+MRs:
+COMMENTS:
+Added user settable options (min, max, bins, bin size)
+
+D 1.1 94/05/10 13:12:02 troy 1 0	00281/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 13:12:02 by troy
+
+----------------------------------
+HvSummary.cc
+----------------------------------
+IOCrud.cc
+D 1.26 94/06/15 15:07:00 troy 26 25	00004/00002/02141
+MRs:
+COMMENTS:
+a few fixes in parsing funny files
+
+D 1.25 94/06/10 16:57:31 troy 25 24	00120/00043/02023
+MRs:
+COMMENTS:
+monte carlo implementation
+
+D 1.24 94/06/03 21:19:03 tom 24 23	00010/00003/02056
+MRs:
+COMMENTS:
+Fixed line 9g files (mrt by stk & fishery) -- add headers & change fname.
+
+D 1.23 94/05/31 12:58:21 troy 23 22	00103/00051/01956
+MRs:
+COMMENTS:
+allow comments in opt file, etc.
+
+D 1.22 94/05/12 18:13:00 tom 22 21	00064/00002/01943
+MRs:
+COMMENTS:
+Added write_rt()
+
+D 1.21 94/05/12 11:48:13 troy 21 20	00013/00000/01932
+MRs:
+COMMENTS:
+monte stuff
+
+D 1.20 94/05/09 11:47:27 tom 20 19	00272/00006/01660
+MRs:
+COMMENTS:
+Added output fcns (trm, ohr, thr, mrt, tim, lim, sim abd)
+
+D 1.19 94/04/15 17:29:02 troy 19 18	00015/00003/01651
+MRs:
+COMMENTS:
+get some static data
+
+D 1.18 94/04/06 12:21:36 troy 18 17	00145/00083/01509
+MRs:
+COMMENTS:
+adult eqs and maturation rates
+
+----------------------------------
+Map.cc
+D 1.8 94/06/13 16:34:26 tom 8 7	00004/00004/00234
+MRs:
+COMMENTS:
+Fixed a umr.
+
+D 1.7 94/05/31 16:26:47 tom 7 6	00015/00003/00223
+MRs:
+COMMENTS:
+Names of features now allow spaces & comments.
+
+D 1.6 94/04/11 12:05:49 tom 6 5	00022/00016/00204
+MRs:
+COMMENTS:
+Plugged a couple of memory leaks.
+
+----------------------------------
+MapManager.cc
+----------------------------------
+Map_ui.cc
+D 1.10 94/05/29 15:44:33 tom 10 9	00013/00002/00907
+MRs:
+COMMENTS:
+Mouse button events handlers now called only on button down, looking for
+
+D 1.9 94/04/28 14:04:06 surge 9 8	00007/00004/00902
+MRs:
+COMMENTS:
+Fixed memory leaks of X calls.
+
+D 1.8 94/04/15 13:30:05 surge 8 7	00018/00010/00888
+MRs:
+COMMENTS:
+Changed to new and improved Harvest callback method.
+
+D 1.7 94/04/11 12:05:50 tom 7 6	00062/00051/00836
+MRs:
+COMMENTS:
+Plugged a couple of memory leaks.
+
+----------------------------------
+MonteControl.cc
+D 1.3 94/06/17 15:17:30 troy 3 2	00001/00002/00165
+MRs:
+COMMENTS:
+non-substantive change
+
+D 1.2 94/06/10 16:58:19 troy 2 1	00102/00005/00065
+MRs:
+COMMENTS:
+initial monte carlo module
+
+D 1.1 94/05/10 12:40:05 troy 1 0	00070/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 12:40:05 by troy
+
+----------------------------------
+MonteDataItem.cc
+D 1.2 94/06/10 16:58:20 troy 2 1	00000/00000/00008
+MRs:
+COMMENTS:
+initial monte carlo module
+
+D 1.1 94/05/10 12:40:04 troy 1 0	00008/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 12:40:04 by troy
+
+----------------------------------
+MonteOutputItem.cc
+D 1.2 94/06/10 16:58:21 troy 2 1	00003/00000/00087
+MRs:
+COMMENTS:
+initial monte carlo module
+
+D 1.1 94/05/10 12:40:06 troy 1 0	00087/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 12:40:06 by troy
+
+----------------------------------
+MonteStockIntrfc.cc
+D 1.2 94/06/10 16:58:22 troy 2 1	00000/00000/00043
+MRs:
+COMMENTS:
+initial monte carlo module
+
+D 1.1 94/05/10 12:40:09 troy 1 0	00043/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 12:40:09 by troy
+
+----------------------------------
+MonteStockOutput.cc
+D 1.2 94/06/10 16:58:23 troy 2 1	00001/00001/00032
+MRs:
+COMMENTS:
+initial monte carlo module
+
+D 1.1 94/05/10 12:40:08 troy 1 0	00033/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 12:40:08 by troy
+
+----------------------------------
+NAList.cc
+----------------------------------
+NaturalProduction.cc
+----------------------------------
+PercentileGraph.cc
+D 1.3 94/06/14 15:06:17 tom 3 2	00100/00030/00075
+MRs:
+COMMENTS:
+added interposed destroy func, changed data management slightly.
+
+D 1.2 94/06/03 21:18:22 tom 2 1	00045/00036/00060
+MRs:
+COMMENTS:
+Fixed a bug (bzeroing doubles instead of floats)
+
+D 1.1 94/05/31 17:21:34 tom 1 0	00096/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/31 17:21:34 by tom
+
+----------------------------------
+Production.cc
+----------------------------------
+RandGen.cc
+D 1.1 94/05/10 12:37:58 troy 1 0	00005/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 12:37:58 by troy
+
+----------------------------------
+RandNorm.cc
+D 1.1 94/06/17 16:37:11 troy 1 0	00031/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/06/17 16:37:11 by troy
+
+----------------------------------
+Range.cc
+----------------------------------
+Stock.cc
+D 1.15 94/05/17 13:05:26 troy 15 14	00014/00001/00293
+MRs:
+COMMENTS:
+new monte stuff plus a silly NonNeg() call for psc compatibility
+
+D 1.14 94/05/09 16:41:36 tom 14 13	00031/00022/00263
+MRs:
+COMMENTS:
+Installed correct code for some summary functions.
+
+D 1.13 94/04/15 18:54:12 tom 13 12	00094/00000/00191
+MRs:
+COMMENTS:
+Added some data access (especially summary) for graphing/summarizing.
+
+D 1.12 94/04/06 17:06:29 troy 12 11	00005/00001/00186
+MRs:
+COMMENTS:
+add start year summary stats
+
+----------------------------------
+StockList.cc
+D 1.3 94/04/05 13:06:49 troy 3 2	00003/00003/00013
+MRs:
+COMMENTS:
+updated version
+
+----------------------------------
+StockPolicy.cc
+D 1.6 94/04/06 12:20:51 troy 6 5	00005/00007/00039
+MRs:
+COMMENTS:
+adult eqs from file; change maturation rt read sequence
+
+----------------------------------
+StockSummary.cc
+D 1.6 94/06/10 16:57:32 troy 6 5	00044/00000/00071
+MRs:
+COMMENTS:
+monte carlo implementation
+
+D 1.5 94/04/06 17:06:31 troy 5 4	00010/00001/00061
+MRs:
+COMMENTS:
+add start year summary stats
+
+----------------------------------
+Stock_UI.cc
+D 1.4 94/05/29 15:43:45 tom 4 3	00001/00000/00045
+MRs:
+COMMENTS:
+Fixed find() to return something meaningful (0) on failure.
+
+D 1.3 94/05/16 12:40:37 tom 3 2	00001/00001/00044
+MRs:
+COMMENTS:
+Fixed slightly screwy for loop.
+
+D 1.2 94/04/11 13:14:40 tom 2 1	00007/00001/00038
+MRs:
+COMMENTS:
+Added destroy()
+
+----------------------------------
+UIT.cc
+D 1.1 94/04/11 12:10:38 tom 1 0	00032/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/11 12:10:38 by tom
+
+----------------------------------
+UIT_BaseFrame.cc
+D 1.3 94/06/14 15:16:46 tom 3 2	00083/00024/00055
+MRs:
+COMMENTS:
+Added Monte frame, run->monte is now only run, cosmetics
+
+D 1.2 94/04/15 13:33:42 surge 2 1	00002/00001/00077
+MRs:
+COMMENTS:
+Changed to new and improved Harvest callback method.
+
+D 1.1 94/04/12 17:30:45 surge 1 0	00078/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/12 17:30:45 by surge
+
+----------------------------------
+UIT_Fishery.cc
+D 1.4 94/06/14 15:21:56 tom 4 3	00176/00153/00102
+MRs:
+COMMENTS:
+Eliminated graph_* pseudo callbacks.
+
+D 1.3 94/05/16 12:39:45 tom 3 2	00093/00000/00162
+MRs:
+COMMENTS:
+Added graphing functions for result data.
+
+D 1.2 94/04/11 13:17:22 tom 2 1	00023/00027/00139
+MRs:
+COMMENTS:
+Made pnv frames non static (one per Fishery now), removed glob. stubs.
+
+----------------------------------
+UIT_FisheryFrame.cc
+D 1.4 94/06/14 15:21:19 tom 4 3	00001/00001/00162
+MRs:
+COMMENTS:
+Rechristened Abundance button to "Abundance Index".
+
+D 1.3 94/05/16 13:27:23 tom 3 2	00062/00022/00101
+MRs:
+COMMENTS:
+Added interface to fishery summary graphs.
+
+D 1.2 94/04/11 13:20:09 tom 2 1	00000/00011/00123
+MRs:
+COMMENTS:
+Removed global stub functions.
+
+----------------------------------
+UIT_Graph.cc
+D 1.4 94/06/14 15:24:24 tom 4 3	00031/00045/00021
+MRs:
+COMMENTS:
+Changes to interface, changed ih to *ih, enhanced subclassability.
+
+D 1.3 94/04/28 18:54:31 surge 3 2	00041/00021/00025
+MRs:
+COMMENTS:
+Fixed memory leaks.
+
+D 1.2 94/04/28 18:53:42 surge 2 1	00000/00000/00046
+MRs:
+COMMENTS:
+Fixed memory leaks.
+
+----------------------------------
+UIT_Harvest.cc
+D 1.6 94/06/14 15:17:46 tom 6 5	00083/00060/00120
+MRs:
+COMMENTS:
+eliminated graph_* pseudo callbacks.
+
+D 1.5 94/05/16 13:30:46 tom 5 4	00018/00012/00162
+MRs:
+COMMENTS:
+Filled in code for graphing functions (incidental mort, mostly)
+
+D 1.4 94/04/21 17:44:48 surge 4 3	00004/00002/00170
+MRs:
+COMMENTS:
+Patched memory leak, fixed lame-oid bug.
+
+D 1.3 94/04/15 18:53:29 tom 3 2	00100/00000/00072
+MRs:
+COMMENTS:
+Added summary data, data access, and graphs.
+
+D 1.2 94/04/15 13:34:57 surge 2 1	00020/00015/00052
+MRs:
+COMMENTS:
+First working version.
+
+D 1.1 94/04/05 10:20:46 surge 1 0	00067/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/05 10:20:46 by surge
+
+----------------------------------
+UIT_HarvestFrame.cc
+D 1.4 94/06/14 15:19:13 tom 4 3	00004/00004/00209
+MRs:
+COMMENTS:
+Mods (s/graph_/display_) to bring in line with UIT_Harvest changes.
+
+D 1.3 94/04/15 18:53:30 tom 3 2	00051/00002/00162
+MRs:
+COMMENTS:
+Added summary data, data access, and graphs.
+
+D 1.2 94/04/15 13:30:43 surge 2 1	00072/00015/00092
+MRs:
+COMMENTS:
+First working version.
+
+D 1.1 94/04/05 10:19:26 surge 1 0	00107/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/05 10:19:26 by surge
+
+----------------------------------
+UIT_HarvestRateFrame.cc
+D 1.1 94/04/05 10:19:41 surge 1 0	00047/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/05 10:19:41 by surge
+
+----------------------------------
+UIT_HarvestRateScalarFrame.cc
+D 1.1 94/04/05 10:20:02 surge 1 0	00054/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/05 10:20:02 by surge
+
+----------------------------------
+UIT_MonteFrame.cc
+D 1.2 94/06/14 14:43:10 tom 2 1	00009/00007/00060
+MRs:
+COMMENTS:
+Cosmetics and min # games enforced.
+
+D 1.1 94/06/09 15:04:53 tom 1 0	00067/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/06/09 15:04:53 by tom
+
+----------------------------------
+UIT_Stock.cc
+D 1.6 94/06/14 17:13:00 tom 6 5	00029/00039/00555
+MRs:
+COMMENTS:
+Fixed some confusion about whether there's monte data or not.
+
+D 1.5 94/06/14 15:20:37 tom 5 4	00443/00281/00151
+MRs:
+COMMENTS:
+Eliminated graph_* pseudo callbacks.
+
+D 1.4 94/05/16 13:26:46 tom 4 3	00004/00004/00428
+MRs:
+COMMENTS:
+Fixed brain death caused bug in loop counters.
+
+D 1.3 94/05/16 12:49:47 tom 3 2	00172/00044/00260
+MRs:
+COMMENTS:
+Added some graphing functions, fix others to consider age  generically
+
+D 1.2 94/04/11 13:19:22 tom 2 1	00016/00021/00288
+MRs:
+COMMENTS:
+Fixed destructor, graphs.  Remove global stub functions.
+
+----------------------------------
+UIT_StockFrame.cc
+D 1.3 94/05/16 13:27:53 tom 3 2	00048/00004/00163
+MRs:
+COMMENTS:
+Added interface to stock summary graphs.
+
+D 1.2 94/04/11 13:21:23 tom 2 1	00000/00011/00167
+MRs:
+COMMENTS:
+Removed global stub function ShowStockFrame
+
+----------------------------------
+UIT_YearGraph.cc
+D 1.2 94/06/14 14:54:12 tom 2 1	00002/00002/00021
+MRs:
+COMMENTS:
+Inconsequential changes (ih to *ih)
+
+D 1.1 94/05/31 20:26:06 tom 1 0	00023/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/31 20:26:06 by tom
+
+----------------------------------
+ascii_log.cc
+----------------------------------
+clog.cc
+----------------------------------
+command.cc
+----------------------------------
+comtest.cc
+----------------------------------
+debug.cc
+----------------------------------
+dir.cc
+----------------------------------
+engine.cc
+----------------------------------
+globals.cc
+D 1.7 94/06/10 15:54:25 troy 7 6	00003/00003/00024
+MRs:
+COMMENTS:
+monte carlo
+
+D 1.6 94/05/23 17:31:02 troy 6 5	00002/00000/00025
+MRs:
+COMMENTS:
+added global monte controller
+
+----------------------------------
+harvest_frame.cc
+----------------------------------
+include.cc
+----------------------------------
+init.cc
+D 1.8 94/06/10 16:57:29 troy 8 7	00025/00005/00100
+MRs:
+COMMENTS:
+monte carlo implementation
+
+D 1.7 94/04/11 12:08:31 tom 7 6	00012/00032/00093
+MRs:
+COMMENTS:
+New way of doing arg parsing and selecting UI mode.
+
+----------------------------------
+iotest.cc
+----------------------------------
+log.cc
+----------------------------------
+main.cc
+D 1.7 94/06/10 16:57:30 troy 7 6	00008/00001/00034
+MRs:
+COMMENTS:
+monte carlo implementation
+
+D 1.6 94/04/11 13:09:42 tom 6 5	00009/00008/00026
+MRs:
+COMMENTS:
+new arg parsing/gui selection/initialization stuff.
+
+----------------------------------
+map.cc
+----------------------------------
+parse_test.cc
+----------------------------------
+parseutil.cc
+----------------------------------
+simple_output.cc
+----------------------------------
+token.cc
+----------------------------------
+,RandNorm.h
+----------------------------------
+AList.h
+----------------------------------
+Args.h
+D 1.2 94/05/23 17:32:20 troy 2 1	00008/00002/00044
+MRs:
+COMMENTS:
+added monte carlo ngames option
+
+D 1.1 94/04/11 12:08:47 tom 1 0	00046/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/11 12:08:47 by tom
+
+----------------------------------
+Bool.h
+----------------------------------
+Bootstrap.h
+D 1.1 94/05/10 12:37:57 troy 1 0	00084/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 12:37:57 by troy
+
+----------------------------------
+CNR.h
+----------------------------------
+Calendar.h
+D 1.2 94/04/05 13:00:10 troy 2 1	00001/00001/00041
+MRs:
+COMMENTS:
+variable name change to prevent possible conflict
+
+----------------------------------
+Ceiling.h
+----------------------------------
+Cohort.h
+----------------------------------
+File.h
+----------------------------------
+Fishery.h
+D 1.18 94/05/12 18:17:37 tom 18 17	00003/00000/00134
+MRs:
+COMMENTS:
+Added access function to hv_ceiling_scalar
+
+D 1.17 94/05/12 18:16:08 troy 17 16	00001/00001/00133
+MRs:
+COMMENTS:
+ceiling bug fix
+
+D 1.16 94/04/15 18:54:49 tom 16 15	00015/00000/00119
+MRs:
+COMMENTS:
+Added data access function (esp. summary) for graphing/summarizing.
+
+D 1.15 94/04/15 17:29:02 troy 15 14	00001/00001/00118
+MRs:
+COMMENTS:
+get some static data
+
+D 1.14 94/04/11 13:11:45 tom 14 13	00001/00001/00118
+MRs:
+COMMENTS:
+Year_wrapup now calls summary::end_year()
+
+D 1.13 94/04/08 16:37:39 troy 13 12	00001/00004/00118
+MRs:
+COMMENTS:
+moved pnvs to policy
+
+----------------------------------
+FisheryList.h
+----------------------------------
+FisheryManagement.h
+----------------------------------
+FisheryPolicy.h
+D 1.9 94/05/16 12:38:33 tom 9 8	00002/00000/00066
+MRs:
+COMMENTS:
+Added pnv(Age age, int year) for summary purposes.
+
+D 1.8 94/04/11 13:15:17 tom 8 7	00001/00000/00065
+MRs:
+COMMENTS:
+Made Fishery_UI friend class.
+
+D 1.7 94/04/06 10:27:09 troy 7 6	00004/00007/00061
+MRs:
+COMMENTS:
+changed pnvs to full policy variable
+
+----------------------------------
+FisherySummary.h
+D 1.4 94/04/15 18:56:53 tom 4 3	00012/00000/00041
+MRs:
+COMMENTS:
+Added data access functions (shakers & CNRs)
+
+D 1.3 94/04/11 13:12:16 tom 3 2	00009/00003/00032
+MRs:
+COMMENTS:
+Added hv_ceiling_scalars.
+
+D 1.2 94/04/06 17:06:32 troy 2 1	00001/00000/00034
+MRs:
+COMMENTS:
+add start year summary stats
+
+----------------------------------
+Fishery_UI.h
+D 1.3 94/05/16 12:37:45 tom 3 2	00005/00000/00045
+MRs:
+COMMENTS:
+Added generic virtual display functions for *_mort and abund_index
+
+D 1.2 94/04/11 13:13:23 tom 2 1	00004/00002/00041
+MRs:
+COMMENTS:
+Added destroy for clearing statics, moved pnv to policy.
+
+----------------------------------
+FloatSlider.h
+D 1.4 94/05/27 17:26:25 tom 4 3	00002/00000/00064
+MRs:
+COMMENTS:
+Added setCheckMax for unlimitted sliders.
+
+----------------------------------
+FloatSliderDisplay.h
+----------------------------------
+GUI.h
+D 1.3 94/04/15 13:33:17 surge 3 2	00001/00000/00037
+MRs:
+COMMENTS:
+Added call to initialize the Harvest_UI.
+
+D 1.2 94/04/11 13:08:26 tom 2 1	00001/00000/00036
+MRs:
+COMMENTS:
+Initial creation.
+
+D 1.1 94/04/11 11:56:55 tom 1 0	00036/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/11 11:56:55 by tom
+
+----------------------------------
+Harvest.h
+D 1.16 94/05/16 12:36:57 tom 16 15	00004/00004/00154
+MRs:
+COMMENTS:
+added get_abundance_index, privatized get_*_abundance.
+
+D 1.15 94/04/15 18:53:26 tom 15 14	00008/00008/00150
+MRs:
+COMMENTS:
+Added summary data, data access, and graphs.
+
+D 1.14 94/04/11 15:19:51 tom 14 13	00006/00000/00152
+MRs:
+COMMENTS:
+Added stub for get_*_abundance
+
+D 1.13 94/04/11 14:54:48 tom 13 12	00016/00000/00136
+MRs:
+COMMENTS:
+Added some result access funcs.
+
+----------------------------------
+HarvestList.h
+----------------------------------
+HarvestPolicy.h
+D 1.6 94/04/11 14:05:39 surge 6 5	00001/00001/00033
+MRs:
+COMMENTS:
+Changed to use the new UI class scheme.
+
+----------------------------------
+HarvestPolicy_ui.h
+----------------------------------
+Harvest_UI.h
+D 1.2 94/04/15 13:35:15 surge 2 1	00009/00005/00041
+MRs:
+COMMENTS:
+First working version.
+
+D 1.1 94/04/13 10:34:05 surge 1 0	00046/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/13 10:34:05 by surge
+
+----------------------------------
+HatchSurplusProduction.h
+----------------------------------
+HatcheryProduction.h
+----------------------------------
+Hist.h
+D 1.3 94/06/14 15:07:44 tom 3 2	00007/00002/00027
+MRs:
+COMMENTS:
+Added ymax setting.
+
+D 1.2 94/05/13 15:33:04 tom 2 1	00017/00002/00012
+MRs:
+COMMENTS:
+Added user settable options (min, max, bins, bin size)
+
+D 1.1 94/05/10 13:12:03 troy 1 0	00014/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 13:12:03 by troy
+
+----------------------------------
+HvSummary.h
+D 1.6 94/04/11 14:59:05 tom 6 5	00007/00001/00039
+MRs:
+COMMENTS:
+Added some results acces funcs.
+
+D 1.5 94/04/06 17:06:31 troy 5 4	00002/00001/00038
+MRs:
+COMMENTS:
+add start year summary stats
+
+----------------------------------
+IEnum.h
+----------------------------------
+IOCrud.h
+D 1.14 94/06/10 16:57:32 troy 14 13	00003/00001/00125
+MRs:
+COMMENTS:
+monte carlo implementation
+
+D 1.13 94/05/20 17:13:28 tom 13 12	00001/00001/00125
+MRs:
+COMMENTS:
+Fixed a whoops.
+
+D 1.12 94/05/12 18:13:02 tom 12 11	00008/00004/00118
+MRs:
+COMMENTS:
+Added write_rt()
+
+D 1.11 94/05/09 11:47:26 tom 11 10	00018/00006/00104
+MRs:
+COMMENTS:
+Added output fcns (trm, ohr, thr, mrt, tim, lim, sim abd)
+
+D 1.10 94/04/15 17:29:03 troy 10 9	00002/00000/00108
+MRs:
+COMMENTS:
+get some static data
+
+D 1.9 94/04/06 12:21:37 troy 9 8	00002/00001/00106
+MRs:
+COMMENTS:
+adult eqs and maturation rates
+
+----------------------------------
+Map.h
+D 1.4 94/04/11 12:05:50 tom 4 3	00029/00028/00113
+MRs:
+COMMENTS:
+Plugged a couple of memory leaks.
+
+----------------------------------
+MapManager.h
+----------------------------------
+Map_ui.h
+D 1.6 94/04/28 14:03:50 surge 6 5	00002/00001/00147
+MRs:
+COMMENTS:
+Fixed memory leaks of X calls.
+
+D 1.5 94/04/11 12:05:51 tom 5 4	00011/00007/00137
+MRs:
+COMMENTS:
+Plugged a couple of memory leaks.
+
+----------------------------------
+MonteControl.h
+D 1.2 94/06/10 16:58:19 troy 2 1	00020/00005/00063
+MRs:
+COMMENTS:
+initial monte carlo module
+
+D 1.1 94/05/10 12:40:06 troy 1 0	00068/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 12:40:06 by troy
+
+----------------------------------
+MonteDataItem.h
+D 1.2 94/06/10 16:58:20 troy 2 1	00000/00000/00047
+MRs:
+COMMENTS:
+initial monte carlo module
+
+D 1.1 94/05/10 12:40:05 troy 1 0	00047/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 12:40:05 by troy
+
+----------------------------------
+MonteOutputItem.h
+D 1.2 94/06/10 16:58:22 troy 2 1	00014/00006/00050
+MRs:
+COMMENTS:
+initial monte carlo module
+
+D 1.1 94/05/10 12:40:07 troy 1 0	00056/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 12:40:07 by troy
+
+----------------------------------
+MonteStockIntrfc.h
+D 1.2 94/06/10 16:58:23 troy 2 1	00000/00000/00050
+MRs:
+COMMENTS:
+initial monte carlo module
+
+D 1.1 94/05/10 12:40:09 troy 1 0	00050/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 12:40:09 by troy
+
+----------------------------------
+MonteStockOutput.h
+D 1.3 94/06/14 17:13:36 tom 3 2	00008/00001/00038
+MRs:
+COMMENTS:
+Added hooks in enum type for possible future variables.
+
+D 1.2 94/06/10 16:58:24 troy 2 1	00001/00001/00038
+MRs:
+COMMENTS:
+initial monte carlo module
+
+D 1.1 94/05/10 12:40:08 troy 1 0	00039/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 12:40:08 by troy
+
+----------------------------------
+NAList.h
+----------------------------------
+NaturalProduction.h
+----------------------------------
+NonNeg.h
+D 1.2 94/05/12 11:45:14 troy 2 1	00002/00002/00016
+MRs:
+COMMENTS:
+removed some debuggin
+
+----------------------------------
+PercentileGraph.h
+D 1.3 94/06/14 14:55:27 tom 3 2	00016/00004/00016
+MRs:
+COMMENTS:
+Added hist_data to keep track of data for callbacks and destroy func.
+
+D 1.2 94/06/03 21:18:21 tom 2 1	00002/00004/00018
+MRs:
+COMMENTS:
+Fixed a bug (bzeroing doubles instead of floats)
+
+D 1.1 94/05/31 17:21:32 tom 1 0	00022/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/31 17:21:32 by tom
+
+----------------------------------
+Phase.h
+----------------------------------
+Production.h
+----------------------------------
+RandGen.h
+D 1.1 94/05/10 12:37:59 troy 1 0	00061/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 12:37:59 by troy
+
+----------------------------------
+RandNorm.h
+D 1.1 94/06/17 16:37:12 troy 1 0	00031/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/06/17 16:37:12 by troy
+
+----------------------------------
+Range.h
+----------------------------------
+SeedPod.h
+D 1.1 94/05/10 13:06:42 troy 1 0	00036/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 13:06:42 by troy
+
+----------------------------------
+Stochastic.h
+D 1.1 94/06/17 15:27:39 troy 1 0	00046/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/06/17 15:27:39 by troy
+
+----------------------------------
+Stock.h
+D 1.18 94/05/17 13:04:42 troy 18 17	00006/00002/00136
+MRs:
+COMMENTS:
+added monte stuff
+
+D 1.17 94/05/09 11:16:48 tom 17 16	00014/00007/00124
+MRs:
+COMMENTS:
+Moved some convenience summary functions to the private section.
+
+D 1.16 94/04/15 18:54:13 tom 16 15	00015/00001/00116
+MRs:
+COMMENTS:
+Added some data access (especially summary) for graphing/summarizing.
+
+D 1.15 94/04/06 12:20:50 troy 15 14	00002/00004/00115
+MRs:
+COMMENTS:
+adult eqs from file; change maturation rt read sequence
+
+----------------------------------
+StockList.h
+----------------------------------
+StockPolicy.h
+D 1.14 94/06/10 16:57:34 troy 14 13	00007/00000/00062
+MRs:
+COMMENTS:
+monte carlo implementation
+
+D 1.13 94/05/09 16:39:11 tom 13 12	00008/00001/00054
+MRs:
+COMMENTS:
+Added access to inter_dam_losses and adult_eqs for summaries.
+
+D 1.12 94/04/06 12:20:52 troy 12 11	00005/00003/00050
+MRs:
+COMMENTS:
+adult eqs from file; change maturation rt read sequence
+
+----------------------------------
+StockSummary.h
+D 1.7 94/06/10 16:57:33 troy 7 6	00002/00024/00043
+MRs:
+COMMENTS:
+monte carlo implementation
+
+D 1.6 94/04/15 18:56:19 tom 6 5	00002/00000/00065
+MRs:
+COMMENTS:
+Added get_term_run() for graphing.
+
+D 1.5 94/04/06 17:06:32 troy 5 4	00002/00001/00063
+MRs:
+COMMENTS:
+add start year summary stats
+
+----------------------------------
+Stock_UI.h
+D 1.3 94/05/16 12:41:25 tom 3 2	00009/00000/00046
+MRs:
+COMMENTS:
+Added pure virtual summary display funcs, access to policy ev scalars.
+
+D 1.2 94/04/11 13:14:41 tom 2 1	00002/00000/00044
+MRs:
+COMMENTS:
+Added destroy()
+
+----------------------------------
+Summary.h
+D 1.4 94/04/06 17:06:30 troy 4 3	00001/00000/00016
+MRs:
+COMMENTS:
+add start year summary stats
+
+----------------------------------
+UI.h
+D 1.3 94/04/11 13:08:58 tom 3 2	00002/00002/00018
+MRs:
+COMMENTS:
+File created.
+
+----------------------------------
+UIT.h
+D 1.2 94/06/14 15:16:06 tom 2 1	00002/00000/00009
+MRs:
+COMMENTS:
+Added UITObject include so it can compile anywhere in include list.
+
+D 1.1 94/04/11 12:10:47 tom 1 0	00009/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/11 12:10:47 by tom
+
+----------------------------------
+UIT_BaseFrame.h
+D 1.3 94/06/14 15:25:31 tom 3 2	00006/00007/00023
+MRs:
+COMMENTS:
+Added some callbacks, prettied up some others.
+
+D 1.2 94/04/15 13:29:33 surge 2 1	00000/00005/00030
+MRs:
+COMMENTS:
+Changed to new and improved Harvest callback method.
+
+D 1.1 94/04/12 17:30:36 surge 1 0	00035/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/12 17:30:36 by surge
+
+----------------------------------
+UIT_Fishery.h
+D 1.4 94/06/14 15:21:56 tom 4 3	00000/00009/00037
+MRs:
+COMMENTS:
+Eliminated graph_* pseudo callbacks.
+
+D 1.3 94/05/16 12:39:44 tom 3 2	00010/00002/00036
+MRs:
+COMMENTS:
+Added graphing functions for result data.
+
+D 1.2 94/04/11 13:17:23 tom 2 1	00002/00005/00036
+MRs:
+COMMENTS:
+Made pnv frames non static (one per Fishery now), removed glob. stubs.
+
+----------------------------------
+UIT_FisheryFrame.h
+D 1.3 94/05/16 13:27:24 tom 3 2	00006/00000/00042
+MRs:
+COMMENTS:
+Added interface to fishery summary graphs.
+
+D 1.2 94/04/11 13:20:09 tom 2 1	00003/00002/00039
+MRs:
+COMMENTS:
+Removed global stub functions.
+
+----------------------------------
+UIT_Graph.h
+D 1.4 94/06/14 15:23:50 tom 4 3	00023/00027/00043
+MRs:
+COMMENTS:
+Changes to interface, changed ih to *ih, enhanced subclassability.
+
+D 1.3 94/04/28 18:54:23 surge 3 2	00014/00014/00056
+MRs:
+COMMENTS:
+Fixed memory leaks.
+
+D 1.2 94/04/28 16:15:46 tom 2 1	00005/00000/00065
+MRs:
+COMMENTS:
+Added set_ymax
+
+----------------------------------
+UIT_Harvest.h
+D 1.4 94/06/14 15:18:26 tom 4 3	00004/00004/00041
+MRs:
+COMMENTS:
+changed graph* to display* for consistency with other UIT_ classes.
+
+D 1.3 94/04/15 18:53:29 tom 3 2	00005/00000/00040
+MRs:
+COMMENTS:
+Added summary data, data access, and graphs.
+
+D 1.2 94/04/15 13:34:49 surge 2 1	00004/00005/00036
+MRs:
+COMMENTS:
+First working version.
+
+D 1.1 94/04/05 10:20:40 surge 1 0	00041/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/05 10:20:40 by surge
+
+----------------------------------
+UIT_HarvestFrame.h
+D 1.3 94/04/15 18:53:31 tom 3 2	00010/00000/00049
+MRs:
+COMMENTS:
+Added summary data, data access, and graphs.
+
+D 1.2 94/04/15 13:30:22 surge 2 1	00008/00003/00041
+MRs:
+COMMENTS:
+First working version.
+
+D 1.1 94/04/05 10:19:18 surge 1 0	00044/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/05 10:19:18 by surge
+
+----------------------------------
+UIT_HarvestRateFrame.h
+D 1.1 94/04/05 10:19:34 surge 1 0	00026/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/05 10:19:34 by surge
+
+----------------------------------
+UIT_HarvestRateScalarFrame.h
+D 1.1 94/04/05 10:19:52 surge 1 0	00026/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/04/05 10:19:52 by surge
+
+----------------------------------
+UIT_MonteFrame.h
+D 1.1 94/06/09 15:04:53 tom 1 0	00020/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/06/09 15:04:53 by tom
+
+----------------------------------
+UIT_Stock.h
+D 1.4 94/06/14 15:20:15 tom 4 3	00000/00011/00043
+MRs:
+COMMENTS:
+Eliminated graph_* pseudo callbacks.
+
+D 1.3 94/05/16 13:29:12 tom 3 2	00009/00001/00045
+MRs:
+COMMENTS:
+Added graphing function for exploitation and term run, ev scalar editor
+
+D 1.2 94/04/11 13:18:40 tom 2 1	00001/00004/00045
+MRs:
+COMMENTS:
+Added init() for static list.
+
+----------------------------------
+UIT_StockFrame.h
+D 1.3 94/05/16 13:27:54 tom 3 2	00004/00000/00043
+MRs:
+COMMENTS:
+Added interface to stock summary graphs.
+
+D 1.2 94/04/11 13:21:23 tom 2 1	00000/00002/00043
+MRs:
+COMMENTS:
+Removed global stub function ShowStockFrame
+
+----------------------------------
+UIT_YearGraph.h
+D 1.2 94/06/14 14:53:21 tom 2 1	00002/00001/00015
+MRs:
+COMMENTS:
+Dealt w/ virtual funcs (dtor, create) I'll want to muck with in subs.
+
+D 1.1 94/05/31 20:26:06 tom 1 0	00016/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/31 20:26:06 by tom
+
+----------------------------------
+UniformInt.h
+D 1.1 94/05/10 13:06:42 troy 1 0	00027/00000/00000
+MRs:
+COMMENTS:
+date and time created 94/05/10 13:06:42 by troy
+
+----------------------------------
+clog.h
+----------------------------------
+command.h
+----------------------------------
+dir.h
+----------------------------------
+file.h
+----------------------------------
+globals.h
+D 1.6 94/05/23 17:31:03 troy 6 5	00002/00000/00017
+MRs:
+COMMENTS:
+added global monte controller
+
+----------------------------------
+help.h
+----------------------------------
+include.h
+----------------------------------
+init.h
+D 1.3 94/04/11 13:10:58 tom 3 2	00003/00001/00004
+MRs:
+COMMENTS:
+New arg parsing stuff.
+
+----------------------------------
+input_hist.h
+D 1.6 94/06/14 15:26:20 tom 6 5	00002/00002/00124
+MRs:
+COMMENTS:
+make_input_hist_frame now returns frame so that C++ wrappers can get at it.
+
+----------------------------------
+keydata.h
+----------------------------------
+log.h
+----------------------------------
+parseutil.h
+----------------------------------
+stack.h
+----------------------------------
+token.h
+----------------------------------
+file.c
+----------------------------------
+help.c
+----------------------------------
+input_hist.c
+D 1.7 94/06/14 15:26:21 tom 7 6	00030/00010/01042
+MRs:
+COMMENTS:
+make_input_hist_frame now returns frame so that C++ wrappers can get at it.
+
+D 1.6 94/04/11 13:14:15 tom 6 5	00009/00025/01043
+MRs:
+COMMENTS:
+Swapped fg/bg colors.
+
+----------------------------------
+stack.c
+----------------------------------

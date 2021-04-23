@@ -1,0 +1,54 @@
+h19512
+s 00000/00000/00038
+d D 1.2 97/12/17 10:44:32 camel 2 1
+c format changes
+e
+s 00038/00000/00000
+d D 1.1 97/09/12 14:49:56 mpmoore 1 0
+c date and time created 97/09/12 14:49:56 by mpmoore
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title></title></head>
+<body>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+<hr><br>
+ 
+<a name="675479">
+<h2>  Fixed Combined Harvest Rate Algorithm</h2>
+</a><a name="675850">
+For any given stock, if one knows the total number of fish available for in-river harvest and the desired harvest rate, one also knows the desired escapement level. Setting <em>TempNewScal</em> = 1 and rearranging terms in <i>eq (4.54)</i> gives<p>
+</a><a name="675973"> 
+<img src="eq455.gif"></a> 
+<img src="sp.gif"><b>[4.55]</b> <p>
+
+<a name="675968">
+Thus, we first compute the combined true terminal run (i.e., the number of fish that actually enter the river) for the stocks under in-river management:<p>
+</a>
+<a name="675544"> <img src="theory.mif.anc67.gif"></a> <img src="sp.gif"><b>[4.56]</b> <p>
+
+<a name="675551">
+where <em>s</em> indexes stocks under in-river management.<p>
+</a>
+
+<a name="675553">
+Next we compute the escapement goal that will produce the desired harvest rate goal:<p>
+</a><a name="675554"> <b><em>EscGoal</em> = <em>TrueTermRun &#183; MgtIDL</em> &#183; (1-<em>HRGoal</em>)</b></a> <img src="sp.gif"><b>[4.57]</b> <p>
+
+<a name="675865">
+Note that the <em>MgtIDL</em> is assumed constant for all stocks being managed under the fixed harvest rate policy in the river. Once the combined escapement goal is determined, the combined fixed escapement algorithm is implemented to determine in-river catches. Note that the harvest rate goal includes both legal catches and associated incidental mortalities.<p>
+</a>
+<hr>
+<b><i>End of Chapter 4. Theory</i></b>
+<hr>
+ 
+<a href="toc.html">[Chapter Contents]</a> 
+
+</body>
+</html>
+E 1

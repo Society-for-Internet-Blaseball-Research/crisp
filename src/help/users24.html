@@ -1,0 +1,132 @@
+<html><head><title>2.4 -  Drop-Down Menus</title></head>
+<body>
+ 
+<a href="users2.html">[Chapter Contents]</a> 
+<hr><br>
+ 
+<a name="714305">
+<h1>2.4 -  Drop-Down Menus</h1>
+</a>
+All CRiSP Harvest commands are available on a drop-down menu. Many of the commands are also available on the toolbar (described in the next section). More details on these operations is described in <a href="users28.html#709929">"Model Operations."</a>    
+<p>
+<pre>
+----------------------------------------------------------------------------
+<b>Menu</b>     <b>Item</b>            <b>What It Does</b>
+----------------------------------------------------------------------------
+<b>File</b>     Print Map..     Prints the current screen.
+
+         Mouse Tool      Opens a dialog box for setting mouse button
+                         controls.
+
+         Exit            Exits CRiSP Harvest.
+----------------------------------------------------------------------------
+<b>Fishery</b>  PNV..           Opens a dialog box for adjusting "Proportions Non
+                         Vulnerable" for each fishery. PNVs are used to
+                         simulate changes in size limits in the fisheries.
+                         For example, increasing the size limit will
+                         increase the proportion of some age classes that
+                         are no longer vulnerable to retention by the
+                         fishery.
+
+         CNR..           This is currently under development. When
+                         implemented, it will open a dialog box for
+                         adjusting "Chinook Non-Retention" mortality
+                         parameters in some fisheries.
+
+         Catch           Opens a dialog box for adjusting catch ceilings
+         Ceilings..      (quotas) in fisheries that have this type of
+                         management control. For example, use it to set
+                         future catch ceilings in the ocean troll
+                         fisheries.
+
+         Fishery Graphs  Opens a sub-menu for producing graphs of fishery
+                         statistics over time, including: Abundance Index,
+                         Catches (Total, Pre-terminal and Terminal) and
+                         Incidental Mortality (Total, Sublegal and Legal).
+                         Graphs generated are for the currently selected
+                         fishery.
+----------------------------------------------------------------------------
+<b>Stock</b>    Inter-Dam       Opens a dialog box for adjusting the "Inter-Dam
+         Loss..          Loss" rates for three Columbia River stocks. The
+                         IDLs are actually the survival rates from the time
+                         the fish leave the river fisheries and arrive on
+                         the spawning grounds. Warning: at present only
+                         three stocks actually have IDL. The fact that all
+                         stocks display is a bug to be corrected in a
+                         future release.
+
+         EV Scalars..    Opens a dialog box for adjusting the annual
+                         "Environmental Variability" Scalars for each
+                         stock. The EV Scalars can be thought of as brood
+                         year survival rates that determine the relative
+                         spawning success each year.
+
+         Enhancement..   Opens a dialog box for adjusting parameters
+                         associated with hatchery stocks.
+
+         Maturation      Opens a dialog box for adjusting maturation rates
+         Rates...        for each of the stocks (i.e., the fraction of each
+                         age class that returns to spawn in a given year).
+
+         Stock Graphs    Opens a sub-menu for producing graphs of stock
+                         statistics over time including: Abundances,
+                         Escapements, CNR mortalities (Sublegal and Legal),
+                         Catches (Total, Preterminal and Terminal), True
+                         Term Run. Graphs generated are for the currently
+                         selected stock.
+----------------------------------------------------------------------------
+<b>Harvest</b>  Harvest Rate    Opens a dialog box for adjusting annual
+         Scalars..       stock/fishery specific harvest rates. For example,
+                         to simulate changes in fishery regulations (e.g.,
+                         time/area closures) that increase or decrease
+                         harvest rates relative to the base period.
+
+         Base Period     Opens a dialog box displaying the
+         Harvest         stock/age/fishery specific harvest rates during
+         Rates..         the base period (1979-1982). These values cannot
+                         be changed. Use Harvest Rate Scalars to adjust
+                         harvest rates relative to base period values.
+
+         Mortality       Opens a sub-menu for producing graphs of Total and
+         Graphs          Incidental mortality by stock and fishery. Graphs
+                         generated are for the currently selected stock and
+                         fishery.
+----------------------------------------------------------------------------
+<b>Run</b>      Scenario        Runs the model in a scenario mode-a single
+                         instance of the model in deterministic mode (i.e.,
+                         all parameters are fixed).
+
+         Monte Carlo..   Opens a dialog box where the model is run in a
+                         Monte Carlo model. One or more "games" (a game is
+                         one instance of the model) are run using a
+                         different set of Brood Year Survival Rates (EV
+                         Scalars) during each run. The EV Scalars are
+                         selected randomly from designated probability
+                         distributions. Note: This mode of model operation
+                         is still under development for the PC platform.
+
+         Calibrate       Calibrates the model to observed data. Calibration
+                         runs require special configuration files that most
+                         users will not have.
+----------------------------------------------------------------------------
+<b>Help</b>     Contents        Opens a window giving the table of contents 
+			 of the CRiSP Harvest help files: README, 
+			 FAQ, Model Overview, and CRiSP Harvest 
+			 manual. Click on a subject to read about it.
+
+
+         Glossary	 Opens a window providing definitions for key CRiSP 
+			 Harvest terminology (Chapter 2. User's Manual,
+			 <a href="users29g.html">Appendix 2.4</a>).
+
+         About CRiSP     Gives the version number of the model.
+         Harvest
+----------------------------------------------------------------------------
+</pre>
+<p>
+
+<hr><br>
+ 
+<a href="users2.html">[Chapter Contents]</a>
+</body>
+</html>

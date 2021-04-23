@@ -1,0 +1,51 @@
+Projection From Calibration #9525 by the PSC Chinook Technical Committee
+1979          ,  START YEAR FOR MODEL RUN
+18            ,  NUMBER OF YEARS FOR SIMULATION -1 year!!!!
+clb9401.bse   ,  BASE DATA FILE NAME
+clb9401.stk   ,  STOCK DATA FILE
+N             ,  MODEL CALIBRATION
+ mat94.msc    ,  MATURATION FILE
+   30         ,  USE EVS FROM CALIBRATION 9525
+ 9525.evo     ,     EV FILE NAME
+Y             ,  USE IDL FILE
+  clb9501.idl ,     FILE NAME FOR IDL
+Y             ,  SAVE STATISTICS IN DISK FILES?
+   proto       ,     PREFIX FOR SAVE FILES
+   1          ,     CATCH STATISTICS  (1=YES)
+   0          ,     TERM RUN STATISTICS  (1=YES)
+   0          ,     ESCAPEMENT STATISTICS  (1=YES)
+   0          ,     OCN EXPLOITATION RATE STATISTICS  (0=No;1=Total Mortality Method;2=Cohort Method)
+   0          ,     TOTAL EXPLOITATION RATE STATISTICS (0=No;1=Total Mortality Method;2=Cohort Method)
+   0          ,     TOTAL MORTALITIES BY STOCK & FISHERY  (1=YES)
+   0          ,     INCIDENTAL MORTALITY STATISTICS (1=YES)
+   0          ,  ABUNDANCE INDICES (# fisheries;followed by fishery #'s)
+header        ,  REPORT GENERATION INSTRUCTIONS
+   n          ,     STOCK PROP (Y/N)
+   n          ,     RT (Y/N)
+   n          ,     CATCH (Y/N)
+   0          ,     STOCK/FISHERY (0=N;1=TOTAL;2=CATCH;3=TIM)
+   n          ,     SHAKER (Y/N)
+   n          ,     TERMINAL CATCH (Y/N)
+   n          ,     ESCAPEMENT (Y/N)
+   N          ,     HARVEST RATE (N=No; CO=Cohort Method; TM=Total Mortality Method)
+   0          ,     COMPARE STATISTICS TO BASE YEAR (1=YES)
+   n          ,     DOCUMENT MODEL SETUP (Y/N)
+8             ,  NUMBER OF STOCKS WITH ENHANCEMENT
+   1          ,     Density Dependence (1=On)
+  clb9501.enh ,     FILE FOR ENHANCEMENT SPECS
+7             ,  NUMBER OF CNR FISHERIES
+  clb9501.cnr ,     FILE NAME FOR CNR FISHERIES
+6             ,  NUMBER OF PNV CHANGES
+   gstclb.pnv ,     PNV FILE NAME
+   cttclb.pnv ,     PNV FILE NAME
+   aknclb.pnv ,     PNV FILE NAME
+   wvtclb.pnv ,     PNV FILE NAME
+   ntrclb.pnv ,     PNV FILE NAME
+   gssclb.pnv ,     PNV FILE NAME
+sun9501.fp     ,  STOCK SPECIFIC FP FILE NAME
+3             ,  MINIMUM AGE FOR TERMINAL RUN STATS (3=Adults; 2=Jacks)
+Y             ,  CEILING STRATEGIES
+clb9501.cei   ,     FILE NAME FOR CEILING STRATEGY - forced thru 94 only
+1994	      , FIRST SIMULATION YEAR
+Y	      , MONTE CAPABILITY
+   sun.monte  , MONTE FILE

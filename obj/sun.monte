@@ -1,0 +1,6 @@
+monte Bootstrap
+  seed 3055620
+  games 5
+  start_year 1991
+  track escapement
+end monte

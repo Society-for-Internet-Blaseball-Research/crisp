@@ -1,0 +1,109 @@
+h30181
+s 00000/00000/00093
+d D 1.2 97/12/17 10:44:31 camel 2 1
+c format changes
+e
+s 00093/00000/00000
+d D 1.1 97/09/12 14:49:56 mpmoore 1 0
+c date and time created 97/09/12 14:49:56 by mpmoore
+e
+u
+U
+f e 0
+t
+T
+I 1
+<html><head><title>Fixed Escapement Algorithm</title></head>
+<body>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+<hr>
+ 
+<a name="675475">
+<h2>  Fixed Escapement Algorithm</h2>
+</a>
+
+<a name="675812">
+The computation algorithm is similar to that for multi-phase ceiling management in that catches are computed by an iterative procedure. The fixed escapement algorithm is implemented after all initial terminal catches are taken but before final escapements are computed. If multiple stocks in the same river are being managed via fixed escapements, three types of policies may be implemented: (1) strong stock managment in which the river is managed to meet the stongest stock's escapement goal; (2) weak stock management in which the river is managed to meet the weakest stock's escapement goal; or (3) combined stock management in which the escapement goal is based on the sum of all stocks.<p>
+</a>
+
+<a name="675079">
+<b><i>Step 1. </i></b></a><p>
+<a name="674982">
+Compute the river catches using the formula:<p>
+</a><a name="675164"> 
+<img src="eq448.gif"></a> 
+<img src="sp.gif"><b>[4.48]</b> <p>
+
+<a name="675157">
+where Ratio is the relative increase or decrease in the river fishing effort required to adjust the river catch to meet the escapement goal. Note that <em>Ratio</em> = 1 on the first iteration.<p>
+</a>
+
+<a name="675158">
+We also compute the river shaker mortalities for each stock, age, and fishery in the usual manner. Note that for each cohort it is possible for the catch plus the shakers to exceed the true terminal run. This is accounted for in Step 3.<p>
+</a>
+
+<a name="675168">
+<b><i>Step 2.</i></b></a><p>
+<a name="675169">
+We create a new variable for the total river mortalities, called <em>RivMorts</em>, which can not exceed the available fish. This is a temporary variable and is only used within this algortihm. For each stock and age we compute<p>
+</a><a name="675185"> 
+<img src="eq449.gif"></a> 
+<img src="sp.gif"><b>[4.49]</b> <p>
+
+<a name="675159">
+where <img src="rivcatch.gif" align="top"> and <img src="rivshaker.gif" align="top"> are summed over all river fisheries. Thus, <img src="rivmorts.gif" align="top"> cannot exceed the total available fish.<p>
+</a>
+
+<a name="675200">
+<b><i>Step 3.</i></b></a><p>
+<a name="675201">
+Compute another temporary variable called <em>TempNewScale</em>. If strong or weak stock management is being implemented, the algorithm computes separate adjustment values for each stock using the following formula:<p>
+</a>
+
+<a name="674764"> <img src="theory.mif.anc61.gif"></a> <img src="sp.gif"><b>[4.50]</b> <p>
+
+
+<a name="675269">
+where<p>
+</a><a name="675942"> <img src="theory.mif.anc62.gif"></a> <img src="sp.gif"><b>[4.51]</b> <p>
+<ul>
+<a name="675304">
+<li><img src="eq451a.gif" align="top"> =	River catches plus incidental mortalities for stock <em>s</em>, age <em>a</em>, in river fishery <em>f</em>.
+</a>
+<a name="674846">
+<li><img src="eq451b.gif" align="top"> = 	Escapement goal for stock <em>s</em>;
+</a>
+<a name="674847">
+<li><img src="eq451c.gif" align="top"> = 	Interdam survival rate for stock <em>s</em> after all harvesting mortalities to the point where the escapement goal is measured.
+</ul><p>
+</a>
+
+<a name="674844">
+For strong or weak stock management, the largest or smallest <em>TempNewScal</em> is used to compute the adjustment ratio to be applied to all catches by the river fisheries, respectively.<p>
+</a><a name="674813">
+If combined stock management is used, <em>TempNewScal</em> is computed as follows:<p>
+</a><a name="675240"> <img src="theory.mif.anc63.gif"></a> <img src="sp.gif"><b>[4.52]</b> <p>
+
+<a name="675247">
+<b><i>Step 4. Compute NewScal</i></b></a><p>
+<a name="675248">
+We compute <em>NewScal</em> as follows:<p>
+</a><a name="675252"> <img src="theory.mif.anc64.gif"></a> <img src="sp.gif"><b>[4.53]</b> <p>
+<a name="675253">
+where the <em>WgtAvgP</em> terms are the weighted average of the adjusted harvest rates (i.e., <em>P*PScal</em> values). The weights are the terminal run sizes divided by the total terminal run for the managed stocks. Thus, if weak or strong stock management is being used, the weights are simply the fraction each age cohort contributes to the strong or weak stock. If combined stock management is being used, the weights are the fraction each stock/age cohort contributes to the total terminal run (ages 3, 4, and 5) for the river managed stocks.<p>
+</a>
+
+<a name="675249">
+<b><i>Step 5. Update the adjustment ratio</i></b></a><p>
+<a name="675276">
+The final step is to multiply <em>Ratio</em> by <em>NewScal</em> to get a new ratio. Then go to <em>Step 1</em> and repeat until <em>NewScal</em> is close to one.<p>
+</a><a name="675250"> <b><em>Ratio</em> = <em>Ratio &#183; NewScal</em></b></a> <img src="sp.gif"><b>[4.54]</b> <p>
+
+<hr>
+ 
+<a href="toc.html">[Chapter Contents]</a>
+
+</body>
+</html>
+E 1

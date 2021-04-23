@@ -1,0 +1,21 @@
+<html><head><title>1.4 -  CRiSP Harvest Validation</title></head>
+<body>
+ 
+<a href="intro.html">[Chapter Contents]</a>
+<hr><br>
+ 
+<a name="184616">
+<h1> 1.4 -  CRiSP Harvest Validation</h1>
+</a>
+CRiSP Harvest is designed to produce outputs that are identical to those produced by the PSC Chinook Model, assuming both are given the same input data. At each step of CRiSP Harvest development, the input files for the PSC Chinook Model were adjusted, either by changing the data input files or by adjusting portions of the QuickBasic(TM) code, to reflect the features incorporated into CRiSP Harvest.<p>
+
+Both models print catch and escapement output files in identical ASCII format. To compare these outputs, CRiSP Harvest was run on a Sun SparcStation and a QuickBasic(TM) version was run on a Gateway 2000 Nomad 450DXL-200 using an Intel 50MHz 486DX2 processor. ASCII files produced by the QuickBasic(TM) version were downloaded to a floppy disk and imported into the Sun workstation. A "diff" command was executed on appropriate output file pairs to identify any differences between the two files. If differences were encountered, both versions (QuickBasic(TM) and C++) were run side-by-side with debugging routines to find code errors.<p>
+
+Models were considered validated when no output fields differed by more than a value of one (1), assumed to be rounding errors due to different calculating precisions of the two machines. In all validations, rounding errors did not accumulate.<p>
+
+<hr><br>
+ 
+<a href="intro.html">[Chapter Contents]</a>
+
+</body>
+</html>

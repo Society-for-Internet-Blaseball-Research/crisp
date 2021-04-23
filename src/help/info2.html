@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>CRiSP Harvest Chinook Salmon Harvesting Model Overview</title>
+</head>
+<body>
+<a href="info.html">[Overview Contents]</a>
+<hr><br>
+<h2>Theory</h2>
+<p>
+<p>
+<i>CRiSP Harvest is an empirically based 
+stochastic model simulating fish 
+survival over a complete life-cycle.</i>
+<p>
+CRiSP Harvest is an accounting device 
+for tracking the fate of individual 
+chinook salmon cohorts through 
+time. The annual computational 
+cycle consists of the following 
+steps:
+<ul>
+<li>population aging
+
+<li>natural ocean mortality
+
+<li>preterminal (ocean) fishing mortality
+
+<li>maturation
+
+<li>terminal (river) fishing mortality
+
+<li>pre-spawning mortality (inter-dam losses)
+
+<li>production of progeny in the next year.
+</ul>
+
+Population aging occurs at the 
+start of each year. The model is 
+seeded with initial cohort sizes for 
+all stocks. The maximum age for 
+all stocks is fixed at five years.
+<p>
+Ocean survival rates for ages one 
+through five are assumed constant 
+for all stocks (currently set at 0.5, 
+0.6, 0.7, 0.8, and 0.9, respectively). Survival rates to age one 
+(also called brood year survival 
+rates, or "EV scalars" for Environmental Variability) are estimated during the calibration 
+process. Brood year survival rates 
+during simulation years can be 
+deterministic or stochastic.
+<p>
+Fishing mortalities during preterminal and terminal fisheries 
+include both legal catches and 
+incidental mortalities, which 
+include "shakers" (sub-legal sized 
+fish caught and released during 
+chinook fisheries) and "CNRs" 
+(legal and sub-legal sized fish 
+caught and released during "chinook non-retention" fisheries 
+directed at other species, such as 
+coho).
+<p>
+Maturation rates are stock and 
+age specific for all stocks. Some 
+stocks have variable maturation 
+rates.
+<p>
+Production functions for both 
+hatchery and natural stocks are 
+estimated from historical data. 
+Changes in hatchery production 
+can be simulated, as well as supplementation (the release of artificially propagated fish in streams 
+to increase or establish natural 
+spawning fish populations).
+<p>
+Model parameters, including cohort sizes, age specific harvest rates, maturity schedules, and incidental fishing mortality rates, are estimated by a technique known as "cohort analysis" or "virtual population analysis." This type of analysis involves the reconstruction of an annual series of abundance estimates using catch and escapement data and making assumptions about natural and incidental mortalities. Coded-wire-tag (CWTs) placed in the snouts of millions of salmon smolts over the past two decades and their subsequent recovery in fisheries, at hatchery racks, and on spawning grounds provide the necessary data for run reconstructions.
+<p>
+Model parameters can be obtained from the PSC Chinook Technical Committee, or advanced users can utilize there own parameters. Parameters are stored in temporary files in ASCII text format which can be read by CRiSP Harvest without modification (with the exception of one file which must be translated from binary format to ASCII format).
+<p>
+<hr><br>
+<a href="info.html">[Overview Contents]</a> 
+</body>
+</html>
